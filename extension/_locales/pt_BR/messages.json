@@ -1,0 +1,794 @@
+{
+  "lang": {
+    "message": "pt-BR"
+  },
+  "extName": {
+    "message": "Mega Tabs: espaços, notas e tela"
+  },
+  "extDescription": {
+    "message": "Alterne conjuntos de abas por projeto sem recarregar. Notas e uma tela ao lado, que sua IA também pode editar. Privado e grátis."
+  },
+  "cmdOpen": {
+    "message": "Abrir a lista de espaços de trabalho"
+  },
+  "cmdTogglePanel": {
+    "message": "Abrir ou fechar o painel do Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Próximo espaço de trabalho"
+  },
+  "cmdPrev": {
+    "message": "Espaço de trabalho anterior"
+  },
+  "cmdLast": {
+    "message": "Último espaço de trabalho usado"
+  },
+  "cmdSwitch": {
+    "message": "Alternar para o espaço de trabalho"
+  },
+  "tabs_one": {
+    "message": "$1 aba"
+  },
+  "tabs_other": {
+    "message": "$1 abas"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 aba não restaurada"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 abas não restauradas"
+  },
+  "edit": {
+    "message": "Editar"
+  },
+  "name": {
+    "message": "Nome"
+  },
+  "delete": {
+    "message": "Excluir"
+  },
+  "undo": {
+    "message": "Desfazer"
+  },
+  "stashHeading": {
+    "message": "Reserva de espaço de trabalho"
+  },
+  "stashText": {
+    "message": "Esta janela oculta pertence à extensão Mega Tabs. Ela guarda as abas de um espaço de trabalho que não está sendo exibido. Não a feche: use o painel para alternar."
+  },
+  "defaultWorkspace": {
+    "message": "Padrão"
+  },
+  "recoveredWorkspace": {
+    "message": "Recuperado"
+  },
+  "iconTitle": {
+    "message": "Espaço de trabalho: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Espaço de trabalho: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Armazenamento da extensão quase cheio; em breve as abas não serão mais salvas"
+  },
+  "menuLink": {
+    "message": "Abrir link no espaço de trabalho"
+  },
+  "menuMove": {
+    "message": "Mover aba para o espaço de trabalho"
+  },
+  "menuMoveMarked": {
+    "message": "Mover $1 abas selecionadas para o espaço de trabalho"
+  },
+  "menuGroup": {
+    "message": "Mover grupo para o espaço de trabalho"
+  },
+  "exNotJson": {
+    "message": "O arquivo não é um JSON válido."
+  },
+  "exNotText": {
+    "message": "\"$1\" está ausente ou não é texto."
+  },
+  "exTooLong": {
+    "message": "\"$1\" é longo demais."
+  },
+  "exNotList": {
+    "message": "\"$1\" está ausente ou não é uma lista."
+  },
+  "exBadUrl": {
+    "message": "\"$1\" não é um endereço válido."
+  },
+  "exJavascript": {
+    "message": "Endereços javascript: não são importados."
+  },
+  "exOwnPage": {
+    "message": "Páginas da própria extensão não devem estar no arquivo."
+  },
+  "exNotExport": {
+    "message": "Este não é um arquivo de exportação do Helium Workspaces."
+  },
+  "exBadVersion": {
+    "message": "O número de versão do formato está ausente ou é inválido."
+  },
+  "exNewerVersion": {
+    "message": "O arquivo tem a versão de formato $1; esta extensão só conhece a versão $2."
+  },
+  "exNotObject": {
+    "message": "A entrada não é um objeto."
+  },
+  "exNoWorkspaces": {
+    "message": "O arquivo não contém espaços de trabalho."
+  },
+  "exTooManyWorkspaces": {
+    "message": "O arquivo contém espaços de trabalho demais."
+  },
+  "exTooManyTabs": {
+    "message": "O arquivo contém abas demais."
+  },
+  "exBadColor": {
+    "message": "\"$1\" não é uma cor no formato #rrggbb."
+  },
+  "exBadId": {
+    "message": "\"id\" só pode conter letras e dígitos."
+  },
+  "exDupId": {
+    "message": "O ID \"$1\" aparece mais de uma vez."
+  },
+  "exEmptyId": {
+    "message": "\"id\" está vazio."
+  },
+  "exDupGroupId": {
+    "message": "O ID de grupo \"$1\" aparece mais de uma vez."
+  },
+  "exBadGroupColor": {
+    "message": "\"$1\" não é uma cor de grupo ($2)."
+  },
+  "exBadCollapsed": {
+    "message": "\"collapsed\" deve ser true ou false."
+  },
+  "exUnknownGroup": {
+    "message": "O grupo \"$1\" não está listado em \"groups\"."
+  },
+  "exWherePinned": {
+    "message": "Aba fixada $1"
+  },
+  "exWhereWs": {
+    "message": "Espaço de trabalho $1"
+  },
+  "exWhereWsNamed": {
+    "message": "Espaço de trabalho $1 (\"$2\")"
+  },
+  "exWhereGroup": {
+    "message": "$1, grupo $2"
+  },
+  "exWhereTab": {
+    "message": "$1, aba $2"
+  },
+  "workspaceName": {
+    "message": "Espaço de trabalho"
+  },
+  "workspaceN": {
+    "message": "Espaço de trabalho $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Download interrompido ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Sem resposta da extensão"
+  },
+  "generalSpace": {
+    "message": "Geral"
+  },
+  "spaces": {
+    "message": "Espaços"
+  },
+  "setUp": {
+    "message": "Configurar"
+  },
+  "filesOffLead": {
+    "message": "Os arquivos estão desativados:"
+  },
+  "retryBtn": {
+    "message": "Tentar de novo"
+  },
+  "switchToMega": {
+    "message": "Alternar para $1"
+  },
+  "closeMegaAsk": {
+    "message": "Clique de novo para fechar este mega tab e suas abas"
+  },
+  "closeMegaAskLabel": {
+    "message": "Fechar $1 e suas abas: clique de novo"
+  },
+  "closeMega": {
+    "message": "Fechar mega tab"
+  },
+  "closeMegaLabel": {
+    "message": "Fechar mega tab $1"
+  },
+  "closeQuestion": {
+    "message": "fechar?"
+  },
+  "spaceName": {
+    "message": "Nome do espaço"
+  },
+  "showSpace": {
+    "message": "Mostrar $1 (clique duplo para renomear)"
+  },
+  "newSpaceName": {
+    "message": "Nome do novo espaço"
+  },
+  "newSpaceItem": {
+    "message": "Novo espaço…"
+  },
+  "allSpaces": {
+    "message": "Todos os espaços"
+  },
+  "switchSpace": {
+    "message": "Alternar espaço"
+  },
+  "board": {
+    "message": "Quadro"
+  },
+  "boardOpen": {
+    "message": "Abrir o quadro: os arquivos .md de $1"
+  },
+  "settingsPage": {
+    "message": "Configurações"
+  },
+  "settingsOpen": {
+    "message": "Configurações: exibição na borda, backup, exportar"
+  },
+  "newMegaName": {
+    "message": "Nome do novo mega tab"
+  },
+  "noMegas": {
+    "message": "Ainda não há mega tabs."
+  },
+  "newMega": {
+    "message": "+ Novo mega tab"
+  },
+  "noSpaces": {
+    "message": "Ainda não há espaços."
+  },
+  "newSpace": {
+    "message": "+ Novo espaço"
+  },
+  "openWindows": {
+    "message": "Janelas abertas"
+  },
+  "emptyWindow": {
+    "message": "Janela vazia"
+  },
+  "undoClose": {
+    "message": "Desfazer fechamento"
+  },
+  "intro": {
+    "message": "Um mega tab é um conjunto de abas para o qual você alterna de uma vez. Clique em um para começar."
+  },
+  "homeSetupTitle": {
+    "message": "Ativar os arquivos"
+  },
+  "homeSetupText": {
+    "message": "Os espaços guardam suas notas como arquivos simples em $1. O Chrome precisa de um pequeno auxiliar para lê-los e gravá-los. Na pasta do Mega Tabs, execute $2 e clique em Tentar de novo."
+  },
+  "retryChecking": {
+    "message": "Verificando…"
+  },
+  "retryOn": {
+    "message": "Os arquivos estão ativados."
+  },
+  "retryOff": {
+    "message": "Ainda desativados. Execute o comando e clique em Tentar de novo."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Abrir $1 (clique duplo para renomear, solte uma imagem como capa)"
+  },
+  "tileTypeName": {
+    "message": "digite um nome e pressione Enter"
+  },
+  "newSpaceAria": {
+    "message": "Novo espaço"
+  },
+  "tileNewTitle": {
+    "message": "Digite um nome para criar um espaço"
+  },
+  "tileNewHint": {
+    "message": "digite um nome"
+  },
+  "coverType": {
+    "message": "Use uma imagem png, jpg ou webp."
+  },
+  "coverBig": {
+    "message": "Essa imagem tem mais de 700 KB. Use uma menor."
+  },
+  "coverNotSaved": {
+    "message": "Os arquivos estão desativados: a capa não foi salva."
+  },
+  "edgeHeading": {
+    "message": "Exibição na borda"
+  },
+  "edgeToggle": {
+    "message": "Mostrar um mini seletor quando o ponteiro fica parado na borda da tela"
+  },
+  "edgeHelp": {
+    "message": "Deixe o ponteiro parado um instante na borda e seus mega tabs aparecem sobre a página. O Chrome pede permissão uma vez para rodar em páginas da web. O seletor não lê nada delas e não envia nada a lugar nenhum. Ele não aparece na página de nova aba nem em páginas chrome://."
+  },
+  "side": {
+    "message": "Lado"
+  },
+  "sideLeft": {
+    "message": "Esquerda"
+  },
+  "sideRight": {
+    "message": "Direita"
+  },
+  "edgeOnLeft": {
+    "message": "Ativado. Deixe o ponteiro na borda esquerda de uma página da web."
+  },
+  "edgeOnRight": {
+    "message": "Ativado. Deixe o ponteiro na borda direita de uma página da web."
+  },
+  "edgeDenied": {
+    "message": "A exibição na borda precisa dessa permissão para rodar em páginas da web. Ela continua desativada."
+  },
+  "backupHeading": {
+    "message": "Backup"
+  },
+  "backupLabel": {
+    "message": "Salvar um arquivo de backup"
+  },
+  "backupNever": {
+    "message": "Nunca"
+  },
+  "backupDaily": {
+    "message": "Todo dia"
+  },
+  "backupWeekly": {
+    "message": "Toda semana"
+  },
+  "backupLast": {
+    "message": "Último salvamento: $1."
+  },
+  "backupSaving": {
+    "message": "Salvando…"
+  },
+  "dataHeading": {
+    "message": "Seus mega tabs"
+  },
+  "dataHelp": {
+    "message": "Um arquivo com todos os espaços, mega tabs e suas abas. Importar adiciona o que falta e não fecha nada."
+  },
+  "exportBtn": {
+    "message": "Exportar mega tabs"
+  },
+  "importBtn": {
+    "message": "Importar mega tabs…"
+  },
+  "chooseFile": {
+    "message": "Escolher um arquivo exportado"
+  },
+  "exportSaved": {
+    "message": "$1 salvo: $2, $3."
+  },
+  "exportFail": {
+    "message": "Não foi possível exportar: $1"
+  },
+  "importAdded": {
+    "message": "Adicionados $1 e $2 de $3."
+  },
+  "importNothing": {
+    "message": "Nada a adicionar: tudo em $1 já está aqui."
+  },
+  "importFail": {
+    "message": "Não foi possível importar: $1"
+  },
+  "boardTitle": {
+    "message": "Quadro · $1"
+  },
+  "folderLabel": {
+    "message": "Pasta: $1"
+  },
+  "change": {
+    "message": "Alterar"
+  },
+  "chooseFolder": {
+    "message": "Escolher uma pasta"
+  },
+  "allowFolder": {
+    "message": "Permitir acesso a \"$1\""
+  },
+  "hostMissing": {
+    "message": "O host do quadro não está instalado. Execute $1 na pasta do Mega Tabs e recarregue esta página."
+  },
+  "hostForbidden": {
+    "message": "O Chrome não deixa esta extensão usar o host do quadro. Execute $1 de novo e recarregue esta página."
+  },
+  "hostStopped": {
+    "message": "O host do quadro parou. Tentando de novo."
+  },
+  "hostUnreachable": {
+    "message": "O quadro não consegue alcançar seu host ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "não pode ser aberto aqui ($1)"
+  },
+  "howItWorks": {
+    "message": "Como funciona"
+  },
+  "rename": {
+    "message": "Renomear"
+  },
+  "renameLabel": {
+    "message": "Renomear $1"
+  },
+  "renameTitle": {
+    "message": "Renomear (ou clique duas vezes no nome)"
+  },
+  "deleteLabel": {
+    "message": "Excluir $1"
+  },
+  "deleteTitle": {
+    "message": "Excluir (para a lixeira, com Desfazer)"
+  },
+  "noMatches": {
+    "message": "Nenhum resultado."
+  },
+  "newNote": {
+    "message": "Nova nota"
+  },
+  "newCanvas": {
+    "message": "Nova tela"
+  },
+  "newNoteTitle": {
+    "message": "Começar uma nova nota neste espaço"
+  },
+  "newCanvasTitle": {
+    "message": "Começar uma nova tela neste espaço"
+  },
+  "emptyNotesFolder": {
+    "message": "Ainda não há notas neste espaço. Clique em Nova nota para começar uma."
+  },
+  "emptyNotesDir": {
+    "message": "Ainda não há arquivos .md em ~/Spaces/$1/. Clique em Nova nota para começar uma."
+  },
+  "noFolderNotes": {
+    "message": "Ainda não há pasta para \"$1\". Crie ~/Spaces/$1/ e coloque arquivos .md nela."
+  },
+  "emptyCanvasFolder": {
+    "message": "Ainda não há telas neste espaço. Clique em Nova tela para começar uma."
+  },
+  "emptyCanvasDir": {
+    "message": "Ainda não há arquivos .canvas em ~/Spaces/$1/. Clique em Nova tela para começar uma."
+  },
+  "noFolderCanvas": {
+    "message": "Ainda não há pasta para \"$1\". Crie ~/Spaces/$1/ e coloque arquivos .canvas nela."
+  },
+  "done": {
+    "message": "Concluir"
+  },
+  "backToReading": {
+    "message": "Voltar à leitura (Esc)"
+  },
+  "typeInFile": {
+    "message": "Digitar neste arquivo (E)"
+  },
+  "openCursor": {
+    "message": "Abrir no Cursor"
+  },
+  "openCursorTitle": {
+    "message": "Abrir este arquivo no Cursor"
+  },
+  "typeHere": {
+    "message": "Digite aqui."
+  },
+  "textOf": {
+    "message": "Texto de $1"
+  },
+  "statusUnsaved": {
+    "message": "Não salvo"
+  },
+  "statusSaving": {
+    "message": "Salvando"
+  },
+  "statusSaved": {
+    "message": "Salvo"
+  },
+  "mixedEol": {
+    "message": "Finais de linha mistos: edite este arquivo no Cursor."
+  },
+  "notSavedWhy": {
+    "message": "Não salvo ($1)"
+  },
+  "hostNotConnected": {
+    "message": "host não conectado"
+  },
+  "notSaved": {
+    "message": "Não salvo: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Não salvo: esta nota passa dos $1 KB que os arquivos comportam. Encurte-a ou divida em duas."
+  },
+  "changedOnDisk": {
+    "message": "Alterado no disco"
+  },
+  "conflictGone": {
+    "message": "Excluído no disco:"
+  },
+  "conflictTooLarge": {
+    "message": "Alterado no disco e agora grande demais para exibir aqui:"
+  },
+  "conflictNotText": {
+    "message": "Alterado no disco e não é mais texto:"
+  },
+  "conflictChanged": {
+    "message": "Alterado no disco:"
+  },
+  "loadTheirs": {
+    "message": "Carregar a deles"
+  },
+  "keepMine": {
+    "message": "Manter a minha"
+  },
+  "dropIt": {
+    "message": "Descartar"
+  },
+  "seeTheirs": {
+    "message": "Ver a deles"
+  },
+  "removedFromFolder": {
+    "message": "$1 foi removido da pasta."
+  },
+  "cannotOpenNote": {
+    "message": "Este arquivo não pode ser aberto aqui ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Este arquivo não pode ser aberto aqui ($1). O Cursor pode."
+  },
+  "cannotOpenCanvas": {
+    "message": "Esta tela não pode ser aberta aqui ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Esta tela não pode ser aberta aqui ($1). O Cursor pode."
+  },
+  "waitingStorage": {
+    "message": "Aguardando o armazenamento do quadro."
+  },
+  "couldNotRead": {
+    "message": "Não foi possível ler $1 ($2)."
+  },
+  "couldNotOpen": {
+    "message": "Não foi possível abrir $1 ($2)."
+  },
+  "noteName": {
+    "message": "Nome da nota"
+  },
+  "canvasName": {
+    "message": "Nome da tela"
+  },
+  "nameTaken": {
+    "message": "Esse nome já existe."
+  },
+  "nameBad": {
+    "message": "Esse nome não pode ser usado."
+  },
+  "notCreated": {
+    "message": "Não criado ($1)."
+  },
+  "renameNewName": {
+    "message": "Novo nome para $1"
+  },
+  "resolveFirst": {
+    "message": "Resolva primeiro a alteração no disco."
+  },
+  "notSavedYetRename": {
+    "message": "Ainda não salvo; tente de novo em instantes."
+  },
+  "fileGone": {
+    "message": "Esse arquivo não existe mais."
+  },
+  "notRenamed": {
+    "message": "Não renomeado ($1)."
+  },
+  "deletedToast": {
+    "message": "\"$1\" excluído"
+  },
+  "resolveFirstDelete": {
+    "message": "Resolva primeiro a alteração no disco e depois exclua."
+  },
+  "notSavedYetDelete": {
+    "message": "Ainda não salvo, então não foi excluído. Tente de novo em instantes."
+  },
+  "notDeleted": {
+    "message": "Não excluído: $1"
+  },
+  "notRestored": {
+    "message": "Não restaurado: $1"
+  },
+  "cvThreeFailed": {
+    "message": "O 3D não pôde iniciar aqui ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "não carregou"
+  },
+  "cvSelect": {
+    "message": "Selecionar e mover (V)"
+  },
+  "cvCard": {
+    "message": "Adicionar um cartão de texto (T)"
+  },
+  "cvPen": {
+    "message": "Caneta (P)"
+  },
+  "cvEraser": {
+    "message": "Borracha (E)"
+  },
+  "cvTools": {
+    "message": "Ferramentas da tela"
+  },
+  "cvUndo": {
+    "message": "Desfazer (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Refazer (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Refazer"
+  },
+  "cvDelete": {
+    "message": "Excluir a seleção (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Excluir a seleção"
+  },
+  "cvView": {
+    "message": "Visualização"
+  },
+  "cv2d": {
+    "message": "A tela, plana"
+  },
+  "cv3d": {
+    "message": "A mesma tela em 3D (somente leitura)"
+  },
+  "cvDeleted": {
+    "message": "Excluída no disco. Esta tela não está mais na pasta."
+  },
+  "cvEmptyCard": {
+    "message": "Cartão vazio"
+  },
+  "cvWriteHere": {
+    "message": "Escreva aqui"
+  },
+  "cvCardText": {
+    "message": "Texto do cartão"
+  },
+  "cvOpenNotes": {
+    "message": "Abrir em Notas"
+  },
+  "cvOpenCanvas": {
+    "message": "Abrir esta tela"
+  },
+  "cvModelGone": {
+    "message": "Este modelo não está na pasta."
+  },
+  "cvModelBig": {
+    "message": "Este modelo tem mais de 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Este modelo não pode ser exibido ($1)."
+  },
+  "cvUnknownError": {
+    "message": "erro desconhecido"
+  },
+  "cvLoadingModel": {
+    "message": "Carregando modelo"
+  },
+  "cvLink": {
+    "message": "Link"
+  },
+  "cvGroup": {
+    "message": "Grupo"
+  },
+  "cvNodeNote": {
+    "message": "Nota $1"
+  },
+  "cvNodeLink": {
+    "message": "Link $1"
+  },
+  "cvNodeGroup": {
+    "message": "Grupo $1"
+  },
+  "cvNodeType": {
+    "message": "Cartão do tipo $1"
+  },
+  "sInvalid": {
+    "message": "Este arquivo não é um JSON Canvas ($1). Corrija-o no Cursor; nada é salvo aqui enquanto isso."
+  },
+  "sInvalidNow": {
+    "message": "Alterado no disco e agora não é um JSON Canvas ($1). Nada é salvo aqui até ele voltar a ser válido."
+  },
+  "sTooBig": {
+    "message": "Não salvo (esta tela tem $1; os arquivos comportam no máximo $2. Apague alguns traços ou cartões)"
+  },
+  "sBlockedBig": {
+    "message": "Não salvo (o arquivo no disco mudou e passa do limite de tamanho: Manter a minha ou deixar como está)"
+  },
+  "sBlockedText": {
+    "message": "Não salvo (o arquivo no disco mudou e não é texto: Manter a minha ou deixar como está)"
+  },
+  "sKeepsChanging": {
+    "message": "Não salvo (o arquivo continua mudando)"
+  },
+  "edgeOpenPanel": {
+    "message": "Abrir painel"
+  },
+  "errNameEmpty": {
+    "message": "Digite um nome."
+  },
+  "errNameLong": {
+    "message": "Esse nome é longo demais."
+  },
+  "errHost": {
+    "message": "O host não respondeu."
+  },
+  "backupKept": {
+    "message": "Guardados em Downloads/$2. Arquivos mantidos: $1."
+  },
+  "filesLabel": {
+    "message": "Arquivos"
+  },
+  "roomLabel": {
+    "message": "Sala"
+  },
+  "roomNotes": {
+    "message": "Notas"
+  },
+  "roomCanvas": {
+    "message": "Tela"
+  },
+  "search": {
+    "message": "Buscar"
+  },
+  "searchLabel": {
+    "message": "Buscar neste espaço"
+  },
+  "noteLabel": {
+    "message": "Nota"
+  },
+  "cvNotShown": {
+    "message": "$1 (não exibido aqui)"
+  },
+  "cvDrawFail": {
+    "message": "Não foi possível desenhar esta tela ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Nada foi alterado no disco. Abra-a no Cursor ou escolha outra tela."
+  },
+  "statusDeleted": {
+    "message": "Excluída no disco"
+  },
+  "cv3dScene": {
+    "message": "Visão 3D desta tela. Arraste para orbitar, role para dar zoom, clique em um cartão para abri-lo."
+  },
+  "cvModelScene": {
+    "message": "Modelo 3D. Arraste para girar; as setas também servem."
+  },
+  "cvModelCompressed": {
+    "message": "usa geometria ou texturas comprimidas (Draco, KTX2 ou Meshopt) que esta visão não consegue ler"
+  },
+  "cvNoWebgl": {
+    "message": "O WebGL não está disponível neste navegador"
+  },
+  "megaTabs_one": {
+    "message": "$1 mega tab"
+  },
+  "megaTabs_other": {
+    "message": "$1 mega tabs"
+  }
+}

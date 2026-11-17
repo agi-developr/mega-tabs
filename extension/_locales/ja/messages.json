@@ -1,0 +1,785 @@
+{
+  "lang": {
+    "message": "ja"
+  },
+  "extName": {
+    "message": "Mega Tabs: スペース、メモ、キャンバス"
+  },
+  "extDescription": {
+    "message": "プロジェクトごとにタブのセットを、再読み込みなしで切り替え。横にメモとキャンバス、AI も編集できます。プライベートで無料。"
+  },
+  "cmdOpen": {
+    "message": "ワークスペースの一覧を開く"
+  },
+  "cmdTogglePanel": {
+    "message": "Mega Tabs のパネルを開く/閉じる"
+  },
+  "cmdNext": {
+    "message": "次のワークスペース"
+  },
+  "cmdPrev": {
+    "message": "前のワークスペース"
+  },
+  "cmdLast": {
+    "message": "最後に使ったワークスペース"
+  },
+  "cmdSwitch": {
+    "message": "ワークスペースに切り替え"
+  },
+  "tabs_other": {
+    "message": "$1 個のタブ"
+  },
+  "tabsNotRestored_other": {
+    "message": "復元されなかったタブ: $1 個"
+  },
+  "edit": {
+    "message": "編集"
+  },
+  "name": {
+    "message": "名前"
+  },
+  "delete": {
+    "message": "削除"
+  },
+  "undo": {
+    "message": "元に戻す"
+  },
+  "stashHeading": {
+    "message": "ワークスペースの保管ウィンドウ"
+  },
+  "stashText": {
+    "message": "この非表示のウィンドウは拡張機能 Mega Tabs のものです。今は表示されていないワークスペースのタブを保管しています。閉じずに、パネルで切り替えてください。"
+  },
+  "defaultWorkspace": {
+    "message": "デフォルト"
+  },
+  "recoveredWorkspace": {
+    "message": "復元済み"
+  },
+  "iconTitle": {
+    "message": "ワークスペース: $1"
+  },
+  "iconTitleMissing": {
+    "message": "ワークスペース: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "拡張機能のストレージがほぼいっぱいです。まもなくタブを保存できなくなります"
+  },
+  "menuLink": {
+    "message": "リンクをワークスペースで開く"
+  },
+  "menuMove": {
+    "message": "タブをワークスペースに移動"
+  },
+  "menuMoveMarked": {
+    "message": "選択した $1 個のタブをワークスペースに移動"
+  },
+  "menuGroup": {
+    "message": "グループをワークスペースに移動"
+  },
+  "exNotJson": {
+    "message": "ファイルは有効な JSON ではありません。"
+  },
+  "exNotText": {
+    "message": "「$1」がないか、テキストではありません。"
+  },
+  "exTooLong": {
+    "message": "「$1」が長すぎます。"
+  },
+  "exNotList": {
+    "message": "「$1」がないか、リストではありません。"
+  },
+  "exBadUrl": {
+    "message": "「$1」は有効なアドレスではありません。"
+  },
+  "exJavascript": {
+    "message": "javascript: アドレスはインポートされません。"
+  },
+  "exOwnPage": {
+    "message": "拡張機能自身のページはファイルに含められません。"
+  },
+  "exNotExport": {
+    "message": "これは Helium Workspaces のエクスポートファイルではありません。"
+  },
+  "exBadVersion": {
+    "message": "形式のバージョン番号がないか、無効です。"
+  },
+  "exNewerVersion": {
+    "message": "ファイルの形式バージョンは $1 ですが、この拡張機能が対応するのは $2 のみです。"
+  },
+  "exNotObject": {
+    "message": "エントリがオブジェクトではありません。"
+  },
+  "exNoWorkspaces": {
+    "message": "ファイルにワークスペースがありません。"
+  },
+  "exTooManyWorkspaces": {
+    "message": "ファイルのワークスペースが多すぎます。"
+  },
+  "exTooManyTabs": {
+    "message": "ファイルのタブが多すぎます。"
+  },
+  "exBadColor": {
+    "message": "「$1」は #rrggbb 形式の色ではありません。"
+  },
+  "exBadId": {
+    "message": "「id」には英数字しか使えません。"
+  },
+  "exDupId": {
+    "message": "ID「$1」が複数あります。"
+  },
+  "exEmptyId": {
+    "message": "「id」が空です。"
+  },
+  "exDupGroupId": {
+    "message": "グループ ID「$1」が複数あります。"
+  },
+  "exBadGroupColor": {
+    "message": "「$1」はグループの色ではありません($2)。"
+  },
+  "exBadCollapsed": {
+    "message": "「collapsed」は true か false にしてください。"
+  },
+  "exUnknownGroup": {
+    "message": "グループ「$1」は「groups」にありません。"
+  },
+  "exWherePinned": {
+    "message": "固定タブ $1"
+  },
+  "exWhereWs": {
+    "message": "ワークスペース $1"
+  },
+  "exWhereWsNamed": {
+    "message": "ワークスペース $1(「$2」)"
+  },
+  "exWhereGroup": {
+    "message": "$1、グループ $2"
+  },
+  "exWhereTab": {
+    "message": "$1、タブ $2"
+  },
+  "workspaceName": {
+    "message": "ワークスペース"
+  },
+  "workspaceN": {
+    "message": "ワークスペース $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "ダウンロードが中断されました($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "拡張機能から応答がありません"
+  },
+  "generalSpace": {
+    "message": "一般"
+  },
+  "spaces": {
+    "message": "スペース"
+  },
+  "setUp": {
+    "message": "設定する"
+  },
+  "filesOffLead": {
+    "message": "ファイルはオフです:"
+  },
+  "retryBtn": {
+    "message": "再試行"
+  },
+  "switchToMega": {
+    "message": "$1 に切り替え"
+  },
+  "closeMegaAsk": {
+    "message": "もう一度クリックすると、このメガタブとそのタブを閉じます"
+  },
+  "closeMegaAskLabel": {
+    "message": "$1 とそのタブを閉じる: もう一度クリック"
+  },
+  "closeMega": {
+    "message": "メガタブを閉じる"
+  },
+  "closeMegaLabel": {
+    "message": "メガタブ $1 を閉じる"
+  },
+  "closeQuestion": {
+    "message": "閉じる?"
+  },
+  "spaceName": {
+    "message": "スペース名"
+  },
+  "showSpace": {
+    "message": "$1 を表示(ダブルクリックで名前変更)"
+  },
+  "newSpaceName": {
+    "message": "新しいスペースの名前"
+  },
+  "newSpaceItem": {
+    "message": "新しいスペース…"
+  },
+  "allSpaces": {
+    "message": "すべてのスペース"
+  },
+  "switchSpace": {
+    "message": "スペースを切り替え"
+  },
+  "board": {
+    "message": "ボード"
+  },
+  "boardOpen": {
+    "message": "ボードを開く: $1 の .md ファイル"
+  },
+  "settingsPage": {
+    "message": "設定"
+  },
+  "settingsOpen": {
+    "message": "設定: 端での表示、バックアップ、エクスポート"
+  },
+  "newMegaName": {
+    "message": "新しいメガタブの名前"
+  },
+  "noMegas": {
+    "message": "メガタブはまだありません。"
+  },
+  "newMega": {
+    "message": "+ 新しいメガタブ"
+  },
+  "noSpaces": {
+    "message": "スペースはまだありません。"
+  },
+  "newSpace": {
+    "message": "+ 新しいスペース"
+  },
+  "openWindows": {
+    "message": "開いているウィンドウ"
+  },
+  "emptyWindow": {
+    "message": "空のウィンドウ"
+  },
+  "undoClose": {
+    "message": "閉じたのを元に戻す"
+  },
+  "intro": {
+    "message": "メガタブは、ひとまとめに切り替えるタブのセットです。どれかをクリックして始めましょう。"
+  },
+  "homeSetupTitle": {
+    "message": "ファイルをオンにする"
+  },
+  "homeSetupText": {
+    "message": "スペースはメモを $1 に通常のファイルとして保存します。Chrome がそれを読み書きするには小さなヘルパーが必要です。Mega Tabs のフォルダで $2 を実行し、「再試行」を押してください。"
+  },
+  "retryChecking": {
+    "message": "確認中…"
+  },
+  "retryOn": {
+    "message": "ファイルはオンです。"
+  },
+  "retryOff": {
+    "message": "まだオフです。コマンドを実行してから、もう一度「再試行」を押してください。"
+  },
+  "tileLabel": {
+    "message": "$1、$2"
+  },
+  "tileOpen": {
+    "message": "$1 を開く(ダブルクリックで名前変更、画像をドロップしてカバーに)"
+  },
+  "tileTypeName": {
+    "message": "名前を入力して Enter"
+  },
+  "newSpaceAria": {
+    "message": "新しいスペース"
+  },
+  "tileNewTitle": {
+    "message": "名前を入力して新しいスペースを作成"
+  },
+  "tileNewHint": {
+    "message": "名前を入力"
+  },
+  "coverType": {
+    "message": "png、jpg、webp の画像を使ってください。"
+  },
+  "coverBig": {
+    "message": "この画像は 700 KB を超えています。小さいものを使ってください。"
+  },
+  "coverNotSaved": {
+    "message": "ファイルがオフのため、カバーは保存されませんでした。"
+  },
+  "edgeHeading": {
+    "message": "端での表示"
+  },
+  "edgeToggle": {
+    "message": "ポインターを画面の端に置いたとき、ミニスイッチャーを表示する"
+  },
+  "edgeHelp": {
+    "message": "端でポインターを少し止めると、ページの上にメガタブが現れます。Chrome は一度だけ、ウェブページで動作する許可を求めます。スイッチャーはページから何も読み取らず、何も送信しません。新しいタブページと chrome:// ページには表示されません。"
+  },
+  "side": {
+    "message": "側"
+  },
+  "sideLeft": {
+    "message": "左"
+  },
+  "sideRight": {
+    "message": "右"
+  },
+  "edgeOnLeft": {
+    "message": "オン。ウェブページの左端にポインターを置いてください。"
+  },
+  "edgeOnRight": {
+    "message": "オン。ウェブページの右端にポインターを置いてください。"
+  },
+  "edgeDenied": {
+    "message": "端での表示には、ウェブページで動作するための許可が必要です。オフのままにします。"
+  },
+  "backupHeading": {
+    "message": "バックアップ"
+  },
+  "backupLabel": {
+    "message": "バックアップファイルを保存"
+  },
+  "backupNever": {
+    "message": "しない"
+  },
+  "backupDaily": {
+    "message": "毎日"
+  },
+  "backupWeekly": {
+    "message": "毎週"
+  },
+  "backupLast": {
+    "message": "最終保存: $1"
+  },
+  "backupSaving": {
+    "message": "保存中…"
+  },
+  "dataHeading": {
+    "message": "メガタブ"
+  },
+  "dataHelp": {
+    "message": "すべてのスペース、メガタブ、タブを 1 つのファイルに。インポートでは足りないものを追加し、何も閉じません。"
+  },
+  "exportBtn": {
+    "message": "メガタブをエクスポート"
+  },
+  "importBtn": {
+    "message": "メガタブをインポート…"
+  },
+  "chooseFile": {
+    "message": "エクスポートしたファイルを選択"
+  },
+  "exportSaved": {
+    "message": "$1 を保存しました: $2、$3。"
+  },
+  "exportFail": {
+    "message": "エクスポートできませんでした: $1"
+  },
+  "importAdded": {
+    "message": "$3 から $1 と $2 を追加しました。"
+  },
+  "importNothing": {
+    "message": "追加するものはありません。$1 の内容はすべてここにあります。"
+  },
+  "importFail": {
+    "message": "インポートできませんでした: $1"
+  },
+  "boardTitle": {
+    "message": "ボード · $1"
+  },
+  "folderLabel": {
+    "message": "フォルダ: $1"
+  },
+  "change": {
+    "message": "変更"
+  },
+  "chooseFolder": {
+    "message": "フォルダを選択"
+  },
+  "allowFolder": {
+    "message": "「$1」へのアクセスを許可"
+  },
+  "hostMissing": {
+    "message": "ボードのホストがインストールされていません。Mega Tabs のフォルダで $1 を実行し、このページを再読み込みしてください。"
+  },
+  "hostForbidden": {
+    "message": "Chrome はこの拡張機能にボードのホストの使用を許可していません。$1 をもう一度実行し、このページを再読み込みしてください。"
+  },
+  "hostStopped": {
+    "message": "ボードのホストが停止しました。再試行しています。"
+  },
+  "hostUnreachable": {
+    "message": "ボードがホストに接続できません($1)。"
+  },
+  "cannotOpenMeta": {
+    "message": "ここでは開けません($1)"
+  },
+  "howItWorks": {
+    "message": "使い方"
+  },
+  "rename": {
+    "message": "名前を変更"
+  },
+  "renameLabel": {
+    "message": "$1 の名前を変更"
+  },
+  "renameTitle": {
+    "message": "名前を変更(または名前をダブルクリック)"
+  },
+  "deleteLabel": {
+    "message": "$1 を削除"
+  },
+  "deleteTitle": {
+    "message": "削除(ごみ箱へ。元に戻せます)"
+  },
+  "noMatches": {
+    "message": "一致するものがありません。"
+  },
+  "newNote": {
+    "message": "新しいメモ"
+  },
+  "newCanvas": {
+    "message": "新しいキャンバス"
+  },
+  "newNoteTitle": {
+    "message": "このスペースで新しいメモを始める"
+  },
+  "newCanvasTitle": {
+    "message": "このスペースで新しいキャンバスを始める"
+  },
+  "emptyNotesFolder": {
+    "message": "このスペースにはまだメモがありません。「新しいメモ」で作成しましょう。"
+  },
+  "emptyNotesDir": {
+    "message": "~/Spaces/$1/ にはまだ .md ファイルがありません。「新しいメモ」で作成しましょう。"
+  },
+  "noFolderNotes": {
+    "message": "「$1」のフォルダがまだありません。~/Spaces/$1/ を作って .md ファイルを入れてください。"
+  },
+  "emptyCanvasFolder": {
+    "message": "このスペースにはまだキャンバスがありません。「新しいキャンバス」で作成しましょう。"
+  },
+  "emptyCanvasDir": {
+    "message": "~/Spaces/$1/ にはまだ .canvas ファイルがありません。「新しいキャンバス」で作成しましょう。"
+  },
+  "noFolderCanvas": {
+    "message": "「$1」のフォルダがまだありません。~/Spaces/$1/ を作って .canvas ファイルを入れてください。"
+  },
+  "done": {
+    "message": "完了"
+  },
+  "backToReading": {
+    "message": "読む画面に戻る(Esc)"
+  },
+  "typeInFile": {
+    "message": "このファイルに入力(E)"
+  },
+  "openCursor": {
+    "message": "Cursor で開く"
+  },
+  "openCursorTitle": {
+    "message": "このファイルを Cursor で開く"
+  },
+  "typeHere": {
+    "message": "ここに入力してください。"
+  },
+  "textOf": {
+    "message": "$1 のテキスト"
+  },
+  "statusUnsaved": {
+    "message": "未保存"
+  },
+  "statusSaving": {
+    "message": "保存中"
+  },
+  "statusSaved": {
+    "message": "保存済み"
+  },
+  "mixedEol": {
+    "message": "改行コードが混在しています。このファイルは Cursor で編集してください。"
+  },
+  "notSavedWhy": {
+    "message": "保存されていません($1)"
+  },
+  "hostNotConnected": {
+    "message": "ホスト未接続"
+  },
+  "notSaved": {
+    "message": "保存されていません: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "保存されていません: このメモはファイルに入る $1 KB を超えています。短くするか、2 つに分けてください。"
+  },
+  "changedOnDisk": {
+    "message": "ディスク上で変更されました"
+  },
+  "conflictGone": {
+    "message": "ディスク上で削除されました:"
+  },
+  "conflictTooLarge": {
+    "message": "ディスク上で変更され、ここで表示するには大きすぎます:"
+  },
+  "conflictNotText": {
+    "message": "ディスク上で変更され、テキストではなくなりました:"
+  },
+  "conflictChanged": {
+    "message": "ディスク上で変更されました:"
+  },
+  "loadTheirs": {
+    "message": "相手の内容を読み込む"
+  },
+  "keepMine": {
+    "message": "自分のを残す"
+  },
+  "dropIt": {
+    "message": "破棄"
+  },
+  "seeTheirs": {
+    "message": "相手の内容を見る"
+  },
+  "removedFromFolder": {
+    "message": "$1 はフォルダから削除されました。"
+  },
+  "cannotOpenNote": {
+    "message": "このファイルはここでは開けません($1)。"
+  },
+  "cannotOpenNoteCursor": {
+    "message": "このファイルはここでは開けません($1)。Cursor なら開けます。"
+  },
+  "cannotOpenCanvas": {
+    "message": "このキャンバスはここでは開けません($1)。"
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "このキャンバスはここでは開けません($1)。Cursor なら開けます。"
+  },
+  "waitingStorage": {
+    "message": "ボードのストレージを待っています。"
+  },
+  "couldNotRead": {
+    "message": "$1 を読み込めませんでした($2)。"
+  },
+  "couldNotOpen": {
+    "message": "$1 を開けませんでした($2)。"
+  },
+  "noteName": {
+    "message": "メモの名前"
+  },
+  "canvasName": {
+    "message": "キャンバスの名前"
+  },
+  "nameTaken": {
+    "message": "その名前はすでに使われています。"
+  },
+  "nameBad": {
+    "message": "その名前は使えません。"
+  },
+  "notCreated": {
+    "message": "作成されませんでした($1)。"
+  },
+  "renameNewName": {
+    "message": "$1 の新しい名前"
+  },
+  "resolveFirst": {
+    "message": "先にディスク上の変更を解決してください。"
+  },
+  "notSavedYetRename": {
+    "message": "まだ保存されていません。しばらくしてからもう一度お試しください。"
+  },
+  "fileGone": {
+    "message": "そのファイルはもうありません。"
+  },
+  "notRenamed": {
+    "message": "名前を変更できませんでした($1)。"
+  },
+  "deletedToast": {
+    "message": "「$1」を削除しました"
+  },
+  "resolveFirstDelete": {
+    "message": "先にディスク上の変更を解決してから削除してください。"
+  },
+  "notSavedYetDelete": {
+    "message": "まだ保存されていないため、削除しませんでした。しばらくしてからもう一度お試しください。"
+  },
+  "notDeleted": {
+    "message": "削除できませんでした: $1"
+  },
+  "notRestored": {
+    "message": "復元できませんでした: $1"
+  },
+  "cvThreeFailed": {
+    "message": "ここでは 3D を開始できませんでした($1)。"
+  },
+  "cvDidNotLoad": {
+    "message": "読み込めませんでした"
+  },
+  "cvSelect": {
+    "message": "選択して移動(V)"
+  },
+  "cvCard": {
+    "message": "テキストカードを追加(T)"
+  },
+  "cvPen": {
+    "message": "ペン(P)"
+  },
+  "cvEraser": {
+    "message": "消しゴム(E)"
+  },
+  "cvTools": {
+    "message": "キャンバスのツール"
+  },
+  "cvUndo": {
+    "message": "元に戻す(Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "やり直す(Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "やり直す"
+  },
+  "cvDelete": {
+    "message": "選択範囲を削除(Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "選択範囲を削除"
+  },
+  "cvView": {
+    "message": "表示"
+  },
+  "cv2d": {
+    "message": "キャンバス(平面)"
+  },
+  "cv3d": {
+    "message": "同じキャンバスを 3D で表示(読み取り専用)"
+  },
+  "cvDeleted": {
+    "message": "ディスク上で削除されました。このキャンバスはもうフォルダにありません。"
+  },
+  "cvEmptyCard": {
+    "message": "空のカード"
+  },
+  "cvWriteHere": {
+    "message": "ここに入力"
+  },
+  "cvCardText": {
+    "message": "カードのテキスト"
+  },
+  "cvOpenNotes": {
+    "message": "メモで開く"
+  },
+  "cvOpenCanvas": {
+    "message": "このキャンバスを開く"
+  },
+  "cvModelGone": {
+    "message": "このモデルはフォルダにありません。"
+  },
+  "cvModelBig": {
+    "message": "このモデルは 24 MB を超えています。"
+  },
+  "cvModelFail": {
+    "message": "このモデルは表示できません($1)。"
+  },
+  "cvUnknownError": {
+    "message": "不明なエラー"
+  },
+  "cvLoadingModel": {
+    "message": "モデルを読み込み中"
+  },
+  "cvLink": {
+    "message": "リンク"
+  },
+  "cvGroup": {
+    "message": "グループ"
+  },
+  "cvNodeNote": {
+    "message": "メモ $1"
+  },
+  "cvNodeLink": {
+    "message": "リンク $1"
+  },
+  "cvNodeGroup": {
+    "message": "グループ $1"
+  },
+  "cvNodeType": {
+    "message": "種類 $1 のカード"
+  },
+  "sInvalid": {
+    "message": "このファイルは JSON Canvas ではありません($1)。Cursor で直してください。それまでここには何も保存されません。"
+  },
+  "sInvalidNow": {
+    "message": "ディスク上で変更され、JSON Canvas ではなくなりました($1)。有効に戻るまでここには何も保存されません。"
+  },
+  "sTooBig": {
+    "message": "保存されていません(このキャンバスは $1 で、ファイルに入るのは最大 $2 です。線やカードをいくつか消してください)"
+  },
+  "sBlockedBig": {
+    "message": "保存されていません(ディスク上のファイルが変更され、サイズ上限を超えています: 自分のを残すか、そのままにします)"
+  },
+  "sBlockedText": {
+    "message": "保存されていません(ディスク上のファイルが変更され、テキストではありません: 自分のを残すか、そのままにします)"
+  },
+  "sKeepsChanging": {
+    "message": "保存されていません(ファイルが変わり続けています)"
+  },
+  "edgeOpenPanel": {
+    "message": "パネルを開く"
+  },
+  "errNameEmpty": {
+    "message": "名前を入力してください。"
+  },
+  "errNameLong": {
+    "message": "その名前は長すぎます。"
+  },
+  "errHost": {
+    "message": "ホストが応答しませんでした。"
+  },
+  "backupKept": {
+    "message": "ダウンロード/$2 に保存。保持するファイル数: $1。"
+  },
+  "filesLabel": {
+    "message": "ファイル"
+  },
+  "roomLabel": {
+    "message": "ルーム"
+  },
+  "roomNotes": {
+    "message": "メモ"
+  },
+  "roomCanvas": {
+    "message": "キャンバス"
+  },
+  "search": {
+    "message": "検索"
+  },
+  "searchLabel": {
+    "message": "このスペースを検索"
+  },
+  "noteLabel": {
+    "message": "メモ"
+  },
+  "cvNotShown": {
+    "message": "$1(ここでは表示されません)"
+  },
+  "cvDrawFail": {
+    "message": "このキャンバスを描画できませんでした($1)。"
+  },
+  "cvDrawFail2": {
+    "message": "ディスク上では何も変更されていません。Cursor で開くか、別のキャンバスを選んでください。"
+  },
+  "statusDeleted": {
+    "message": "ディスク上で削除されました"
+  },
+  "cv3dScene": {
+    "message": "このキャンバスの 3D 表示。ドラッグで回転、スクロールでズーム、カードをクリックで開きます。"
+  },
+  "cvModelScene": {
+    "message": "3D モデル。ドラッグで回転。矢印キーも使えます。"
+  },
+  "cvModelCompressed": {
+    "message": "圧縮されたジオメトリまたはテクスチャ(Draco、KTX2、Meshopt)を使っており、この表示では読み取れません"
+  },
+  "cvNoWebgl": {
+    "message": "このブラウザでは WebGL を利用できません"
+  },
+  "megaTabs_other": {
+    "message": "$1 個のメガタブ"
+  }
+}

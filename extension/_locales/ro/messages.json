@@ -1,0 +1,737 @@
+{
+  "lang": {
+    "message": "ro"
+  },
+  "extName": {
+    "message": "Mega Tabs: spații, notițe și canvas"
+  },
+  "extDescription": {
+    "message": "Schimbă setul de file după proiect, fără reîncărcare. Alături, notițe și un canvas editabil și de AI. Privat și gratuit."
+  },
+  "cmdOpen": {
+    "message": "Deschide lista spațiilor de lucru"
+  },
+  "cmdTogglePanel": {
+    "message": "Deschide sau închide panoul Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Următorul spațiu de lucru"
+  },
+  "cmdPrev": {
+    "message": "Spațiul de lucru anterior"
+  },
+  "cmdLast": {
+    "message": "Ultimul spațiu de lucru folosit"
+  },
+  "cmdSwitch": {
+    "message": "Treci la un spațiu de lucru"
+  },
+  "tabs_one": {
+    "message": "$1 filă"
+  },
+  "tabs_other": {
+    "message": "$1 de file"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 filă nerestaurată"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 de file nerestaurate"
+  },
+  "edit": {
+    "message": "Editează"
+  },
+  "name": {
+    "message": "Nume"
+  },
+  "delete": {
+    "message": "Șterge"
+  },
+  "undo": {
+    "message": "Anulează"
+  },
+  "stashHeading": {
+    "message": "Stocarea spațiilor de lucru"
+  },
+  "stashText": {
+    "message": "Această fereastră ascunsă aparține extensiei Mega Tabs. Ține filele unui spațiu de lucru care nu e afișat acum. Nu o închide; schimbă spațiul din panou."
+  },
+  "defaultWorkspace": {
+    "message": "Implicit"
+  },
+  "recoveredWorkspace": {
+    "message": "Recuperat"
+  },
+  "iconTitle": {
+    "message": "Spațiu de lucru: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Spațiu de lucru: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Stocarea extensiei e aproape plină; în curând filele nu se vor mai salva"
+  },
+  "menuLink": {
+    "message": "Deschide linkul într-un spațiu de lucru"
+  },
+  "menuMove": {
+    "message": "Mută fila într-un spațiu de lucru"
+  },
+  "menuMoveMarked": {
+    "message": "Mută cele $1 file selectate într-un spațiu de lucru"
+  },
+  "menuGroup": {
+    "message": "Mută grupul într-un spațiu de lucru"
+  },
+  "exNotJson": {
+    "message": "Fișierul nu este JSON valid."
+  },
+  "exNotExport": {
+    "message": "Acesta nu este un fișier exportat din Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "Fișierul nu conține spații de lucru."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Fișierul conține prea multe spații de lucru."
+  },
+  "exTooManyTabs": {
+    "message": "Fișierul conține prea multe file."
+  },
+  "workspaceName": {
+    "message": "Spațiu de lucru"
+  },
+  "workspaceN": {
+    "message": "Spațiu de lucru $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Descărcarea a fost întreruptă ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Extensia nu răspunde"
+  },
+  "generalSpace": {
+    "message": "General"
+  },
+  "spaces": {
+    "message": "Spații"
+  },
+  "setUp": {
+    "message": "Configurează"
+  },
+  "filesOffLead": {
+    "message": "Fișierele sunt dezactivate:"
+  },
+  "retryBtn": {
+    "message": "Încearcă din nou"
+  },
+  "switchToMega": {
+    "message": "Treci la $1"
+  },
+  "closeMegaAsk": {
+    "message": "Apasă din nou pentru a închide această mega-filă și filele ei"
+  },
+  "closeMegaAskLabel": {
+    "message": "Închide $1 și filele ei: apasă din nou"
+  },
+  "closeMega": {
+    "message": "Închide mega-fila"
+  },
+  "closeMegaLabel": {
+    "message": "Închide mega-fila $1"
+  },
+  "closeQuestion": {
+    "message": "închizi?"
+  },
+  "spaceName": {
+    "message": "Numele spațiului"
+  },
+  "showSpace": {
+    "message": "Arată $1 (dublu clic pentru redenumire)"
+  },
+  "newSpaceName": {
+    "message": "Numele noului spațiu"
+  },
+  "newSpaceItem": {
+    "message": "Spațiu nou…"
+  },
+  "allSpaces": {
+    "message": "Toate spațiile"
+  },
+  "switchSpace": {
+    "message": "Schimbă spațiul"
+  },
+  "board": {
+    "message": "Tablă"
+  },
+  "boardOpen": {
+    "message": "Deschide tabla: fișierele .md din $1"
+  },
+  "settingsPage": {
+    "message": "Setări"
+  },
+  "settingsOpen": {
+    "message": "Setări: afișare la margine, copie de siguranță, export"
+  },
+  "newMegaName": {
+    "message": "Numele noii mega-file"
+  },
+  "noMegas": {
+    "message": "Încă nu există mega-file."
+  },
+  "newMega": {
+    "message": "+ Mega-filă nouă"
+  },
+  "noSpaces": {
+    "message": "Încă nu există spații."
+  },
+  "newSpace": {
+    "message": "+ Spațiu nou"
+  },
+  "openWindows": {
+    "message": "Ferestre deschise"
+  },
+  "emptyWindow": {
+    "message": "Fereastră goală"
+  },
+  "undoClose": {
+    "message": "Anulează închiderea"
+  },
+  "intro": {
+    "message": "O mega-filă este un set de file la care treci dintr-o mișcare. Apasă pe una ca să începi."
+  },
+  "homeSetupTitle": {
+    "message": "Activează fișierele"
+  },
+  "homeSetupText": {
+    "message": "Spațiile își păstrează notițele ca fișiere obișnuite în $1. Chrome are nevoie de un mic ajutor ca să le citească și să le scrie. În dosarul Mega Tabs rulează $2 și apasă Încearcă din nou."
+  },
+  "retryChecking": {
+    "message": "Se verifică…"
+  },
+  "retryOn": {
+    "message": "Fișierele sunt activate."
+  },
+  "retryOff": {
+    "message": "Încă dezactivate. Rulează comanda și apasă din nou Încearcă din nou."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Deschide $1 (dublu clic pentru redenumire, trage o imagine pentru copertă)"
+  },
+  "tileTypeName": {
+    "message": "scrie un nume și apasă Enter"
+  },
+  "newSpaceAria": {
+    "message": "Spațiu nou"
+  },
+  "tileNewTitle": {
+    "message": "Scrie un nume ca să creezi un spațiu nou"
+  },
+  "tileNewHint": {
+    "message": "scrie un nume"
+  },
+  "coverType": {
+    "message": "Folosește o imagine png, jpg sau webp."
+  },
+  "coverBig": {
+    "message": "Imaginea depășește 700 KB. Folosește una mai mică."
+  },
+  "coverNotSaved": {
+    "message": "Fișierele sunt dezactivate: coperta nu s-a salvat."
+  },
+  "edgeHeading": {
+    "message": "Afișare la margine"
+  },
+  "edgeToggle": {
+    "message": "Arată un mic comutator când cursorul rămâne la marginea ecranului"
+  },
+  "edgeHelp": {
+    "message": "Ține cursorul un moment la margine și mega-filele tale apar peste pagină. Chrome cere o singură dată permisiunea de a rula pe pagini web. Comutatorul nu citește nimic din ele și nu trimite nimic nicăieri. Nu apare pe pagina cu file noi și pe paginile chrome://."
+  },
+  "side": {
+    "message": "Partea"
+  },
+  "sideLeft": {
+    "message": "Stânga"
+  },
+  "sideRight": {
+    "message": "Dreapta"
+  },
+  "edgeOnLeft": {
+    "message": "Activat. Ține cursorul la marginea din stânga a paginii web."
+  },
+  "edgeOnRight": {
+    "message": "Activat. Ține cursorul la marginea din dreapta a paginii web."
+  },
+  "edgeDenied": {
+    "message": "Afișarea la margine are nevoie de această permisiune de a rula pe pagini web. Rămâne dezactivată."
+  },
+  "backupHeading": {
+    "message": "Copie de siguranță"
+  },
+  "backupLabel": {
+    "message": "Salvează un fișier de rezervă"
+  },
+  "backupNever": {
+    "message": "Niciodată"
+  },
+  "backupDaily": {
+    "message": "În fiecare zi"
+  },
+  "backupWeekly": {
+    "message": "În fiecare săptămână"
+  },
+  "backupLast": {
+    "message": "Ultima salvare: $1."
+  },
+  "backupSaving": {
+    "message": "Se salvează…"
+  },
+  "dataHeading": {
+    "message": "Mega-filele tale"
+  },
+  "dataHelp": {
+    "message": "Un singur fișier cu toate spațiile, mega-filele și filele lor. Importul adaugă ce lipsește și nu închide nimic."
+  },
+  "exportBtn": {
+    "message": "Exportă mega-filele"
+  },
+  "importBtn": {
+    "message": "Importă mega-file…"
+  },
+  "chooseFile": {
+    "message": "Alege un fișier exportat"
+  },
+  "exportSaved": {
+    "message": "Salvat: $1, $2, $3."
+  },
+  "exportFail": {
+    "message": "Nu s-a putut exporta: $1"
+  },
+  "importAdded": {
+    "message": "Adăugate $1 și $2 din $3."
+  },
+  "importNothing": {
+    "message": "Nimic de adăugat: tot ce e în $1 există deja."
+  },
+  "importFail": {
+    "message": "Nu s-a putut importa: $1"
+  },
+  "boardTitle": {
+    "message": "Tablă · $1"
+  },
+  "folderLabel": {
+    "message": "Dosar: $1"
+  },
+  "change": {
+    "message": "Schimbă"
+  },
+  "chooseFolder": {
+    "message": "Alege un dosar"
+  },
+  "allowFolder": {
+    "message": "Permite accesul la „$1”"
+  },
+  "hostMissing": {
+    "message": "Gazda tablei nu este instalată. În dosarul Mega Tabs rulează $1, apoi reîncarcă această pagină."
+  },
+  "hostForbidden": {
+    "message": "Chrome nu permite acestei extensii să folosească gazda tablei. Rulează din nou $1, apoi reîncarcă această pagină."
+  },
+  "hostStopped": {
+    "message": "Gazda tablei s-a oprit. Se încearcă din nou."
+  },
+  "hostUnreachable": {
+    "message": "Tabla nu poate ajunge la gazda ei ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "nu se poate deschide aici ($1)"
+  },
+  "howItWorks": {
+    "message": "Cum funcționează"
+  },
+  "rename": {
+    "message": "Redenumește"
+  },
+  "renameLabel": {
+    "message": "Redenumește $1"
+  },
+  "renameTitle": {
+    "message": "Redenumește (sau dublu clic pe nume)"
+  },
+  "deleteLabel": {
+    "message": "Șterge $1"
+  },
+  "deleteTitle": {
+    "message": "Șterge (în coș, se poate anula)"
+  },
+  "noMatches": {
+    "message": "Nimic găsit."
+  },
+  "newNote": {
+    "message": "Notiță nouă"
+  },
+  "newCanvas": {
+    "message": "Canvas nou"
+  },
+  "newNoteTitle": {
+    "message": "Începe o notiță nouă în acest spațiu"
+  },
+  "newCanvasTitle": {
+    "message": "Începe un canvas nou în acest spațiu"
+  },
+  "emptyNotesFolder": {
+    "message": "Încă nu sunt notițe în acest spațiu. Apasă Notiță nouă ca să începi."
+  },
+  "emptyNotesDir": {
+    "message": "Încă nu sunt fișiere .md în ~/Spaces/$1/. Apasă Notiță nouă ca să începi."
+  },
+  "noFolderNotes": {
+    "message": "Încă nu există dosar pentru „$1”. Creează ~/Spaces/$1/ și pune în el fișiere .md."
+  },
+  "emptyCanvasFolder": {
+    "message": "Încă nu sunt canvasuri în acest spațiu. Apasă Canvas nou ca să începi."
+  },
+  "emptyCanvasDir": {
+    "message": "Încă nu sunt fișiere .canvas în ~/Spaces/$1/. Apasă Canvas nou ca să începi."
+  },
+  "noFolderCanvas": {
+    "message": "Încă nu există dosar pentru „$1”. Creează ~/Spaces/$1/ și pune în el fișiere .canvas."
+  },
+  "done": {
+    "message": "Gata"
+  },
+  "backToReading": {
+    "message": "Înapoi la citire (Esc)"
+  },
+  "typeInFile": {
+    "message": "Scrie în acest fișier (E)"
+  },
+  "openCursor": {
+    "message": "Deschide în Cursor"
+  },
+  "openCursorTitle": {
+    "message": "Deschide acest fișier în Cursor"
+  },
+  "typeHere": {
+    "message": "Scrie aici."
+  },
+  "textOf": {
+    "message": "Textul pentru $1"
+  },
+  "statusUnsaved": {
+    "message": "Nesalvat"
+  },
+  "statusSaving": {
+    "message": "Se salvează"
+  },
+  "statusSaved": {
+    "message": "Salvat"
+  },
+  "mixedEol": {
+    "message": "Sfârșituri de rând amestecate: editează acest fișier în Cursor."
+  },
+  "notSavedWhy": {
+    "message": "Nesalvat ($1)"
+  },
+  "hostNotConnected": {
+    "message": "gazda nu este conectată"
+  },
+  "notSaved": {
+    "message": "Nesalvat: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Nesalvat: notița depășește cei $1 KB pe care îi poate avea un fișier. Scurteaz-o sau împart-o în două."
+  },
+  "changedOnDisk": {
+    "message": "Modificat pe disc"
+  },
+  "conflictGone": {
+    "message": "Șters pe disc:"
+  },
+  "conflictTooLarge": {
+    "message": "Modificat pe disc și acum prea mare pentru a fi afișat aici:"
+  },
+  "conflictNotText": {
+    "message": "Modificat pe disc și nu mai este text:"
+  },
+  "conflictChanged": {
+    "message": "Modificat pe disc:"
+  },
+  "loadTheirs": {
+    "message": "Încarcă versiunea lor"
+  },
+  "keepMine": {
+    "message": "Păstrează-o pe a mea"
+  },
+  "dropIt": {
+    "message": "Renunță"
+  },
+  "seeTheirs": {
+    "message": "Vezi versiunea lor"
+  },
+  "removedFromFolder": {
+    "message": "$1 a fost scos din dosar."
+  },
+  "cannotOpenNote": {
+    "message": "Acest fișier nu se poate deschide aici ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Acest fișier nu se poate deschide aici ($1). Cursor poate."
+  },
+  "cannotOpenCanvas": {
+    "message": "Acest canvas nu se poate deschide aici ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Acest canvas nu se poate deschide aici ($1). Cursor poate."
+  },
+  "waitingStorage": {
+    "message": "Se așteaptă stocarea tablei."
+  },
+  "couldNotRead": {
+    "message": "$1 nu a putut fi citit ($2)."
+  },
+  "couldNotOpen": {
+    "message": "$1 nu a putut fi deschis ($2)."
+  },
+  "noteName": {
+    "message": "Numele notiței"
+  },
+  "canvasName": {
+    "message": "Numele canvasului"
+  },
+  "nameTaken": {
+    "message": "Numele acela este deja folosit."
+  },
+  "nameBad": {
+    "message": "Numele acela nu poate fi folosit."
+  },
+  "notCreated": {
+    "message": "Nu a fost creat ($1)."
+  },
+  "renameNewName": {
+    "message": "Nume nou pentru $1"
+  },
+  "resolveFirst": {
+    "message": "Rezolvă mai întâi modificarea de pe disc."
+  },
+  "notSavedYetRename": {
+    "message": "Încă nesalvat; încearcă din nou într-o clipă."
+  },
+  "fileGone": {
+    "message": "Fișierul nu mai există."
+  },
+  "notRenamed": {
+    "message": "Nu a fost redenumit ($1)."
+  },
+  "deletedToast": {
+    "message": "„$1” a fost șters"
+  },
+  "resolveFirstDelete": {
+    "message": "Rezolvă mai întâi modificarea de pe disc, apoi șterge."
+  },
+  "notSavedYetDelete": {
+    "message": "Încă nesalvat, deci nu a fost șters. Încearcă din nou într-o clipă."
+  },
+  "notDeleted": {
+    "message": "Nu a fost șters: $1"
+  },
+  "notRestored": {
+    "message": "Nu a fost restaurat: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D nu a putut porni aici ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "nu s-a încărcat"
+  },
+  "cvSelect": {
+    "message": "Selectează și mută (V)"
+  },
+  "cvCard": {
+    "message": "Adaugă un card text (T)"
+  },
+  "cvPen": {
+    "message": "Creion (P)"
+  },
+  "cvEraser": {
+    "message": "Radieră (E)"
+  },
+  "cvTools": {
+    "message": "Instrumente canvas"
+  },
+  "cvUndo": {
+    "message": "Anulează (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Refă (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Refă"
+  },
+  "cvDelete": {
+    "message": "Șterge selecția (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Șterge selecția"
+  },
+  "cvView": {
+    "message": "Vizualizare"
+  },
+  "cv2d": {
+    "message": "Canvasul, plat"
+  },
+  "cv3d": {
+    "message": "Același canvas în 3D (doar citire)"
+  },
+  "cvDeleted": {
+    "message": "Șters pe disc. Acest canvas nu mai este în dosar."
+  },
+  "cvEmptyCard": {
+    "message": "Card gol"
+  },
+  "cvWriteHere": {
+    "message": "Scrie aici"
+  },
+  "cvCardText": {
+    "message": "Textul cardului"
+  },
+  "cvOpenNotes": {
+    "message": "Deschide în Notițe"
+  },
+  "cvOpenCanvas": {
+    "message": "Deschide acest canvas"
+  },
+  "cvModelGone": {
+    "message": "Acest model nu este în dosar."
+  },
+  "cvModelBig": {
+    "message": "Acest model depășește 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Acest model nu poate fi afișat ($1)."
+  },
+  "cvUnknownError": {
+    "message": "eroare necunoscută"
+  },
+  "cvLoadingModel": {
+    "message": "Se încarcă modelul"
+  },
+  "cvLink": {
+    "message": "Link"
+  },
+  "cvGroup": {
+    "message": "Grup"
+  },
+  "cvNodeNote": {
+    "message": "Notiță $1"
+  },
+  "cvNodeLink": {
+    "message": "Link $1"
+  },
+  "cvNodeGroup": {
+    "message": "Grup $1"
+  },
+  "cvNodeType": {
+    "message": "Card de tipul $1"
+  },
+  "sInvalid": {
+    "message": "Acest fișier nu este JSON Canvas ($1). Repar-o în Cursor; între timp nu se salvează nimic aici."
+  },
+  "sInvalidNow": {
+    "message": "Modificat pe disc și acum nu mai este JSON Canvas ($1). Nu se salvează nimic aici până nu e din nou valid."
+  },
+  "sTooBig": {
+    "message": "Nesalvat (acest canvas are $1; fișierele primesc cel mult $2. Șterge câteva linii sau carduri)"
+  },
+  "sBlockedBig": {
+    "message": "Nesalvat (fișierul de pe disc s-a schimbat și e prea mare: Păstrează-o pe a mea, sau lasă-l)"
+  },
+  "sBlockedText": {
+    "message": "Nesalvat (fișierul de pe disc s-a schimbat și nu e text: Păstrează-o pe a mea, sau lasă-l)"
+  },
+  "sKeepsChanging": {
+    "message": "Nesalvat (fișierul se schimbă mereu)"
+  },
+  "edgeOpenPanel": {
+    "message": "Deschide panoul"
+  },
+  "errNameEmpty": {
+    "message": "Scrie un nume."
+  },
+  "errNameLong": {
+    "message": "Numele e prea lung."
+  },
+  "errHost": {
+    "message": "Gazda nu a răspuns."
+  },
+  "backupKept": {
+    "message": "Salvat în Downloads/$2. Fișiere salvate: $1."
+  },
+  "filesLabel": {
+    "message": "Fișiere"
+  },
+  "roomLabel": {
+    "message": "Cameră"
+  },
+  "roomNotes": {
+    "message": "Notițe"
+  },
+  "roomCanvas": {
+    "message": "Canvas"
+  },
+  "search": {
+    "message": "Caută"
+  },
+  "searchLabel": {
+    "message": "Caută în acest spațiu"
+  },
+  "noteLabel": {
+    "message": "Notiță"
+  },
+  "cvNotShown": {
+    "message": "$1 (nu e afișat aici)"
+  },
+  "cvDrawFail": {
+    "message": "Acest canvas nu a putut fi desenat ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Nimic nu s-a schimbat pe disc. Deschide în Cursor sau alege alt canvas."
+  },
+  "statusDeleted": {
+    "message": "Șters pe disc"
+  },
+  "cv3dScene": {
+    "message": "Vedere 3D a acestui canvas. Trage pentru a roti, derulează pentru zoom, apasă pe un card ca să-l deschizi."
+  },
+  "cvModelScene": {
+    "message": "Model 3D. Trage pentru a roti; merg și tastele săgeți."
+  },
+  "cvModelCompressed": {
+    "message": "folosește geometrie sau texturi comprimate (Draco, KTX2 sau Meshopt) pe care această vedere nu le poate citi"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL nu este disponibil în acest browser"
+  },
+  "megaTabs_one": {
+    "message": "$1 mega-filă"
+  },
+  "megaTabs_other": {
+    "message": "$1 de mega-file"
+  },
+  "tabs_few": {
+    "message": "$1 file"
+  },
+  "tabsNotRestored_few": {
+    "message": "$1 file nerestaurate"
+  },
+  "megaTabs_few": {
+    "message": "$1 mega-file"
+  }
+}

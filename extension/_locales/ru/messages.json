@@ -1,0 +1,803 @@
+{
+  "lang": {
+    "message": "ru"
+  },
+  "extName": {
+    "message": "Mega Tabs: пространства, заметки и холст"
+  },
+  "extDescription": {
+    "message": "Переключайте наборы вкладок по проектам без перезагрузки. Рядом заметки и холст, их может править и ваш ИИ. Приватно и бесплатно."
+  },
+  "cmdOpen": {
+    "message": "Открыть список рабочих пространств"
+  },
+  "cmdTogglePanel": {
+    "message": "Открыть или закрыть панель Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Следующее рабочее пространство"
+  },
+  "cmdPrev": {
+    "message": "Предыдущее рабочее пространство"
+  },
+  "cmdLast": {
+    "message": "Последнее использованное рабочее пространство"
+  },
+  "cmdSwitch": {
+    "message": "Переключиться на рабочее пространство"
+  },
+  "tabs_one": {
+    "message": "$1 вкладка"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 вкладка не восстановлена"
+  },
+  "edit": {
+    "message": "Изменить"
+  },
+  "name": {
+    "message": "Название"
+  },
+  "delete": {
+    "message": "Удалить"
+  },
+  "undo": {
+    "message": "Отменить"
+  },
+  "stashHeading": {
+    "message": "Хранилище рабочего пространства"
+  },
+  "stashText": {
+    "message": "Это скрытое окно принадлежит расширению Mega Tabs. В нём лежат вкладки рабочего пространства, которое сейчас не показано. Не закрывайте его: для переключения используйте панель."
+  },
+  "defaultWorkspace": {
+    "message": "По умолчанию"
+  },
+  "recoveredWorkspace": {
+    "message": "Восстановлено"
+  },
+  "iconTitle": {
+    "message": "Рабочее пространство: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Рабочее пространство: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Хранилище расширения почти заполнено, вкладки скоро перестанут сохраняться"
+  },
+  "menuLink": {
+    "message": "Открыть ссылку в рабочем пространстве"
+  },
+  "menuMove": {
+    "message": "Переместить вкладку в рабочее пространство"
+  },
+  "menuMoveMarked": {
+    "message": "Переместить выбранные вкладки ($1) в рабочее пространство"
+  },
+  "menuGroup": {
+    "message": "Переместить группу в рабочее пространство"
+  },
+  "exNotJson": {
+    "message": "Файл не является корректным JSON."
+  },
+  "exNotText": {
+    "message": "«$1» отсутствует или не является текстом."
+  },
+  "exTooLong": {
+    "message": "«$1» слишком длинное."
+  },
+  "exNotList": {
+    "message": "«$1» отсутствует или не является списком."
+  },
+  "exBadUrl": {
+    "message": "«$1» не является допустимым адресом."
+  },
+  "exJavascript": {
+    "message": "Адреса javascript: не импортируются."
+  },
+  "exOwnPage": {
+    "message": "Страницы самого расширения не должны быть в файле."
+  },
+  "exNotExport": {
+    "message": "Это не файл экспорта Helium Workspaces."
+  },
+  "exBadVersion": {
+    "message": "Номер версии формата отсутствует или недействителен."
+  },
+  "exNewerVersion": {
+    "message": "У файла версия формата $1, а это расширение знает только версию $2."
+  },
+  "exNotObject": {
+    "message": "Запись не является объектом."
+  },
+  "exNoWorkspaces": {
+    "message": "В файле нет рабочих пространств."
+  },
+  "exTooManyWorkspaces": {
+    "message": "В файле слишком много рабочих пространств."
+  },
+  "exTooManyTabs": {
+    "message": "В файле слишком много вкладок."
+  },
+  "exBadColor": {
+    "message": "«$1» не является цветом вида #rrggbb."
+  },
+  "exBadId": {
+    "message": "«id» может содержать только буквы и цифры."
+  },
+  "exDupId": {
+    "message": "ID «$1» встречается более одного раза."
+  },
+  "exEmptyId": {
+    "message": "«id» пуст."
+  },
+  "exDupGroupId": {
+    "message": "ID группы «$1» встречается более одного раза."
+  },
+  "exBadGroupColor": {
+    "message": "«$1» не является цветом группы ($2)."
+  },
+  "exBadCollapsed": {
+    "message": "«collapsed» должно быть true или false."
+  },
+  "exUnknownGroup": {
+    "message": "Группа «$1» не указана в «groups»."
+  },
+  "exWherePinned": {
+    "message": "Закреплённая вкладка $1"
+  },
+  "exWhereWs": {
+    "message": "Рабочее пространство $1"
+  },
+  "exWhereWsNamed": {
+    "message": "Рабочее пространство $1 («$2»)"
+  },
+  "exWhereGroup": {
+    "message": "$1, группа $2"
+  },
+  "exWhereTab": {
+    "message": "$1, вкладка $2"
+  },
+  "workspaceName": {
+    "message": "Рабочее пространство"
+  },
+  "workspaceN": {
+    "message": "Рабочее пространство $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Загрузка прервана ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Расширение не ответило"
+  },
+  "generalSpace": {
+    "message": "Общее"
+  },
+  "spaces": {
+    "message": "Пространства"
+  },
+  "setUp": {
+    "message": "Настроить"
+  },
+  "filesOffLead": {
+    "message": "Файлы отключены:"
+  },
+  "retryBtn": {
+    "message": "Повторить"
+  },
+  "switchToMega": {
+    "message": "Перейти к «$1»"
+  },
+  "closeMegaAsk": {
+    "message": "Нажмите ещё раз, чтобы закрыть этот мега-таб и его вкладки"
+  },
+  "closeMegaAskLabel": {
+    "message": "Закрыть «$1» и его вкладки: нажмите ещё раз"
+  },
+  "closeMega": {
+    "message": "Закрыть мега-таб"
+  },
+  "closeMegaLabel": {
+    "message": "Закрыть мега-таб «$1»"
+  },
+  "closeQuestion": {
+    "message": "закрыть?"
+  },
+  "spaceName": {
+    "message": "Название пространства"
+  },
+  "showSpace": {
+    "message": "Показать «$1» (двойной щелчок — переименовать)"
+  },
+  "newSpaceName": {
+    "message": "Название нового пространства"
+  },
+  "newSpaceItem": {
+    "message": "Новое пространство…"
+  },
+  "allSpaces": {
+    "message": "Все пространства"
+  },
+  "switchSpace": {
+    "message": "Сменить пространство"
+  },
+  "board": {
+    "message": "Доска"
+  },
+  "boardOpen": {
+    "message": "Открыть доску: файлы .md пространства «$1»"
+  },
+  "settingsPage": {
+    "message": "Настройки"
+  },
+  "settingsOpen": {
+    "message": "Настройки: показ у края, резервная копия, экспорт"
+  },
+  "newMegaName": {
+    "message": "Название нового мега-таба"
+  },
+  "noMegas": {
+    "message": "Мега-табов пока нет."
+  },
+  "newMega": {
+    "message": "+ Новый мега-таб"
+  },
+  "noSpaces": {
+    "message": "Пространств пока нет."
+  },
+  "newSpace": {
+    "message": "+ Новое пространство"
+  },
+  "openWindows": {
+    "message": "Открытые окна"
+  },
+  "emptyWindow": {
+    "message": "Пустое окно"
+  },
+  "undoClose": {
+    "message": "Отменить закрытие"
+  },
+  "intro": {
+    "message": "Мега-таб — это набор вкладок, на который вы переключаетесь целиком. Нажмите на любой, чтобы начать."
+  },
+  "homeSetupTitle": {
+    "message": "Включить файлы"
+  },
+  "homeSetupText": {
+    "message": "Пространства хранят заметки в виде обычных файлов в $1. Chrome нужна небольшая программа-помощник для чтения и записи. В папке Mega Tabs выполните $2 и нажмите «Повторить»."
+  },
+  "retryChecking": {
+    "message": "Проверка…"
+  },
+  "retryOn": {
+    "message": "Файлы включены."
+  },
+  "retryOff": {
+    "message": "Всё ещё отключены. Выполните команду и снова нажмите «Повторить»."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Открыть «$1» (двойной щелчок — переименовать, перетащите картинку для обложки)"
+  },
+  "tileTypeName": {
+    "message": "введите название и нажмите Enter"
+  },
+  "newSpaceAria": {
+    "message": "Новое пространство"
+  },
+  "tileNewTitle": {
+    "message": "Введите название, чтобы создать пространство"
+  },
+  "tileNewHint": {
+    "message": "введите название"
+  },
+  "coverType": {
+    "message": "Используйте изображение png, jpg или webp."
+  },
+  "coverBig": {
+    "message": "Изображение больше 700 КБ. Возьмите поменьше."
+  },
+  "coverNotSaved": {
+    "message": "Файлы отключены: обложка не сохранена."
+  },
+  "edgeHeading": {
+    "message": "Показ у края"
+  },
+  "edgeToggle": {
+    "message": "Показывать мини-переключатель, когда указатель стоит у края экрана"
+  },
+  "edgeHelp": {
+    "message": "Задержите указатель у края на секунду, и мега-табы появятся поверх страницы. Chrome один раз спросит разрешение работать на веб-страницах. Переключатель ничего с них не читает и никуда ничего не отправляет. На странице новой вкладки и страницах chrome:// он не появляется."
+  },
+  "side": {
+    "message": "Сторона"
+  },
+  "sideLeft": {
+    "message": "Слева"
+  },
+  "sideRight": {
+    "message": "Справа"
+  },
+  "edgeOnLeft": {
+    "message": "Включено. Задержите указатель у левого края веб-страницы."
+  },
+  "edgeOnRight": {
+    "message": "Включено. Задержите указатель у правого края веб-страницы."
+  },
+  "edgeDenied": {
+    "message": "Для показа у края нужно это разрешение работать на веб-страницах. Функция остаётся выключенной."
+  },
+  "backupHeading": {
+    "message": "Резервная копия"
+  },
+  "backupLabel": {
+    "message": "Сохранять файл резервной копии"
+  },
+  "backupNever": {
+    "message": "Никогда"
+  },
+  "backupDaily": {
+    "message": "Каждый день"
+  },
+  "backupWeekly": {
+    "message": "Каждую неделю"
+  },
+  "backupLast": {
+    "message": "Последнее сохранение: $1."
+  },
+  "backupSaving": {
+    "message": "Сохранение…"
+  },
+  "dataHeading": {
+    "message": "Ваши мега-табы"
+  },
+  "dataHelp": {
+    "message": "Один файл со всеми пространствами, мега-табами и их вкладками. Импорт добавляет недостающее и ничего не закрывает."
+  },
+  "exportBtn": {
+    "message": "Экспортировать мега-табы"
+  },
+  "importBtn": {
+    "message": "Импортировать мега-табы…"
+  },
+  "chooseFile": {
+    "message": "Выберите экспортированный файл"
+  },
+  "exportSaved": {
+    "message": "Сохранён файл $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Не удалось экспортировать: $1"
+  },
+  "importAdded": {
+    "message": "Добавлено: $1 и $2 из файла $3."
+  },
+  "importNothing": {
+    "message": "Нечего добавлять: всё из файла $1 уже есть."
+  },
+  "importFail": {
+    "message": "Не удалось импортировать: $1"
+  },
+  "boardTitle": {
+    "message": "Доска · $1"
+  },
+  "folderLabel": {
+    "message": "Папка: $1"
+  },
+  "change": {
+    "message": "Изменить"
+  },
+  "chooseFolder": {
+    "message": "Выбрать папку"
+  },
+  "allowFolder": {
+    "message": "Разрешить доступ к «$1»"
+  },
+  "hostMissing": {
+    "message": "Хост доски не установлен. Выполните $1 в папке Mega Tabs и перезагрузите страницу."
+  },
+  "hostForbidden": {
+    "message": "Chrome не позволяет этому расширению использовать хост доски. Выполните $1 ещё раз и перезагрузите страницу."
+  },
+  "hostStopped": {
+    "message": "Хост доски остановился. Пробуем снова."
+  },
+  "hostUnreachable": {
+    "message": "Доска не может связаться со своим хостом ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "здесь не открыть ($1)"
+  },
+  "howItWorks": {
+    "message": "Как это работает"
+  },
+  "rename": {
+    "message": "Переименовать"
+  },
+  "renameLabel": {
+    "message": "Переименовать «$1»"
+  },
+  "renameTitle": {
+    "message": "Переименовать (или дважды щёлкните по имени)"
+  },
+  "deleteLabel": {
+    "message": "Удалить «$1»"
+  },
+  "deleteTitle": {
+    "message": "Удалить (в корзину, с возможностью отмены)"
+  },
+  "noMatches": {
+    "message": "Ничего не найдено."
+  },
+  "newNote": {
+    "message": "Новая заметка"
+  },
+  "newCanvas": {
+    "message": "Новый холст"
+  },
+  "newNoteTitle": {
+    "message": "Начать новую заметку в этом пространстве"
+  },
+  "newCanvasTitle": {
+    "message": "Начать новый холст в этом пространстве"
+  },
+  "emptyNotesFolder": {
+    "message": "В этом пространстве пока нет заметок. Нажмите «Новая заметка», чтобы создать."
+  },
+  "emptyNotesDir": {
+    "message": "В ~/Spaces/$1/ пока нет файлов .md. Нажмите «Новая заметка», чтобы создать."
+  },
+  "noFolderNotes": {
+    "message": "Для «$1» пока нет папки. Создайте ~/Spaces/$1/ и положите в неё файлы .md."
+  },
+  "emptyCanvasFolder": {
+    "message": "В этом пространстве пока нет холстов. Нажмите «Новый холст», чтобы создать."
+  },
+  "emptyCanvasDir": {
+    "message": "В ~/Spaces/$1/ пока нет файлов .canvas. Нажмите «Новый холст», чтобы создать."
+  },
+  "noFolderCanvas": {
+    "message": "Для «$1» пока нет папки. Создайте ~/Spaces/$1/ и положите в неё файлы .canvas."
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "backToReading": {
+    "message": "Вернуться к чтению (Esc)"
+  },
+  "typeInFile": {
+    "message": "Писать в этом файле (E)"
+  },
+  "openCursor": {
+    "message": "Открыть в Cursor"
+  },
+  "openCursorTitle": {
+    "message": "Открыть этот файл в Cursor"
+  },
+  "typeHere": {
+    "message": "Пишите здесь."
+  },
+  "textOf": {
+    "message": "Текст «$1»"
+  },
+  "statusUnsaved": {
+    "message": "Не сохранено"
+  },
+  "statusSaving": {
+    "message": "Сохранение"
+  },
+  "statusSaved": {
+    "message": "Сохранено"
+  },
+  "mixedEol": {
+    "message": "Смешанные окончания строк: правьте этот файл в Cursor."
+  },
+  "notSavedWhy": {
+    "message": "Не сохранено ($1)"
+  },
+  "hostNotConnected": {
+    "message": "хост не подключён"
+  },
+  "notSaved": {
+    "message": "Не сохранено: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Не сохранено: заметка больше $1 КБ, которые вмещают файлы. Сократите её или разделите на две."
+  },
+  "changedOnDisk": {
+    "message": "Изменено на диске"
+  },
+  "conflictGone": {
+    "message": "Удалено на диске:"
+  },
+  "conflictTooLarge": {
+    "message": "Изменено на диске и теперь слишком велико для показа здесь:"
+  },
+  "conflictNotText": {
+    "message": "Изменено на диске и больше не текст:"
+  },
+  "conflictChanged": {
+    "message": "Изменено на диске:"
+  },
+  "loadTheirs": {
+    "message": "Загрузить их версию"
+  },
+  "keepMine": {
+    "message": "Оставить мою"
+  },
+  "dropIt": {
+    "message": "Отбросить"
+  },
+  "seeTheirs": {
+    "message": "Посмотреть их версию"
+  },
+  "removedFromFolder": {
+    "message": "«$1» удалён из папки."
+  },
+  "cannotOpenNote": {
+    "message": "Этот файл нельзя открыть здесь ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Этот файл нельзя открыть здесь ($1). Cursor может."
+  },
+  "cannotOpenCanvas": {
+    "message": "Этот холст нельзя открыть здесь ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Этот холст нельзя открыть здесь ($1). Cursor может."
+  },
+  "waitingStorage": {
+    "message": "Ожидание хранилища доски."
+  },
+  "couldNotRead": {
+    "message": "Не удалось прочитать «$1» ($2)."
+  },
+  "couldNotOpen": {
+    "message": "Не удалось открыть «$1» ($2)."
+  },
+  "noteName": {
+    "message": "Название заметки"
+  },
+  "canvasName": {
+    "message": "Название холста"
+  },
+  "nameTaken": {
+    "message": "Такое имя уже занято."
+  },
+  "nameBad": {
+    "message": "Это имя использовать нельзя."
+  },
+  "notCreated": {
+    "message": "Не создано ($1)."
+  },
+  "renameNewName": {
+    "message": "Новое имя для «$1»"
+  },
+  "resolveFirst": {
+    "message": "Сначала решите вопрос с изменением на диске."
+  },
+  "notSavedYetRename": {
+    "message": "Ещё не сохранено; попробуйте через мгновение."
+  },
+  "fileGone": {
+    "message": "Этого файла больше нет."
+  },
+  "notRenamed": {
+    "message": "Не переименовано ($1)."
+  },
+  "deletedToast": {
+    "message": "Удалено: «$1»"
+  },
+  "resolveFirstDelete": {
+    "message": "Сначала решите вопрос с изменением на диске, затем удаляйте."
+  },
+  "notSavedYetDelete": {
+    "message": "Ещё не сохранено, поэтому не удалено. Попробуйте через мгновение."
+  },
+  "notDeleted": {
+    "message": "Не удалено: $1"
+  },
+  "notRestored": {
+    "message": "Не восстановлено: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D не удалось запустить здесь ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "не загрузилось"
+  },
+  "cvSelect": {
+    "message": "Выбор и перемещение (V)"
+  },
+  "cvCard": {
+    "message": "Добавить текстовую карточку (T)"
+  },
+  "cvPen": {
+    "message": "Перо (P)"
+  },
+  "cvEraser": {
+    "message": "Ластик (E)"
+  },
+  "cvTools": {
+    "message": "Инструменты холста"
+  },
+  "cvUndo": {
+    "message": "Отменить (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Повторить (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Повторить"
+  },
+  "cvDelete": {
+    "message": "Удалить выделенное (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Удалить выделенное"
+  },
+  "cvView": {
+    "message": "Вид"
+  },
+  "cv2d": {
+    "message": "Холст, плоский"
+  },
+  "cv3d": {
+    "message": "Тот же холст в 3D (только чтение)"
+  },
+  "cvDeleted": {
+    "message": "Удалено на диске. Этого холста больше нет в папке."
+  },
+  "cvEmptyCard": {
+    "message": "Пустая карточка"
+  },
+  "cvWriteHere": {
+    "message": "Пишите здесь"
+  },
+  "cvCardText": {
+    "message": "Текст карточки"
+  },
+  "cvOpenNotes": {
+    "message": "Открыть в заметках"
+  },
+  "cvOpenCanvas": {
+    "message": "Открыть этот холст"
+  },
+  "cvModelGone": {
+    "message": "Этой модели нет в папке."
+  },
+  "cvModelBig": {
+    "message": "Эта модель больше 24 МБ."
+  },
+  "cvModelFail": {
+    "message": "Эту модель нельзя показать ($1)."
+  },
+  "cvUnknownError": {
+    "message": "неизвестная ошибка"
+  },
+  "cvLoadingModel": {
+    "message": "Загрузка модели"
+  },
+  "cvLink": {
+    "message": "Ссылка"
+  },
+  "cvGroup": {
+    "message": "Группа"
+  },
+  "cvNodeNote": {
+    "message": "Заметка $1"
+  },
+  "cvNodeLink": {
+    "message": "Ссылка $1"
+  },
+  "cvNodeGroup": {
+    "message": "Группа $1"
+  },
+  "cvNodeType": {
+    "message": "Карточка типа $1"
+  },
+  "sInvalid": {
+    "message": "Этот файл не является JSON Canvas ($1). Исправьте его в Cursor; пока здесь ничего не сохраняется."
+  },
+  "sInvalidNow": {
+    "message": "Изменено на диске и теперь не является JSON Canvas ($1). Здесь ничего не сохраняется, пока файл снова не станет корректным."
+  },
+  "sTooBig": {
+    "message": "Не сохранено (этот холст занимает $1; файлы вмещают не больше $2. Сотрите часть штрихов или карточек)"
+  },
+  "sBlockedBig": {
+    "message": "Не сохранено (файл на диске изменился и превышает лимит размера: «Оставить мою» или оставить как есть)"
+  },
+  "sBlockedText": {
+    "message": "Не сохранено (файл на диске изменился и не является текстом: «Оставить мою» или оставить как есть)"
+  },
+  "sKeepsChanging": {
+    "message": "Не сохранено (файл постоянно меняется)"
+  },
+  "edgeOpenPanel": {
+    "message": "Открыть панель"
+  },
+  "errNameEmpty": {
+    "message": "Введите название."
+  },
+  "errNameLong": {
+    "message": "Название слишком длинное."
+  },
+  "errHost": {
+    "message": "Хост не ответил."
+  },
+  "backupKept": {
+    "message": "Лежат в «Загрузки»/$2. Хранится файлов: $1."
+  },
+  "filesLabel": {
+    "message": "Файлы"
+  },
+  "roomLabel": {
+    "message": "Раздел"
+  },
+  "roomNotes": {
+    "message": "Заметки"
+  },
+  "roomCanvas": {
+    "message": "Холст"
+  },
+  "search": {
+    "message": "Поиск"
+  },
+  "searchLabel": {
+    "message": "Искать в этом пространстве"
+  },
+  "noteLabel": {
+    "message": "Заметка"
+  },
+  "cvNotShown": {
+    "message": "$1 (здесь не показан)"
+  },
+  "cvDrawFail": {
+    "message": "Не удалось нарисовать этот холст ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "На диске ничего не изменено. Откройте его в Cursor или выберите другой холст."
+  },
+  "statusDeleted": {
+    "message": "Удалено на диске"
+  },
+  "cv3dScene": {
+    "message": "3D-вид этого холста. Перетаскивайте, чтобы вращать, прокручивайте для масштаба, щёлкните карточку, чтобы открыть её."
+  },
+  "cvModelScene": {
+    "message": "3D-модель. Перетащите, чтобы повернуть; стрелки тоже работают."
+  },
+  "cvModelCompressed": {
+    "message": "использует сжатую геометрию или текстуры (Draco, KTX2 или Meshopt), которые этот вид не читает"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL недоступен в этом браузере"
+  },
+  "megaTabs_one": {
+    "message": "$1 мега-таб"
+  },
+  "tabs_many": {
+    "message": "$1 вкладок"
+  },
+  "tabs_few": {
+    "message": "$1 вкладки"
+  },
+  "tabsNotRestored_many": {
+    "message": "$1 вкладок не восстановлено"
+  },
+  "tabsNotRestored_few": {
+    "message": "$1 вкладки не восстановлены"
+  },
+  "megaTabs_many": {
+    "message": "$1 мега-табов"
+  },
+  "megaTabs_few": {
+    "message": "$1 мега-таба"
+  }
+}

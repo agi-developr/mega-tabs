@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "el"
+  },
+  "extName": {
+    "message": "Mega Tabs: χώροι, σημειώσεις και καμβάς"
+  },
+  "extDescription": {
+    "message": "Αλλάξτε καρτέλες ανά project χωρίς επαναφόρτωση. Δίπλα σημειώσεις και καμβάς που επεξεργάζεται και το AI. Ιδιωτικό, δωρεάν."
+  },
+  "cmdOpen": {
+    "message": "Άνοιγμα λίστας χώρων εργασίας"
+  },
+  "cmdTogglePanel": {
+    "message": "Άνοιγμα ή κλείσιμο του πάνελ Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Επόμενος χώρος εργασίας"
+  },
+  "cmdPrev": {
+    "message": "Προηγούμενος χώρος εργασίας"
+  },
+  "cmdLast": {
+    "message": "Τελευταίος χώρος εργασίας που χρησιμοποιήθηκε"
+  },
+  "cmdSwitch": {
+    "message": "Μετάβαση σε χώρο εργασίας"
+  },
+  "tabs_one": {
+    "message": "$1 καρτέλα"
+  },
+  "tabs_other": {
+    "message": "$1 καρτέλες"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 καρτέλα δεν επαναφέρθηκε"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 καρτέλες δεν επαναφέρθηκαν"
+  },
+  "edit": {
+    "message": "Επεξεργασία"
+  },
+  "name": {
+    "message": "Όνομα"
+  },
+  "delete": {
+    "message": "Διαγραφή"
+  },
+  "undo": {
+    "message": "Αναίρεση"
+  },
+  "stashHeading": {
+    "message": "Αποθήκευση χώρων εργασίας"
+  },
+  "stashText": {
+    "message": "Αυτό το κρυφό παράθυρο ανήκει στην επέκταση Mega Tabs. Κρατά τις καρτέλες ενός χώρου εργασίας που δεν εμφανίζεται τώρα. Μην το κλείσετε· αλλάξτε χώρο από το πάνελ."
+  },
+  "defaultWorkspace": {
+    "message": "Προεπιλογή"
+  },
+  "recoveredWorkspace": {
+    "message": "Ανακτήθηκε"
+  },
+  "iconTitle": {
+    "message": "Χώρος εργασίας: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Χώρος εργασίας: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Ο αποθηκευτικός χώρος της επέκτασης σχεδόν γέμισε· σύντομα οι καρτέλες δεν θα αποθηκεύονται"
+  },
+  "menuLink": {
+    "message": "Άνοιγμα συνδέσμου σε χώρο εργασίας"
+  },
+  "menuMove": {
+    "message": "Μετακίνηση καρτέλας σε χώρο εργασίας"
+  },
+  "menuMoveMarked": {
+    "message": "Μετακίνηση $1 επιλεγμένων καρτελών σε χώρο εργασίας"
+  },
+  "menuGroup": {
+    "message": "Μετακίνηση ομάδας σε χώρο εργασίας"
+  },
+  "exNotJson": {
+    "message": "Το αρχείο δεν είναι έγκυρο JSON."
+  },
+  "exNotExport": {
+    "message": "Αυτό δεν είναι αρχείο εξαγωγής του Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "Το αρχείο δεν έχει χώρους εργασίας."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Το αρχείο έχει υπερβολικά πολλούς χώρους εργασίας."
+  },
+  "exTooManyTabs": {
+    "message": "Το αρχείο έχει υπερβολικά πολλές καρτέλες."
+  },
+  "workspaceName": {
+    "message": "Χώρος εργασίας"
+  },
+  "workspaceN": {
+    "message": "Χώρος εργασίας $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Η λήψη διακόπηκε ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Η επέκταση δεν ανταποκρίνεται"
+  },
+  "generalSpace": {
+    "message": "Γενικά"
+  },
+  "spaces": {
+    "message": "Χώροι"
+  },
+  "setUp": {
+    "message": "Ρύθμιση"
+  },
+  "filesOffLead": {
+    "message": "Τα αρχεία είναι απενεργοποιημένα:"
+  },
+  "retryBtn": {
+    "message": "Δοκιμή ξανά"
+  },
+  "switchToMega": {
+    "message": "Μετάβαση στο $1"
+  },
+  "closeMegaAsk": {
+    "message": "Πατήστε ξανά για κλείσιμο αυτής της mega καρτέλας και των καρτελών της"
+  },
+  "closeMegaAskLabel": {
+    "message": "Κλείσιμο του $1 και των καρτελών του: πατήστε ξανά"
+  },
+  "closeMega": {
+    "message": "Κλείσιμο mega καρτέλας"
+  },
+  "closeMegaLabel": {
+    "message": "Κλείσιμο mega καρτέλας $1"
+  },
+  "closeQuestion": {
+    "message": "κλείσιμο;"
+  },
+  "spaceName": {
+    "message": "Όνομα χώρου"
+  },
+  "showSpace": {
+    "message": "Εμφάνιση $1 (διπλό κλικ για μετονομασία)"
+  },
+  "newSpaceName": {
+    "message": "Όνομα νέου χώρου"
+  },
+  "newSpaceItem": {
+    "message": "Νέος χώρος…"
+  },
+  "allSpaces": {
+    "message": "Όλοι οι χώροι"
+  },
+  "switchSpace": {
+    "message": "Αλλαγή χώρου"
+  },
+  "board": {
+    "message": "Πίνακας"
+  },
+  "boardOpen": {
+    "message": "Άνοιγμα του πίνακα: τα αρχεία .md του $1"
+  },
+  "settingsPage": {
+    "message": "Ρυθμίσεις"
+  },
+  "settingsOpen": {
+    "message": "Ρυθμίσεις: εμφάνιση στην άκρη, αντίγραφο ασφαλείας, εξαγωγή"
+  },
+  "newMegaName": {
+    "message": "Όνομα νέας mega καρτέλας"
+  },
+  "noMegas": {
+    "message": "Δεν υπάρχουν ακόμη mega καρτέλες."
+  },
+  "newMega": {
+    "message": "+ Νέα mega καρτέλα"
+  },
+  "noSpaces": {
+    "message": "Δεν υπάρχουν ακόμη χώροι."
+  },
+  "newSpace": {
+    "message": "+ Νέος χώρος"
+  },
+  "openWindows": {
+    "message": "Ανοιχτά παράθυρα"
+  },
+  "emptyWindow": {
+    "message": "Κενό παράθυρο"
+  },
+  "undoClose": {
+    "message": "Αναίρεση κλεισίματος"
+  },
+  "intro": {
+    "message": "Μια mega καρτέλα είναι ένα σύνολο καρτελών στο οποίο περνάτε με μία κίνηση. Πατήστε μία για να ξεκινήσετε."
+  },
+  "homeSetupTitle": {
+    "message": "Ενεργοποίηση αρχείων"
+  },
+  "homeSetupText": {
+    "message": "Οι χώροι κρατούν τις σημειώσεις τους ως απλά αρχεία στο $1. Το Chrome χρειάζεται έναν μικρό βοηθό για να τα διαβάζει και να τα γράφει. Στον φάκελο Mega Tabs εκτελέστε $2 και πατήστε Δοκιμή ξανά."
+  },
+  "retryChecking": {
+    "message": "Έλεγχος…"
+  },
+  "retryOn": {
+    "message": "Τα αρχεία είναι ενεργά."
+  },
+  "retryOff": {
+    "message": "Ακόμη ανενεργά. Εκτελέστε την εντολή και πατήστε ξανά Δοκιμή ξανά."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Άνοιγμα $1 (διπλό κλικ για μετονομασία, σύρετε εικόνα για εξώφυλλο)"
+  },
+  "tileTypeName": {
+    "message": "πληκτρολογήστε όνομα και πατήστε Enter"
+  },
+  "newSpaceAria": {
+    "message": "Νέος χώρος"
+  },
+  "tileNewTitle": {
+    "message": "Πληκτρολογήστε όνομα για να δημιουργήσετε νέο χώρο"
+  },
+  "tileNewHint": {
+    "message": "πληκτρολογήστε όνομα"
+  },
+  "coverType": {
+    "message": "Χρησιμοποιήστε εικόνα png, jpg ή webp."
+  },
+  "coverBig": {
+    "message": "Η εικόνα ξεπερνά τα 700 KB. Χρησιμοποιήστε μικρότερη."
+  },
+  "coverNotSaved": {
+    "message": "Τα αρχεία είναι απενεργοποιημένα: το εξώφυλλο δεν αποθηκεύτηκε."
+  },
+  "edgeHeading": {
+    "message": "Εμφάνιση στην άκρη"
+  },
+  "edgeToggle": {
+    "message": "Εμφάνιση μικρού εναλλάκτη όταν ο δείκτης μένει στην άκρη της οθόνης"
+  },
+  "edgeHelp": {
+    "message": "Κρατήστε τον δείκτη λίγο στην άκρη και οι mega καρτέλες σας εμφανίζονται πάνω από τη σελίδα. Το Chrome ζητά μία φορά άδεια για να τρέχει σε ιστοσελίδες. Ο εναλλάκτης δεν διαβάζει τίποτα από αυτές και δεν στέλνει τίποτα πουθενά. Δεν εμφανίζεται στη σελίδα νέας καρτέλας και στις σελίδες chrome://."
+  },
+  "side": {
+    "message": "Πλευρά"
+  },
+  "sideLeft": {
+    "message": "Αριστερά"
+  },
+  "sideRight": {
+    "message": "Δεξιά"
+  },
+  "edgeOnLeft": {
+    "message": "Ενεργό. Κρατήστε τον δείκτη στην αριστερή άκρη μιας ιστοσελίδας."
+  },
+  "edgeOnRight": {
+    "message": "Ενεργό. Κρατήστε τον δείκτη στη δεξιά άκρη μιας ιστοσελίδας."
+  },
+  "edgeDenied": {
+    "message": "Η εμφάνιση στην άκρη χρειάζεται αυτή την άδεια για να τρέχει σε ιστοσελίδες. Παραμένει ανενεργή."
+  },
+  "backupHeading": {
+    "message": "Αντίγραφο ασφαλείας"
+  },
+  "backupLabel": {
+    "message": "Αποθήκευση αρχείου αντιγράφου"
+  },
+  "backupNever": {
+    "message": "Ποτέ"
+  },
+  "backupDaily": {
+    "message": "Κάθε μέρα"
+  },
+  "backupWeekly": {
+    "message": "Κάθε εβδομάδα"
+  },
+  "backupLast": {
+    "message": "Τελευταία αποθήκευση: $1."
+  },
+  "backupSaving": {
+    "message": "Αποθήκευση…"
+  },
+  "dataHeading": {
+    "message": "Οι mega καρτέλες σας"
+  },
+  "dataHelp": {
+    "message": "Ένα αρχείο με όλους τους χώρους, τις mega καρτέλες και τις καρτέλες τους. Η εισαγωγή προσθέτει ό,τι λείπει και δεν κλείνει τίποτα."
+  },
+  "exportBtn": {
+    "message": "Εξαγωγή mega καρτελών"
+  },
+  "importBtn": {
+    "message": "Εισαγωγή mega καρτελών…"
+  },
+  "chooseFile": {
+    "message": "Επιλέξτε ένα αρχείο εξαγωγής"
+  },
+  "exportSaved": {
+    "message": "Αποθηκεύτηκαν $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Η εξαγωγή απέτυχε: $1"
+  },
+  "importAdded": {
+    "message": "Προστέθηκαν $1 και $2 από $3."
+  },
+  "importNothing": {
+    "message": "Δεν υπάρχει τίποτα να προστεθεί: όλα στο $1 υπάρχουν ήδη."
+  },
+  "importFail": {
+    "message": "Η εισαγωγή απέτυχε: $1"
+  },
+  "boardTitle": {
+    "message": "Πίνακας · $1"
+  },
+  "folderLabel": {
+    "message": "Φάκελος: $1"
+  },
+  "change": {
+    "message": "Αλλαγή"
+  },
+  "chooseFolder": {
+    "message": "Επιλογή φακέλου"
+  },
+  "allowFolder": {
+    "message": "Να επιτραπεί η πρόσβαση στο «$1»"
+  },
+  "hostMissing": {
+    "message": "Ο host του πίνακα δεν είναι εγκατεστημένος. Στον φάκελο Mega Tabs εκτελέστε $1 και μετά φορτώστε ξανά αυτή τη σελίδα."
+  },
+  "hostForbidden": {
+    "message": "Το Chrome δεν επιτρέπει σε αυτή την επέκταση να χρησιμοποιεί τον host του πίνακα. Εκτελέστε ξανά $1 και μετά φορτώστε ξανά αυτή τη σελίδα."
+  },
+  "hostStopped": {
+    "message": "Ο host του πίνακα σταμάτησε. Γίνεται νέα προσπάθεια."
+  },
+  "hostUnreachable": {
+    "message": "Ο πίνακας δεν φτάνει στον host του ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "δεν ανοίγει εδώ ($1)"
+  },
+  "howItWorks": {
+    "message": "Πώς λειτουργεί"
+  },
+  "rename": {
+    "message": "Μετονομασία"
+  },
+  "renameLabel": {
+    "message": "Μετονομασία $1"
+  },
+  "renameTitle": {
+    "message": "Μετονομασία (ή διπλό κλικ στο όνομα)"
+  },
+  "deleteLabel": {
+    "message": "Διαγραφή $1"
+  },
+  "deleteTitle": {
+    "message": "Διαγραφή (στον κάδο, με δυνατότητα αναίρεσης)"
+  },
+  "noMatches": {
+    "message": "Δεν βρέθηκε τίποτα."
+  },
+  "newNote": {
+    "message": "Νέα σημείωση"
+  },
+  "newCanvas": {
+    "message": "Νέος καμβάς"
+  },
+  "newNoteTitle": {
+    "message": "Ξεκινήστε νέα σημείωση σε αυτόν τον χώρο"
+  },
+  "newCanvasTitle": {
+    "message": "Ξεκινήστε νέο καμβά σε αυτόν τον χώρο"
+  },
+  "emptyNotesFolder": {
+    "message": "Δεν υπάρχουν ακόμη σημειώσεις σε αυτόν τον χώρο. Πατήστε Νέα σημείωση για να ξεκινήσετε."
+  },
+  "emptyNotesDir": {
+    "message": "Δεν υπάρχουν ακόμη αρχεία .md στο ~/Spaces/$1/. Πατήστε Νέα σημείωση για να ξεκινήσετε."
+  },
+  "noFolderNotes": {
+    "message": "Δεν υπάρχει ακόμη φάκελος για το «$1». Δημιουργήστε το ~/Spaces/$1/ και βάλτε μέσα αρχεία .md."
+  },
+  "emptyCanvasFolder": {
+    "message": "Δεν υπάρχουν ακόμη καμβάδες σε αυτόν τον χώρο. Πατήστε Νέος καμβάς για να ξεκινήσετε."
+  },
+  "emptyCanvasDir": {
+    "message": "Δεν υπάρχουν ακόμη αρχεία .canvas στο ~/Spaces/$1/. Πατήστε Νέος καμβάς για να ξεκινήσετε."
+  },
+  "noFolderCanvas": {
+    "message": "Δεν υπάρχει ακόμη φάκελος για το «$1». Δημιουργήστε το ~/Spaces/$1/ και βάλτε μέσα αρχεία .canvas."
+  },
+  "done": {
+    "message": "Τέλος"
+  },
+  "backToReading": {
+    "message": "Πίσω στην ανάγνωση (Esc)"
+  },
+  "typeInFile": {
+    "message": "Πληκτρολόγηση σε αυτό το αρχείο (E)"
+  },
+  "openCursor": {
+    "message": "Άνοιγμα στο Cursor"
+  },
+  "openCursorTitle": {
+    "message": "Άνοιγμα αυτού του αρχείου στο Cursor"
+  },
+  "typeHere": {
+    "message": "Γράψτε εδώ."
+  },
+  "textOf": {
+    "message": "Κείμενο του $1"
+  },
+  "statusUnsaved": {
+    "message": "Δεν αποθηκεύτηκε"
+  },
+  "statusSaving": {
+    "message": "Αποθήκευση"
+  },
+  "statusSaved": {
+    "message": "Αποθηκεύτηκε"
+  },
+  "mixedEol": {
+    "message": "Μικτά τέλη γραμμών: επεξεργαστείτε αυτό το αρχείο στο Cursor."
+  },
+  "notSavedWhy": {
+    "message": "Δεν αποθηκεύτηκε ($1)"
+  },
+  "hostNotConnected": {
+    "message": "ο host δεν είναι συνδεδεμένος"
+  },
+  "notSaved": {
+    "message": "Δεν αποθηκεύτηκε: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Δεν αποθηκεύτηκε: η σημείωση είναι μεγαλύτερη από τα $1 KB που χωρά ένα αρχείο. Κόψτε την ή χωρίστε την στα δύο."
+  },
+  "changedOnDisk": {
+    "message": "Άλλαξε στον δίσκο"
+  },
+  "conflictGone": {
+    "message": "Διαγράφηκε στον δίσκο:"
+  },
+  "conflictTooLarge": {
+    "message": "Άλλαξε στον δίσκο και τώρα είναι πολύ μεγάλο για να εμφανιστεί εδώ:"
+  },
+  "conflictNotText": {
+    "message": "Άλλαξε στον δίσκο και δεν είναι πια κείμενο:"
+  },
+  "conflictChanged": {
+    "message": "Άλλαξε στον δίσκο:"
+  },
+  "loadTheirs": {
+    "message": "Φόρτωση της δικής τους"
+  },
+  "keepMine": {
+    "message": "Κράτηση της δικής μου"
+  },
+  "dropIt": {
+    "message": "Απόρριψη"
+  },
+  "seeTheirs": {
+    "message": "Προβολή της δικής τους"
+  },
+  "removedFromFolder": {
+    "message": "Το $1 αφαιρέθηκε από τον φάκελο."
+  },
+  "cannotOpenNote": {
+    "message": "Αυτό το αρχείο δεν ανοίγει εδώ ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Αυτό το αρχείο δεν ανοίγει εδώ ($1). Το Cursor μπορεί."
+  },
+  "cannotOpenCanvas": {
+    "message": "Αυτός ο καμβάς δεν ανοίγει εδώ ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Αυτός ο καμβάς δεν ανοίγει εδώ ($1). Το Cursor μπορεί."
+  },
+  "waitingStorage": {
+    "message": "Αναμονή για την αποθήκευση του πίνακα."
+  },
+  "couldNotRead": {
+    "message": "Το $1 δεν διαβάστηκε ($2)."
+  },
+  "couldNotOpen": {
+    "message": "Το $1 δεν άνοιξε ($2)."
+  },
+  "noteName": {
+    "message": "Όνομα σημείωσης"
+  },
+  "canvasName": {
+    "message": "Όνομα καμβά"
+  },
+  "nameTaken": {
+    "message": "Αυτό το όνομα χρησιμοποιείται ήδη."
+  },
+  "nameBad": {
+    "message": "Αυτό το όνομα δεν μπορεί να χρησιμοποιηθεί."
+  },
+  "notCreated": {
+    "message": "Δεν δημιουργήθηκε ($1)."
+  },
+  "renameNewName": {
+    "message": "Νέο όνομα για το $1"
+  },
+  "resolveFirst": {
+    "message": "Λύστε πρώτα την αλλαγή στον δίσκο."
+  },
+  "notSavedYetRename": {
+    "message": "Δεν αποθηκεύτηκε ακόμη· δοκιμάστε ξανά σε λίγο."
+  },
+  "fileGone": {
+    "message": "Αυτό το αρχείο δεν υπάρχει πια."
+  },
+  "notRenamed": {
+    "message": "Δεν μετονομάστηκε ($1)."
+  },
+  "deletedToast": {
+    "message": "Το «$1» διαγράφηκε"
+  },
+  "resolveFirstDelete": {
+    "message": "Λύστε πρώτα την αλλαγή στον δίσκο και μετά διαγράψτε."
+  },
+  "notSavedYetDelete": {
+    "message": "Δεν αποθηκεύτηκε ακόμη, άρα δεν διαγράφηκε. Δοκιμάστε ξανά σε λίγο."
+  },
+  "notDeleted": {
+    "message": "Δεν διαγράφηκε: $1"
+  },
+  "notRestored": {
+    "message": "Δεν επαναφέρθηκε: $1"
+  },
+  "cvThreeFailed": {
+    "message": "Το 3D δεν μπόρεσε να ξεκινήσει εδώ ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "δεν φορτώθηκε"
+  },
+  "cvSelect": {
+    "message": "Επιλογή και μετακίνηση (V)"
+  },
+  "cvCard": {
+    "message": "Προσθήκη κάρτας κειμένου (T)"
+  },
+  "cvPen": {
+    "message": "Στυλό (P)"
+  },
+  "cvEraser": {
+    "message": "Γόμα (E)"
+  },
+  "cvTools": {
+    "message": "Εργαλεία καμβά"
+  },
+  "cvUndo": {
+    "message": "Αναίρεση (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Επανάληψη (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Επανάληψη"
+  },
+  "cvDelete": {
+    "message": "Διαγραφή επιλογής (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Διαγραφή επιλογής"
+  },
+  "cvView": {
+    "message": "Προβολή"
+  },
+  "cv2d": {
+    "message": "Ο καμβάς, επίπεδος"
+  },
+  "cv3d": {
+    "message": "Ο ίδιος καμβάς σε 3D (μόνο ανάγνωση)"
+  },
+  "cvDeleted": {
+    "message": "Διαγράφηκε στον δίσκο. Αυτός ο καμβάς δεν είναι πια στον φάκελο."
+  },
+  "cvEmptyCard": {
+    "message": "Κενή κάρτα"
+  },
+  "cvWriteHere": {
+    "message": "Γράψτε εδώ"
+  },
+  "cvCardText": {
+    "message": "Κείμενο κάρτας"
+  },
+  "cvOpenNotes": {
+    "message": "Άνοιγμα στις Σημειώσεις"
+  },
+  "cvOpenCanvas": {
+    "message": "Άνοιγμα αυτού του καμβά"
+  },
+  "cvModelGone": {
+    "message": "Αυτό το μοντέλο δεν είναι στον φάκελο."
+  },
+  "cvModelBig": {
+    "message": "Αυτό το μοντέλο είναι μεγαλύτερο από 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Αυτό το μοντέλο δεν μπορεί να εμφανιστεί ($1)."
+  },
+  "cvUnknownError": {
+    "message": "άγνωστο σφάλμα"
+  },
+  "cvLoadingModel": {
+    "message": "Φόρτωση μοντέλου"
+  },
+  "cvLink": {
+    "message": "Σύνδεσμος"
+  },
+  "cvGroup": {
+    "message": "Ομάδα"
+  },
+  "cvNodeNote": {
+    "message": "Σημείωση $1"
+  },
+  "cvNodeLink": {
+    "message": "Σύνδεσμος $1"
+  },
+  "cvNodeGroup": {
+    "message": "Ομάδα $1"
+  },
+  "cvNodeType": {
+    "message": "Κάρτα τύπου $1"
+  },
+  "sInvalid": {
+    "message": "Αυτό το αρχείο δεν είναι JSON Canvas ($1). Διορθώστε το στο Cursor· στο μεταξύ δεν αποθηκεύεται τίποτα εδώ."
+  },
+  "sInvalidNow": {
+    "message": "Άλλαξε στον δίσκο και τώρα δεν είναι JSON Canvas ($1). Τίποτα δεν θα αποθηκευτεί εδώ μέχρι να γίνει ξανά έγκυρο."
+  },
+  "sTooBig": {
+    "message": "Δεν αποθηκεύτηκε (αυτός ο καμβάς είναι $1· τα αρχεία χωρούν το πολύ $2. Διαγράψτε μερικές γραμμές ή κάρτες)"
+  },
+  "sBlockedBig": {
+    "message": "Δεν αποθηκεύτηκε (το αρχείο στον δίσκο άλλαξε και είναι πολύ μεγάλο: Κράτηση της δικής μου, ή αφήστε το)"
+  },
+  "sBlockedText": {
+    "message": "Δεν αποθηκεύτηκε (το αρχείο στον δίσκο άλλαξε και δεν είναι κείμενο: Κράτηση της δικής μου, ή αφήστε το)"
+  },
+  "sKeepsChanging": {
+    "message": "Δεν αποθηκεύτηκε (το αρχείο αλλάζει συνεχώς)"
+  },
+  "edgeOpenPanel": {
+    "message": "Άνοιγμα πάνελ"
+  },
+  "errNameEmpty": {
+    "message": "Πληκτρολογήστε όνομα."
+  },
+  "errNameLong": {
+    "message": "Αυτό το όνομα είναι πολύ μεγάλο."
+  },
+  "errHost": {
+    "message": "Ο host δεν απάντησε."
+  },
+  "backupKept": {
+    "message": "Αποθηκεύτηκε στο Downloads/$2. Αρχεία που αποθηκεύτηκαν: $1."
+  },
+  "filesLabel": {
+    "message": "Αρχεία"
+  },
+  "roomLabel": {
+    "message": "Δωμάτιο"
+  },
+  "roomNotes": {
+    "message": "Σημειώσεις"
+  },
+  "roomCanvas": {
+    "message": "Καμβάς"
+  },
+  "search": {
+    "message": "Αναζήτηση"
+  },
+  "searchLabel": {
+    "message": "Αναζήτηση σε αυτόν τον χώρο"
+  },
+  "noteLabel": {
+    "message": "Σημείωση"
+  },
+  "cvNotShown": {
+    "message": "$1 (δεν εμφανίζεται εδώ)"
+  },
+  "cvDrawFail": {
+    "message": "Αυτός ο καμβάς δεν μπόρεσε να σχεδιαστεί ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Τίποτα δεν άλλαξε στον δίσκο. Ανοίξτε το στο Cursor ή επιλέξτε άλλον καμβά."
+  },
+  "statusDeleted": {
+    "message": "Διαγράφηκε στον δίσκο"
+  },
+  "cv3dScene": {
+    "message": "Τρισδιάστατη προβολή αυτού του καμβά. Σύρετε για περιστροφή, κυλήστε για ζουμ, πατήστε μια κάρτα για να την ανοίξετε."
+  },
+  "cvModelScene": {
+    "message": "Μοντέλο 3D. Σύρετε για περιστροφή· λειτουργούν και τα βέλη."
+  },
+  "cvModelCompressed": {
+    "message": "χρησιμοποιεί συμπιεσμένη γεωμετρία ή υφές (Draco, KTX2 ή Meshopt) που αυτή η προβολή δεν διαβάζει"
+  },
+  "cvNoWebgl": {
+    "message": "Το WebGL δεν είναι διαθέσιμο σε αυτό το πρόγραμμα περιήγησης"
+  },
+  "megaTabs_one": {
+    "message": "$1 mega καρτέλα"
+  },
+  "megaTabs_other": {
+    "message": "$1 mega καρτέλες"
+  }
+}

@@ -1,0 +1,625 @@
+'use strict';
+// install.sh gegen nachgebildete KDE-Befehle: Jeder Aufruf landet mit seinen Argumenten in
+// einer Logdatei, so lassen sich Reihenfolge und Abbruch prüfen. --update holt dabei mit
+// echtem git aus einem Upstream-Repo im Temp-Ordner.
+
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
+const { spawnSync } = require('node:child_process');
+
+const ROOT = path.join(__dirname, '..');
+const INSTALL = path.join(ROOT, 'install.sh');
+const TOKEN = '0123456789abcdef01234567';
+// Die letzte Zeile einer Installation nennt die Version des KWin-Skripts (#117)
+const KWIN_VERSION = JSON.parse(fs.readFileSync(path.join(ROOT, 'kwin', 'metadata.json'), 'utf8')).KPlugin.Version;
+const DONE_DE = `Fertig, KWin-Skript ${KWIN_VERSION} installiert.\n`;
+const DONE_EN = `Done, KWin script ${KWIN_VERSION} installed.\n`;
+// Ohne Einstellungen des Nutzers, damit Signieren o. Ä. die Commits im Test nicht stört
+const GIT_ENV = {
+  GIT_CONFIG_NOSYSTEM: '1', GIT_CONFIG_GLOBAL: '/dev/null',
+  GIT_AUTHOR_NAME: 'Test', GIT_AUTHOR_EMAIL: 'test@example.invalid',
+  GIT_COMMITTER_NAME: 'Test', GIT_COMMITTER_EMAIL: 'test@example.invalid',
+};
+
+// Echte Programme, die install.sh außer den KDE-Befehlen aufruft
+const SYSTEM_TOOLS = ['dirname', 'sed', 'tr', 'rm', 'git'];
+function which(name) {
+  for (const dir of process.env.PATH.split(path.delimiter)) {
+    const file = path.join(dir, name);
+    try {
+      fs.accessSync(file, fs.constants.X_OK);
+      return file;
+    } catch {}
+  }
+  throw new Error(`${name} nicht gefunden`);
+}
+
+// installed: ob kpackagetool6 -s das Paket findet, updateError: Fehlermeldung, mit der -u trotzdem
+// scheitert, dbus: ob qdbus6 KWin erreicht,
+// token: was kreadconfig6 als eingetragenen Schlüssel liefert, setup(dir): vorbereiten,
+// gibt den Pfad des auszuführenden install.sh zurück, profiles: Pfad unter ~/.config → Inhalt
+// der Preferences-Datei dort, input: was auf die Frage nach dem Schlüssel eingetippt wird,
+// env: Sprachvariablen (ohne Angabe Deutsch), check(dir): nach dem Lauf, vor dem Aufräumen,
+// das Ergebnis steht in checked, qdbus: unter welchem Namen es qdbus gibt (null: gar nicht),
+// missing: Programme, die fehlen. Mit einem der beiden sieht install.sh nur die nachgebildeten
+// Befehle und die echten aus SYSTEM_TOOLS, damit echte KDE-Programme den Test nicht stören.
+function run(args, { installed = true, updateError = '', dbus = true, token = '', setup, check, profiles = {}, input = '', env: lang = { LANG: 'de_DE.UTF-8' }, qdbus = 'qdbus6', missing = [] } = {}) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'hws-install-'));
+  const home = path.join(dir, 'home');
+  for (const [p, content] of Object.entries(profiles)) {
+    const file = path.join(home, '.config', p, 'Preferences');
+    fs.mkdirSync(path.dirname(file), { recursive: true });
+    fs.writeFileSync(file, content);
+  }
+  const bin = path.join(dir, 'bin');
+  fs.mkdirSync(bin);
+  const log = path.join(dir, 'log');
+  const fake = (name, body) =>
+    missing.includes(name) ||
+    fs.writeFileSync(path.join(bin, name), `#!/bin/bash\necho "${name} $*" >> "${log}"\n${body}\n`, { mode: 0o755 });
+  if (qdbus) fake(qdbus, dbus ? 'echo true' : 'echo "Could not connect to D-Bus server" >&2; exit 1');
+  // Wie das echte kpackagetool6: -u scheitert, solange das Paket nicht installiert ist,
+  // mit updateError auch bei installiertem Paket, etwa wegen fehlender Rechte
+  const update = updateError ? `echo "${updateError}" >&2; exit 4` : `exit ${installed ? 0 : 1}`;
+  fake('kpackagetool6', `case "$2" in -s) exit ${installed ? 0 : 3} ;; -u) ${update} ;; esac; exit 0`);
+  fake('kwriteconfig6', 'exit 0');
+  fake('kreadconfig6', `[ "$6" = token ] && echo "${token}"; exit 0`);
+  // install.sh --uninstall wartet, bis KWin das neu geladene Skript ausgeführt hat
+  fake('sleep', 'exit 0');
+  try {
+    const script = setup ? setup(dir) : INSTALL;
+    const isolated = qdbus !== 'qdbus6' || missing.length > 0;
+    if (isolated) {
+      for (const tool of SYSTEM_TOOLS) if (!missing.includes(tool)) fs.symlinkSync(which(tool), path.join(bin, tool));
+    }
+    const env = { ...process.env, ...GIT_ENV, PATH: isolated ? bin : `${bin}:${process.env.PATH}`, HOME: home };
+    for (const k of ['XDG_CONFIG_HOME', 'LANG', 'LANGUAGE', 'LC_ALL', 'LC_MESSAGES']) delete env[k];
+    Object.assign(env, lang);
+    const r = spawnSync(which('bash'), [script, ...args], { encoding: 'utf8', input, env });
+    const calls = fs.existsSync(log) ? fs.readFileSync(log, 'utf8').trim().split('\n').filter(Boolean) : [];
+    const after = Object.fromEntries(
+      Object.keys(profiles).map((p) => [p, fs.readFileSync(path.join(home, '.config', p, 'Preferences'), 'utf8')]),
+    );
+    const checked = check?.(dir);
+    return { status: r.status, stdout: r.stdout, stderr: r.stderr, calls, dir, profiles: after, checked };
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+}
+
+const uninstall = (opts) => run(['--uninstall'], opts);
+
+function git(cwd, ...args) {
+  const r = spawnSync('git', args, { cwd, encoding: 'utf8', env: { ...process.env, ...GIT_ENV } });
+  assert.equal(r.status, 0, `git ${args.join(' ')}: ${r.stderr}`);
+  return r.stdout.trim();
+}
+
+// Upstream-Repo mit install.sh, kwin/ und dem Manifest, davon ein Klon als Installation.
+// Danach bekommt upstream einen neuen Stand: höhere Version in Manifest und KWin-Metadaten
+// und ein install.sh, das sich am Ende zu erkennen gibt. Liefert das install.sh des Klons.
+function repos(dir, { diverge = false } = {}) {
+  const up = path.join(dir, 'up');
+  fs.mkdirSync(path.join(up, 'extension'), { recursive: true });
+  fs.copyFileSync(INSTALL, path.join(up, 'install.sh'));
+  fs.cpSync(path.join(ROOT, 'kwin'), path.join(up, 'kwin'), { recursive: true });
+  const manifest = path.join(up, 'extension', 'manifest.json');
+  const metadata = path.join(up, 'kwin', 'metadata.json');
+  const setVersion = (v) => {
+    fs.writeFileSync(manifest, `{\n  "manifest_version": 3,\n  "version": "${v}"\n}\n`);
+    fs.writeFileSync(metadata, fs.readFileSync(metadata, 'utf8').replace(/"Version": "[^"]*"/, `"Version": "${v}"`));
+  };
+  setVersion('1.0.0');
+  git(up, 'init', '-q', '-b', 'main');
+  git(up, 'add', '-A');
+  git(up, 'commit', '-q', '-m', 'alt');
+  const local = path.join(dir, 'local');
+  git(dir, 'clone', '-q', up, local);
+  setVersion('1.1.0');
+  fs.appendFileSync(path.join(up, 'install.sh'), 'echo "Neue Fassung von install.sh"\n');
+  git(up, 'commit', '-q', '-am', 'neu');
+  if (diverge) {
+    fs.writeFileSync(path.join(local, 'eigenes'), 'x\n');
+    git(local, 'add', '-A');
+    git(local, 'commit', '-q', '-m', 'eigener Commit');
+  }
+  return path.join(local, 'install.sh');
+}
+
+test('--uninstall lädt das Skript ohne Schlüssel neu, damit es die Ablagen zurückholt, und entfernt es dann (#122)', () => {
+  const r = uninstall();
+  assert.equal(r.status, 0, r.stderr);
+  assert.deepEqual(r.calls, [
+    'qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.isScriptLoaded helium-workspaces',
+    'kpackagetool6 --type=KWin/Script -s helium-workspaces',
+    'kwriteconfig6 --file kwinrc --group Script-helium-workspaces --key token --delete',
+    // Die Fassung aus dem Repo, ältere holen ohne Schlüssel nichts zurück
+    `kpackagetool6 --type=KWin/Script -u ${ROOT}/kwin`,
+    // Auch wenn es in den Systemeinstellungen deaktiviert war
+    'kwriteconfig6 --file kwinrc --group Plugins --key helium-workspacesEnabled true',
+    'qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.unloadScript helium-workspaces',
+    'qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.start',
+    'sleep 1',
+    'qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.unloadScript helium-workspaces',
+    'kpackagetool6 --type=KWin/Script -r helium-workspaces',
+    'kwriteconfig6 --file kwinrc --group Plugins --key helium-workspacesEnabled --delete',
+    'kwriteconfig6 --file kwinrc --group Script-helium-workspaces --key browsers --delete',
+  ]);
+  assert.match(r.stdout, /KWin-Skript entfernt\./);
+});
+
+test('--uninstall läuft auch, wenn das Paket schon fehlt', () => {
+  const r = uninstall({ installed: false });
+  assert.equal(r.status, 0, r.stderr);
+  assert.ok(!r.calls.some((c) => / -[ru] /.test(c)), 'fasst ein fehlendes Paket an');
+  assert.ok(!r.calls.some((c) => c.endsWith('Scripting.start')), 'lädt ein fehlendes Skript');
+  assert.ok(r.calls.some((c) => c.includes('--key token --delete')));
+  assert.ok(r.calls.includes('qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.unloadScript helium-workspaces'));
+});
+
+test('--uninstall entfernt nichts, wenn KWin nicht erreichbar ist', () => {
+  const r = uninstall({ dbus: false });
+  assert.notEqual(r.status, 0);
+  assert.deepEqual(r.calls, ['qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.isScriptLoaded helium-workspaces']);
+});
+
+test('--update holt den neuen Stand und richtet ihn mit dem eingetragenen Schlüssel ein', () => {
+  let local;
+  const r = run(['--update'], {
+    token: TOKEN,
+    setup: (dir) => {
+      const script = repos(dir);
+      local = path.dirname(script);
+      return script;
+    },
+  });
+  assert.equal(r.status, 0, r.stderr);
+  // Die geholte Fassung von install.sh lief, nicht die alte
+  // Sie nennt die Version des geholten KWin-Skripts
+  assert.match(r.stdout, /Fertig, KWin-Skript 1\.1\.0 installiert\.\nNeue Fassung von install\.sh\n/);
+  assert.match(r.stdout, /chrome:\/\/extensions.*Neu laden.*Version 1\.1\.0\./);
+  assert.ok(r.calls.includes(`kpackagetool6 --type=KWin/Script -u ${local}/kwin`), r.calls.join('\n'));
+  assert.ok(r.calls.includes(`kwriteconfig6 --file kwinrc --group Script-helium-workspaces --key token ${TOKEN}`));
+  assert.ok(!r.calls.some((c) => c.includes('--key browsers')), 'fasst die Browserliste an');
+  assert.equal(r.calls.at(-1), 'qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.isScriptLoaded helium-workspaces');
+});
+
+test('--update ändert nichts, wenn git pull nicht vorspulen kann', () => {
+  const r = run(['--update'], { token: TOKEN, setup: (dir) => repos(dir, { diverge: true }) });
+  assert.notEqual(r.status, 0);
+  assert.ok(!r.calls.some((c) => !c.startsWith('kreadconfig6')), r.calls.join('\n'));
+  assert.doesNotMatch(r.stdout, /Neu laden/);
+});
+
+test('--update bricht ohne eingetragenen Schlüssel vor git pull ab', () => {
+  const r = run(['--update'], { setup: (dir) => repos(dir) });
+  assert.notEqual(r.status, 0);
+  assert.match(r.stderr, /Noch kein Schlüssel eingetragen/);
+  assert.deepEqual(r.calls, ['kreadconfig6 --file kwinrc --group Script-helium-workspaces --key token']);
+});
+
+test('--update nimmt keinen Schlüssel und keine Browserliste dazu', () => {
+  for (const args of [['--update', TOKEN], ['--update', '--browsers', 'helium'], ['--update', '--uninstall']]) {
+    const r = run(args, { token: TOKEN });
+    assert.notEqual(r.status, 0, args.join(' '));
+    assert.match(r.stderr, /--update nimmt keine weiteren Angaben/);
+    assert.deepEqual(r.calls, []);
+  }
+});
+
+test('Fehlt ein Programm, bricht install.sh ab, bevor etwas geändert ist (#123)', () => {
+  for (const [args, opts, listed] of [
+    [[TOKEN], { qdbus: null }, ['qdbus6 (qdbus-qt6, qdbus)']],
+    [[TOKEN], { missing: ['kwriteconfig6', 'kpackagetool6'] }, ['kpackagetool6', 'kwriteconfig6']],
+    [['--uninstall'], { qdbus: null, missing: ['kreadconfig6'] }, ['qdbus6 (qdbus-qt6, qdbus)', 'kreadconfig6']],
+    [['--update'], { token: TOKEN, missing: ['git'] }, ['git']],
+  ]) {
+    const r = run(args, opts);
+    assert.equal(r.status, 1, args.join(' '));
+    assert.equal(
+      r.stderr,
+      `Es fehlen Programme, die install.sh braucht:\n${listed.map((p) => `  ${p}\n`).join('')}Siehe Voraussetzungen in der README.\n`,
+    );
+    assert.deepEqual(r.calls, [], args.join(' '));
+  }
+});
+
+test('Ohne git läuft install.sh, solange es nicht mit --update aufgerufen wird', () => {
+  const r = run([TOKEN], { missing: ['git'] });
+  assert.equal(r.status, 0, r.stderr);
+  assert.equal(r.stdout, DONE_DE);
+});
+
+test('Ohne qdbus6 nimmt install.sh qdbus-qt6 bzw. qdbus (#123)', () => {
+  for (const qdbus of ['qdbus-qt6', 'qdbus']) {
+    const r = run([TOKEN], { qdbus });
+    assert.equal(r.status, 0, r.stderr);
+    assert.deepEqual(r.calls.filter((c) => c.startsWith('qdbus')), ENABLE_AND_RELOAD.slice(1).map((c) => c.replace('qdbus6', qdbus)));
+    assert.equal(r.stdout, DONE_DE);
+
+    const removed = uninstall({ qdbus });
+    assert.equal(removed.status, 0, removed.stderr);
+    assert.ok(removed.calls.length > 0 && !removed.calls.some((c) => c.startsWith('qdbus6')), removed.calls.join('\n'));
+  }
+});
+
+test('--help zeigt den Kopfkommentar und ändert nichts, auch ohne KDE-Programme (#123)', () => {
+  for (const flag of ['--help', '-h']) {
+    const r = run([TOKEN, flag], { qdbus: null, missing: ['kpackagetool6', 'kreadconfig6', 'kwriteconfig6', 'git'] });
+    assert.equal(r.status, 0, r.stderr);
+    assert.match(r.stdout, /^Installiert bzw\. aktualisiert das KWin-Skript/);
+    assert.match(r.stdout, /^Aufruf: \.\/install\.sh \[--browsers Liste\] \[Schlüssel\]\./m);
+    assert.match(r.stdout, /\.\/install\.sh --help zeigt diesen Text\.\n$/);
+    assert.doesNotMatch(r.stdout, /^#|set -euo/m);
+    assert.deepEqual(r.calls, []);
+  }
+});
+
+// So schreiben Helium und Chrome die Einstellung: der Wert unter session, die gleichnamige
+// Prüfsumme unter protection.macs. Ohne Wert gilt „Neuer Tab“. Mit extension steht die
+// Erweiterung unter extensions.settings, ohne kommt ihre ID nur als Wert vor, wie in
+// extensions.commands nach dem Entfernen.
+const EXT_ID = 'jchklfejnmfphkbcpnhdejmeoncejjbe';
+const prefs = (restore, { extension = true } = {}) =>
+  JSON.stringify({
+    extensions: extension
+      ? { settings: { [EXT_ID]: { location: 4 } } }
+      : { commands: { 'linux:Alt+W': { command_name: '_execute_action', extension: EXT_ID } } },
+    protection: { macs: { session: { restore_on_startup: '81940185F7F78D0317AB3741FA4A2839' } } },
+    session: restore === undefined ? {} : { restore_on_startup: restore },
+  });
+
+test('Installation weist auf Profile hin, die nicht dort weitermachen, wo man aufgehört hat', () => {
+  const profiles = {
+    'net.imput.helium/Default': prefs(1),
+    'net.imput.helium/Profile 1': prefs(5),
+    'net.imput.helium/System Profile': prefs(5),
+    'net.imput.helium/Guest Profile': prefs(5),
+    'google-chrome/Default': prefs(),
+    'chromium/Profile 2': prefs(4),
+    'BraveSoftware/Brave-Browser/Default': prefs(5),
+  };
+  const r = run([TOKEN], { profiles });
+  assert.equal(r.status, 0, r.stderr);
+  assert.match(r.stdout, /^\nAchtung: In diesen Profilen ist die Erweiterung installiert, sie starten aber nicht mit\n„Dort weitermachen, wo ich aufgehört habe“:\n/);
+  const listed = r.stdout.split('\n').filter((l) => l.startsWith('  '));
+  assert.deepEqual(listed, [
+    '  Helium: ~/.config/net.imput.helium/Profile 1',
+    '  Google Chrome: ~/.config/google-chrome/Default',
+    '  Chromium: ~/.config/chromium/Profile 2',
+  ]);
+  assert.ok(r.stdout.endsWith(`Option wählen.\n\n${DONE_DE}`), r.stdout);
+  // Nur ein Hinweis, die Einstellungen bleiben unverändert
+  assert.deepEqual(r.profiles, profiles);
+});
+
+test('Installation gibt keinen Hinweis, wenn alle Profile dort weitermachen', () => {
+  const r = run([TOKEN], { profiles: { 'net.imput.helium/Default': prefs(1), 'chromium/Profile 3': prefs(1) } });
+  assert.equal(r.status, 0, r.stderr);
+  assert.equal(r.stdout, DONE_DE);
+});
+
+test('Installation gibt keinen Hinweis für Profile ohne die Erweiterung', () => {
+  const r = run([TOKEN], {
+    profiles: { 'google-chrome/Default': prefs(5, { extension: false }), 'chromium/Default': prefs(undefined, { extension: false }) },
+  });
+  assert.equal(r.status, 0, r.stderr);
+  assert.equal(r.stdout, DONE_DE);
+});
+
+test('Installation findet die Erweiterung auch in Secure Preferences', () => {
+  const r = run([TOKEN], {
+    profiles: { 'google-chrome/Default': prefs(5, { extension: false }) },
+    setup: (dir) => {
+      fs.writeFileSync(
+        path.join(dir, 'home/.config/google-chrome/Default/Secure Preferences'),
+        JSON.stringify({ extensions: { settings: { [EXT_ID]: { location: 4 } } } }),
+      );
+      return INSTALL;
+    },
+  });
+  assert.equal(r.status, 0, r.stderr);
+  assert.deepEqual(r.stdout.split('\n').filter((l) => l.startsWith('  ')), ['  Google Chrome: ~/.config/google-chrome/Default']);
+});
+
+test('Installation gibt keinen Hinweis ohne Browserprofile', () => {
+  const r = run([TOKEN]);
+  assert.equal(r.status, 0, r.stderr);
+  assert.equal(r.stdout, DONE_DE);
+});
+
+// Was install.sh als Schlüssel in kwinrc schreibt
+const written = (r) => r.calls.find((c) => c.includes('--key token '))?.split(' ').pop();
+
+test('Der kopierte Befehl aus dem Popup trägt den Schlüssel ein (#111)', () => {
+  const r = run([TOKEN]);
+  assert.equal(r.status, 0, r.stderr);
+  assert.equal(written(r), TOKEN);
+  assert.equal(r.stdout, DONE_DE);
+});
+
+test('Der Befehl aus dem Popup an der Frage eingefügt ergibt nur den Schlüssel (#111)', () => {
+  const r = run([], { input: `./install.sh ${TOKEN}\n` });
+  assert.equal(r.status, 0, r.stderr);
+  assert.equal(written(r), TOKEN);
+});
+
+test('Ein ungültiger Schlüssel bricht ab, bevor etwas eingetragen ist', () => {
+  const r = run([], { input: './install.sh 0123\n' });
+  assert.notEqual(r.status, 0);
+  assert.match(r.stderr, /Ungültiger Schlüssel/);
+  assert.equal(written(r), undefined);
+});
+
+const READ_TOKEN = 'kreadconfig6 --file kwinrc --group Script-helium-workspaces --key token';
+// Ob das Paket schon installiert ist, entscheidet zwischen -u und -i (#163)
+const SHOW = 'kpackagetool6 --type=KWin/Script -s helium-workspaces';
+// Nach dem Eintragen: einschalten und das Skript neu laden
+const ENABLE_AND_RELOAD = [
+  'kwriteconfig6 --file kwinrc --group Plugins --key helium-workspacesEnabled true',
+  'qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.unloadScript helium-workspaces',
+  'qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.start',
+  'qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.isScriptLoaded helium-workspaces',
+];
+const writeToken = (token) => `kwriteconfig6 --file kwinrc --group Script-helium-workspaces --key token ${token}`;
+const writeBrowsers = (list) => `kwriteconfig6 --file kwinrc --group Script-helium-workspaces --key browsers ${list}`;
+
+// install.sh samt kwin/ und extension/token.js einer älteren Version in einem eigenen Ordner,
+// damit sich prüfen lässt, ob token.js verschwindet
+function copy(dir) {
+  const repo = path.join(dir, 'repo');
+  fs.mkdirSync(path.join(repo, 'extension'), { recursive: true });
+  fs.copyFileSync(INSTALL, path.join(repo, 'install.sh'));
+  fs.cpSync(path.join(ROOT, 'kwin'), path.join(repo, 'kwin'), { recursive: true });
+  fs.writeFileSync(path.join(repo, 'extension', 'token.js'), `const TOKEN = '${TOKEN}';\n`);
+  return path.join(repo, 'install.sh');
+}
+const tokenFile = (dir) => fs.existsSync(path.join(dir, 'repo', 'extension', 'token.js'));
+
+test('Erstinstallation: installiert das Paket, trägt den Schlüssel ein und lädt das Skript', () => {
+  const r = run([TOKEN], { installed: false, setup: copy, check: tokenFile });
+  assert.equal(r.status, 0, r.stderr);
+  const kwin = path.join(r.dir, 'repo', 'kwin');
+  assert.deepEqual(r.calls, [
+    READ_TOKEN,
+    SHOW,
+    `kpackagetool6 --type=KWin/Script -i ${kwin}`,
+    writeToken(TOKEN),
+    ...ENABLE_AND_RELOAD,
+  ]);
+  assert.equal(r.checked, false, 'extension/token.js liegt noch da');
+  assert.equal(r.stdout, DONE_DE);
+});
+
+test('Erneute Installation: Enter an der Frage behält den eingetragenen Schlüssel', () => {
+  const r = run([], { token: TOKEN, input: '\n' });
+  assert.equal(r.status, 0, r.stderr);
+  assert.deepEqual(r.calls, [
+    READ_TOKEN,
+    SHOW,
+    `kpackagetool6 --type=KWin/Script -u ${ROOT}/kwin`,
+    writeToken(TOKEN),
+    ...ENABLE_AND_RELOAD,
+  ]);
+});
+
+test('Scheitert das Aktualisieren, bricht install.sh mit der Meldung von kpackagetool6 ab, ohne zu installieren (#163)', () => {
+  const r = run([TOKEN], { updateError: 'Error: Permission denied' });
+  assert.notEqual(r.status, 0);
+  assert.match(r.stderr, /Error: Permission denied/);
+  assert.deepEqual(r.calls, [READ_TOKEN, SHOW, `kpackagetool6 --type=KWin/Script -u ${ROOT}/kwin`]);
+});
+
+// Ein zweiter Browser bzw. ein zweites Profil mit eigenem Schlüssel (#155)
+const OTHER = 'fedcba9876543210fedcba98';
+
+test('Ein neuer Schlüssel kommt zu den eingetragenen dazu, statt sie zu ersetzen (#155)', () => {
+  for (const [args, input] of [[[OTHER], ''], [[], `${OTHER}\n`], [[`./install.sh ${OTHER}`], '']]) {
+    const r = run(args, { token: TOKEN, input });
+    assert.equal(r.status, 0, r.stderr);
+    assert.equal(written(r), `${TOKEN},${OTHER}`, JSON.stringify(args));
+    assert.equal(r.stdout, `Eingetragene Schlüssel: ${TOKEN},${OTHER}\n${DONE_DE}`);
+  }
+});
+
+test('Ein schon eingetragener Schlüssel steht danach nicht doppelt in kwinrc (#155)', () => {
+  for (const token of [`${TOKEN},${OTHER}`, ` ${TOKEN}, ,${OTHER},${TOKEN} `]) {
+    const r = run([OTHER], { token });
+    assert.equal(r.status, 0, r.stderr);
+    assert.equal(written(r), `${TOKEN},${OTHER}`, token);
+  }
+});
+
+test('Enter an der Frage und --update behalten alle eingetragenen Schlüssel (#155)', () => {
+  const r = run([], { token: `${TOKEN},${OTHER}`, input: '\n' });
+  assert.equal(r.status, 0, r.stderr);
+  assert.equal(written(r), `${TOKEN},${OTHER}`);
+  const u = run(['--update'], { token: `${TOKEN},${OTHER}`, setup: (dir) => repos(dir) });
+  assert.equal(u.status, 0, u.stderr);
+  assert.ok(u.calls.includes(writeToken(`${TOKEN},${OTHER}`)), u.calls.join('\n'));
+});
+
+// Auch ein in den Systemeinstellungen deaktiviertes Skript, sonst lädt KWin es nicht neu
+const RELOAD = [
+  'kwriteconfig6 --file kwinrc --group Plugins --key helium-workspacesEnabled true',
+  'qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.unloadScript helium-workspaces',
+  'qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.start',
+];
+
+test('--remove trägt einen Schlüssel aus und lädt das Skript neu, die übrigen bleiben (#155)', () => {
+  for (const args of [['--remove', TOKEN], [TOKEN, '--remove'], ['--remove', `./install.sh ${TOKEN}`]]) {
+    const r = run(args, { token: `${TOKEN},${OTHER}` });
+    assert.equal(r.status, 0, r.stderr);
+    assert.deepEqual(r.calls, [
+      'qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.isScriptLoaded helium-workspaces',
+      READ_TOKEN,
+      writeToken(OTHER),
+      ...RELOAD,
+    ], args.join(' '));
+    assert.equal(r.stdout, `Schlüssel ausgetragen. Noch eingetragen: ${OTHER}\n`);
+  }
+});
+
+test('--remove mit dem letzten Schlüssel löscht den Eintrag, das Skript holt dann alle Ablagen zurück (#155)', () => {
+  const r = run(['--remove', TOKEN], { token: TOKEN });
+  assert.equal(r.status, 0, r.stderr);
+  assert.deepEqual(r.calls.slice(2), [
+    'kwriteconfig6 --file kwinrc --group Script-helium-workspaces --key token --delete',
+    ...RELOAD,
+  ]);
+  assert.match(r.stdout, /keiner mehr eingetragen/);
+});
+
+test('--remove ändert nichts bei einem fremden oder ungültigen Schlüssel, ohne KWin oder mit weiteren Angaben (#155)', () => {
+  for (const [args, opts, message] of [
+    [['--remove', OTHER], { token: TOKEN }, /Der Schlüssel fedcba9876543210fedcba98 ist nicht eingetragen\./],
+    [['--remove', '0123'], { token: TOKEN }, /Ungültiger Schlüssel/],
+    [['--remove'], { token: TOKEN }, /Ungültiger Schlüssel/],
+    [['--remove', TOKEN], { token: TOKEN, dbus: false }, /D-Bus/],
+    [['--remove', TOKEN, '--browsers', 'helium'], { token: TOKEN }, /--remove nimmt nur den Schlüssel/],
+    [['--remove', TOKEN, '--uninstall'], { token: TOKEN }, /--remove nimmt nur den Schlüssel/],
+    [['--remove', '--update'], { token: TOKEN }, /--update nimmt keine weiteren Angaben/],
+  ]) {
+    const r = run(args, opts);
+    assert.notEqual(r.status, 0, args.join(' '));
+    assert.match(r.stderr, message, args.join(' '));
+    assert.ok(!r.calls.some((c) => c.startsWith('kwriteconfig6') || c.endsWith('Scripting.start')), r.calls.join('\n'));
+  }
+});
+
+test('Enter ohne eingetragenen Schlüssel bricht ab, bevor etwas installiert ist', () => {
+  const r = run([], { input: '\n', setup: copy, check: tokenFile });
+  assert.notEqual(r.status, 0);
+  assert.match(r.stderr, /Ungültiger Schlüssel/);
+  assert.deepEqual(r.calls, [READ_TOKEN]);
+  assert.equal(r.checked, true, 'extension/token.js schon entfernt');
+});
+
+test('Ein ungültiger Schlüssel als Argument ändert nichts, auch nicht token.js', () => {
+  const r = run(['0123456789ABCDEF01234567'], { token: TOKEN, setup: copy, check: tokenFile });
+  assert.notEqual(r.status, 0);
+  assert.match(r.stderr, /Ungültiger Schlüssel/);
+  assert.deepEqual(r.calls, [READ_TOKEN]);
+  assert.equal(r.checked, true, 'extension/token.js schon entfernt');
+});
+
+test('--browsers trägt die Liste nach dem Schlüssel ein, ohne Leerzeichen und kleingeschrieben', () => {
+  for (const args of [['--browsers', 'Helium, Brave-Browser', TOKEN], [TOKEN, '--browsers=Helium, Brave-Browser']]) {
+    const r = run(args);
+    assert.equal(r.status, 0, r.stderr);
+    assert.deepEqual(r.calls, [
+      READ_TOKEN,
+      SHOW,
+      `kpackagetool6 --type=KWin/Script -u ${ROOT}/kwin`,
+      writeToken(TOKEN),
+      writeBrowsers('helium,brave-browser'),
+      ...ENABLE_AND_RELOAD,
+    ], args.join(' '));
+  }
+});
+
+test('Ohne --browsers bleibt die eingetragene Browserliste unberührt', () => {
+  const r = run([TOKEN], { token: TOKEN });
+  assert.equal(r.status, 0, r.stderr);
+  assert.ok(!r.calls.some((c) => c.includes('--key browsers')), r.calls.join('\n'));
+});
+
+test("--browsers '' stellt die Standardliste wieder her", () => {
+  for (const args of [['--browsers', '', TOKEN], ['--browsers=', TOKEN], ['--browsers', ' ', TOKEN]]) {
+    const r = run(args);
+    assert.equal(r.status, 0, r.stderr);
+    assert.deepEqual(r.calls, [
+      READ_TOKEN,
+      SHOW,
+      `kpackagetool6 --type=KWin/Script -u ${ROOT}/kwin`,
+      writeToken(TOKEN),
+      writeBrowsers('--delete'),
+      ...ENABLE_AND_RELOAD,
+    ], JSON.stringify(args));
+  }
+});
+
+test('Eine ungültige Browserliste bricht ab, bevor etwas gelesen oder eingetragen ist', () => {
+  for (const args of [['--browsers', 'helium;rm', TOKEN], ['--browsers', 'helium,,brave', TOKEN], ['--browsers']]) {
+    const r = run(args);
+    assert.notEqual(r.status, 0, args.join(' '));
+    assert.match(r.stderr, /Browserliste|--browsers braucht eine Liste/);
+    assert.deepEqual(r.calls, [], args.join(' '));
+  }
+});
+
+// Meldungen je nach Sprache der Sitzung, im Zweifel Englisch
+for (const [env, lang] of [
+  [{ LANG: 'de_DE.UTF-8' }, 'de'],
+  [{ LANG: 'en_US.UTF-8' }, 'en'],
+  [{}, 'en'],
+  [{ LANG: 'C.UTF-8' }, 'en'],
+  [{ LANG: 'fr_FR.UTF-8' }, 'en'],
+  [{ LANG: 'en_US.UTF-8', LC_MESSAGES: 'de_AT.UTF-8' }, 'de'],
+  [{ LANG: 'de_DE.UTF-8', LC_ALL: 'C' }, 'en'],
+  [{ LANG: 'en_US.UTF-8', LANGUAGE: 'de:en' }, 'de'],
+  [{ LANG: 'de_DE.UTF-8', LANGUAGE: 'en_GB' }, 'en'],
+  [{ LC_ALL: 'C', LANGUAGE: 'de' }, 'en'],
+  [{ LANG: 'de_DE.UTF-8', LANGUAGE: 'fr:de:en' }, 'de'],
+  [{ LANG: 'de_DE.UTF-8', LANGUAGE: 'fr:en:de' }, 'en'],
+  [{ LANG: 'de_DE.UTF-8', LANGUAGE: 'fr' }, 'de'],
+  [{ LANG: 'de_DE.UTF-8', LANGUAGE: 'C:de' }, 'en'],
+  [{ LANG: 'de_DE.UTF-8', LANGUAGE: 'POSIX' }, 'en'],
+]) {
+  const de = lang === 'de';
+  test(`Meldungen auf ${de ? 'Deutsch' : 'Englisch'} bei ${JSON.stringify(env)}`, () => {
+    const removed = run(['--uninstall'], { env });
+    assert.equal(removed.status, 0, removed.stderr);
+    assert.equal(removed.stdout, de ? 'KWin-Skript entfernt.\n' : 'KWin script removed.\n');
+
+    const installed = run([TOKEN], { env });
+    assert.equal(installed.status, 0, installed.stderr);
+    assert.equal(installed.stdout, de ? DONE_DE : DONE_EN);
+
+    const badKey = run(['abc'], { env });
+    assert.notEqual(badKey.status, 0);
+    assert.match(badKey.stderr, de ? /^Ungültiger Schlüssel\./ : /^Invalid key\./);
+
+    const option = run(['--foo'], { env });
+    assert.match(option.stderr, de ? /^Unbekannte Option: --foo$/m : /^Unknown option: --foo$/m);
+
+    const noKey = run(['--update'], { env });
+    assert.match(noKey.stderr, de ? /^Noch kein Schlüssel eingetragen\./ : /^No key set up yet\./);
+
+    const second = run([OTHER], { env, token: TOKEN });
+    assert.equal(second.stdout, `${de ? 'Eingetragene Schlüssel' : 'Keys set up'}: ${TOKEN},${OTHER}\n${de ? DONE_DE : DONE_EN}`);
+
+    const kept = run(['--remove', TOKEN], { env, token: `${TOKEN},${OTHER}` });
+    assert.equal(kept.stdout, de ? `Schlüssel ausgetragen. Noch eingetragen: ${OTHER}\n` : `Key removed. Still set up: ${OTHER}\n`);
+    const last = run(['--remove', TOKEN], { env, token: TOKEN });
+    assert.match(last.stdout, de ? /^Schlüssel ausgetragen\. Es ist keiner mehr eingetragen/ : /^Key removed\. No key is set up anymore/);
+    const unknown = run(['--remove', OTHER], { env, token: TOKEN });
+    assert.match(unknown.stderr, de ? /^Der Schlüssel \w+ ist nicht eingetragen\./ : /^The key \w+ is not set up\./);
+    const combined = run(['--remove', TOKEN, '--uninstall'], { env });
+    assert.match(combined.stderr, de ? /^--remove nimmt nur den Schlüssel/ : /^--remove only takes the key/);
+  });
+}
+
+test('--update meldet sich auf Englisch, auch in der geholten Fassung von install.sh', () => {
+  const r = run(['--update'], { token: TOKEN, env: { LANG: 'en_US.UTF-8' }, setup: (dir) => repos(dir) });
+  assert.equal(r.status, 0, r.stderr);
+  assert.match(r.stdout, /Done, KWin script 1\.1\.0 installed\.\n/);
+  assert.match(r.stdout, /Now click Reload on "Workspaces" in chrome:\/\/extensions\. The popup then shows version 1\.1\.0 in the bottom right\./);
+});
+
+test('Hinweis auf Profile auf Englisch', () => {
+  const r = run([TOKEN], { env: { LANG: 'en_US.UTF-8' }, profiles: { 'chromium/Default': prefs(5) } });
+  assert.equal(r.status, 0, r.stderr);
+  assert.equal(
+    r.stdout,
+    '\nWarning: these profiles have the extension installed but do not start with\n' +
+      '"Continue where you left off":\n' +
+      '  Chromium: ~/.config/chromium/Default\n' +
+      'After a browser restart, the tabs of the stashes reload there and lose their history.\n' +
+      'Fix: choose that option in the browser under Settings → On startup.\n\n' +
+      DONE_EN,
+  );
+});

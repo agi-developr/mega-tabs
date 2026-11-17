@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "vi"
+  },
+  "extName": {
+    "message": "Mega Tabs: không gian, ghi chú và canvas"
+  },
+  "extDescription": {
+    "message": "Đổi bộ thẻ theo dự án mà không tải lại. Ghi chú và canvas bên cạnh, AI của bạn cũng sửa được. Riêng tư, miễn phí."
+  },
+  "cmdOpen": {
+    "message": "Mở danh sách không gian làm việc"
+  },
+  "cmdTogglePanel": {
+    "message": "Mở hoặc đóng bảng Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Không gian làm việc tiếp theo"
+  },
+  "cmdPrev": {
+    "message": "Không gian làm việc trước"
+  },
+  "cmdLast": {
+    "message": "Không gian làm việc dùng gần nhất"
+  },
+  "cmdSwitch": {
+    "message": "Chuyển sang không gian làm việc"
+  },
+  "tabs_one": {
+    "message": "$1 thẻ"
+  },
+  "tabs_other": {
+    "message": "$1 thẻ"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 thẻ chưa được khôi phục"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 thẻ chưa được khôi phục"
+  },
+  "edit": {
+    "message": "Sửa"
+  },
+  "name": {
+    "message": "Tên"
+  },
+  "delete": {
+    "message": "Xóa"
+  },
+  "undo": {
+    "message": "Hoàn tác"
+  },
+  "stashHeading": {
+    "message": "Kho không gian làm việc"
+  },
+  "stashText": {
+    "message": "Cửa sổ ẩn này thuộc tiện ích Mega Tabs. Nó giữ các thẻ của một không gian làm việc đang không hiển thị. Đừng đóng nó; hãy dùng bảng để chuyển."
+  },
+  "defaultWorkspace": {
+    "message": "Mặc định"
+  },
+  "recoveredWorkspace": {
+    "message": "Đã khôi phục"
+  },
+  "iconTitle": {
+    "message": "Không gian làm việc: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Không gian làm việc: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Bộ nhớ của tiện ích gần đầy, sắp không lưu được thẻ nữa"
+  },
+  "menuLink": {
+    "message": "Mở liên kết trong không gian làm việc"
+  },
+  "menuMove": {
+    "message": "Chuyển thẻ sang không gian làm việc"
+  },
+  "menuMoveMarked": {
+    "message": "Chuyển $1 thẻ đã chọn sang không gian làm việc"
+  },
+  "menuGroup": {
+    "message": "Chuyển nhóm sang không gian làm việc"
+  },
+  "exNotJson": {
+    "message": "Tệp không phải JSON hợp lệ."
+  },
+  "exNotExport": {
+    "message": "Đây không phải tệp xuất của Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "Tệp không có không gian làm việc nào."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Tệp có quá nhiều không gian làm việc."
+  },
+  "exTooManyTabs": {
+    "message": "Tệp có quá nhiều thẻ."
+  },
+  "workspaceName": {
+    "message": "Không gian làm việc"
+  },
+  "workspaceN": {
+    "message": "Không gian làm việc $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Tải xuống bị gián đoạn ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Tiện ích không phản hồi"
+  },
+  "generalSpace": {
+    "message": "Chung"
+  },
+  "spaces": {
+    "message": "Không gian"
+  },
+  "setUp": {
+    "message": "Thiết lập"
+  },
+  "filesOffLead": {
+    "message": "Tệp đang tắt:"
+  },
+  "retryBtn": {
+    "message": "Thử lại"
+  },
+  "switchToMega": {
+    "message": "Chuyển sang $1"
+  },
+  "closeMegaAsk": {
+    "message": "Bấm lần nữa để đóng mega tab này và các thẻ của nó"
+  },
+  "closeMegaAskLabel": {
+    "message": "Đóng $1 và các thẻ của nó: bấm lần nữa"
+  },
+  "closeMega": {
+    "message": "Đóng mega tab"
+  },
+  "closeMegaLabel": {
+    "message": "Đóng mega tab $1"
+  },
+  "closeQuestion": {
+    "message": "đóng?"
+  },
+  "spaceName": {
+    "message": "Tên không gian"
+  },
+  "showSpace": {
+    "message": "Hiện $1 (bấm đúp để đổi tên)"
+  },
+  "newSpaceName": {
+    "message": "Tên không gian mới"
+  },
+  "newSpaceItem": {
+    "message": "Không gian mới…"
+  },
+  "allSpaces": {
+    "message": "Tất cả không gian"
+  },
+  "switchSpace": {
+    "message": "Đổi không gian"
+  },
+  "board": {
+    "message": "Bảng"
+  },
+  "boardOpen": {
+    "message": "Mở bảng: các tệp .md của $1"
+  },
+  "settingsPage": {
+    "message": "Cài đặt"
+  },
+  "settingsOpen": {
+    "message": "Cài đặt: hiện ở mép, sao lưu, xuất"
+  },
+  "newMegaName": {
+    "message": "Tên mega tab mới"
+  },
+  "noMegas": {
+    "message": "Chưa có mega tab."
+  },
+  "newMega": {
+    "message": "+ Mega tab mới"
+  },
+  "noSpaces": {
+    "message": "Chưa có không gian."
+  },
+  "newSpace": {
+    "message": "+ Không gian mới"
+  },
+  "openWindows": {
+    "message": "Cửa sổ đang mở"
+  },
+  "emptyWindow": {
+    "message": "Cửa sổ trống"
+  },
+  "undoClose": {
+    "message": "Hoàn tác đóng"
+  },
+  "intro": {
+    "message": "Mega tab là một bộ thẻ bạn chuyển sang cùng lúc. Bấm một cái để bắt đầu."
+  },
+  "homeSetupTitle": {
+    "message": "Bật tệp"
+  },
+  "homeSetupText": {
+    "message": "Các không gian lưu ghi chú dưới dạng tệp thường trong $1. Chrome cần một trình hỗ trợ nhỏ để đọc và ghi chúng. Trong thư mục Mega Tabs, chạy $2 rồi bấm Thử lại."
+  },
+  "retryChecking": {
+    "message": "Đang kiểm tra…"
+  },
+  "retryOn": {
+    "message": "Tệp đang bật."
+  },
+  "retryOff": {
+    "message": "Vẫn tắt. Chạy lệnh rồi bấm Thử lại lần nữa."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Mở $1 (bấm đúp để đổi tên, thả ảnh để làm ảnh bìa)"
+  },
+  "tileTypeName": {
+    "message": "nhập tên, nhấn Enter"
+  },
+  "newSpaceAria": {
+    "message": "Không gian mới"
+  },
+  "tileNewTitle": {
+    "message": "Nhập tên để tạo không gian mới"
+  },
+  "tileNewHint": {
+    "message": "nhập tên"
+  },
+  "coverType": {
+    "message": "Dùng ảnh png, jpg hoặc webp."
+  },
+  "coverBig": {
+    "message": "Ảnh này lớn hơn 700 KB. Hãy dùng ảnh nhỏ hơn."
+  },
+  "coverNotSaved": {
+    "message": "Tệp đang tắt: ảnh bìa chưa được lưu."
+  },
+  "edgeHeading": {
+    "message": "Hiện ở mép"
+  },
+  "edgeToggle": {
+    "message": "Hiện bộ chuyển nhỏ khi con trỏ dừng ở mép màn hình"
+  },
+  "edgeHelp": {
+    "message": "Giữ yên con trỏ ở mép một lúc và các mega tab hiện lên trên trang. Chrome hỏi quyền chạy trên trang web một lần. Bộ chuyển không đọc gì từ trang và không gửi gì đi đâu. Nó không hiện ở trang thẻ mới hay trang chrome://."
+  },
+  "side": {
+    "message": "Bên"
+  },
+  "sideLeft": {
+    "message": "Trái"
+  },
+  "sideRight": {
+    "message": "Phải"
+  },
+  "edgeOnLeft": {
+    "message": "Đang bật. Đặt con trỏ ở mép trái của trang web."
+  },
+  "edgeOnRight": {
+    "message": "Đang bật. Đặt con trỏ ở mép phải của trang web."
+  },
+  "edgeDenied": {
+    "message": "Hiện ở mép cần quyền đó để chạy trên trang web. Nó vẫn tắt."
+  },
+  "backupHeading": {
+    "message": "Sao lưu"
+  },
+  "backupLabel": {
+    "message": "Lưu tệp sao lưu"
+  },
+  "backupNever": {
+    "message": "Không bao giờ"
+  },
+  "backupDaily": {
+    "message": "Mỗi ngày"
+  },
+  "backupWeekly": {
+    "message": "Mỗi tuần"
+  },
+  "backupLast": {
+    "message": "Lần lưu gần nhất: $1."
+  },
+  "backupSaving": {
+    "message": "Đang lưu…"
+  },
+  "dataHeading": {
+    "message": "Mega tab của bạn"
+  },
+  "dataHelp": {
+    "message": "Một tệp chứa mọi không gian, mega tab và thẻ của chúng. Nhập sẽ thêm phần còn thiếu và không đóng gì cả."
+  },
+  "exportBtn": {
+    "message": "Xuất mega tab"
+  },
+  "importBtn": {
+    "message": "Nhập mega tab…"
+  },
+  "chooseFile": {
+    "message": "Chọn tệp đã xuất"
+  },
+  "exportSaved": {
+    "message": "Đã lưu $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Không xuất được: $1"
+  },
+  "importAdded": {
+    "message": "Đã thêm $1 và $2 từ $3."
+  },
+  "importNothing": {
+    "message": "Không có gì để thêm: mọi thứ trong $1 đã có ở đây."
+  },
+  "importFail": {
+    "message": "Không nhập được: $1"
+  },
+  "boardTitle": {
+    "message": "Bảng · $1"
+  },
+  "folderLabel": {
+    "message": "Thư mục: $1"
+  },
+  "change": {
+    "message": "Đổi"
+  },
+  "chooseFolder": {
+    "message": "Chọn thư mục"
+  },
+  "allowFolder": {
+    "message": "Cho phép truy cập \"$1\""
+  },
+  "hostMissing": {
+    "message": "Máy chủ của bảng chưa được cài. Trong thư mục Mega Tabs, chạy $1 rồi tải lại trang này."
+  },
+  "hostForbidden": {
+    "message": "Chrome không cho tiện ích này dùng máy chủ của bảng. Chạy lại $1 rồi tải lại trang này."
+  },
+  "hostStopped": {
+    "message": "Máy chủ của bảng đã dừng. Đang thử lại."
+  },
+  "hostUnreachable": {
+    "message": "Bảng không kết nối được với máy chủ ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "không mở được ở đây ($1)"
+  },
+  "howItWorks": {
+    "message": "Cách hoạt động"
+  },
+  "rename": {
+    "message": "Đổi tên"
+  },
+  "renameLabel": {
+    "message": "Đổi tên $1"
+  },
+  "renameTitle": {
+    "message": "Đổi tên (hoặc bấm đúp vào tên)"
+  },
+  "deleteLabel": {
+    "message": "Xóa $1"
+  },
+  "deleteTitle": {
+    "message": "Xóa (vào thùng rác, có thể hoàn tác)"
+  },
+  "noMatches": {
+    "message": "Không có kết quả."
+  },
+  "newNote": {
+    "message": "Ghi chú mới"
+  },
+  "newCanvas": {
+    "message": "Canvas mới"
+  },
+  "newNoteTitle": {
+    "message": "Bắt đầu ghi chú mới trong không gian này"
+  },
+  "newCanvasTitle": {
+    "message": "Bắt đầu canvas mới trong không gian này"
+  },
+  "emptyNotesFolder": {
+    "message": "Chưa có ghi chú nào trong không gian này. Bấm Ghi chú mới để bắt đầu."
+  },
+  "emptyNotesDir": {
+    "message": "Chưa có tệp .md nào trong ~/Spaces/$1/. Bấm Ghi chú mới để bắt đầu."
+  },
+  "noFolderNotes": {
+    "message": "Chưa có thư mục cho \"$1\". Hãy tạo ~/Spaces/$1/ và đặt tệp .md vào đó."
+  },
+  "emptyCanvasFolder": {
+    "message": "Chưa có canvas nào trong không gian này. Bấm Canvas mới để bắt đầu."
+  },
+  "emptyCanvasDir": {
+    "message": "Chưa có tệp .canvas nào trong ~/Spaces/$1/. Bấm Canvas mới để bắt đầu."
+  },
+  "noFolderCanvas": {
+    "message": "Chưa có thư mục cho \"$1\". Hãy tạo ~/Spaces/$1/ và đặt tệp .canvas vào đó."
+  },
+  "done": {
+    "message": "Xong"
+  },
+  "backToReading": {
+    "message": "Quay lại đọc (Esc)"
+  },
+  "typeInFile": {
+    "message": "Gõ trong tệp này (E)"
+  },
+  "openCursor": {
+    "message": "Mở trong Cursor"
+  },
+  "openCursorTitle": {
+    "message": "Mở tệp này trong Cursor"
+  },
+  "typeHere": {
+    "message": "Gõ ở đây."
+  },
+  "textOf": {
+    "message": "Nội dung của $1"
+  },
+  "statusUnsaved": {
+    "message": "Chưa lưu"
+  },
+  "statusSaving": {
+    "message": "Đang lưu"
+  },
+  "statusSaved": {
+    "message": "Đã lưu"
+  },
+  "mixedEol": {
+    "message": "Kết thúc dòng lẫn lộn: hãy sửa tệp này trong Cursor."
+  },
+  "notSavedWhy": {
+    "message": "Chưa lưu ($1)"
+  },
+  "hostNotConnected": {
+    "message": "máy chủ chưa kết nối"
+  },
+  "notSaved": {
+    "message": "Chưa lưu: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Chưa lưu: ghi chú này vượt quá $1 KB mà tệp chứa được. Hãy rút gọn hoặc chia làm hai."
+  },
+  "changedOnDisk": {
+    "message": "Đã đổi trên đĩa"
+  },
+  "conflictGone": {
+    "message": "Đã bị xóa trên đĩa:"
+  },
+  "conflictTooLarge": {
+    "message": "Đã đổi trên đĩa và giờ quá lớn để hiện ở đây:"
+  },
+  "conflictNotText": {
+    "message": "Đã đổi trên đĩa và không còn là văn bản:"
+  },
+  "conflictChanged": {
+    "message": "Đã đổi trên đĩa:"
+  },
+  "loadTheirs": {
+    "message": "Tải bản của họ"
+  },
+  "keepMine": {
+    "message": "Giữ bản của tôi"
+  },
+  "dropIt": {
+    "message": "Bỏ đi"
+  },
+  "seeTheirs": {
+    "message": "Xem bản của họ"
+  },
+  "removedFromFolder": {
+    "message": "$1 đã bị gỡ khỏi thư mục."
+  },
+  "cannotOpenNote": {
+    "message": "Không mở được tệp này ở đây ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Không mở được tệp này ở đây ($1). Cursor thì mở được."
+  },
+  "cannotOpenCanvas": {
+    "message": "Không mở được canvas này ở đây ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Không mở được canvas này ở đây ($1). Cursor thì mở được."
+  },
+  "waitingStorage": {
+    "message": "Đang chờ bộ lưu trữ của bảng."
+  },
+  "couldNotRead": {
+    "message": "Không đọc được $1 ($2)."
+  },
+  "couldNotOpen": {
+    "message": "Không mở được $1 ($2)."
+  },
+  "noteName": {
+    "message": "Tên ghi chú"
+  },
+  "canvasName": {
+    "message": "Tên canvas"
+  },
+  "nameTaken": {
+    "message": "Tên đó đã có."
+  },
+  "nameBad": {
+    "message": "Không dùng được tên đó."
+  },
+  "notCreated": {
+    "message": "Chưa tạo ($1)."
+  },
+  "renameNewName": {
+    "message": "Tên mới cho $1"
+  },
+  "resolveFirst": {
+    "message": "Hãy xử lý thay đổi trên đĩa trước."
+  },
+  "notSavedYetRename": {
+    "message": "Chưa lưu; hãy thử lại sau giây lát."
+  },
+  "fileGone": {
+    "message": "Tệp đó không còn nữa."
+  },
+  "notRenamed": {
+    "message": "Chưa đổi tên ($1)."
+  },
+  "deletedToast": {
+    "message": "Đã xóa \"$1\""
+  },
+  "resolveFirstDelete": {
+    "message": "Hãy xử lý thay đổi trên đĩa trước rồi mới xóa."
+  },
+  "notSavedYetDelete": {
+    "message": "Chưa lưu nên chưa xóa. Hãy thử lại sau giây lát."
+  },
+  "notDeleted": {
+    "message": "Chưa xóa: $1"
+  },
+  "notRestored": {
+    "message": "Chưa khôi phục: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D không khởi động được ở đây ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "không tải được"
+  },
+  "cvSelect": {
+    "message": "Chọn và di chuyển (V)"
+  },
+  "cvCard": {
+    "message": "Thêm thẻ văn bản (T)"
+  },
+  "cvPen": {
+    "message": "Bút (P)"
+  },
+  "cvEraser": {
+    "message": "Tẩy (E)"
+  },
+  "cvTools": {
+    "message": "Công cụ canvas"
+  },
+  "cvUndo": {
+    "message": "Hoàn tác (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Làm lại (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Làm lại"
+  },
+  "cvDelete": {
+    "message": "Xóa phần đã chọn (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Xóa phần đã chọn"
+  },
+  "cvView": {
+    "message": "Chế độ xem"
+  },
+  "cv2d": {
+    "message": "Canvas, phẳng"
+  },
+  "cv3d": {
+    "message": "Chính canvas này ở dạng 3D (chỉ đọc)"
+  },
+  "cvDeleted": {
+    "message": "Đã bị xóa trên đĩa. Canvas này không còn trong thư mục."
+  },
+  "cvEmptyCard": {
+    "message": "Thẻ trống"
+  },
+  "cvWriteHere": {
+    "message": "Viết ở đây"
+  },
+  "cvCardText": {
+    "message": "Nội dung thẻ"
+  },
+  "cvOpenNotes": {
+    "message": "Mở trong Ghi chú"
+  },
+  "cvOpenCanvas": {
+    "message": "Mở canvas này"
+  },
+  "cvModelGone": {
+    "message": "Mô hình này không có trong thư mục."
+  },
+  "cvModelBig": {
+    "message": "Mô hình này lớn hơn 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Không hiển thị được mô hình này ($1)."
+  },
+  "cvUnknownError": {
+    "message": "lỗi không rõ"
+  },
+  "cvLoadingModel": {
+    "message": "Đang tải mô hình"
+  },
+  "cvLink": {
+    "message": "Liên kết"
+  },
+  "cvGroup": {
+    "message": "Nhóm"
+  },
+  "cvNodeNote": {
+    "message": "Ghi chú $1"
+  },
+  "cvNodeLink": {
+    "message": "Liên kết $1"
+  },
+  "cvNodeGroup": {
+    "message": "Nhóm $1"
+  },
+  "cvNodeType": {
+    "message": "Thẻ loại $1"
+  },
+  "sInvalid": {
+    "message": "Tệp này không phải JSON Canvas ($1). Hãy sửa trong Cursor; trong lúc đó ở đây không lưu gì cả."
+  },
+  "sInvalidNow": {
+    "message": "Đã đổi trên đĩa và giờ không phải JSON Canvas ($1). Ở đây không lưu gì cho đến khi nó hợp lệ trở lại."
+  },
+  "sTooBig": {
+    "message": "Chưa lưu (canvas này nặng $1; tệp chứa tối đa $2. Hãy xóa bớt nét vẽ hoặc thẻ)"
+  },
+  "sBlockedBig": {
+    "message": "Chưa lưu (tệp trên đĩa đã đổi và vượt giới hạn kích thước: Giữ bản của tôi hoặc để nguyên)"
+  },
+  "sBlockedText": {
+    "message": "Chưa lưu (tệp trên đĩa đã đổi và không phải văn bản: Giữ bản của tôi hoặc để nguyên)"
+  },
+  "sKeepsChanging": {
+    "message": "Chưa lưu (tệp cứ thay đổi liên tục)"
+  },
+  "edgeOpenPanel": {
+    "message": "Mở bảng"
+  },
+  "errNameEmpty": {
+    "message": "Hãy nhập tên."
+  },
+  "errNameLong": {
+    "message": "Tên đó quá dài."
+  },
+  "errHost": {
+    "message": "Máy chủ không phản hồi."
+  },
+  "backupKept": {
+    "message": "Lưu trong Downloads/$2. Số tệp được giữ: $1."
+  },
+  "filesLabel": {
+    "message": "Tệp"
+  },
+  "roomLabel": {
+    "message": "Phòng"
+  },
+  "roomNotes": {
+    "message": "Ghi chú"
+  },
+  "roomCanvas": {
+    "message": "Canvas"
+  },
+  "search": {
+    "message": "Tìm"
+  },
+  "searchLabel": {
+    "message": "Tìm trong không gian này"
+  },
+  "noteLabel": {
+    "message": "Ghi chú"
+  },
+  "cvNotShown": {
+    "message": "$1 (không hiển thị ở đây)"
+  },
+  "cvDrawFail": {
+    "message": "Không vẽ được canvas này ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Không có gì thay đổi trên đĩa. Hãy mở nó trong Cursor hoặc chọn canvas khác."
+  },
+  "statusDeleted": {
+    "message": "Đã bị xóa trên đĩa"
+  },
+  "cv3dScene": {
+    "message": "Chế độ xem 3D của canvas này. Kéo để xoay, cuộn để phóng to, bấm một thẻ để mở."
+  },
+  "cvModelScene": {
+    "message": "Mô hình 3D. Kéo để xoay; phím mũi tên cũng được."
+  },
+  "cvModelCompressed": {
+    "message": "dùng hình học hoặc kết cấu nén (Draco, KTX2 hoặc Meshopt) mà chế độ xem này không đọc được"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL không khả dụng trong trình duyệt này"
+  },
+  "megaTabs_one": {
+    "message": "$1 mega tab"
+  },
+  "megaTabs_other": {
+    "message": "$1 mega tab"
+  }
+}

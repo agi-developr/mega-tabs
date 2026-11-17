@@ -1,0 +1,737 @@
+{
+  "lang": {
+    "message": "he"
+  },
+  "extName": {
+    "message": "Mega Tabs: מרחבים, הערות ולוח"
+  },
+  "extDescription": {
+    "message": "החליפו ערכת לשוניות לפי פרויקט בלי לטעון מחדש. לצדן הערות ולוח שגם ה-AI שלכם יכול לערוך. פרטי וחינמי."
+  },
+  "cmdOpen": {
+    "message": "פתיחת רשימת סביבות העבודה"
+  },
+  "cmdTogglePanel": {
+    "message": "פתיחה או סגירה של חלונית Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "סביבת העבודה הבאה"
+  },
+  "cmdPrev": {
+    "message": "סביבת העבודה הקודמת"
+  },
+  "cmdLast": {
+    "message": "סביבת העבודה האחרונה שהייתה בשימוש"
+  },
+  "cmdSwitch": {
+    "message": "מעבר לסביבת עבודה"
+  },
+  "tabs_one": {
+    "message": "לשונית $1"
+  },
+  "tabs_other": {
+    "message": "$1 לשוניות"
+  },
+  "tabsNotRestored_one": {
+    "message": "לשונית $1 לא שוחזרה"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 לשוניות לא שוחזרו"
+  },
+  "edit": {
+    "message": "עריכה"
+  },
+  "name": {
+    "message": "שם"
+  },
+  "delete": {
+    "message": "מחיקה"
+  },
+  "undo": {
+    "message": "ביטול"
+  },
+  "stashHeading": {
+    "message": "אחסון סביבות עבודה"
+  },
+  "stashText": {
+    "message": "החלון הנסתר הזה שייך להרחבה Mega Tabs. הוא מחזיק את הלשוניות של סביבת עבודה שאינה מוצגת כעת. אל תסגרו אותו; עברו בין סביבות דרך החלונית."
+  },
+  "defaultWorkspace": {
+    "message": "ברירת מחדל"
+  },
+  "recoveredWorkspace": {
+    "message": "שוחזר"
+  },
+  "iconTitle": {
+    "message": "סביבת עבודה: $1"
+  },
+  "iconTitleMissing": {
+    "message": "סביבת עבודה: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "האחסון של ההרחבה כמעט מלא; בקרוב לא יישמרו לשוניות"
+  },
+  "menuLink": {
+    "message": "פתיחת הקישור בסביבת עבודה"
+  },
+  "menuMove": {
+    "message": "העברת לשונית לסביבת עבודה"
+  },
+  "menuMoveMarked": {
+    "message": "העברת $1 לשוניות שנבחרו לסביבת עבודה"
+  },
+  "menuGroup": {
+    "message": "העברת קבוצה לסביבת עבודה"
+  },
+  "exNotJson": {
+    "message": "הקובץ אינו JSON תקין."
+  },
+  "exNotExport": {
+    "message": "זה אינו קובץ ייצוא של Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "בקובץ אין סביבות עבודה."
+  },
+  "exTooManyWorkspaces": {
+    "message": "בקובץ יש יותר מדי סביבות עבודה."
+  },
+  "exTooManyTabs": {
+    "message": "בקובץ יש יותר מדי לשוניות."
+  },
+  "workspaceName": {
+    "message": "סביבת עבודה"
+  },
+  "workspaceN": {
+    "message": "סביבת עבודה $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "ההורדה הופסקה ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "ההרחבה אינה מגיבה"
+  },
+  "generalSpace": {
+    "message": "כללי"
+  },
+  "spaces": {
+    "message": "מרחבים"
+  },
+  "setUp": {
+    "message": "הגדרה"
+  },
+  "filesOffLead": {
+    "message": "הקבצים כבויים:"
+  },
+  "retryBtn": {
+    "message": "נסו שוב"
+  },
+  "switchToMega": {
+    "message": "מעבר אל $1"
+  },
+  "closeMegaAsk": {
+    "message": "לחצו שוב כדי לסגור את המגה-לשונית הזו ואת הלשוניות שלה"
+  },
+  "closeMegaAskLabel": {
+    "message": "סגירת $1 והלשוניות שלה: לחצו שוב"
+  },
+  "closeMega": {
+    "message": "סגירת מגה-לשונית"
+  },
+  "closeMegaLabel": {
+    "message": "סגירת המגה-לשונית $1"
+  },
+  "closeQuestion": {
+    "message": "לסגור?"
+  },
+  "spaceName": {
+    "message": "שם המרחב"
+  },
+  "showSpace": {
+    "message": "הצגת $1 (לחיצה כפולה לשינוי שם)"
+  },
+  "newSpaceName": {
+    "message": "שם המרחב החדש"
+  },
+  "newSpaceItem": {
+    "message": "מרחב חדש…"
+  },
+  "allSpaces": {
+    "message": "כל המרחבים"
+  },
+  "switchSpace": {
+    "message": "החלפת מרחב"
+  },
+  "board": {
+    "message": "לוח"
+  },
+  "boardOpen": {
+    "message": "פתיחת הלוח: קובצי ה-md של $1"
+  },
+  "settingsPage": {
+    "message": "הגדרות"
+  },
+  "settingsOpen": {
+    "message": "הגדרות: הצגה בשולי המסך, גיבוי, ייצוא"
+  },
+  "newMegaName": {
+    "message": "שם המגה-לשונית החדשה"
+  },
+  "noMegas": {
+    "message": "עדיין אין מגה-לשוניות."
+  },
+  "newMega": {
+    "message": "+ מגה-לשונית חדשה"
+  },
+  "noSpaces": {
+    "message": "עדיין אין מרחבים."
+  },
+  "newSpace": {
+    "message": "+ מרחב חדש"
+  },
+  "openWindows": {
+    "message": "חלונות פתוחים"
+  },
+  "emptyWindow": {
+    "message": "חלון ריק"
+  },
+  "undoClose": {
+    "message": "ביטול הסגירה"
+  },
+  "intro": {
+    "message": "מגה-לשונית היא ערכת לשוניות שעוברים אליה בבת אחת. לחצו על אחת כדי להתחיל."
+  },
+  "homeSetupTitle": {
+    "message": "הפעלת קבצים"
+  },
+  "homeSetupText": {
+    "message": "מרחבים שומרים את ההערות שלהם כקבצים רגילים ב-$1. Chrome צריך עוזר קטן כדי לקרוא ולכתוב אותם. בתיקייה Mega Tabs הריצו $2 ולחצו על נסו שוב."
+  },
+  "retryChecking": {
+    "message": "בודק…"
+  },
+  "retryOn": {
+    "message": "הקבצים פועלים."
+  },
+  "retryOff": {
+    "message": "עדיין כבוי. הריצו את הפקודה ולחצו שוב על נסו שוב."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "פתיחת $1 (לחיצה כפולה לשינוי שם, גררו תמונה לכריכה)"
+  },
+  "tileTypeName": {
+    "message": "הקלידו שם ולחצו Enter"
+  },
+  "newSpaceAria": {
+    "message": "מרחב חדש"
+  },
+  "tileNewTitle": {
+    "message": "הקלידו שם כדי ליצור מרחב חדש"
+  },
+  "tileNewHint": {
+    "message": "הקלידו שם"
+  },
+  "coverType": {
+    "message": "השתמשו בתמונת png, jpg או webp."
+  },
+  "coverBig": {
+    "message": "התמונה גדולה מ-700 KB. השתמשו בקטנה יותר."
+  },
+  "coverNotSaved": {
+    "message": "הקבצים כבויים: הכריכה לא נשמרה."
+  },
+  "edgeHeading": {
+    "message": "הצגה בשולי המסך"
+  },
+  "edgeToggle": {
+    "message": "הצגת מחליף קטן כשהסמן נשאר בשולי המסך"
+  },
+  "edgeHelp": {
+    "message": "השאירו את הסמן רגע בשוליים והמגה-לשוניות שלכם יופיעו מעל הדף. Chrome ישאל פעם אחת על הרשאה לפעול בדפי אינטרנט. המחליף לא קורא מהם דבר ולא שולח דבר לשום מקום. הוא לא יופיע בדף הלשונית החדשה ובדפי chrome://."
+  },
+  "side": {
+    "message": "צד"
+  },
+  "sideLeft": {
+    "message": "שמאל"
+  },
+  "sideRight": {
+    "message": "ימין"
+  },
+  "edgeOnLeft": {
+    "message": "פועל. השאירו את הסמן בשוליים השמאליים של דף אינטרנט."
+  },
+  "edgeOnRight": {
+    "message": "פועל. השאירו את הסמן בשוליים הימניים של דף אינטרנט."
+  },
+  "edgeDenied": {
+    "message": "הצגה בשולי המסך צריכה את ההרשאה הזו לפעול בדפי אינטרנט. היא נשארת כבויה."
+  },
+  "backupHeading": {
+    "message": "גיבוי"
+  },
+  "backupLabel": {
+    "message": "שמירת קובץ גיבוי"
+  },
+  "backupNever": {
+    "message": "אף פעם"
+  },
+  "backupDaily": {
+    "message": "כל יום"
+  },
+  "backupWeekly": {
+    "message": "כל שבוע"
+  },
+  "backupLast": {
+    "message": "נשמר לאחרונה: $1."
+  },
+  "backupSaving": {
+    "message": "שומר…"
+  },
+  "dataHeading": {
+    "message": "המגה-לשוניות שלכם"
+  },
+  "dataHelp": {
+    "message": "קובץ אחד עם כל המרחבים, המגה-לשוניות והלשוניות שלהן. ייבוא מוסיף את החסר ולא סוגר דבר."
+  },
+  "exportBtn": {
+    "message": "ייצוא מגה-לשוניות"
+  },
+  "importBtn": {
+    "message": "ייבוא מגה-לשוניות…"
+  },
+  "chooseFile": {
+    "message": "בחרו קובץ שיוצא"
+  },
+  "exportSaved": {
+    "message": "נשמרו $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "הייצוא נכשל: $1"
+  },
+  "importAdded": {
+    "message": "נוספו $1 ו-$2 מתוך $3."
+  },
+  "importNothing": {
+    "message": "אין מה להוסיף: כל מה שב-$1 כבר כאן."
+  },
+  "importFail": {
+    "message": "הייבוא נכשל: $1"
+  },
+  "boardTitle": {
+    "message": "לוח · $1"
+  },
+  "folderLabel": {
+    "message": "תיקייה: $1"
+  },
+  "change": {
+    "message": "שינוי"
+  },
+  "chooseFolder": {
+    "message": "בחירת תיקייה"
+  },
+  "allowFolder": {
+    "message": "מתן גישה ל-\"$1\""
+  },
+  "hostMissing": {
+    "message": "מארח הלוח אינו מותקן. בתיקייה Mega Tabs הריצו $1 ואז טענו מחדש את הדף."
+  },
+  "hostForbidden": {
+    "message": "Chrome לא מתיר להרחבה הזו להשתמש במארח הלוח. הריצו שוב $1 ואז טענו מחדש את הדף."
+  },
+  "hostStopped": {
+    "message": "מארח הלוח נעצר. מנסה שוב."
+  },
+  "hostUnreachable": {
+    "message": "הלוח לא מצליח להגיע למארח שלו ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "לא ניתן לפתוח כאן ($1)"
+  },
+  "howItWorks": {
+    "message": "איך זה עובד"
+  },
+  "rename": {
+    "message": "שינוי שם"
+  },
+  "renameLabel": {
+    "message": "שינוי השם של $1"
+  },
+  "renameTitle": {
+    "message": "שינוי שם (או לחיצה כפולה על השם)"
+  },
+  "deleteLabel": {
+    "message": "מחיקת $1"
+  },
+  "deleteTitle": {
+    "message": "מחיקה (לפח, אפשר לבטל)"
+  },
+  "noMatches": {
+    "message": "לא נמצא דבר."
+  },
+  "newNote": {
+    "message": "הערה חדשה"
+  },
+  "newCanvas": {
+    "message": "לוח חדש"
+  },
+  "newNoteTitle": {
+    "message": "התחלת הערה חדשה במרחב הזה"
+  },
+  "newCanvasTitle": {
+    "message": "התחלת לוח חדש במרחב הזה"
+  },
+  "emptyNotesFolder": {
+    "message": "עדיין אין הערות במרחב הזה. לחצו על הערה חדשה כדי להתחיל."
+  },
+  "emptyNotesDir": {
+    "message": "עדיין אין קובצי md ב-~/Spaces/$1/. לחצו על הערה חדשה כדי להתחיל."
+  },
+  "noFolderNotes": {
+    "message": "עדיין אין תיקייה עבור \"$1\". צרו את ~/Spaces/$1/ והניחו בה קובצי md."
+  },
+  "emptyCanvasFolder": {
+    "message": "עדיין אין לוחות במרחב הזה. לחצו על לוח חדש כדי להתחיל."
+  },
+  "emptyCanvasDir": {
+    "message": "עדיין אין קובצי canvas ב-~/Spaces/$1/. לחצו על לוח חדש כדי להתחיל."
+  },
+  "noFolderCanvas": {
+    "message": "עדיין אין תיקייה עבור \"$1\". צרו את ~/Spaces/$1/ והניחו בה קובצי canvas."
+  },
+  "done": {
+    "message": "סיום"
+  },
+  "backToReading": {
+    "message": "חזרה לקריאה (Esc)"
+  },
+  "typeInFile": {
+    "message": "הקלדה בקובץ הזה (E)"
+  },
+  "openCursor": {
+    "message": "פתיחה ב-Cursor"
+  },
+  "openCursorTitle": {
+    "message": "פתיחת הקובץ הזה ב-Cursor"
+  },
+  "typeHere": {
+    "message": "כתבו כאן."
+  },
+  "textOf": {
+    "message": "הטקסט של $1"
+  },
+  "statusUnsaved": {
+    "message": "לא נשמר"
+  },
+  "statusSaving": {
+    "message": "שומר"
+  },
+  "statusSaved": {
+    "message": "נשמר"
+  },
+  "mixedEol": {
+    "message": "סופי שורות מעורבים: ערכו את הקובץ הזה ב-Cursor."
+  },
+  "notSavedWhy": {
+    "message": "לא נשמר ($1)"
+  },
+  "hostNotConnected": {
+    "message": "המארח אינו מחובר"
+  },
+  "notSaved": {
+    "message": "לא נשמר: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "לא נשמר: ההערה גדולה מ-$1 KB שקובץ יכול להכיל. קצרו אותה או פצלו לשתיים."
+  },
+  "changedOnDisk": {
+    "message": "השתנה בדיסק"
+  },
+  "conflictGone": {
+    "message": "נמחק בדיסק:"
+  },
+  "conflictTooLarge": {
+    "message": "השתנה בדיסק וכעת גדול מדי להצגה כאן:"
+  },
+  "conflictNotText": {
+    "message": "השתנה בדיסק ואינו עוד טקסט:"
+  },
+  "conflictChanged": {
+    "message": "השתנה בדיסק:"
+  },
+  "loadTheirs": {
+    "message": "טעינת הגרסה שלהם"
+  },
+  "keepMine": {
+    "message": "שמירת הגרסה שלי"
+  },
+  "dropIt": {
+    "message": "התעלמות"
+  },
+  "seeTheirs": {
+    "message": "הצגת הגרסה שלהם"
+  },
+  "removedFromFolder": {
+    "message": "$1 הוסר מהתיקייה."
+  },
+  "cannotOpenNote": {
+    "message": "לא ניתן לפתוח את הקובץ הזה כאן ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "לא ניתן לפתוח את הקובץ הזה כאן ($1). Cursor יכול."
+  },
+  "cannotOpenCanvas": {
+    "message": "לא ניתן לפתוח את הלוח הזה כאן ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "לא ניתן לפתוח את הלוח הזה כאן ($1). Cursor יכול."
+  },
+  "waitingStorage": {
+    "message": "ממתין לאחסון הלוח."
+  },
+  "couldNotRead": {
+    "message": "לא ניתן היה לקרוא את $1 ($2)."
+  },
+  "couldNotOpen": {
+    "message": "לא ניתן היה לפתוח את $1 ($2)."
+  },
+  "noteName": {
+    "message": "שם ההערה"
+  },
+  "canvasName": {
+    "message": "שם הלוח"
+  },
+  "nameTaken": {
+    "message": "השם הזה כבר בשימוש."
+  },
+  "nameBad": {
+    "message": "אי אפשר להשתמש בשם הזה."
+  },
+  "notCreated": {
+    "message": "לא נוצר ($1)."
+  },
+  "renameNewName": {
+    "message": "שם חדש עבור $1"
+  },
+  "resolveFirst": {
+    "message": "קודם פתרו את השינוי בדיסק."
+  },
+  "notSavedYetRename": {
+    "message": "עדיין לא נשמר; נסו שוב בעוד רגע."
+  },
+  "fileGone": {
+    "message": "הקובץ הזה כבר לא קיים."
+  },
+  "notRenamed": {
+    "message": "השם לא שונה ($1)."
+  },
+  "deletedToast": {
+    "message": "\"$1\" נמחק"
+  },
+  "resolveFirstDelete": {
+    "message": "קודם פתרו את השינוי בדיסק ואז מחקו."
+  },
+  "notSavedYetDelete": {
+    "message": "עדיין לא נשמר, ולכן לא נמחק. נסו שוב בעוד רגע."
+  },
+  "notDeleted": {
+    "message": "לא נמחק: $1"
+  },
+  "notRestored": {
+    "message": "לא שוחזר: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D לא הצליח להתחיל כאן ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "לא נטען"
+  },
+  "cvSelect": {
+    "message": "בחירה והזזה (V)"
+  },
+  "cvCard": {
+    "message": "הוספת כרטיס טקסט (T)"
+  },
+  "cvPen": {
+    "message": "עט (P)"
+  },
+  "cvEraser": {
+    "message": "מחק (E)"
+  },
+  "cvTools": {
+    "message": "כלי לוח"
+  },
+  "cvUndo": {
+    "message": "ביטול (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "ביצוע חוזר (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "ביצוע חוזר"
+  },
+  "cvDelete": {
+    "message": "מחיקת הבחירה (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "מחיקת הבחירה"
+  },
+  "cvView": {
+    "message": "תצוגה"
+  },
+  "cv2d": {
+    "message": "הלוח, שטוח"
+  },
+  "cv3d": {
+    "message": "אותו לוח בתלת-ממד (לקריאה בלבד)"
+  },
+  "cvDeleted": {
+    "message": "נמחק בדיסק. הלוח הזה כבר לא בתיקייה."
+  },
+  "cvEmptyCard": {
+    "message": "כרטיס ריק"
+  },
+  "cvWriteHere": {
+    "message": "כתבו כאן"
+  },
+  "cvCardText": {
+    "message": "טקסט הכרטיס"
+  },
+  "cvOpenNotes": {
+    "message": "פתיחה בהערות"
+  },
+  "cvOpenCanvas": {
+    "message": "פתיחת הלוח הזה"
+  },
+  "cvModelGone": {
+    "message": "המודל הזה אינו בתיקייה."
+  },
+  "cvModelBig": {
+    "message": "המודל הזה גדול מ-24 MB."
+  },
+  "cvModelFail": {
+    "message": "לא ניתן להציג את המודל הזה ($1)."
+  },
+  "cvUnknownError": {
+    "message": "שגיאה לא ידועה"
+  },
+  "cvLoadingModel": {
+    "message": "טוען מודל"
+  },
+  "cvLink": {
+    "message": "קישור"
+  },
+  "cvGroup": {
+    "message": "קבוצה"
+  },
+  "cvNodeNote": {
+    "message": "הערה $1"
+  },
+  "cvNodeLink": {
+    "message": "קישור $1"
+  },
+  "cvNodeGroup": {
+    "message": "קבוצה $1"
+  },
+  "cvNodeType": {
+    "message": "כרטיס מסוג $1"
+  },
+  "sInvalid": {
+    "message": "הקובץ הזה אינו JSON Canvas ($1). תקנו אותו ב-Cursor; בינתיים דבר לא נשמר כאן."
+  },
+  "sInvalidNow": {
+    "message": "השתנה בדיסק וכעת אינו JSON Canvas ($1). דבר לא יישמר כאן עד שיהיה תקין שוב."
+  },
+  "sTooBig": {
+    "message": "לא נשמר (הלוח הזה הוא $1; קובץ מכיל עד $2. מחקו כמה קווים או כרטיסים)"
+  },
+  "sBlockedBig": {
+    "message": "לא נשמר (הקובץ בדיסק השתנה וגדול מדי: שמירת הגרסה שלי, או להשאיר)"
+  },
+  "sBlockedText": {
+    "message": "לא נשמר (הקובץ בדיסק השתנה ואינו טקסט: שמירת הגרסה שלי, או להשאיר)"
+  },
+  "sKeepsChanging": {
+    "message": "לא נשמר (הקובץ ממשיך להשתנות)"
+  },
+  "edgeOpenPanel": {
+    "message": "פתיחת החלונית"
+  },
+  "errNameEmpty": {
+    "message": "הקלידו שם."
+  },
+  "errNameLong": {
+    "message": "השם הזה ארוך מדי."
+  },
+  "errHost": {
+    "message": "המארח לא ענה."
+  },
+  "backupKept": {
+    "message": "נשמר ב-Downloads/$2. קבצים שנשמרו: $1."
+  },
+  "filesLabel": {
+    "message": "קבצים"
+  },
+  "roomLabel": {
+    "message": "חדר"
+  },
+  "roomNotes": {
+    "message": "הערות"
+  },
+  "roomCanvas": {
+    "message": "לוח"
+  },
+  "search": {
+    "message": "חיפוש"
+  },
+  "searchLabel": {
+    "message": "חיפוש במרחב הזה"
+  },
+  "noteLabel": {
+    "message": "הערה"
+  },
+  "cvNotShown": {
+    "message": "$1 (לא מוצג כאן)"
+  },
+  "cvDrawFail": {
+    "message": "לא ניתן היה לצייר את הלוח הזה ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "דבר לא השתנה בדיסק. פתחו ב-Cursor או בחרו לוח אחר."
+  },
+  "statusDeleted": {
+    "message": "נמחק בדיסק"
+  },
+  "cv3dScene": {
+    "message": "תצוגת תלת-ממד של הלוח הזה. גררו לסיבוב, גללו לזום, לחצו על כרטיס כדי לפתוח אותו."
+  },
+  "cvModelScene": {
+    "message": "מודל תלת-ממד. גררו לסיבוב; גם מקשי החיצים עובדים."
+  },
+  "cvModelCompressed": {
+    "message": "משתמש בגיאומטריה או בטקסטורות דחוסות (Draco, KTX2 או Meshopt) שהתצוגה הזו לא יכולה לקרוא"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL אינו זמין בדפדפן הזה"
+  },
+  "megaTabs_one": {
+    "message": "מגה-לשונית $1"
+  },
+  "megaTabs_other": {
+    "message": "$1 מגה-לשוניות"
+  },
+  "tabs_two": {
+    "message": "$1 לשוניות"
+  },
+  "tabsNotRestored_two": {
+    "message": "$1 לשוניות לא שוחזרו"
+  },
+  "megaTabs_two": {
+    "message": "$1 מגה-לשוניות"
+  }
+}

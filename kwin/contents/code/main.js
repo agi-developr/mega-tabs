@@ -1,0 +1,56 @@
+// Versteckt die Ablage-Fenster der Workspaces-Erweiterung in Helium, Google Chrome,
+// Chromium und weiteren Browsern aus kwinrc: nicht in Taskleiste, Alt+Tab, Übersicht
+// oder Pager und immer minimiert. Erkannt werden sie am Titel "HWS-Ablage <Schlüssel>"; der geräteeigene
+// Schlüssel steht in kwinrc (von install.sh gesetzt), damit Webseiten sich nicht als
+// Ablage ausgeben können. Verliert ein Fenster die Markierung (z. B. Erweiterung
+// deaktiviert), taucht es wieder in der Taskleiste auf, damit keine Tabs unsichtbar
+// verloren gehen. Ohne Schlüssel (install.sh --uninstall löscht ihn zuerst) holt das
+// Skript alle Ablagen zurück.
+const PREFIX = "HWS-Ablage ";
+// Titel jeder Ablage, auch mit fremdem Schlüssel oder sichtbar gemacht ("HWS-Ablage · <Name>").
+// Nur solche Fenster holt das Skript zurück, nicht jedes mit "HWS-Ablage " im Titel (#188).
+const STASH = /HWS-Ablage ([0-9a-f]{24} )?· /;
+const MARKS = String(readConfig("token", "")).split(",")
+    .map(function (s) { return s.trim(); }).filter(Boolean)
+    .map(function (token) { return PREFIX + token + " "; });
+const hidden = {};
+// Fensterklasse (X11) bzw. App-ID (Wayland) der Browser, deren Ablagen versteckt werden.
+// install.sh --browsers setzt die Liste in kwinrc, kommagetrennt; ohne Eintrag gilt die
+// Standardliste. Groß-/Kleinschreibung zählt nicht.
+const BROWSERS = String(readConfig("browsers", "") || "helium,google-chrome,chromium,chromium-browser")
+    .toLowerCase().split(",").map(function (s) { return s.trim(); }).filter(Boolean);
+
+function isBrowser(w) {
+    return BROWSERS.indexOf((w.resourceClass || "").toLowerCase()) !== -1;
+}
+
+function check(w) {
+    if (!w || !w.normalWindow) return;
+    const id = String(w.internalId);
+    const caption = w.caption || "";
+    const marked = MARKS.some(function (mark) { return caption.indexOf(mark) !== -1; });
+    if (marked && isBrowser(w)) {
+        hidden[id] = true;
+        if (!w.skipTaskbar) w.skipTaskbar = true;
+        if (!w.skipSwitcher) w.skipSwitcher = true;
+        if (!w.skipPager) w.skipPager = true;
+        if (!w.minimized) w.minimized = true;
+    } else if (hidden[id] || (STASH.test(caption) && w.skipTaskbar)) {
+        // Auch Ablagen eines Browsers, der nicht mehr in der Liste steht, und Ablagen mit
+        // einem Schlüssel, der nicht mehr eingetragen ist (install.sh --remove), kommen zurück
+        delete hidden[id];
+        w.skipTaskbar = false;
+        w.skipSwitcher = false;
+        w.skipPager = false;
+    }
+}
+
+function watch(w) {
+    check(w);
+    w.captionChanged.connect(function () { check(w); });
+    w.minimizedChanged.connect(function () { check(w); });
+    w.closed.connect(function () { delete hidden[String(w.internalId)]; });
+}
+
+workspace.windowList().forEach(watch);
+workspace.windowAdded.connect(watch);

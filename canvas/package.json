@@ -1,0 +1,16 @@
+{
+  "name": "megatabs-canvas",
+  "private": true,
+  "version": "0.12.0",
+  "description": "Build step for the Board's Canvas room: bundles React Flow into extension/vendor/canvas.js, and three.js with 3d-force-graph into canvas3d.js. Run: bun run build",
+  "scripts": {
+    "build": "bun build.js"
+  },
+  "dependencies": {
+    "3d-force-graph": "1.80.2",
+    "@xyflow/react": "12.10.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "three": "0.187.0"
+  }
+}

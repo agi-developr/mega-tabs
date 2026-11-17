@@ -1,0 +1,719 @@
+{
+  "lang": {
+    "message": "th"
+  },
+  "extName": {
+    "message": "Mega Tabs: สเปซ โน้ต และแคนวาส"
+  },
+  "extDescription": {
+    "message": "สลับชุดแท็บตามโปรเจกต์โดยไม่ต้องโหลดใหม่ มีโน้ตและแคนวาสอยู่ข้างกัน AI ของคุณก็แก้ได้ เป็นส่วนตัวและฟรี"
+  },
+  "cmdOpen": {
+    "message": "เปิดรายการพื้นที่ทำงาน"
+  },
+  "cmdTogglePanel": {
+    "message": "เปิดหรือปิดแผง Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "พื้นที่ทำงานถัดไป"
+  },
+  "cmdPrev": {
+    "message": "พื้นที่ทำงานก่อนหน้า"
+  },
+  "cmdLast": {
+    "message": "พื้นที่ทำงานที่ใช้ล่าสุด"
+  },
+  "cmdSwitch": {
+    "message": "สลับไปยังพื้นที่ทำงาน"
+  },
+  "tabs_other": {
+    "message": "$1 แท็บ"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 แท็บที่ไม่ได้กู้คืน"
+  },
+  "edit": {
+    "message": "แก้ไข"
+  },
+  "name": {
+    "message": "ชื่อ"
+  },
+  "delete": {
+    "message": "ลบ"
+  },
+  "undo": {
+    "message": "เลิกทำ"
+  },
+  "stashHeading": {
+    "message": "ที่เก็บพื้นที่ทำงาน"
+  },
+  "stashText": {
+    "message": "หน้าต่างที่ซ่อนอยู่นี้เป็นของส่วนขยาย Mega Tabs เก็บแท็บของพื้นที่ทำงานที่ยังไม่ได้แสดงอยู่ อย่าปิดมัน ให้ใช้แผงเพื่อสลับ"
+  },
+  "defaultWorkspace": {
+    "message": "ค่าเริ่มต้น"
+  },
+  "recoveredWorkspace": {
+    "message": "กู้คืนแล้ว"
+  },
+  "iconTitle": {
+    "message": "พื้นที่ทำงาน: $1"
+  },
+  "iconTitleMissing": {
+    "message": "พื้นที่ทำงาน: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "พื้นที่เก็บข้อมูลของส่วนขยายเกือบเต็ม อีกไม่นานจะบันทึกแท็บไม่ได้"
+  },
+  "menuLink": {
+    "message": "เปิดลิงก์ในพื้นที่ทำงาน"
+  },
+  "menuMove": {
+    "message": "ย้ายแท็บไปพื้นที่ทำงาน"
+  },
+  "menuMoveMarked": {
+    "message": "ย้ายแท็บที่เลือก $1 แท็บไปพื้นที่ทำงาน"
+  },
+  "menuGroup": {
+    "message": "ย้ายกลุ่มไปพื้นที่ทำงาน"
+  },
+  "exNotJson": {
+    "message": "ไฟล์ไม่ใช่ JSON ที่ถูกต้อง"
+  },
+  "exNotExport": {
+    "message": "นี่ไม่ใช่ไฟล์ส่งออกของ Helium Workspaces"
+  },
+  "exNoWorkspaces": {
+    "message": "ไฟล์ไม่มีพื้นที่ทำงานเลย"
+  },
+  "exTooManyWorkspaces": {
+    "message": "ไฟล์มีพื้นที่ทำงานมากเกินไป"
+  },
+  "exTooManyTabs": {
+    "message": "ไฟล์มีแท็บมากเกินไป"
+  },
+  "workspaceName": {
+    "message": "พื้นที่ทำงาน"
+  },
+  "workspaceN": {
+    "message": "พื้นที่ทำงาน $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "การดาวน์โหลดหยุดชะงัก ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "ส่วนขยายไม่ตอบสนอง"
+  },
+  "generalSpace": {
+    "message": "ทั่วไป"
+  },
+  "spaces": {
+    "message": "สเปซ"
+  },
+  "setUp": {
+    "message": "ตั้งค่า"
+  },
+  "filesOffLead": {
+    "message": "ไฟล์ปิดอยู่:"
+  },
+  "retryBtn": {
+    "message": "ลองอีกครั้ง"
+  },
+  "switchToMega": {
+    "message": "สลับไปที่ $1"
+  },
+  "closeMegaAsk": {
+    "message": "คลิกอีกครั้งเพื่อปิด Mega Tab นี้และแท็บของมัน"
+  },
+  "closeMegaAskLabel": {
+    "message": "ปิด $1 และแท็บของมัน: คลิกอีกครั้ง"
+  },
+  "closeMega": {
+    "message": "ปิด Mega Tab"
+  },
+  "closeMegaLabel": {
+    "message": "ปิด Mega Tab $1"
+  },
+  "closeQuestion": {
+    "message": "ปิดไหม?"
+  },
+  "spaceName": {
+    "message": "ชื่อสเปซ"
+  },
+  "showSpace": {
+    "message": "แสดง $1 (ดับเบิลคลิกเพื่อเปลี่ยนชื่อ)"
+  },
+  "newSpaceName": {
+    "message": "ชื่อสเปซใหม่"
+  },
+  "newSpaceItem": {
+    "message": "สเปซใหม่…"
+  },
+  "allSpaces": {
+    "message": "สเปซทั้งหมด"
+  },
+  "switchSpace": {
+    "message": "สลับสเปซ"
+  },
+  "board": {
+    "message": "บอร์ด"
+  },
+  "boardOpen": {
+    "message": "เปิดบอร์ด: ไฟล์ .md ของ $1"
+  },
+  "settingsPage": {
+    "message": "การตั้งค่า"
+  },
+  "settingsOpen": {
+    "message": "การตั้งค่า: แสดงที่ขอบจอ การสำรองข้อมูล การส่งออก"
+  },
+  "newMegaName": {
+    "message": "ชื่อ Mega Tab ใหม่"
+  },
+  "noMegas": {
+    "message": "ยังไม่มี Mega Tab"
+  },
+  "newMega": {
+    "message": "+ Mega Tab ใหม่"
+  },
+  "noSpaces": {
+    "message": "ยังไม่มีสเปซ"
+  },
+  "newSpace": {
+    "message": "+ สเปซใหม่"
+  },
+  "openWindows": {
+    "message": "หน้าต่างที่เปิดอยู่"
+  },
+  "emptyWindow": {
+    "message": "หน้าต่างว่าง"
+  },
+  "undoClose": {
+    "message": "เลิกทำการปิด"
+  },
+  "intro": {
+    "message": "Mega Tab คือชุดแท็บที่คุณสลับไปทั้งชุดพร้อมกัน คลิกอันใดอันหนึ่งเพื่อเริ่ม"
+  },
+  "homeSetupTitle": {
+    "message": "เปิดใช้ไฟล์"
+  },
+  "homeSetupText": {
+    "message": "สเปซเก็บโน้ตเป็นไฟล์ธรรมดาใน $1 Chrome ต้องมีตัวช่วยเล็ก ๆ เพื่ออ่านและเขียนไฟล์เหล่านี้ ในโฟลเดอร์ Mega Tabs ให้รัน $2 แล้วกด ลองอีกครั้ง"
+  },
+  "retryChecking": {
+    "message": "กำลังตรวจสอบ…"
+  },
+  "retryOn": {
+    "message": "ไฟล์เปิดอยู่"
+  },
+  "retryOff": {
+    "message": "ยังปิดอยู่ รันคำสั่งแล้วกด ลองอีกครั้ง อีกที"
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "เปิด $1 (ดับเบิลคลิกเพื่อเปลี่ยนชื่อ วางรูปภาพเพื่อใช้เป็นภาพปก)"
+  },
+  "tileTypeName": {
+    "message": "พิมพ์ชื่อแล้วกด Enter"
+  },
+  "newSpaceAria": {
+    "message": "สเปซใหม่"
+  },
+  "tileNewTitle": {
+    "message": "พิมพ์ชื่อเพื่อสร้างสเปซใหม่"
+  },
+  "tileNewHint": {
+    "message": "พิมพ์ชื่อ"
+  },
+  "coverType": {
+    "message": "ใช้รูปภาพ png, jpg หรือ webp"
+  },
+  "coverBig": {
+    "message": "รูปภาพนี้เกิน 700 KB ใช้รูปที่เล็กกว่านี้"
+  },
+  "coverNotSaved": {
+    "message": "ไฟล์ปิดอยู่: ไม่ได้บันทึกภาพปก"
+  },
+  "edgeHeading": {
+    "message": "แสดงที่ขอบจอ"
+  },
+  "edgeToggle": {
+    "message": "แสดงตัวสลับขนาดเล็กเมื่อตัวชี้หยุดอยู่ที่ขอบจอ"
+  },
+  "edgeHelp": {
+    "message": "วางตัวชี้นิ่ง ๆ ที่ขอบสักครู่ แล้ว Mega Tab ของคุณจะปรากฏเหนือหน้าเว็บ Chrome จะถามสิทธิ์ให้ทำงานบนหน้าเว็บหนึ่งครั้ง ตัวสลับไม่อ่านอะไรจากหน้าเว็บและไม่ส่งอะไรไปที่ไหน จะไม่ปรากฏในหน้าแท็บใหม่และหน้า chrome://"
+  },
+  "side": {
+    "message": "ด้าน"
+  },
+  "sideLeft": {
+    "message": "ซ้าย"
+  },
+  "sideRight": {
+    "message": "ขวา"
+  },
+  "edgeOnLeft": {
+    "message": "เปิดอยู่ วางตัวชี้ที่ขอบซ้ายของหน้าเว็บ"
+  },
+  "edgeOnRight": {
+    "message": "เปิดอยู่ วางตัวชี้ที่ขอบขวาของหน้าเว็บ"
+  },
+  "edgeDenied": {
+    "message": "การแสดงที่ขอบจอต้องใช้สิทธิ์นี้เพื่อทำงานบนหน้าเว็บ จึงยังปิดอยู่"
+  },
+  "backupHeading": {
+    "message": "การสำรองข้อมูล"
+  },
+  "backupLabel": {
+    "message": "บันทึกไฟล์สำรอง"
+  },
+  "backupNever": {
+    "message": "ไม่เลย"
+  },
+  "backupDaily": {
+    "message": "ทุกวัน"
+  },
+  "backupWeekly": {
+    "message": "ทุกสัปดาห์"
+  },
+  "backupLast": {
+    "message": "บันทึกล่าสุด: $1"
+  },
+  "backupSaving": {
+    "message": "กำลังบันทึก…"
+  },
+  "dataHeading": {
+    "message": "Mega Tab ของคุณ"
+  },
+  "dataHelp": {
+    "message": "ไฟล์เดียวที่มีทุกสเปซ ทุก Mega Tab และแท็บของมัน การนำเข้าจะเพิ่มส่วนที่ขาดและไม่ปิดอะไรเลย"
+  },
+  "exportBtn": {
+    "message": "ส่งออก Mega Tab"
+  },
+  "importBtn": {
+    "message": "นำเข้า Mega Tab…"
+  },
+  "chooseFile": {
+    "message": "เลือกไฟล์ที่ส่งออก"
+  },
+  "exportSaved": {
+    "message": "บันทึก $1 แล้ว: $2, $3"
+  },
+  "exportFail": {
+    "message": "ส่งออกไม่ได้: $1"
+  },
+  "importAdded": {
+    "message": "เพิ่ม $1 และ $2 จาก $3 แล้ว"
+  },
+  "importNothing": {
+    "message": "ไม่มีอะไรให้เพิ่ม: ทุกอย่างใน $1 มีอยู่แล้ว"
+  },
+  "importFail": {
+    "message": "นำเข้าไม่ได้: $1"
+  },
+  "boardTitle": {
+    "message": "บอร์ด · $1"
+  },
+  "folderLabel": {
+    "message": "โฟลเดอร์: $1"
+  },
+  "change": {
+    "message": "เปลี่ยน"
+  },
+  "chooseFolder": {
+    "message": "เลือกโฟลเดอร์"
+  },
+  "allowFolder": {
+    "message": "อนุญาตให้เข้าถึง \"$1\""
+  },
+  "hostMissing": {
+    "message": "ยังไม่ได้ติดตั้งโฮสต์ของบอร์ด ในโฟลเดอร์ Mega Tabs ให้รัน $1 แล้วโหลดหน้านี้ใหม่"
+  },
+  "hostForbidden": {
+    "message": "Chrome ไม่อนุญาตให้ส่วนขยายนี้ใช้โฮสต์ของบอร์ด รัน $1 อีกครั้งแล้วโหลดหน้านี้ใหม่"
+  },
+  "hostStopped": {
+    "message": "โฮสต์ของบอร์ดหยุดทำงาน กำลังลองใหม่"
+  },
+  "hostUnreachable": {
+    "message": "บอร์ดติดต่อโฮสต์ของตัวเองไม่ได้ ($1)"
+  },
+  "cannotOpenMeta": {
+    "message": "เปิดที่นี่ไม่ได้ ($1)"
+  },
+  "howItWorks": {
+    "message": "วิธีทำงาน"
+  },
+  "rename": {
+    "message": "เปลี่ยนชื่อ"
+  },
+  "renameLabel": {
+    "message": "เปลี่ยนชื่อ $1"
+  },
+  "renameTitle": {
+    "message": "เปลี่ยนชื่อ (หรือดับเบิลคลิกที่ชื่อ)"
+  },
+  "deleteLabel": {
+    "message": "ลบ $1"
+  },
+  "deleteTitle": {
+    "message": "ลบ (ไปที่ถังขยะ เลิกทำได้)"
+  },
+  "noMatches": {
+    "message": "ไม่พบรายการที่ตรงกัน"
+  },
+  "newNote": {
+    "message": "โน้ตใหม่"
+  },
+  "newCanvas": {
+    "message": "แคนวาสใหม่"
+  },
+  "newNoteTitle": {
+    "message": "เริ่มโน้ตใหม่ในสเปซนี้"
+  },
+  "newCanvasTitle": {
+    "message": "เริ่มแคนวาสใหม่ในสเปซนี้"
+  },
+  "emptyNotesFolder": {
+    "message": "สเปซนี้ยังไม่มีโน้ต กด โน้ตใหม่ เพื่อเริ่ม"
+  },
+  "emptyNotesDir": {
+    "message": "~/Spaces/$1/ ยังไม่มีไฟล์ .md กด โน้ตใหม่ เพื่อเริ่ม"
+  },
+  "noFolderNotes": {
+    "message": "ยังไม่มีโฟลเดอร์ของ \"$1\" สร้าง ~/Spaces/$1/ แล้ววางไฟล์ .md ไว้ข้างใน"
+  },
+  "emptyCanvasFolder": {
+    "message": "สเปซนี้ยังไม่มีแคนวาส กด แคนวาสใหม่ เพื่อเริ่ม"
+  },
+  "emptyCanvasDir": {
+    "message": "~/Spaces/$1/ ยังไม่มีไฟล์ .canvas กด แคนวาสใหม่ เพื่อเริ่ม"
+  },
+  "noFolderCanvas": {
+    "message": "ยังไม่มีโฟลเดอร์ของ \"$1\" สร้าง ~/Spaces/$1/ แล้ววางไฟล์ .canvas ไว้ข้างใน"
+  },
+  "done": {
+    "message": "เสร็จ"
+  },
+  "backToReading": {
+    "message": "กลับไปอ่าน (Esc)"
+  },
+  "typeInFile": {
+    "message": "พิมพ์ในไฟล์นี้ (E)"
+  },
+  "openCursor": {
+    "message": "เปิดใน Cursor"
+  },
+  "openCursorTitle": {
+    "message": "เปิดไฟล์นี้ใน Cursor"
+  },
+  "typeHere": {
+    "message": "พิมพ์ที่นี่"
+  },
+  "textOf": {
+    "message": "ข้อความของ $1"
+  },
+  "statusUnsaved": {
+    "message": "ยังไม่ได้บันทึก"
+  },
+  "statusSaving": {
+    "message": "กำลังบันทึก"
+  },
+  "statusSaved": {
+    "message": "บันทึกแล้ว"
+  },
+  "mixedEol": {
+    "message": "ตัวจบบรรทัดปนกัน: แก้ไขไฟล์นี้ใน Cursor"
+  },
+  "notSavedWhy": {
+    "message": "ยังไม่ได้บันทึก ($1)"
+  },
+  "hostNotConnected": {
+    "message": "โฮสต์ยังไม่เชื่อมต่อ"
+  },
+  "notSaved": {
+    "message": "ยังไม่ได้บันทึก: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "ยังไม่ได้บันทึก: โน้ตนี้เกิน $1 KB ที่ไฟล์เก็บได้ ย่อให้สั้นลงหรือแบ่งเป็นสองอัน"
+  },
+  "changedOnDisk": {
+    "message": "มีการเปลี่ยนแปลงบนดิสก์"
+  },
+  "conflictGone": {
+    "message": "ถูกลบบนดิสก์:"
+  },
+  "conflictTooLarge": {
+    "message": "มีการเปลี่ยนแปลงบนดิสก์และตอนนี้ใหญ่เกินกว่าจะแสดงที่นี่:"
+  },
+  "conflictNotText": {
+    "message": "มีการเปลี่ยนแปลงบนดิสก์และไม่ใช่ข้อความอีกต่อไป:"
+  },
+  "conflictChanged": {
+    "message": "มีการเปลี่ยนแปลงบนดิสก์:"
+  },
+  "loadTheirs": {
+    "message": "โหลดของเขา"
+  },
+  "keepMine": {
+    "message": "เก็บของฉัน"
+  },
+  "dropIt": {
+    "message": "ทิ้ง"
+  },
+  "seeTheirs": {
+    "message": "ดูของเขา"
+  },
+  "removedFromFolder": {
+    "message": "$1 ถูกนำออกจากโฟลเดอร์แล้ว"
+  },
+  "cannotOpenNote": {
+    "message": "ไฟล์นี้เปิดที่นี่ไม่ได้ ($1)"
+  },
+  "cannotOpenNoteCursor": {
+    "message": "ไฟล์นี้เปิดที่นี่ไม่ได้ ($1) แต่ Cursor เปิดได้"
+  },
+  "cannotOpenCanvas": {
+    "message": "แคนวาสนี้เปิดที่นี่ไม่ได้ ($1)"
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "แคนวาสนี้เปิดที่นี่ไม่ได้ ($1) แต่ Cursor เปิดได้"
+  },
+  "waitingStorage": {
+    "message": "กำลังรอที่เก็บข้อมูลของบอร์ด"
+  },
+  "couldNotRead": {
+    "message": "อ่าน $1 ไม่ได้ ($2)"
+  },
+  "couldNotOpen": {
+    "message": "เปิด $1 ไม่ได้ ($2)"
+  },
+  "noteName": {
+    "message": "ชื่อโน้ต"
+  },
+  "canvasName": {
+    "message": "ชื่อแคนวาส"
+  },
+  "nameTaken": {
+    "message": "ชื่อนี้มีคนใช้แล้ว"
+  },
+  "nameBad": {
+    "message": "ใช้ชื่อนี้ไม่ได้"
+  },
+  "notCreated": {
+    "message": "ยังไม่ได้สร้าง ($1)"
+  },
+  "renameNewName": {
+    "message": "ชื่อใหม่ของ $1"
+  },
+  "resolveFirst": {
+    "message": "จัดการการเปลี่ยนแปลงบนดิสก์ก่อน"
+  },
+  "notSavedYetRename": {
+    "message": "ยังไม่ได้บันทึก ลองใหม่อีกสักครู่"
+  },
+  "fileGone": {
+    "message": "ไม่มีไฟล์นั้นแล้ว"
+  },
+  "notRenamed": {
+    "message": "ยังไม่ได้เปลี่ยนชื่อ ($1)"
+  },
+  "deletedToast": {
+    "message": "ลบ \"$1\" แล้ว"
+  },
+  "resolveFirstDelete": {
+    "message": "จัดการการเปลี่ยนแปลงบนดิสก์ก่อน แล้วค่อยลบ"
+  },
+  "notSavedYetDelete": {
+    "message": "ยังไม่ได้บันทึก จึงยังไม่ได้ลบ ลองใหม่อีกสักครู่"
+  },
+  "notDeleted": {
+    "message": "ยังไม่ได้ลบ: $1"
+  },
+  "notRestored": {
+    "message": "ยังไม่ได้กู้คืน: $1"
+  },
+  "cvThreeFailed": {
+    "message": "เริ่ม 3D ที่นี่ไม่ได้ ($1)"
+  },
+  "cvDidNotLoad": {
+    "message": "โหลดไม่สำเร็จ"
+  },
+  "cvSelect": {
+    "message": "เลือกและย้าย (V)"
+  },
+  "cvCard": {
+    "message": "เพิ่มการ์ดข้อความ (T)"
+  },
+  "cvPen": {
+    "message": "ปากกา (P)"
+  },
+  "cvEraser": {
+    "message": "ยางลบ (E)"
+  },
+  "cvTools": {
+    "message": "เครื่องมือแคนวาส"
+  },
+  "cvUndo": {
+    "message": "เลิกทำ (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "ทำซ้ำ (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "ทำซ้ำ"
+  },
+  "cvDelete": {
+    "message": "ลบที่เลือก (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "ลบที่เลือก"
+  },
+  "cvView": {
+    "message": "มุมมอง"
+  },
+  "cv2d": {
+    "message": "แคนวาส แบบแบน"
+  },
+  "cv3d": {
+    "message": "แคนวาสเดียวกันแบบ 3 มิติ (อ่านอย่างเดียว)"
+  },
+  "cvDeleted": {
+    "message": "ถูกลบบนดิสก์ แคนวาสนี้ไม่อยู่ในโฟลเดอร์แล้ว"
+  },
+  "cvEmptyCard": {
+    "message": "การ์ดว่าง"
+  },
+  "cvWriteHere": {
+    "message": "เขียนที่นี่"
+  },
+  "cvCardText": {
+    "message": "ข้อความของการ์ด"
+  },
+  "cvOpenNotes": {
+    "message": "เปิดในโน้ต"
+  },
+  "cvOpenCanvas": {
+    "message": "เปิดแคนวาสนี้"
+  },
+  "cvModelGone": {
+    "message": "โมเดลนี้ไม่อยู่ในโฟลเดอร์"
+  },
+  "cvModelBig": {
+    "message": "โมเดลนี้ใหญ่กว่า 24 MB"
+  },
+  "cvModelFail": {
+    "message": "แสดงโมเดลนี้ไม่ได้ ($1)"
+  },
+  "cvUnknownError": {
+    "message": "ข้อผิดพลาดที่ไม่ทราบสาเหตุ"
+  },
+  "cvLoadingModel": {
+    "message": "กำลังโหลดโมเดล"
+  },
+  "cvLink": {
+    "message": "ลิงก์"
+  },
+  "cvGroup": {
+    "message": "กลุ่ม"
+  },
+  "cvNodeNote": {
+    "message": "โน้ต $1"
+  },
+  "cvNodeLink": {
+    "message": "ลิงก์ $1"
+  },
+  "cvNodeGroup": {
+    "message": "กลุ่ม $1"
+  },
+  "cvNodeType": {
+    "message": "การ์ดชนิด $1"
+  },
+  "sInvalid": {
+    "message": "ไฟล์นี้ไม่ใช่ JSON Canvas ($1) แก้ไขใน Cursor ระหว่างนี้จะไม่บันทึกอะไรที่นี่"
+  },
+  "sInvalidNow": {
+    "message": "มีการเปลี่ยนแปลงบนดิสก์และตอนนี้ไม่ใช่ JSON Canvas ($1) จะไม่บันทึกอะไรที่นี่จนกว่าจะถูกต้องอีกครั้ง"
+  },
+  "sTooBig": {
+    "message": "ยังไม่ได้บันทึก (แคนวาสนี้ขนาด $1 ไฟล์เก็บได้สูงสุด $2 ลบเส้นหรือการ์ดบางส่วนออก)"
+  },
+  "sBlockedBig": {
+    "message": "ยังไม่ได้บันทึก (ไฟล์บนดิสก์เปลี่ยนและเกินขนาดที่กำหนด: เก็บของฉัน หรือปล่อยไว้)"
+  },
+  "sBlockedText": {
+    "message": "ยังไม่ได้บันทึก (ไฟล์บนดิสก์เปลี่ยนและไม่ใช่ข้อความ: เก็บของฉัน หรือปล่อยไว้)"
+  },
+  "sKeepsChanging": {
+    "message": "ยังไม่ได้บันทึก (ไฟล์เปลี่ยนอยู่เรื่อย ๆ)"
+  },
+  "edgeOpenPanel": {
+    "message": "เปิดแผง"
+  },
+  "errNameEmpty": {
+    "message": "พิมพ์ชื่อ"
+  },
+  "errNameLong": {
+    "message": "ชื่อนั้นยาวเกินไป"
+  },
+  "errHost": {
+    "message": "โฮสต์ไม่ตอบสนอง"
+  },
+  "backupKept": {
+    "message": "เก็บใน Downloads/$2 จำนวนไฟล์ที่เก็บไว้: $1"
+  },
+  "filesLabel": {
+    "message": "ไฟล์"
+  },
+  "roomLabel": {
+    "message": "ห้อง"
+  },
+  "roomNotes": {
+    "message": "โน้ต"
+  },
+  "roomCanvas": {
+    "message": "แคนวาส"
+  },
+  "search": {
+    "message": "ค้นหา"
+  },
+  "searchLabel": {
+    "message": "ค้นหาในสเปซนี้"
+  },
+  "noteLabel": {
+    "message": "โน้ต"
+  },
+  "cvNotShown": {
+    "message": "$1 (ไม่แสดงที่นี่)"
+  },
+  "cvDrawFail": {
+    "message": "วาดแคนวาสนี้ไม่ได้ ($1)"
+  },
+  "cvDrawFail2": {
+    "message": "ไม่มีอะไรเปลี่ยนบนดิสก์ เปิดใน Cursor หรือเลือกแคนวาสอื่น"
+  },
+  "statusDeleted": {
+    "message": "ถูกลบบนดิสก์"
+  },
+  "cv3dScene": {
+    "message": "มุมมอง 3 มิติของแคนวาสนี้ ลากเพื่อหมุน เลื่อนเพื่อซูม คลิกการ์ดเพื่อเปิด"
+  },
+  "cvModelScene": {
+    "message": "โมเดล 3 มิติ ลากเพื่อหมุน ใช้ปุ่มลูกศรได้เช่นกัน"
+  },
+  "cvModelCompressed": {
+    "message": "ใช้เรขาคณิตหรือพื้นผิวที่บีบอัด (Draco, KTX2 หรือ Meshopt) ซึ่งมุมมองนี้อ่านไม่ได้"
+  },
+  "cvNoWebgl": {
+    "message": "เบราว์เซอร์นี้ไม่รองรับ WebGL"
+  },
+  "megaTabs_other": {
+    "message": "$1 Mega Tab"
+  }
+}

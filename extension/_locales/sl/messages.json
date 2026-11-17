@@ -1,0 +1,746 @@
+{
+  "lang": {
+    "message": "sl"
+  },
+  "extName": {
+    "message": "Mega Tabs: prostori, zapiski in platno"
+  },
+  "extDescription": {
+    "message": "Menjajte nabor zavihkov po projektih brez ponovnega nalaganja. Ob tem zapiski in platno, ki ga ureja tudi AI. Zasebno, brezplačno."
+  },
+  "cmdOpen": {
+    "message": "Odpri seznam delovnih prostorov"
+  },
+  "cmdTogglePanel": {
+    "message": "Odpri ali zapri podokno Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Naslednji delovni prostor"
+  },
+  "cmdPrev": {
+    "message": "Prejšnji delovni prostor"
+  },
+  "cmdLast": {
+    "message": "Nazadnje uporabljeni delovni prostor"
+  },
+  "cmdSwitch": {
+    "message": "Preklopi na delovni prostor"
+  },
+  "tabs_one": {
+    "message": "$1 zavihek"
+  },
+  "tabs_other": {
+    "message": "$1 zavihkov"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 zavihek ni obnovljen"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 zavihkov ni obnovljenih"
+  },
+  "edit": {
+    "message": "Uredi"
+  },
+  "name": {
+    "message": "Ime"
+  },
+  "delete": {
+    "message": "Izbriši"
+  },
+  "undo": {
+    "message": "Razveljavi"
+  },
+  "stashHeading": {
+    "message": "Shramba delovnih prostorov"
+  },
+  "stashText": {
+    "message": "To skrito okno pripada razširitvi Mega Tabs. Hrani zavihke delovnega prostora, ki se trenutno ne prikazuje. Ne zapirajte ga; prostore menjajte prek podokna."
+  },
+  "defaultWorkspace": {
+    "message": "Privzeto"
+  },
+  "recoveredWorkspace": {
+    "message": "Obnovljeno"
+  },
+  "iconTitle": {
+    "message": "Delovni prostor: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Delovni prostor: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Shramba razširitve je skoraj polna; kmalu se zavihki ne bodo več shranjevali"
+  },
+  "menuLink": {
+    "message": "Odpri povezavo v delovnem prostoru"
+  },
+  "menuMove": {
+    "message": "Premakni zavihek v delovni prostor"
+  },
+  "menuMoveMarked": {
+    "message": "Premakni $1 izbranih zavihkov v delovni prostor"
+  },
+  "menuGroup": {
+    "message": "Premakni skupino v delovni prostor"
+  },
+  "exNotJson": {
+    "message": "Datoteka ni veljaven JSON."
+  },
+  "exNotExport": {
+    "message": "To ni izvozna datoteka programa Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "Datoteka nima delovnih prostorov."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Datoteka ima preveč delovnih prostorov."
+  },
+  "exTooManyTabs": {
+    "message": "Datoteka ima preveč zavihkov."
+  },
+  "workspaceName": {
+    "message": "Delovni prostor"
+  },
+  "workspaceN": {
+    "message": "Delovni prostor $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Prenos je bil prekinjen ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Razširitev se ne odziva"
+  },
+  "generalSpace": {
+    "message": "Splošno"
+  },
+  "spaces": {
+    "message": "Prostori"
+  },
+  "setUp": {
+    "message": "Nastavi"
+  },
+  "filesOffLead": {
+    "message": "Datoteke so izklopljene:"
+  },
+  "retryBtn": {
+    "message": "Poskusi znova"
+  },
+  "switchToMega": {
+    "message": "Preklopi na $1"
+  },
+  "closeMegaAsk": {
+    "message": "Kliknite znova, da zaprete ta megazavihek in njegove zavihke"
+  },
+  "closeMegaAskLabel": {
+    "message": "Zapri $1 in njegove zavihke: kliknite znova"
+  },
+  "closeMega": {
+    "message": "Zapri megazavihek"
+  },
+  "closeMegaLabel": {
+    "message": "Zapri megazavihek $1"
+  },
+  "closeQuestion": {
+    "message": "zapreti?"
+  },
+  "spaceName": {
+    "message": "Ime prostora"
+  },
+  "showSpace": {
+    "message": "Pokaži $1 (dvoklik za preimenovanje)"
+  },
+  "newSpaceName": {
+    "message": "Ime novega prostora"
+  },
+  "newSpaceItem": {
+    "message": "Nov prostor…"
+  },
+  "allSpaces": {
+    "message": "Vsi prostori"
+  },
+  "switchSpace": {
+    "message": "Zamenjaj prostor"
+  },
+  "board": {
+    "message": "Tabla"
+  },
+  "boardOpen": {
+    "message": "Odpri tablo: datoteke .md prostora $1"
+  },
+  "settingsPage": {
+    "message": "Nastavitve"
+  },
+  "settingsOpen": {
+    "message": "Nastavitve: prikaz na robu, varnostna kopija, izvoz"
+  },
+  "newMegaName": {
+    "message": "Ime novega megazavihka"
+  },
+  "noMegas": {
+    "message": "Megazavihkov še ni."
+  },
+  "newMega": {
+    "message": "+ Nov megazavihek"
+  },
+  "noSpaces": {
+    "message": "Prostorov še ni."
+  },
+  "newSpace": {
+    "message": "+ Nov prostor"
+  },
+  "openWindows": {
+    "message": "Odprta okna"
+  },
+  "emptyWindow": {
+    "message": "Prazno okno"
+  },
+  "undoClose": {
+    "message": "Razveljavi zapiranje"
+  },
+  "intro": {
+    "message": "Megazavihek je nabor zavihkov, na katerega preklopite naenkrat. Za začetek kliknite enega."
+  },
+  "homeSetupTitle": {
+    "message": "Vklopi datoteke"
+  },
+  "homeSetupText": {
+    "message": "Prostori shranjujejo zapiske kot navadne datoteke v $1. Chrome potrebuje majhnega pomočnika, da jih bere in piše. V mapi Mega Tabs zaženite $2 in pritisnite Poskusi znova."
+  },
+  "retryChecking": {
+    "message": "Preverjanje …"
+  },
+  "retryOn": {
+    "message": "Datoteke so vklopljene."
+  },
+  "retryOff": {
+    "message": "Še vedno izklopljeno. Zaženite ukaz in znova pritisnite Poskusi znova."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Odpri $1 (dvoklik za preimenovanje, spustite sliko za naslovnico)"
+  },
+  "tileTypeName": {
+    "message": "vnesite ime in pritisnite Enter"
+  },
+  "newSpaceAria": {
+    "message": "Nov prostor"
+  },
+  "tileNewTitle": {
+    "message": "Vnesite ime za nov prostor"
+  },
+  "tileNewHint": {
+    "message": "vnesite ime"
+  },
+  "coverType": {
+    "message": "Uporabite sliko png, jpg ali webp."
+  },
+  "coverBig": {
+    "message": "Ta slika je večja od 700 KB. Uporabite manjšo."
+  },
+  "coverNotSaved": {
+    "message": "Datoteke so izklopljene: naslovnica ni shranjena."
+  },
+  "edgeHeading": {
+    "message": "Prikaz na robu"
+  },
+  "edgeToggle": {
+    "message": "Pokaži majhen preklopnik, ko kazalec obstane ob robu zaslona"
+  },
+  "edgeHelp": {
+    "message": "Kazalec za trenutek zadržite ob robu in vaši megazavihki se pojavijo nad stranjo. Chrome enkrat vpraša za dovoljenje za delovanje na spletnih straneh. Preklopnik iz njih ničesar ne bere in nikamor ničesar ne pošilja. Ne prikaže se na strani novega zavihka in na straneh chrome://."
+  },
+  "side": {
+    "message": "Stran"
+  },
+  "sideLeft": {
+    "message": "Levo"
+  },
+  "sideRight": {
+    "message": "Desno"
+  },
+  "edgeOnLeft": {
+    "message": "Vklopljeno. Kazalec zadržite ob levem robu spletne strani."
+  },
+  "edgeOnRight": {
+    "message": "Vklopljeno. Kazalec zadržite ob desnem robu spletne strani."
+  },
+  "edgeDenied": {
+    "message": "Prikaz na robu potrebuje to dovoljenje za delovanje na spletnih straneh. Ostaja izklopljen."
+  },
+  "backupHeading": {
+    "message": "Varnostna kopija"
+  },
+  "backupLabel": {
+    "message": "Shrani datoteko varnostne kopije"
+  },
+  "backupNever": {
+    "message": "Nikoli"
+  },
+  "backupDaily": {
+    "message": "Vsak dan"
+  },
+  "backupWeekly": {
+    "message": "Vsak teden"
+  },
+  "backupLast": {
+    "message": "Nazadnje shranjeno: $1."
+  },
+  "backupSaving": {
+    "message": "Shranjevanje …"
+  },
+  "dataHeading": {
+    "message": "Vaši megazavihki"
+  },
+  "dataHelp": {
+    "message": "Ena datoteka z vsemi prostori, megazavihki in njihovimi zavihki. Uvoz doda, kar manjka, in ničesar ne zapre."
+  },
+  "exportBtn": {
+    "message": "Izvozi megazavihke"
+  },
+  "importBtn": {
+    "message": "Uvozi megazavihke …"
+  },
+  "chooseFile": {
+    "message": "Izberite izvoženo datoteko"
+  },
+  "exportSaved": {
+    "message": "Shranjeno $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Izvoz ni uspel: $1"
+  },
+  "importAdded": {
+    "message": "Dodano $1 in $2 iz $3."
+  },
+  "importNothing": {
+    "message": "Ni kaj dodati: vse iz $1 že obstaja."
+  },
+  "importFail": {
+    "message": "Uvoz ni uspel: $1"
+  },
+  "boardTitle": {
+    "message": "Tabla · $1"
+  },
+  "folderLabel": {
+    "message": "Mapa: $1"
+  },
+  "change": {
+    "message": "Spremeni"
+  },
+  "chooseFolder": {
+    "message": "Izberi mapo"
+  },
+  "allowFolder": {
+    "message": "Dovoli dostop do »$1«"
+  },
+  "hostMissing": {
+    "message": "Gostitelj table ni nameščen. V mapi Mega Tabs zaženite $1 in nato znova naložite to stran."
+  },
+  "hostForbidden": {
+    "message": "Chrome tej razširitvi ne dovoli uporabe gostitelja table. Znova zaženite $1 in nato znova naložite to stran."
+  },
+  "hostStopped": {
+    "message": "Gostitelj table se je ustavil. Poskušam znova."
+  },
+  "hostUnreachable": {
+    "message": "Tabla ne doseže svojega gostitelja ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "tu ni mogoče odpreti ($1)"
+  },
+  "howItWorks": {
+    "message": "Kako deluje"
+  },
+  "rename": {
+    "message": "Preimenuj"
+  },
+  "renameLabel": {
+    "message": "Preimenuj $1"
+  },
+  "renameTitle": {
+    "message": "Preimenuj (ali dvoklik na ime)"
+  },
+  "deleteLabel": {
+    "message": "Izbriši $1"
+  },
+  "deleteTitle": {
+    "message": "Izbriši (v koš, mogoče je razveljaviti)"
+  },
+  "noMatches": {
+    "message": "Ni zadetkov."
+  },
+  "newNote": {
+    "message": "Nov zapisek"
+  },
+  "newCanvas": {
+    "message": "Novo platno"
+  },
+  "newNoteTitle": {
+    "message": "Začni nov zapisek v tem prostoru"
+  },
+  "newCanvasTitle": {
+    "message": "Začni novo platno v tem prostoru"
+  },
+  "emptyNotesFolder": {
+    "message": "V tem prostoru še ni zapiskov. Za začetek pritisnite Nov zapisek."
+  },
+  "emptyNotesDir": {
+    "message": "V ~/Spaces/$1/ še ni datotek .md. Za začetek pritisnite Nov zapisek."
+  },
+  "noFolderNotes": {
+    "message": "Za »$1« še ni mape. Ustvarite ~/Spaces/$1/ in vanjo dajte datoteke .md."
+  },
+  "emptyCanvasFolder": {
+    "message": "V tem prostoru še ni platen. Za začetek pritisnite Novo platno."
+  },
+  "emptyCanvasDir": {
+    "message": "V ~/Spaces/$1/ še ni datotek .canvas. Za začetek pritisnite Novo platno."
+  },
+  "noFolderCanvas": {
+    "message": "Za »$1« še ni mape. Ustvarite ~/Spaces/$1/ in vanjo dajte datoteke .canvas."
+  },
+  "done": {
+    "message": "Končano"
+  },
+  "backToReading": {
+    "message": "Nazaj na branje (Esc)"
+  },
+  "typeInFile": {
+    "message": "Piši v to datoteko (E)"
+  },
+  "openCursor": {
+    "message": "Odpri v Cursorju"
+  },
+  "openCursorTitle": {
+    "message": "Odpri to datoteko v Cursorju"
+  },
+  "typeHere": {
+    "message": "Pišite tukaj."
+  },
+  "textOf": {
+    "message": "Besedilo za $1"
+  },
+  "statusUnsaved": {
+    "message": "Ni shranjeno"
+  },
+  "statusSaving": {
+    "message": "Shranjevanje"
+  },
+  "statusSaved": {
+    "message": "Shranjeno"
+  },
+  "mixedEol": {
+    "message": "Pomešani konci vrstic: uredite to datoteko v Cursorju."
+  },
+  "notSavedWhy": {
+    "message": "Ni shranjeno ($1)"
+  },
+  "hostNotConnected": {
+    "message": "gostitelj ni povezan"
+  },
+  "notSaved": {
+    "message": "Ni shranjeno: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Ni shranjeno: zapisek je večji od $1 KB, kolikor jih datoteka sprejme. Skrajšajte ga ali razdelite na dva."
+  },
+  "changedOnDisk": {
+    "message": "Spremenjeno na disku"
+  },
+  "conflictGone": {
+    "message": "Izbrisano na disku:"
+  },
+  "conflictTooLarge": {
+    "message": "Spremenjeno na disku in zdaj preveliko za prikaz tukaj:"
+  },
+  "conflictNotText": {
+    "message": "Spremenjeno na disku in ni več besedilo:"
+  },
+  "conflictChanged": {
+    "message": "Spremenjeno na disku:"
+  },
+  "loadTheirs": {
+    "message": "Naloži njihovo"
+  },
+  "keepMine": {
+    "message": "Obdrži mojo"
+  },
+  "dropIt": {
+    "message": "Zavrzi"
+  },
+  "seeTheirs": {
+    "message": "Poglej njihovo"
+  },
+  "removedFromFolder": {
+    "message": "$1 je bil odstranjen iz mape."
+  },
+  "cannotOpenNote": {
+    "message": "Te datoteke tu ni mogoče odpreti ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Te datoteke tu ni mogoče odpreti ($1). Cursor zmore."
+  },
+  "cannotOpenCanvas": {
+    "message": "Tega platna tu ni mogoče odpreti ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Tega platna tu ni mogoče odpreti ($1). Cursor zmore."
+  },
+  "waitingStorage": {
+    "message": "Čakam na shrambo table."
+  },
+  "couldNotRead": {
+    "message": "$1 ni bilo mogoče prebrati ($2)."
+  },
+  "couldNotOpen": {
+    "message": "$1 ni bilo mogoče odpreti ($2)."
+  },
+  "noteName": {
+    "message": "Ime zapiska"
+  },
+  "canvasName": {
+    "message": "Ime platna"
+  },
+  "nameTaken": {
+    "message": "To ime je že v uporabi."
+  },
+  "nameBad": {
+    "message": "Tega imena ni mogoče uporabiti."
+  },
+  "notCreated": {
+    "message": "Ni ustvarjeno ($1)."
+  },
+  "renameNewName": {
+    "message": "Novo ime za $1"
+  },
+  "resolveFirst": {
+    "message": "Najprej rešite spremembo na disku."
+  },
+  "notSavedYetRename": {
+    "message": "Še ni shranjeno; poskusite znova čez trenutek."
+  },
+  "fileGone": {
+    "message": "Te datoteke ni več."
+  },
+  "notRenamed": {
+    "message": "Ni preimenovano ($1)."
+  },
+  "deletedToast": {
+    "message": "»$1« izbrisano"
+  },
+  "resolveFirstDelete": {
+    "message": "Najprej rešite spremembo na disku, nato brišite."
+  },
+  "notSavedYetDelete": {
+    "message": "Še ni shranjeno, zato ni izbrisano. Poskusite znova čez trenutek."
+  },
+  "notDeleted": {
+    "message": "Ni izbrisano: $1"
+  },
+  "notRestored": {
+    "message": "Ni obnovljeno: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D se tu ni mogel zagnati ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "ni naloženo"
+  },
+  "cvSelect": {
+    "message": "Izberi in premakni (V)"
+  },
+  "cvCard": {
+    "message": "Dodaj besedilno kartico (T)"
+  },
+  "cvPen": {
+    "message": "Pero (P)"
+  },
+  "cvEraser": {
+    "message": "Radirka (E)"
+  },
+  "cvTools": {
+    "message": "Orodja platna"
+  },
+  "cvUndo": {
+    "message": "Razveljavi (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Uveljavi (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Uveljavi"
+  },
+  "cvDelete": {
+    "message": "Izbriši izbor (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Izbriši izbor"
+  },
+  "cvView": {
+    "message": "Pogled"
+  },
+  "cv2d": {
+    "message": "Platno, ploščato"
+  },
+  "cv3d": {
+    "message": "Isto platno v 3D (samo za branje)"
+  },
+  "cvDeleted": {
+    "message": "Izbrisano na disku. Tega platna ni več v mapi."
+  },
+  "cvEmptyCard": {
+    "message": "Prazna kartica"
+  },
+  "cvWriteHere": {
+    "message": "Pišite tukaj"
+  },
+  "cvCardText": {
+    "message": "Besedilo kartice"
+  },
+  "cvOpenNotes": {
+    "message": "Odpri v Zapiskih"
+  },
+  "cvOpenCanvas": {
+    "message": "Odpri to platno"
+  },
+  "cvModelGone": {
+    "message": "Tega modela ni v mapi."
+  },
+  "cvModelBig": {
+    "message": "Ta model je večji od 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Tega modela ni mogoče prikazati ($1)."
+  },
+  "cvUnknownError": {
+    "message": "neznana napaka"
+  },
+  "cvLoadingModel": {
+    "message": "Nalaganje modela"
+  },
+  "cvLink": {
+    "message": "Povezava"
+  },
+  "cvGroup": {
+    "message": "Skupina"
+  },
+  "cvNodeNote": {
+    "message": "Zapisek $1"
+  },
+  "cvNodeLink": {
+    "message": "Povezava $1"
+  },
+  "cvNodeGroup": {
+    "message": "Skupina $1"
+  },
+  "cvNodeType": {
+    "message": "Kartica vrste $1"
+  },
+  "sInvalid": {
+    "message": "Ta datoteka ni JSON Canvas ($1). Popravite jo v Cursorju; do takrat se tu nič ne shranjuje."
+  },
+  "sInvalidNow": {
+    "message": "Spremenjeno na disku in zdaj ni JSON Canvas ($1). Tu se nič ne bo shranjevalo, dokler spet ne bo veljavno."
+  },
+  "sTooBig": {
+    "message": "Ni shranjeno (to platno je $1; datoteke sprejmejo največ $2. Izbrišite nekaj črt ali kartic)"
+  },
+  "sBlockedBig": {
+    "message": "Ni shranjeno (datoteka na disku se je spremenila in je prevelika: Obdrži mojo, ali pustite)"
+  },
+  "sBlockedText": {
+    "message": "Ni shranjeno (datoteka na disku se je spremenila in ni besedilo: Obdrži mojo, ali pustite)"
+  },
+  "sKeepsChanging": {
+    "message": "Ni shranjeno (datoteka se venomer spreminja)"
+  },
+  "edgeOpenPanel": {
+    "message": "Odpri podokno"
+  },
+  "errNameEmpty": {
+    "message": "Vnesite ime."
+  },
+  "errNameLong": {
+    "message": "To ime je predolgo."
+  },
+  "errHost": {
+    "message": "Gostitelj se ni odzval."
+  },
+  "backupKept": {
+    "message": "Shranjeno v Downloads/$2. Shranjene datoteke: $1."
+  },
+  "filesLabel": {
+    "message": "Datoteke"
+  },
+  "roomLabel": {
+    "message": "Soba"
+  },
+  "roomNotes": {
+    "message": "Zapiski"
+  },
+  "roomCanvas": {
+    "message": "Platno"
+  },
+  "search": {
+    "message": "Išči"
+  },
+  "searchLabel": {
+    "message": "Išči v tem prostoru"
+  },
+  "noteLabel": {
+    "message": "Zapisek"
+  },
+  "cvNotShown": {
+    "message": "$1 (tu se ne prikazuje)"
+  },
+  "cvDrawFail": {
+    "message": "Tega platna ni bilo mogoče narisati ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Na disku se ni nič spremenilo. Odprite v Cursorju ali izberite drugo platno."
+  },
+  "statusDeleted": {
+    "message": "Izbrisano na disku"
+  },
+  "cv3dScene": {
+    "message": "3D pogled tega platna. Povlecite za vrtenje, drsite za povečavo, kliknite kartico, da jo odprete."
+  },
+  "cvModelScene": {
+    "message": "3D model. Povlecite za vrtenje; delujejo tudi smerne tipke."
+  },
+  "cvModelCompressed": {
+    "message": "uporablja stisnjeno geometrijo ali teksture (Draco, KTX2 ali Meshopt), ki jih ta pogled ne zna brati"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL v tem brskalniku ni na voljo"
+  },
+  "megaTabs_one": {
+    "message": "$1 megazavihek"
+  },
+  "megaTabs_other": {
+    "message": "$1 megazavihkov"
+  },
+  "tabs_two": {
+    "message": "$1 zavihka"
+  },
+  "tabs_few": {
+    "message": "$1 zavihki"
+  },
+  "tabsNotRestored_two": {
+    "message": "$1 zavihka nista obnovljena"
+  },
+  "tabsNotRestored_few": {
+    "message": "$1 zavihki niso obnovljeni"
+  },
+  "megaTabs_two": {
+    "message": "$1 megazavihka"
+  },
+  "megaTabs_few": {
+    "message": "$1 megazavihki"
+  }
+}

@@ -1,0 +1,719 @@
+{
+  "lang": {
+    "message": "zh-TW"
+  },
+  "extName": {
+    "message": "Mega Tabs：空間、筆記與畫布"
+  },
+  "extDescription": {
+    "message": "依專案切換分頁組合，不必重新載入。旁邊有筆記與畫布，你的 AI 也能編輯。私密且免費。"
+  },
+  "cmdOpen": {
+    "message": "開啟工作區清單"
+  },
+  "cmdTogglePanel": {
+    "message": "開啟或關閉 Mega Tabs 面板"
+  },
+  "cmdNext": {
+    "message": "下一個工作區"
+  },
+  "cmdPrev": {
+    "message": "上一個工作區"
+  },
+  "cmdLast": {
+    "message": "上次使用的工作區"
+  },
+  "cmdSwitch": {
+    "message": "切換到工作區"
+  },
+  "tabs_other": {
+    "message": "$1 個分頁"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 個分頁未復原"
+  },
+  "edit": {
+    "message": "編輯"
+  },
+  "name": {
+    "message": "名稱"
+  },
+  "delete": {
+    "message": "刪除"
+  },
+  "undo": {
+    "message": "復原"
+  },
+  "stashHeading": {
+    "message": "工作區暫存視窗"
+  },
+  "stashText": {
+    "message": "這個隱藏視窗屬於 Mega Tabs 擴充功能，裡面存放目前未顯示的工作區分頁。請勿關閉，改用面板來切換。"
+  },
+  "defaultWorkspace": {
+    "message": "預設"
+  },
+  "recoveredWorkspace": {
+    "message": "已復原"
+  },
+  "iconTitle": {
+    "message": "工作區：$1"
+  },
+  "iconTitleMissing": {
+    "message": "工作區：$1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "擴充功能儲存空間快滿了，分頁很快就無法儲存"
+  },
+  "menuLink": {
+    "message": "在工作區中開啟連結"
+  },
+  "menuMove": {
+    "message": "將分頁移到工作區"
+  },
+  "menuMoveMarked": {
+    "message": "將選取的 $1 個分頁移到工作區"
+  },
+  "menuGroup": {
+    "message": "將群組移到工作區"
+  },
+  "exNotJson": {
+    "message": "檔案不是有效的 JSON。"
+  },
+  "exNotExport": {
+    "message": "這不是 Helium Workspaces 的匯出檔。"
+  },
+  "exNoWorkspaces": {
+    "message": "檔案中沒有工作區。"
+  },
+  "exTooManyWorkspaces": {
+    "message": "檔案中的工作區太多。"
+  },
+  "exTooManyTabs": {
+    "message": "檔案中的分頁太多。"
+  },
+  "workspaceName": {
+    "message": "工作區"
+  },
+  "workspaceN": {
+    "message": "工作區 $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "下載已中斷（$1）"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "擴充功能沒有回應"
+  },
+  "generalSpace": {
+    "message": "一般"
+  },
+  "spaces": {
+    "message": "空間"
+  },
+  "setUp": {
+    "message": "設定"
+  },
+  "filesOffLead": {
+    "message": "檔案功能已關閉："
+  },
+  "retryBtn": {
+    "message": "重試"
+  },
+  "switchToMega": {
+    "message": "切換到 $1"
+  },
+  "closeMegaAsk": {
+    "message": "再按一次，關閉這個 Mega Tab 和它的分頁"
+  },
+  "closeMegaAskLabel": {
+    "message": "關閉 $1 和它的分頁：再按一次"
+  },
+  "closeMega": {
+    "message": "關閉 Mega Tab"
+  },
+  "closeMegaLabel": {
+    "message": "關閉 Mega Tab $1"
+  },
+  "closeQuestion": {
+    "message": "要關閉嗎？"
+  },
+  "spaceName": {
+    "message": "空間名稱"
+  },
+  "showSpace": {
+    "message": "顯示 $1（按兩下可重新命名）"
+  },
+  "newSpaceName": {
+    "message": "新空間的名稱"
+  },
+  "newSpaceItem": {
+    "message": "新增空間…"
+  },
+  "allSpaces": {
+    "message": "所有空間"
+  },
+  "switchSpace": {
+    "message": "切換空間"
+  },
+  "board": {
+    "message": "看板"
+  },
+  "boardOpen": {
+    "message": "開啟看板：$1 的 .md 檔案"
+  },
+  "settingsPage": {
+    "message": "設定"
+  },
+  "settingsOpen": {
+    "message": "設定：邊緣喚出、備份、匯出"
+  },
+  "newMegaName": {
+    "message": "新 Mega Tab 的名稱"
+  },
+  "noMegas": {
+    "message": "還沒有 Mega Tab。"
+  },
+  "newMega": {
+    "message": "+ 新增 Mega Tab"
+  },
+  "noSpaces": {
+    "message": "還沒有空間。"
+  },
+  "newSpace": {
+    "message": "+ 新增空間"
+  },
+  "openWindows": {
+    "message": "已開啟的視窗"
+  },
+  "emptyWindow": {
+    "message": "空白視窗"
+  },
+  "undoClose": {
+    "message": "復原關閉"
+  },
+  "intro": {
+    "message": "Mega Tab 是一組可整組切換的分頁。點選其中一個即可開始。"
+  },
+  "homeSetupTitle": {
+    "message": "開啟檔案功能"
+  },
+  "homeSetupText": {
+    "message": "空間把筆記以一般檔案存在 $1。Chrome 需要一個小幫手來讀寫這些檔案。請在 Mega Tabs 資料夾執行 $2，然後按「重試」。"
+  },
+  "retryChecking": {
+    "message": "檢查中…"
+  },
+  "retryOn": {
+    "message": "檔案功能已開啟。"
+  },
+  "retryOff": {
+    "message": "仍未開啟。請執行該指令，再按一次「重試」。"
+  },
+  "tileLabel": {
+    "message": "$1，$2"
+  },
+  "tileOpen": {
+    "message": "開啟 $1（按兩下可重新命名，拖入圖片可當封面）"
+  },
+  "tileTypeName": {
+    "message": "輸入名稱後按 Enter"
+  },
+  "newSpaceAria": {
+    "message": "新增空間"
+  },
+  "tileNewTitle": {
+    "message": "輸入名稱以建立新空間"
+  },
+  "tileNewHint": {
+    "message": "輸入名稱"
+  },
+  "coverType": {
+    "message": "請使用 png、jpg 或 webp 圖片。"
+  },
+  "coverBig": {
+    "message": "這張圖片超過 700 KB，請換小一點的。"
+  },
+  "coverNotSaved": {
+    "message": "檔案功能已關閉：封面未儲存。"
+  },
+  "edgeHeading": {
+    "message": "邊緣喚出"
+  },
+  "edgeToggle": {
+    "message": "指標停在螢幕邊緣時顯示迷你切換器"
+  },
+  "edgeHelp": {
+    "message": "把指標在邊緣停一下，你的 Mega Tab 就會出現在頁面上方。Chrome 會詢問一次是否允許在網頁上執行。切換器不會讀取網頁內容，也不會傳送任何資料。新分頁頁面和 chrome:// 頁面上不會出現。"
+  },
+  "side": {
+    "message": "側邊"
+  },
+  "sideLeft": {
+    "message": "左側"
+  },
+  "sideRight": {
+    "message": "右側"
+  },
+  "edgeOnLeft": {
+    "message": "已開啟。請把指標停在網頁的左邊緣。"
+  },
+  "edgeOnRight": {
+    "message": "已開啟。請把指標停在網頁的右邊緣。"
+  },
+  "edgeDenied": {
+    "message": "邊緣喚出需要這項權限才能在網頁上執行，因此維持關閉。"
+  },
+  "backupHeading": {
+    "message": "備份"
+  },
+  "backupLabel": {
+    "message": "儲存備份檔"
+  },
+  "backupNever": {
+    "message": "從不"
+  },
+  "backupDaily": {
+    "message": "每天"
+  },
+  "backupWeekly": {
+    "message": "每週"
+  },
+  "backupLast": {
+    "message": "上次儲存：$1。"
+  },
+  "backupSaving": {
+    "message": "儲存中…"
+  },
+  "dataHeading": {
+    "message": "你的 Mega Tab"
+  },
+  "dataHelp": {
+    "message": "一個檔案包含所有空間、Mega Tab 和它們的分頁。匯入只會補上缺少的內容，不會關閉任何東西。"
+  },
+  "exportBtn": {
+    "message": "匯出 Mega Tab"
+  },
+  "importBtn": {
+    "message": "匯入 Mega Tab…"
+  },
+  "chooseFile": {
+    "message": "選擇匯出的檔案"
+  },
+  "exportSaved": {
+    "message": "已儲存 $1：$2，$3。"
+  },
+  "exportFail": {
+    "message": "無法匯出：$1"
+  },
+  "importAdded": {
+    "message": "已從 $3 新增 $1 和 $2。"
+  },
+  "importNothing": {
+    "message": "沒有可新增的內容：$1 中的一切都已存在。"
+  },
+  "importFail": {
+    "message": "無法匯入：$1"
+  },
+  "boardTitle": {
+    "message": "看板 · $1"
+  },
+  "folderLabel": {
+    "message": "資料夾：$1"
+  },
+  "change": {
+    "message": "變更"
+  },
+  "chooseFolder": {
+    "message": "選擇資料夾"
+  },
+  "allowFolder": {
+    "message": "允許存取「$1」"
+  },
+  "hostMissing": {
+    "message": "尚未安裝看板主機程式。請在 Mega Tabs 資料夾執行 $1，然後重新載入此頁面。"
+  },
+  "hostForbidden": {
+    "message": "Chrome 不允許這個擴充功能使用看板主機程式。請再執行一次 $1，然後重新載入此頁面。"
+  },
+  "hostStopped": {
+    "message": "看板主機程式已停止。正在重試。"
+  },
+  "hostUnreachable": {
+    "message": "看板無法連線到它的主機程式（$1）。"
+  },
+  "cannotOpenMeta": {
+    "message": "無法在此開啟（$1）"
+  },
+  "howItWorks": {
+    "message": "使用說明"
+  },
+  "rename": {
+    "message": "重新命名"
+  },
+  "renameLabel": {
+    "message": "重新命名 $1"
+  },
+  "renameTitle": {
+    "message": "重新命名（或按兩下名稱）"
+  },
+  "deleteLabel": {
+    "message": "刪除 $1"
+  },
+  "deleteTitle": {
+    "message": "刪除（移到垃圾桶，可復原）"
+  },
+  "noMatches": {
+    "message": "沒有符合的項目。"
+  },
+  "newNote": {
+    "message": "新增筆記"
+  },
+  "newCanvas": {
+    "message": "新增畫布"
+  },
+  "newNoteTitle": {
+    "message": "在此空間新增一則筆記"
+  },
+  "newCanvasTitle": {
+    "message": "在此空間新增一個畫布"
+  },
+  "emptyNotesFolder": {
+    "message": "此空間還沒有筆記。按「新增筆記」開始。"
+  },
+  "emptyNotesDir": {
+    "message": "~/Spaces/$1/ 中還沒有 .md 檔案。按「新增筆記」開始。"
+  },
+  "noFolderNotes": {
+    "message": "「$1」還沒有資料夾。請建立 ~/Spaces/$1/，並把 .md 檔案放進去。"
+  },
+  "emptyCanvasFolder": {
+    "message": "此空間還沒有畫布。按「新增畫布」開始。"
+  },
+  "emptyCanvasDir": {
+    "message": "~/Spaces/$1/ 中還沒有 .canvas 檔案。按「新增畫布」開始。"
+  },
+  "noFolderCanvas": {
+    "message": "「$1」還沒有資料夾。請建立 ~/Spaces/$1/，並把 .canvas 檔案放進去。"
+  },
+  "done": {
+    "message": "完成"
+  },
+  "backToReading": {
+    "message": "回到閱讀（Esc）"
+  },
+  "typeInFile": {
+    "message": "在此檔案中輸入（E）"
+  },
+  "openCursor": {
+    "message": "在 Cursor 中開啟"
+  },
+  "openCursorTitle": {
+    "message": "在 Cursor 中開啟此檔案"
+  },
+  "typeHere": {
+    "message": "在這裡輸入。"
+  },
+  "textOf": {
+    "message": "$1 的文字"
+  },
+  "statusUnsaved": {
+    "message": "未儲存"
+  },
+  "statusSaving": {
+    "message": "儲存中"
+  },
+  "statusSaved": {
+    "message": "已儲存"
+  },
+  "mixedEol": {
+    "message": "換行符號混用：請在 Cursor 中編輯此檔案。"
+  },
+  "notSavedWhy": {
+    "message": "未儲存（$1）"
+  },
+  "hostNotConnected": {
+    "message": "主機程式未連線"
+  },
+  "notSaved": {
+    "message": "未儲存：$1"
+  },
+  "notSavedTooLarge": {
+    "message": "未儲存：這則筆記超過檔案可容納的 $1 KB。請縮短或拆成兩則。"
+  },
+  "changedOnDisk": {
+    "message": "磁碟上已變更"
+  },
+  "conflictGone": {
+    "message": "磁碟上已刪除："
+  },
+  "conflictTooLarge": {
+    "message": "磁碟上已變更，現在太大而無法在此顯示："
+  },
+  "conflictNotText": {
+    "message": "磁碟上已變更，不再是文字："
+  },
+  "conflictChanged": {
+    "message": "磁碟上已變更："
+  },
+  "loadTheirs": {
+    "message": "載入對方的版本"
+  },
+  "keepMine": {
+    "message": "保留我的"
+  },
+  "dropIt": {
+    "message": "捨棄"
+  },
+  "seeTheirs": {
+    "message": "查看對方的版本"
+  },
+  "removedFromFolder": {
+    "message": "$1 已從資料夾中移除。"
+  },
+  "cannotOpenNote": {
+    "message": "此檔案無法在這裡開啟（$1）。"
+  },
+  "cannotOpenNoteCursor": {
+    "message": "此檔案無法在這裡開啟（$1）。Cursor 可以。"
+  },
+  "cannotOpenCanvas": {
+    "message": "此畫布無法在這裡開啟（$1）。"
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "此畫布無法在這裡開啟（$1）。Cursor 可以。"
+  },
+  "waitingStorage": {
+    "message": "正在等待看板儲存空間。"
+  },
+  "couldNotRead": {
+    "message": "無法讀取 $1（$2）。"
+  },
+  "couldNotOpen": {
+    "message": "無法開啟 $1（$2）。"
+  },
+  "noteName": {
+    "message": "筆記名稱"
+  },
+  "canvasName": {
+    "message": "畫布名稱"
+  },
+  "nameTaken": {
+    "message": "這個名稱已被使用。"
+  },
+  "nameBad": {
+    "message": "這個名稱無法使用。"
+  },
+  "notCreated": {
+    "message": "未建立（$1）。"
+  },
+  "renameNewName": {
+    "message": "$1 的新名稱"
+  },
+  "resolveFirst": {
+    "message": "請先處理磁碟上的變更。"
+  },
+  "notSavedYetRename": {
+    "message": "尚未儲存；請稍後再試。"
+  },
+  "fileGone": {
+    "message": "該檔案已不存在。"
+  },
+  "notRenamed": {
+    "message": "未重新命名（$1）。"
+  },
+  "deletedToast": {
+    "message": "已刪除「$1」"
+  },
+  "resolveFirstDelete": {
+    "message": "請先處理磁碟上的變更，再刪除。"
+  },
+  "notSavedYetDelete": {
+    "message": "尚未儲存，因此未刪除。請稍後再試。"
+  },
+  "notDeleted": {
+    "message": "未刪除：$1"
+  },
+  "notRestored": {
+    "message": "未復原：$1"
+  },
+  "cvThreeFailed": {
+    "message": "3D 無法在此啟動（$1）。"
+  },
+  "cvDidNotLoad": {
+    "message": "未能載入"
+  },
+  "cvSelect": {
+    "message": "選取並移動（V）"
+  },
+  "cvCard": {
+    "message": "新增文字卡片（T）"
+  },
+  "cvPen": {
+    "message": "畫筆（P）"
+  },
+  "cvEraser": {
+    "message": "橡皮擦（E）"
+  },
+  "cvTools": {
+    "message": "畫布工具"
+  },
+  "cvUndo": {
+    "message": "復原（Cmd+Z）"
+  },
+  "cvRedo": {
+    "message": "重做（Shift+Cmd+Z）"
+  },
+  "cvRedoLabel": {
+    "message": "重做"
+  },
+  "cvDelete": {
+    "message": "刪除選取項目（Backspace）"
+  },
+  "cvDeleteLabel": {
+    "message": "刪除選取項目"
+  },
+  "cvView": {
+    "message": "檢視"
+  },
+  "cv2d": {
+    "message": "畫布，平面"
+  },
+  "cv3d": {
+    "message": "同一個畫布的 3D 檢視（唯讀）"
+  },
+  "cvDeleted": {
+    "message": "磁碟上已刪除。此畫布已不在資料夾中。"
+  },
+  "cvEmptyCard": {
+    "message": "空白卡片"
+  },
+  "cvWriteHere": {
+    "message": "在這裡輸入"
+  },
+  "cvCardText": {
+    "message": "卡片文字"
+  },
+  "cvOpenNotes": {
+    "message": "在筆記中開啟"
+  },
+  "cvOpenCanvas": {
+    "message": "開啟此畫布"
+  },
+  "cvModelGone": {
+    "message": "此模型不在資料夾中。"
+  },
+  "cvModelBig": {
+    "message": "此模型超過 24 MB。"
+  },
+  "cvModelFail": {
+    "message": "無法顯示此模型（$1）。"
+  },
+  "cvUnknownError": {
+    "message": "未知的錯誤"
+  },
+  "cvLoadingModel": {
+    "message": "正在載入模型"
+  },
+  "cvLink": {
+    "message": "連結"
+  },
+  "cvGroup": {
+    "message": "群組"
+  },
+  "cvNodeNote": {
+    "message": "筆記 $1"
+  },
+  "cvNodeLink": {
+    "message": "連結 $1"
+  },
+  "cvNodeGroup": {
+    "message": "群組 $1"
+  },
+  "cvNodeType": {
+    "message": "類型為 $1 的卡片"
+  },
+  "sInvalid": {
+    "message": "此檔案不是 JSON Canvas（$1）。請在 Cursor 中修正；在那之前這裡不會儲存任何內容。"
+  },
+  "sInvalidNow": {
+    "message": "磁碟上已變更，現在不是 JSON Canvas（$1）。在它恢復有效之前，這裡不會儲存任何內容。"
+  },
+  "sTooBig": {
+    "message": "未儲存（此畫布為 $1；檔案最多容納 $2。請擦掉一些筆畫或卡片）"
+  },
+  "sBlockedBig": {
+    "message": "未儲存（磁碟上的檔案已變更且超過大小上限：保留我的，或維持原狀）"
+  },
+  "sBlockedText": {
+    "message": "未儲存（磁碟上的檔案已變更且不是文字：保留我的，或維持原狀）"
+  },
+  "sKeepsChanging": {
+    "message": "未儲存（檔案一直在變動）"
+  },
+  "edgeOpenPanel": {
+    "message": "開啟面板"
+  },
+  "errNameEmpty": {
+    "message": "請輸入名稱。"
+  },
+  "errNameLong": {
+    "message": "這個名稱太長。"
+  },
+  "errHost": {
+    "message": "主機程式沒有回應。"
+  },
+  "backupKept": {
+    "message": "已存入 Downloads/$2。保留的檔案數：$1。"
+  },
+  "filesLabel": {
+    "message": "檔案"
+  },
+  "roomLabel": {
+    "message": "房間"
+  },
+  "roomNotes": {
+    "message": "筆記"
+  },
+  "roomCanvas": {
+    "message": "畫布"
+  },
+  "search": {
+    "message": "搜尋"
+  },
+  "searchLabel": {
+    "message": "搜尋此空間"
+  },
+  "noteLabel": {
+    "message": "筆記"
+  },
+  "cvNotShown": {
+    "message": "$1（此處不顯示）"
+  },
+  "cvDrawFail": {
+    "message": "無法繪製此畫布（$1）。"
+  },
+  "cvDrawFail2": {
+    "message": "磁碟上沒有任何變更。請在 Cursor 中開啟，或選擇另一個畫布。"
+  },
+  "statusDeleted": {
+    "message": "磁碟上已刪除"
+  },
+  "cv3dScene": {
+    "message": "此畫布的 3D 檢視。拖曳可環繞，捲動可縮放，點選卡片可開啟。"
+  },
+  "cvModelScene": {
+    "message": "3D 模型。拖曳可旋轉，也可用方向鍵。"
+  },
+  "cvModelCompressed": {
+    "message": "它使用壓縮的幾何或材質（Draco、KTX2 或 Meshopt），此檢視無法讀取"
+  },
+  "cvNoWebgl": {
+    "message": "此瀏覽器不支援 WebGL"
+  },
+  "megaTabs_other": {
+    "message": "$1 個 Mega Tab"
+  }
+}

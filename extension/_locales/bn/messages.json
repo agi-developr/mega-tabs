@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "bn"
+  },
+  "extName": {
+    "message": "Mega Tabs: স্পেস, নোট ও ক্যানভাস"
+  },
+  "extDescription": {
+    "message": "রিলোড ছাড়াই প্রজেক্ট অনুযায়ী ট্যাব সেট বদলান। সঙ্গে নোট ও ক্যানভাস, যা আপনার AI-ও সম্পাদনা করতে পারে। ব্যক্তিগত ও বিনামূল্যে।"
+  },
+  "cmdOpen": {
+    "message": "ওয়ার্কস্পেসের তালিকা খুলুন"
+  },
+  "cmdTogglePanel": {
+    "message": "Mega Tabs প্যানেল খুলুন বা বন্ধ করুন"
+  },
+  "cmdNext": {
+    "message": "পরের ওয়ার্কস্পেস"
+  },
+  "cmdPrev": {
+    "message": "আগের ওয়ার্কস্পেস"
+  },
+  "cmdLast": {
+    "message": "সর্বশেষ ব্যবহৃত ওয়ার্কস্পেস"
+  },
+  "cmdSwitch": {
+    "message": "ওয়ার্কস্পেসে যান"
+  },
+  "tabs_one": {
+    "message": "$1টি ট্যাব"
+  },
+  "tabs_other": {
+    "message": "$1টি ট্যাব"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1টি ট্যাব পুনরুদ্ধার হয়নি"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1টি ট্যাব পুনরুদ্ধার হয়নি"
+  },
+  "edit": {
+    "message": "সম্পাদনা"
+  },
+  "name": {
+    "message": "নাম"
+  },
+  "delete": {
+    "message": "মুছুন"
+  },
+  "undo": {
+    "message": "পূর্বাবস্থায়"
+  },
+  "stashHeading": {
+    "message": "ওয়ার্কস্পেস সংরক্ষণ"
+  },
+  "stashText": {
+    "message": "এই লুকানো উইন্ডোটি Mega Tabs এক্সটেনশনের। এখন দেখানো হচ্ছে না এমন ওয়ার্কস্পেসের ট্যাব এখানে থাকে। এটি বন্ধ করবেন না; বদলাতে প্যানেল ব্যবহার করুন।"
+  },
+  "defaultWorkspace": {
+    "message": "ডিফল্ট"
+  },
+  "recoveredWorkspace": {
+    "message": "পুনরুদ্ধার করা"
+  },
+  "iconTitle": {
+    "message": "ওয়ার্কস্পেস: $1"
+  },
+  "iconTitleMissing": {
+    "message": "ওয়ার্কস্পেস: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "এক্সটেনশনের সঞ্চয়স্থান প্রায় ভরে গেছে; শিগগির ট্যাব সংরক্ষণ বন্ধ হবে"
+  },
+  "menuLink": {
+    "message": "ওয়ার্কস্পেসে লিঙ্ক খুলুন"
+  },
+  "menuMove": {
+    "message": "ট্যাব ওয়ার্কস্পেসে সরান"
+  },
+  "menuMoveMarked": {
+    "message": "নির্বাচিত $1টি ট্যাব ওয়ার্কস্পেসে সরান"
+  },
+  "menuGroup": {
+    "message": "গ্রুপ ওয়ার্কস্পেসে সরান"
+  },
+  "exNotJson": {
+    "message": "ফাইলটি বৈধ JSON নয়।"
+  },
+  "exNotExport": {
+    "message": "এটি Helium Workspaces-এর এক্সপোর্ট ফাইল নয়।"
+  },
+  "exNoWorkspaces": {
+    "message": "ফাইলে কোনো ওয়ার্কস্পেস নেই।"
+  },
+  "exTooManyWorkspaces": {
+    "message": "ফাইলে অনেক বেশি ওয়ার্কস্পেস আছে।"
+  },
+  "exTooManyTabs": {
+    "message": "ফাইলে অনেক বেশি ট্যাব আছে।"
+  },
+  "workspaceName": {
+    "message": "ওয়ার্কস্পেস"
+  },
+  "workspaceN": {
+    "message": "ওয়ার্কস্পেস $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "ডাউনলোড থেমে গেছে ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "এক্সটেনশন সাড়া দিচ্ছে না"
+  },
+  "generalSpace": {
+    "message": "সাধারণ"
+  },
+  "spaces": {
+    "message": "স্পেস"
+  },
+  "setUp": {
+    "message": "সেট আপ"
+  },
+  "filesOffLead": {
+    "message": "ফাইল বন্ধ আছে:"
+  },
+  "retryBtn": {
+    "message": "আবার চেষ্টা করুন"
+  },
+  "switchToMega": {
+    "message": "$1-এ যান"
+  },
+  "closeMegaAsk": {
+    "message": "এই মেগা ট্যাব ও এর ট্যাবগুলো বন্ধ করতে আবার ক্লিক করুন"
+  },
+  "closeMegaAskLabel": {
+    "message": "$1 ও এর ট্যাব বন্ধ করুন: আবার ক্লিক করুন"
+  },
+  "closeMega": {
+    "message": "মেগা ট্যাব বন্ধ করুন"
+  },
+  "closeMegaLabel": {
+    "message": "মেগা ট্যাব $1 বন্ধ করুন"
+  },
+  "closeQuestion": {
+    "message": "বন্ধ করবেন?"
+  },
+  "spaceName": {
+    "message": "স্পেসের নাম"
+  },
+  "showSpace": {
+    "message": "$1 দেখান (নাম বদলাতে ডাবল ক্লিক করুন)"
+  },
+  "newSpaceName": {
+    "message": "নতুন স্পেসের নাম"
+  },
+  "newSpaceItem": {
+    "message": "নতুন স্পেস…"
+  },
+  "allSpaces": {
+    "message": "সব স্পেস"
+  },
+  "switchSpace": {
+    "message": "স্পেস বদলান"
+  },
+  "board": {
+    "message": "বোর্ড"
+  },
+  "boardOpen": {
+    "message": "বোর্ড খুলুন: $1-এর .md ফাইল"
+  },
+  "settingsPage": {
+    "message": "সেটিংস"
+  },
+  "settingsOpen": {
+    "message": "সেটিংস: প্রান্তে দেখানো, ব্যাকআপ, এক্সপোর্ট"
+  },
+  "newMegaName": {
+    "message": "নতুন মেগা ট্যাবের নাম"
+  },
+  "noMegas": {
+    "message": "এখনো কোনো মেগা ট্যাব নেই।"
+  },
+  "newMega": {
+    "message": "+ নতুন মেগা ট্যাব"
+  },
+  "noSpaces": {
+    "message": "এখনো কোনো স্পেস নেই।"
+  },
+  "newSpace": {
+    "message": "+ নতুন স্পেস"
+  },
+  "openWindows": {
+    "message": "খোলা উইন্ডো"
+  },
+  "emptyWindow": {
+    "message": "খালি উইন্ডো"
+  },
+  "undoClose": {
+    "message": "বন্ধ করা বাতিল করুন"
+  },
+  "intro": {
+    "message": "মেগা ট্যাব হলো একসঙ্গে বদলে যাওয়া ট্যাবের একটি সেট। শুরু করতে একটিতে ক্লিক করুন।"
+  },
+  "homeSetupTitle": {
+    "message": "ফাইল চালু করুন"
+  },
+  "homeSetupText": {
+    "message": "স্পেসগুলো নোট সাধারণ ফাইল হিসেবে $1-এ রাখে। ফাইল পড়তে ও লিখতে Chrome-এর একটি ছোট সহায়ক দরকার। Mega Tabs ফোল্ডারে $2 চালান, তারপর আবার চেষ্টা করুন চাপুন।"
+  },
+  "retryChecking": {
+    "message": "পরীক্ষা চলছে…"
+  },
+  "retryOn": {
+    "message": "ফাইল চালু আছে।"
+  },
+  "retryOff": {
+    "message": "এখনো বন্ধ। কমান্ডটি চালিয়ে আবার চেষ্টা করুন চাপুন।"
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "$1 খুলুন (নাম বদলাতে ডাবল ক্লিক করুন, কভারের জন্য ছবি ফেলুন)"
+  },
+  "tileTypeName": {
+    "message": "একটি নাম লিখে Enter চাপুন"
+  },
+  "newSpaceAria": {
+    "message": "নতুন স্পেস"
+  },
+  "tileNewTitle": {
+    "message": "নতুন স্পেস বানাতে একটি নাম লিখুন"
+  },
+  "tileNewHint": {
+    "message": "একটি নাম লিখুন"
+  },
+  "coverType": {
+    "message": "png, jpg বা webp ছবি ব্যবহার করুন।"
+  },
+  "coverBig": {
+    "message": "ছবিটি ৭০০ KB-এর বেশি। ছোট ছবি ব্যবহার করুন।"
+  },
+  "coverNotSaved": {
+    "message": "ফাইল বন্ধ আছে: কভার সংরক্ষিত হয়নি।"
+  },
+  "edgeHeading": {
+    "message": "প্রান্তে দেখানো"
+  },
+  "edgeToggle": {
+    "message": "কার্সর স্ক্রিনের প্রান্তে থামলে একটি ছোট সুইচার দেখান"
+  },
+  "edgeHelp": {
+    "message": "কার্সর প্রান্তে কিছুক্ষণ রাখুন, আপনার মেগা ট্যাবগুলো পেজের ওপর ভেসে উঠবে। ওয়েব পেজে চলার জন্য Chrome একবার অনুমতি চাইবে। সুইচার পেজ থেকে কিছু পড়ে না, কোথাও কিছু পাঠায় না। নতুন ট্যাব পেজ ও chrome:// পেজে এটি দেখা যায় না।"
+  },
+  "side": {
+    "message": "পাশ"
+  },
+  "sideLeft": {
+    "message": "বাঁ"
+  },
+  "sideRight": {
+    "message": "ডান"
+  },
+  "edgeOnLeft": {
+    "message": "চালু। ওয়েব পেজের বাঁ প্রান্তে কার্সর রাখুন।"
+  },
+  "edgeOnRight": {
+    "message": "চালু। ওয়েব পেজের ডান প্রান্তে কার্সর রাখুন।"
+  },
+  "edgeDenied": {
+    "message": "প্রান্তে দেখানোর জন্য ওয়েব পেজে চলার এই অনুমতি লাগে। এটি বন্ধই থাকছে।"
+  },
+  "backupHeading": {
+    "message": "ব্যাকআপ"
+  },
+  "backupLabel": {
+    "message": "একটি ব্যাকআপ ফাইল সংরক্ষণ করুন"
+  },
+  "backupNever": {
+    "message": "কখনো না"
+  },
+  "backupDaily": {
+    "message": "প্রতিদিন"
+  },
+  "backupWeekly": {
+    "message": "প্রতি সপ্তাহে"
+  },
+  "backupLast": {
+    "message": "সর্বশেষ সংরক্ষণ: $1।"
+  },
+  "backupSaving": {
+    "message": "সংরক্ষণ হচ্ছে…"
+  },
+  "dataHeading": {
+    "message": "আপনার মেগা ট্যাব"
+  },
+  "dataHelp": {
+    "message": "সব স্পেস, মেগা ট্যাব ও তাদের ট্যাব নিয়ে একটি ফাইল। ইমপোর্ট যা নেই তা যোগ করে, কিছু বন্ধ করে না।"
+  },
+  "exportBtn": {
+    "message": "মেগা ট্যাব এক্সপোর্ট"
+  },
+  "importBtn": {
+    "message": "মেগা ট্যাব ইমপোর্ট…"
+  },
+  "chooseFile": {
+    "message": "একটি এক্সপোর্ট করা ফাইল বেছে নিন"
+  },
+  "exportSaved": {
+    "message": "$1 সংরক্ষিত: $2, $3।"
+  },
+  "exportFail": {
+    "message": "এক্সপোর্ট হয়নি: $1"
+  },
+  "importAdded": {
+    "message": "$3 থেকে $1 ও $2 যোগ হয়েছে।"
+  },
+  "importNothing": {
+    "message": "যোগ করার কিছু নেই: $1-এর সবই আছে।"
+  },
+  "importFail": {
+    "message": "ইমপোর্ট হয়নি: $1"
+  },
+  "boardTitle": {
+    "message": "বোর্ড · $1"
+  },
+  "folderLabel": {
+    "message": "ফোল্ডার: $1"
+  },
+  "change": {
+    "message": "বদলান"
+  },
+  "chooseFolder": {
+    "message": "ফোল্ডার বেছে নিন"
+  },
+  "allowFolder": {
+    "message": "\"$1\"-এ প্রবেশের অনুমতি দিন"
+  },
+  "hostMissing": {
+    "message": "বোর্ড হোস্ট ইনস্টল করা নেই। Mega Tabs ফোল্ডারে $1 চালান, তারপর এই পেজ রিলোড করুন।"
+  },
+  "hostForbidden": {
+    "message": "Chrome এই এক্সটেনশনকে বোর্ড হোস্ট ব্যবহার করতে দিচ্ছে না। আবার $1 চালান, তারপর এই পেজ রিলোড করুন।"
+  },
+  "hostStopped": {
+    "message": "বোর্ড হোস্ট থেমে গেছে। আবার চেষ্টা হচ্ছে।"
+  },
+  "hostUnreachable": {
+    "message": "বোর্ড তার হোস্টে পৌঁছাতে পারছে না ($1)।"
+  },
+  "cannotOpenMeta": {
+    "message": "এখানে খোলা যায়নি ($1)"
+  },
+  "howItWorks": {
+    "message": "কীভাবে কাজ করে"
+  },
+  "rename": {
+    "message": "নাম বদলান"
+  },
+  "renameLabel": {
+    "message": "$1-এর নাম বদলান"
+  },
+  "renameTitle": {
+    "message": "নাম বদলান (বা নামে ডাবল ক্লিক করুন)"
+  },
+  "deleteLabel": {
+    "message": "$1 মুছুন"
+  },
+  "deleteTitle": {
+    "message": "মুছুন (ট্র্যাশে যাবে, পূর্বাবস্থায় ফেরানো যাবে)"
+  },
+  "noMatches": {
+    "message": "কিছু মেলেনি।"
+  },
+  "newNote": {
+    "message": "নতুন নোট"
+  },
+  "newCanvas": {
+    "message": "নতুন ক্যানভাস"
+  },
+  "newNoteTitle": {
+    "message": "এই স্পেসে নতুন নোট শুরু করুন"
+  },
+  "newCanvasTitle": {
+    "message": "এই স্পেসে নতুন ক্যানভাস শুরু করুন"
+  },
+  "emptyNotesFolder": {
+    "message": "এই স্পেসে এখনো কোনো নোট নেই। শুরু করতে নতুন নোট চাপুন।"
+  },
+  "emptyNotesDir": {
+    "message": "~/Spaces/$1/-এ এখনো কোনো .md ফাইল নেই। শুরু করতে নতুন নোট চাপুন।"
+  },
+  "noFolderNotes": {
+    "message": "\"$1\"-এর জন্য এখনো ফোল্ডার নেই। ~/Spaces/$1/ বানিয়ে তাতে .md ফাইল রাখুন।"
+  },
+  "emptyCanvasFolder": {
+    "message": "এই স্পেসে এখনো কোনো ক্যানভাস নেই। শুরু করতে নতুন ক্যানভাস চাপুন।"
+  },
+  "emptyCanvasDir": {
+    "message": "~/Spaces/$1/-এ এখনো কোনো .canvas ফাইল নেই। শুরু করতে নতুন ক্যানভাস চাপুন।"
+  },
+  "noFolderCanvas": {
+    "message": "\"$1\"-এর জন্য এখনো ফোল্ডার নেই। ~/Spaces/$1/ বানিয়ে তাতে .canvas ফাইল রাখুন।"
+  },
+  "done": {
+    "message": "সম্পন্ন"
+  },
+  "backToReading": {
+    "message": "পড়ায় ফিরুন (Esc)"
+  },
+  "typeInFile": {
+    "message": "এই ফাইলে লিখুন (E)"
+  },
+  "openCursor": {
+    "message": "Cursor-এ খুলুন"
+  },
+  "openCursorTitle": {
+    "message": "এই ফাইলটি Cursor-এ খুলুন"
+  },
+  "typeHere": {
+    "message": "এখানে লিখুন।"
+  },
+  "textOf": {
+    "message": "$1-এর লেখা"
+  },
+  "statusUnsaved": {
+    "message": "সংরক্ষিত হয়নি"
+  },
+  "statusSaving": {
+    "message": "সংরক্ষণ হচ্ছে"
+  },
+  "statusSaved": {
+    "message": "সংরক্ষিত"
+  },
+  "mixedEol": {
+    "message": "মেশানো লাইনের শেষ: এই ফাইলটি Cursor-এ সম্পাদনা করুন।"
+  },
+  "notSavedWhy": {
+    "message": "সংরক্ষিত হয়নি ($1)"
+  },
+  "hostNotConnected": {
+    "message": "হোস্ট সংযুক্ত নয়"
+  },
+  "notSaved": {
+    "message": "সংরক্ষিত হয়নি: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "সংরক্ষিত হয়নি: এই নোট ফাইলের সীমা $1 KB-এর চেয়ে বড়। ছোট করুন বা দুই ভাগ করুন।"
+  },
+  "changedOnDisk": {
+    "message": "ডিস্কে বদলেছে"
+  },
+  "conflictGone": {
+    "message": "ডিস্কে মুছে গেছে:"
+  },
+  "conflictTooLarge": {
+    "message": "ডিস্কে বদলেছে এবং এখন এখানে দেখানোর জন্য অনেক বড়:"
+  },
+  "conflictNotText": {
+    "message": "ডিস্কে বদলেছে এবং আর টেক্সট নয়:"
+  },
+  "conflictChanged": {
+    "message": "ডিস্কে বদলেছে:"
+  },
+  "loadTheirs": {
+    "message": "তাদেরটি লোড করুন"
+  },
+  "keepMine": {
+    "message": "আমারটি রাখুন"
+  },
+  "dropIt": {
+    "message": "বাদ দিন"
+  },
+  "seeTheirs": {
+    "message": "তাদেরটি দেখুন"
+  },
+  "removedFromFolder": {
+    "message": "$1 ফোল্ডার থেকে সরানো হয়েছে।"
+  },
+  "cannotOpenNote": {
+    "message": "এই ফাইলটি এখানে খোলা যায় না ($1)।"
+  },
+  "cannotOpenNoteCursor": {
+    "message": "এই ফাইলটি এখানে খোলা যায় না ($1)। Cursor পারে।"
+  },
+  "cannotOpenCanvas": {
+    "message": "এই ক্যানভাসটি এখানে খোলা যায় না ($1)।"
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "এই ক্যানভাসটি এখানে খোলা যায় না ($1)। Cursor পারে।"
+  },
+  "waitingStorage": {
+    "message": "বোর্ড স্টোরেজের অপেক্ষায়।"
+  },
+  "couldNotRead": {
+    "message": "$1 পড়া যায়নি ($2)।"
+  },
+  "couldNotOpen": {
+    "message": "$1 খোলা যায়নি ($2)।"
+  },
+  "noteName": {
+    "message": "নোটের নাম"
+  },
+  "canvasName": {
+    "message": "ক্যানভাসের নাম"
+  },
+  "nameTaken": {
+    "message": "এই নাম আগে থেকেই আছে।"
+  },
+  "nameBad": {
+    "message": "এই নাম ব্যবহার করা যাবে না।"
+  },
+  "notCreated": {
+    "message": "তৈরি হয়নি ($1)।"
+  },
+  "renameNewName": {
+    "message": "$1-এর নতুন নাম"
+  },
+  "resolveFirst": {
+    "message": "আগে ডিস্কের পরিবর্তনটি মেটান।"
+  },
+  "notSavedYetRename": {
+    "message": "এখনো সংরক্ষিত হয়নি; একটু পরে আবার চেষ্টা করুন।"
+  },
+  "fileGone": {
+    "message": "ফাইলটি আর নেই।"
+  },
+  "notRenamed": {
+    "message": "নাম বদলায়নি ($1)।"
+  },
+  "deletedToast": {
+    "message": "\"$1\" মুছে ফেলা হয়েছে"
+  },
+  "resolveFirstDelete": {
+    "message": "আগে ডিস্কের পরিবর্তনটি মেটান, তারপর মুছুন।"
+  },
+  "notSavedYetDelete": {
+    "message": "এখনো সংরক্ষিত হয়নি, তাই মোছা হয়নি। একটু পরে আবার চেষ্টা করুন।"
+  },
+  "notDeleted": {
+    "message": "মোছা হয়নি: $1"
+  },
+  "notRestored": {
+    "message": "পুনরুদ্ধার হয়নি: $1"
+  },
+  "cvThreeFailed": {
+    "message": "এখানে 3D শুরু হয়নি ($1)।"
+  },
+  "cvDidNotLoad": {
+    "message": "লোড হয়নি"
+  },
+  "cvSelect": {
+    "message": "নির্বাচন ও সরানো (V)"
+  },
+  "cvCard": {
+    "message": "টেক্সট কার্ড যোগ করুন (T)"
+  },
+  "cvPen": {
+    "message": "কলম (P)"
+  },
+  "cvEraser": {
+    "message": "ইরেজার (E)"
+  },
+  "cvTools": {
+    "message": "ক্যানভাসের টুল"
+  },
+  "cvUndo": {
+    "message": "পূর্বাবস্থায় (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "আবার করুন (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "আবার করুন"
+  },
+  "cvDelete": {
+    "message": "নির্বাচিত মুছুন (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "নির্বাচিত মুছুন"
+  },
+  "cvView": {
+    "message": "দৃশ্য"
+  },
+  "cv2d": {
+    "message": "ক্যানভাস, সমতল"
+  },
+  "cv3d": {
+    "message": "একই ক্যানভাস 3D-তে (শুধু পড়ার জন্য)"
+  },
+  "cvDeleted": {
+    "message": "ডিস্কে মুছে গেছে। এই ক্যানভাস আর ফোল্ডারে নেই।"
+  },
+  "cvEmptyCard": {
+    "message": "খালি কার্ড"
+  },
+  "cvWriteHere": {
+    "message": "এখানে লিখুন"
+  },
+  "cvCardText": {
+    "message": "কার্ডের লেখা"
+  },
+  "cvOpenNotes": {
+    "message": "নোটে খুলুন"
+  },
+  "cvOpenCanvas": {
+    "message": "এই ক্যানভাস খুলুন"
+  },
+  "cvModelGone": {
+    "message": "এই মডেল ফোল্ডারে নেই।"
+  },
+  "cvModelBig": {
+    "message": "এই মডেল ২৪ MB-এর চেয়ে বড়।"
+  },
+  "cvModelFail": {
+    "message": "এই মডেল দেখানো যায়নি ($1)।"
+  },
+  "cvUnknownError": {
+    "message": "অজানা ত্রুটি"
+  },
+  "cvLoadingModel": {
+    "message": "মডেল লোড হচ্ছে"
+  },
+  "cvLink": {
+    "message": "লিঙ্ক"
+  },
+  "cvGroup": {
+    "message": "গ্রুপ"
+  },
+  "cvNodeNote": {
+    "message": "নোট $1"
+  },
+  "cvNodeLink": {
+    "message": "লিঙ্ক $1"
+  },
+  "cvNodeGroup": {
+    "message": "গ্রুপ $1"
+  },
+  "cvNodeType": {
+    "message": "$1 ধরনের কার্ড"
+  },
+  "sInvalid": {
+    "message": "এই ফাইল JSON Canvas নয় ($1)। Cursor-এ ঠিক করুন; ততক্ষণ এখানে কিছু সংরক্ষিত হবে না।"
+  },
+  "sInvalidNow": {
+    "message": "ডিস্কে বদলেছে এবং এখন JSON Canvas নয় ($1)। আবার বৈধ না হওয়া পর্যন্ত এখানে কিছু সংরক্ষিত হবে না।"
+  },
+  "sTooBig": {
+    "message": "সংরক্ষিত হয়নি (এই ক্যানভাস $1; ফাইলে সর্বোচ্চ $2 ধরে। কিছু রেখা বা কার্ড মুছুন)"
+  },
+  "sBlockedBig": {
+    "message": "সংরক্ষিত হয়নি (ডিস্কের ফাইল বদলেছে এবং বড়: আমারটি রাখুন, অথবা যেমন আছে থাকতে দিন)"
+  },
+  "sBlockedText": {
+    "message": "সংরক্ষিত হয়নি (ডিস্কের ফাইল বদলেছে এবং টেক্সট নয়: আমারটি রাখুন, অথবা যেমন আছে থাকতে দিন)"
+  },
+  "sKeepsChanging": {
+    "message": "সংরক্ষিত হয়নি (ফাইল বদলেই চলেছে)"
+  },
+  "edgeOpenPanel": {
+    "message": "প্যানেল খুলুন"
+  },
+  "errNameEmpty": {
+    "message": "একটি নাম লিখুন।"
+  },
+  "errNameLong": {
+    "message": "নামটি অনেক লম্বা।"
+  },
+  "errHost": {
+    "message": "হোস্ট সাড়া দেয়নি।"
+  },
+  "backupKept": {
+    "message": "Downloads/$2-এ সংরক্ষিত। সংরক্ষিত ফাইল: $1।"
+  },
+  "filesLabel": {
+    "message": "ফাইল"
+  },
+  "roomLabel": {
+    "message": "রুম"
+  },
+  "roomNotes": {
+    "message": "নোট"
+  },
+  "roomCanvas": {
+    "message": "ক্যানভাস"
+  },
+  "search": {
+    "message": "খুঁজুন"
+  },
+  "searchLabel": {
+    "message": "এই স্পেসে খুঁজুন"
+  },
+  "noteLabel": {
+    "message": "নোট"
+  },
+  "cvNotShown": {
+    "message": "$1 (এখানে দেখানো হয়নি)"
+  },
+  "cvDrawFail": {
+    "message": "এই ক্যানভাস আঁকা যায়নি ($1)।"
+  },
+  "cvDrawFail2": {
+    "message": "ডিস্কে কিছু বদলায়নি। Cursor-এ খুলুন বা অন্য ক্যানভাস বেছে নিন।"
+  },
+  "statusDeleted": {
+    "message": "ডিস্কে মুছে গেছে"
+  },
+  "cv3dScene": {
+    "message": "এই ক্যানভাসের 3D দৃশ্য। ঘোরাতে টানুন, জুম করতে স্ক্রল করুন, খুলতে কার্ডে ক্লিক করুন।"
+  },
+  "cvModelScene": {
+    "message": "3D মডেল। ঘোরাতে টানুন; তীর কিও কাজ করে।"
+  },
+  "cvModelCompressed": {
+    "message": "সংকুচিত জ্যামিতি বা টেক্সচার (Draco, KTX2 বা Meshopt) ব্যবহার করে, যা এই দৃশ্য পড়তে পারে না"
+  },
+  "cvNoWebgl": {
+    "message": "এই ব্রাউজারে WebGL নেই"
+  },
+  "megaTabs_one": {
+    "message": "$1টি মেগা ট্যাব"
+  },
+  "megaTabs_other": {
+    "message": "$1টি মেগা ট্যাব"
+  }
+}

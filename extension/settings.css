@@ -1,0 +1,25 @@
+/* Settings: one calm column. Palette and fonts come from sidepanel.css. */
+body.settings { display: block; height: auto; min-height: 100%; padding: 48px 56px 64px; max-width: 680px; }
+.settings header { margin: 0 0 24px; }
+.settings h1 { margin: 0; font-size: 22px; font-weight: 600; letter-spacing: -.01em; }
+.settings section {
+  margin: 0 0 20px; padding: 16px 18px;
+  border: 1px solid var(--line); border-radius: 12px; background: var(--active-bg);
+}
+.settings h2 { margin: 0 0 10px; font-size: 14px; font-weight: 600; }
+.settings .dim { margin: 8px 0 0; }
+.settings .note { min-height: 1.5em; }
+.settings .row { display: flex; align-items: center; gap: 10px; margin: 0; padding: 0; border: 0; line-height: 1.5; }
+.settings .row input[type="checkbox"], .settings .row input[type="radio"] { margin: 0; accent-color: var(--fg); }
+.settings fieldset.choices { gap: 18px; margin-top: 12px; }
+.settings fieldset.choices legend { float: left; padding: 0; margin-right: 18px; color: var(--dim); }
+html[dir=rtl] .settings fieldset.choices legend { float: right; margin-right: 0; margin-left: 18px; }
+.settings fieldset.choices label { display: inline-flex; align-items: center; gap: 6px; }
+.settings fieldset.choices:disabled { opacity: .5; }
+.settings select, .settings .btn {
+  padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--fg); font: inherit; cursor: pointer;
+}
+.settings .btn:hover, .settings select:hover { background: var(--hover); }
+.settings .actions { display: flex; gap: 10px; margin: 12px 0 0; }
+.settings input:focus-visible, .settings select:focus-visible, .settings .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.settings .error { color: var(--fg); }

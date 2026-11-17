@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "tr"
+  },
+  "extName": {
+    "message": "Mega Tabs: alanlar, notlar ve tuval"
+  },
+  "extDescription": {
+    "message": "Sekme setlerini projeye göre yeniden yüklemeden değiştirin. Yanda yapay zekânın da düzenleyebildiği notlar ve tuval. Ücretsiz."
+  },
+  "cmdOpen": {
+    "message": "Çalışma alanı listesini aç"
+  },
+  "cmdTogglePanel": {
+    "message": "Mega Tabs panelini aç veya kapat"
+  },
+  "cmdNext": {
+    "message": "Sonraki çalışma alanı"
+  },
+  "cmdPrev": {
+    "message": "Önceki çalışma alanı"
+  },
+  "cmdLast": {
+    "message": "Son kullanılan çalışma alanı"
+  },
+  "cmdSwitch": {
+    "message": "Çalışma alanına geç"
+  },
+  "tabs_one": {
+    "message": "$1 sekme"
+  },
+  "tabs_other": {
+    "message": "$1 sekme"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 sekme geri yüklenmedi"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 sekme geri yüklenmedi"
+  },
+  "edit": {
+    "message": "Düzenle"
+  },
+  "name": {
+    "message": "Ad"
+  },
+  "delete": {
+    "message": "Sil"
+  },
+  "undo": {
+    "message": "Geri al"
+  },
+  "stashHeading": {
+    "message": "Çalışma alanı deposu"
+  },
+  "stashText": {
+    "message": "Bu gizli pencere Mega Tabs uzantısına ait. Şu an gösterilmeyen bir çalışma alanının sekmelerini tutuyor. Kapatmayın; geçiş için paneli kullanın."
+  },
+  "defaultWorkspace": {
+    "message": "Varsayılan"
+  },
+  "recoveredWorkspace": {
+    "message": "Kurtarıldı"
+  },
+  "iconTitle": {
+    "message": "Çalışma alanı: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Çalışma alanı: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Uzantı depolama alanı neredeyse dolu, sekmeler yakında kaydedilemeyecek"
+  },
+  "menuLink": {
+    "message": "Bağlantıyı çalışma alanında aç"
+  },
+  "menuMove": {
+    "message": "Sekmeyi çalışma alanına taşı"
+  },
+  "menuMoveMarked": {
+    "message": "Seçili $1 sekmeyi çalışma alanına taşı"
+  },
+  "menuGroup": {
+    "message": "Grubu çalışma alanına taşı"
+  },
+  "exNotJson": {
+    "message": "Dosya geçerli bir JSON değil."
+  },
+  "exNotExport": {
+    "message": "Bu, Helium Workspaces'in dışa aktarma dosyası değil."
+  },
+  "exNoWorkspaces": {
+    "message": "Dosyada çalışma alanı yok."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Dosyada çok fazla çalışma alanı var."
+  },
+  "exTooManyTabs": {
+    "message": "Dosyada çok fazla sekme var."
+  },
+  "workspaceName": {
+    "message": "Çalışma alanı"
+  },
+  "workspaceN": {
+    "message": "Çalışma alanı $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "İndirme kesildi ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Uzantıdan yanıt gelmedi"
+  },
+  "generalSpace": {
+    "message": "Genel"
+  },
+  "spaces": {
+    "message": "Alanlar"
+  },
+  "setUp": {
+    "message": "Kur"
+  },
+  "filesOffLead": {
+    "message": "Dosyalar kapalı:"
+  },
+  "retryBtn": {
+    "message": "Yeniden dene"
+  },
+  "switchToMega": {
+    "message": "$1 öğesine geç"
+  },
+  "closeMegaAsk": {
+    "message": "Bu mega sekmeyi ve sekmelerini kapatmak için tekrar tıklayın"
+  },
+  "closeMegaAskLabel": {
+    "message": "$1 ve sekmelerini kapat: tekrar tıklayın"
+  },
+  "closeMega": {
+    "message": "Mega sekmeyi kapat"
+  },
+  "closeMegaLabel": {
+    "message": "$1 mega sekmesini kapat"
+  },
+  "closeQuestion": {
+    "message": "kapatılsın mı?"
+  },
+  "spaceName": {
+    "message": "Alan adı"
+  },
+  "showSpace": {
+    "message": "$1 göster (yeniden adlandırmak için çift tıklayın)"
+  },
+  "newSpaceName": {
+    "message": "Yeni alanın adı"
+  },
+  "newSpaceItem": {
+    "message": "Yeni alan…"
+  },
+  "allSpaces": {
+    "message": "Tüm alanlar"
+  },
+  "switchSpace": {
+    "message": "Alan değiştir"
+  },
+  "board": {
+    "message": "Pano"
+  },
+  "boardOpen": {
+    "message": "Panoyu aç: $1 alanının .md dosyaları"
+  },
+  "settingsPage": {
+    "message": "Ayarlar"
+  },
+  "settingsOpen": {
+    "message": "Ayarlar: kenarda belirme, yedekleme, dışa aktarma"
+  },
+  "newMegaName": {
+    "message": "Yeni mega sekmenin adı"
+  },
+  "noMegas": {
+    "message": "Henüz mega sekme yok."
+  },
+  "newMega": {
+    "message": "+ Yeni mega sekme"
+  },
+  "noSpaces": {
+    "message": "Henüz alan yok."
+  },
+  "newSpace": {
+    "message": "+ Yeni alan"
+  },
+  "openWindows": {
+    "message": "Açık pencereler"
+  },
+  "emptyWindow": {
+    "message": "Boş pencere"
+  },
+  "undoClose": {
+    "message": "Kapatmayı geri al"
+  },
+  "intro": {
+    "message": "Mega sekme, tek seferde geçtiğiniz bir sekme kümesidir. Başlamak için birine tıklayın."
+  },
+  "homeSetupTitle": {
+    "message": "Dosyaları aç"
+  },
+  "homeSetupText": {
+    "message": "Alanlar notlarını $1 içinde düz dosyalar olarak tutar. Chrome'un bunları okuyup yazması için küçük bir yardımcıya ihtiyacı var. Mega Tabs klasöründe $2 komutunu çalıştırın, sonra Yeniden dene'ye basın."
+  },
+  "retryChecking": {
+    "message": "Denetleniyor…"
+  },
+  "retryOn": {
+    "message": "Dosyalar açık."
+  },
+  "retryOff": {
+    "message": "Hâlâ kapalı. Komutu çalıştırın, sonra Yeniden dene'ye tekrar basın."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "$1 öğesini aç (yeniden adlandırmak için çift tıklayın, kapak için görsel bırakın)"
+  },
+  "tileTypeName": {
+    "message": "bir ad yazıp Enter'a basın"
+  },
+  "newSpaceAria": {
+    "message": "Yeni alan"
+  },
+  "tileNewTitle": {
+    "message": "Yeni alan oluşturmak için bir ad yazın"
+  },
+  "tileNewHint": {
+    "message": "bir ad yazın"
+  },
+  "coverType": {
+    "message": "png, jpg veya webp görsel kullanın."
+  },
+  "coverBig": {
+    "message": "Bu görsel 700 KB'tan büyük. Daha küçük bir tane kullanın."
+  },
+  "coverNotSaved": {
+    "message": "Dosyalar kapalı: kapak kaydedilmedi."
+  },
+  "edgeHeading": {
+    "message": "Kenarda belirme"
+  },
+  "edgeToggle": {
+    "message": "İşaretçi ekran kenarında durunca mini bir geçiş paneli göster"
+  },
+  "edgeHelp": {
+    "message": "İşaretçiyi kenarda bir an sabit tutun, mega sekmeleriniz sayfanın üzerinde belirir. Chrome, web sayfalarında çalışma izni için bir kez sorar. Panel sayfalardan hiçbir şey okumaz ve hiçbir yere bir şey göndermez. Yeni sekme sayfasında ve chrome:// sayfalarında görünmez."
+  },
+  "side": {
+    "message": "Taraf"
+  },
+  "sideLeft": {
+    "message": "Sol"
+  },
+  "sideRight": {
+    "message": "Sağ"
+  },
+  "edgeOnLeft": {
+    "message": "Açık. İşaretçiyi bir web sayfasının sol kenarında tutun."
+  },
+  "edgeOnRight": {
+    "message": "Açık. İşaretçiyi bir web sayfasının sağ kenarında tutun."
+  },
+  "edgeDenied": {
+    "message": "Kenarda belirme, web sayfalarında çalışmak için bu izne ihtiyaç duyar. Kapalı kalıyor."
+  },
+  "backupHeading": {
+    "message": "Yedekleme"
+  },
+  "backupLabel": {
+    "message": "Yedek dosyası kaydet"
+  },
+  "backupNever": {
+    "message": "Hiçbir zaman"
+  },
+  "backupDaily": {
+    "message": "Her gün"
+  },
+  "backupWeekly": {
+    "message": "Her hafta"
+  },
+  "backupLast": {
+    "message": "Son kayıt: $1."
+  },
+  "backupSaving": {
+    "message": "Kaydediliyor…"
+  },
+  "dataHeading": {
+    "message": "Mega sekmeleriniz"
+  },
+  "dataHelp": {
+    "message": "Tüm alanları, mega sekmeleri ve sekmelerini içeren tek dosya. İçe aktarma eksik olanı ekler, hiçbir şeyi kapatmaz."
+  },
+  "exportBtn": {
+    "message": "Mega sekmeleri dışa aktar"
+  },
+  "importBtn": {
+    "message": "Mega sekmeleri içe aktar…"
+  },
+  "chooseFile": {
+    "message": "Dışa aktarılmış bir dosya seçin"
+  },
+  "exportSaved": {
+    "message": "$1 kaydedildi: $2, $3."
+  },
+  "exportFail": {
+    "message": "Dışa aktarılamadı: $1"
+  },
+  "importAdded": {
+    "message": "$3 dosyasından $1 ve $2 eklendi."
+  },
+  "importNothing": {
+    "message": "Eklenecek bir şey yok: $1 içindekilerin hepsi zaten burada."
+  },
+  "importFail": {
+    "message": "İçe aktarılamadı: $1"
+  },
+  "boardTitle": {
+    "message": "Pano · $1"
+  },
+  "folderLabel": {
+    "message": "Klasör: $1"
+  },
+  "change": {
+    "message": "Değiştir"
+  },
+  "chooseFolder": {
+    "message": "Klasör seç"
+  },
+  "allowFolder": {
+    "message": "\"$1\" erişimine izin ver"
+  },
+  "hostMissing": {
+    "message": "Pano ana bilgisayarı kurulu değil. Mega Tabs klasöründe $1 komutunu çalıştırın, sonra bu sayfayı yenileyin."
+  },
+  "hostForbidden": {
+    "message": "Chrome bu uzantının pano ana bilgisayarını kullanmasına izin vermiyor. $1 komutunu yeniden çalıştırın, sonra bu sayfayı yenileyin."
+  },
+  "hostStopped": {
+    "message": "Pano ana bilgisayarı durdu. Yeniden deneniyor."
+  },
+  "hostUnreachable": {
+    "message": "Pano, ana bilgisayarına ulaşamıyor ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "burada açılamıyor ($1)"
+  },
+  "howItWorks": {
+    "message": "Nasıl çalışır"
+  },
+  "rename": {
+    "message": "Yeniden adlandır"
+  },
+  "renameLabel": {
+    "message": "$1 öğesini yeniden adlandır"
+  },
+  "renameTitle": {
+    "message": "Yeniden adlandır (veya adına çift tıklayın)"
+  },
+  "deleteLabel": {
+    "message": "$1 öğesini sil"
+  },
+  "deleteTitle": {
+    "message": "Sil (çöp kutusuna, geri alma ile)"
+  },
+  "noMatches": {
+    "message": "Eşleşme yok."
+  },
+  "newNote": {
+    "message": "Yeni not"
+  },
+  "newCanvas": {
+    "message": "Yeni tuval"
+  },
+  "newNoteTitle": {
+    "message": "Bu alanda yeni bir not başlat"
+  },
+  "newCanvasTitle": {
+    "message": "Bu alanda yeni bir tuval başlat"
+  },
+  "emptyNotesFolder": {
+    "message": "Bu alanda henüz not yok. Başlamak için Yeni not'a basın."
+  },
+  "emptyNotesDir": {
+    "message": "~/Spaces/$1/ içinde henüz .md dosyası yok. Başlamak için Yeni not'a basın."
+  },
+  "noFolderNotes": {
+    "message": "\"$1\" için henüz klasör yok. ~/Spaces/$1/ oluşturun ve içine .md dosyaları koyun."
+  },
+  "emptyCanvasFolder": {
+    "message": "Bu alanda henüz tuval yok. Başlamak için Yeni tuval'e basın."
+  },
+  "emptyCanvasDir": {
+    "message": "~/Spaces/$1/ içinde henüz .canvas dosyası yok. Başlamak için Yeni tuval'e basın."
+  },
+  "noFolderCanvas": {
+    "message": "\"$1\" için henüz klasör yok. ~/Spaces/$1/ oluşturun ve içine .canvas dosyaları koyun."
+  },
+  "done": {
+    "message": "Bitti"
+  },
+  "backToReading": {
+    "message": "Okumaya dön (Esc)"
+  },
+  "typeInFile": {
+    "message": "Bu dosyaya yaz (E)"
+  },
+  "openCursor": {
+    "message": "Cursor'da aç"
+  },
+  "openCursorTitle": {
+    "message": "Bu dosyayı Cursor'da aç"
+  },
+  "typeHere": {
+    "message": "Buraya yazın."
+  },
+  "textOf": {
+    "message": "$1 metni"
+  },
+  "statusUnsaved": {
+    "message": "Kaydedilmedi"
+  },
+  "statusSaving": {
+    "message": "Kaydediliyor"
+  },
+  "statusSaved": {
+    "message": "Kaydedildi"
+  },
+  "mixedEol": {
+    "message": "Karışık satır sonları: bu dosyayı Cursor'da düzenleyin."
+  },
+  "notSavedWhy": {
+    "message": "Kaydedilmedi ($1)"
+  },
+  "hostNotConnected": {
+    "message": "ana bilgisayar bağlı değil"
+  },
+  "notSaved": {
+    "message": "Kaydedilmedi: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Kaydedilmedi: bu not, dosyaların alabildiği $1 KB'ı aşıyor. Kısaltın veya ikiye bölün."
+  },
+  "changedOnDisk": {
+    "message": "Diskte değişti"
+  },
+  "conflictGone": {
+    "message": "Diskte silindi:"
+  },
+  "conflictTooLarge": {
+    "message": "Diskte değişti ve burada gösterilemeyecek kadar büyüdü:"
+  },
+  "conflictNotText": {
+    "message": "Diskte değişti ve artık metin değil:"
+  },
+  "conflictChanged": {
+    "message": "Diskte değişti:"
+  },
+  "loadTheirs": {
+    "message": "Onlarınkini yükle"
+  },
+  "keepMine": {
+    "message": "Benimkini koru"
+  },
+  "dropIt": {
+    "message": "Bırak"
+  },
+  "seeTheirs": {
+    "message": "Onlarınkini gör"
+  },
+  "removedFromFolder": {
+    "message": "$1 klasörden kaldırıldı."
+  },
+  "cannotOpenNote": {
+    "message": "Bu dosya burada açılamıyor ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Bu dosya burada açılamıyor ($1). Cursor açabilir."
+  },
+  "cannotOpenCanvas": {
+    "message": "Bu tuval burada açılamıyor ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Bu tuval burada açılamıyor ($1). Cursor açabilir."
+  },
+  "waitingStorage": {
+    "message": "Pano depolaması bekleniyor."
+  },
+  "couldNotRead": {
+    "message": "$1 okunamadı ($2)."
+  },
+  "couldNotOpen": {
+    "message": "$1 açılamadı ($2)."
+  },
+  "noteName": {
+    "message": "Not adı"
+  },
+  "canvasName": {
+    "message": "Tuval adı"
+  },
+  "nameTaken": {
+    "message": "Bu ad zaten var."
+  },
+  "nameBad": {
+    "message": "Bu ad kullanılamaz."
+  },
+  "notCreated": {
+    "message": "Oluşturulmadı ($1)."
+  },
+  "renameNewName": {
+    "message": "$1 için yeni ad"
+  },
+  "resolveFirst": {
+    "message": "Önce diskteki değişikliği çözün."
+  },
+  "notSavedYetRename": {
+    "message": "Henüz kaydedilmedi; biraz sonra tekrar deneyin."
+  },
+  "fileGone": {
+    "message": "O dosya artık yok."
+  },
+  "notRenamed": {
+    "message": "Yeniden adlandırılmadı ($1)."
+  },
+  "deletedToast": {
+    "message": "\"$1\" silindi"
+  },
+  "resolveFirstDelete": {
+    "message": "Önce diskteki değişikliği çözün, sonra silin."
+  },
+  "notSavedYetDelete": {
+    "message": "Henüz kaydedilmedi, bu yüzden silinmedi. Biraz sonra tekrar deneyin."
+  },
+  "notDeleted": {
+    "message": "Silinmedi: $1"
+  },
+  "notRestored": {
+    "message": "Geri yüklenmedi: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3B burada başlatılamadı ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "yüklenmedi"
+  },
+  "cvSelect": {
+    "message": "Seç ve taşı (V)"
+  },
+  "cvCard": {
+    "message": "Metin kartı ekle (T)"
+  },
+  "cvPen": {
+    "message": "Kalem (P)"
+  },
+  "cvEraser": {
+    "message": "Silgi (E)"
+  },
+  "cvTools": {
+    "message": "Tuval araçları"
+  },
+  "cvUndo": {
+    "message": "Geri al (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Yinele (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Yinele"
+  },
+  "cvDelete": {
+    "message": "Seçimi sil (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Seçimi sil"
+  },
+  "cvView": {
+    "message": "Görünüm"
+  },
+  "cv2d": {
+    "message": "Tuval, düz"
+  },
+  "cv3d": {
+    "message": "Aynı tuval 3B olarak (salt okunur)"
+  },
+  "cvDeleted": {
+    "message": "Diskte silindi. Bu tuval artık klasörde değil."
+  },
+  "cvEmptyCard": {
+    "message": "Boş kart"
+  },
+  "cvWriteHere": {
+    "message": "Buraya yazın"
+  },
+  "cvCardText": {
+    "message": "Kart metni"
+  },
+  "cvOpenNotes": {
+    "message": "Notlar'da aç"
+  },
+  "cvOpenCanvas": {
+    "message": "Bu tuvali aç"
+  },
+  "cvModelGone": {
+    "message": "Bu model klasörde yok."
+  },
+  "cvModelBig": {
+    "message": "Bu model 24 MB'ı aşıyor."
+  },
+  "cvModelFail": {
+    "message": "Bu model gösterilemiyor ($1)."
+  },
+  "cvUnknownError": {
+    "message": "bilinmeyen hata"
+  },
+  "cvLoadingModel": {
+    "message": "Model yükleniyor"
+  },
+  "cvLink": {
+    "message": "Bağlantı"
+  },
+  "cvGroup": {
+    "message": "Grup"
+  },
+  "cvNodeNote": {
+    "message": "Not $1"
+  },
+  "cvNodeLink": {
+    "message": "Bağlantı $1"
+  },
+  "cvNodeGroup": {
+    "message": "Grup $1"
+  },
+  "cvNodeType": {
+    "message": "$1 türünde kart"
+  },
+  "sInvalid": {
+    "message": "Bu dosya bir JSON Canvas değil ($1). Cursor'da düzeltin; o zamana kadar burada hiçbir şey kaydedilmez."
+  },
+  "sInvalidNow": {
+    "message": "Diskte değişti ve artık bir JSON Canvas değil ($1). Yeniden geçerli olana kadar burada hiçbir şey kaydedilmez."
+  },
+  "sTooBig": {
+    "message": "Kaydedilmedi (bu tuval $1; dosyalar en fazla $2 alır. Birkaç çizgiyi veya kartı silin)"
+  },
+  "sBlockedBig": {
+    "message": "Kaydedilmedi (diskteki dosya değişti ve boyut sınırını aşıyor: Benimkini koru ya da olduğu gibi bırak)"
+  },
+  "sBlockedText": {
+    "message": "Kaydedilmedi (diskteki dosya değişti ve metin değil: Benimkini koru ya da olduğu gibi bırak)"
+  },
+  "sKeepsChanging": {
+    "message": "Kaydedilmedi (dosya sürekli değişiyor)"
+  },
+  "edgeOpenPanel": {
+    "message": "Paneli aç"
+  },
+  "errNameEmpty": {
+    "message": "Bir ad yazın."
+  },
+  "errNameLong": {
+    "message": "Bu ad çok uzun."
+  },
+  "errHost": {
+    "message": "Ana bilgisayar yanıt vermedi."
+  },
+  "backupKept": {
+    "message": "Downloads/$2 içinde tutuluyor. Tutulan dosya sayısı: $1."
+  },
+  "filesLabel": {
+    "message": "Dosyalar"
+  },
+  "roomLabel": {
+    "message": "Oda"
+  },
+  "roomNotes": {
+    "message": "Notlar"
+  },
+  "roomCanvas": {
+    "message": "Tuval"
+  },
+  "search": {
+    "message": "Ara"
+  },
+  "searchLabel": {
+    "message": "Bu alanda ara"
+  },
+  "noteLabel": {
+    "message": "Not"
+  },
+  "cvNotShown": {
+    "message": "$1 (burada gösterilmiyor)"
+  },
+  "cvDrawFail": {
+    "message": "Bu tuval çizilemedi ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Diskte hiçbir şey değişmedi. Cursor'da açın veya başka bir tuval seçin."
+  },
+  "statusDeleted": {
+    "message": "Diskte silindi"
+  },
+  "cv3dScene": {
+    "message": "Bu tuvalin 3B görünümü. Döndürmek için sürükleyin, yakınlaştırmak için kaydırın, açmak için bir karta tıklayın."
+  },
+  "cvModelScene": {
+    "message": "3B model. Döndürmek için sürükleyin; ok tuşları da çalışır."
+  },
+  "cvModelCompressed": {
+    "message": "Bu görünümün okuyamadığı sıkıştırılmış geometri veya doku (Draco, KTX2 veya Meshopt) kullanıyor"
+  },
+  "cvNoWebgl": {
+    "message": "Bu tarayıcıda WebGL kullanılamıyor"
+  },
+  "megaTabs_one": {
+    "message": "$1 mega sekme"
+  },
+  "megaTabs_other": {
+    "message": "$1 mega sekme"
+  }
+}

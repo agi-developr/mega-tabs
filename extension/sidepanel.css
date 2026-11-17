@@ -1,0 +1,136 @@
+:root {
+  --bg: #f7f7f5;
+  --fg: #2b2b2b;
+  --dim: #62625e;
+  --line: #e6e6e2;
+  --hover: #ececea;
+  --active-bg: #ffffff;
+  --accent: #3b82f6;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1c1e;
+    --fg: #e8e8e6;
+    --dim: #9a9a96;
+    --line: #2c2c2e;
+    --hover: #262628;
+    --active-bg: #2e2e31;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font: 14px/1.4 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+main { flex: 1; overflow-y: auto; padding: 18px 12px 8px; }
+
+.space { margin-bottom: 22px; position: relative; }
+.space-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 8px 6px;
+  font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--dim);
+}
+/* The space being shown: its name is the switcher, in plain case */
+.space-head .switcher {
+  display: inline-flex; align-items: center; gap: 6px; min-width: 0; max-width: 100%;
+  margin: 0 -8px; padding: 4px 8px; border: 0; border-radius: 8px; background: transparent; color: var(--fg);
+  font: inherit; font-size: 15px; font-weight: 600; letter-spacing: 0; text-transform: none; cursor: pointer;
+}
+.space-head .switcher:hover, .space-head .switcher[aria-expanded="true"] { background: var(--hover); }
+.space-head .switcher span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.space-head .chev { color: var(--dim); font-weight: 400; line-height: 1; transform: translateY(-3px); }
+
+.mega {
+  display: flex; align-items: center; gap: 8px;
+  width: 100%; padding: 8px 8px; margin: 1px 0;
+  border: 0; border-radius: 8px; background: transparent; color: inherit;
+  font: inherit; text-align: start; cursor: pointer;
+  position: relative; user-select: none;
+}
+.mega:hover { background: var(--hover); }
+.mega.current { background: var(--active-bg); box-shadow: 0 0 0 1px var(--line); font-weight: 600; }
+.mega.current::before {
+  content: ""; width: 3px; height: 16px; border-radius: 2px; background: var(--fg); margin-inline-start: -4px;
+}
+.mega .name {
+  flex: 1; min-width: 0; padding: 0; border: 0; border-radius: 4px; background: transparent; color: inherit;
+  font: inherit; text-align: start; cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.mega .count { color: var(--dim); font-size: 12px; font-weight: 400; }
+/* Hidden until the row is hovered or has the keyboard, but never out of the tab order */
+.mega .close { opacity: 0; }
+.mega:hover .close, .mega:focus-within .close { opacity: 1; }
+
+/* Dragging a mega tab: the row follows nothing, a quiet line shows where it will land */
+.mega.dragging { opacity: .5; }
+.mega.drop-before::after, .mega.drop-after::after {
+  content: ""; position: absolute; left: 8px; right: 8px; height: 2px; border-radius: 1px; background: var(--fg);
+}
+.mega.drop-before::after { top: -2px; }
+.mega.drop-after::after { bottom: -2px; }
+body.sorting { cursor: grabbing; }
+body.sorting * { cursor: grabbing !important; }
+
+/* The space list under the switcher */
+.menu {
+  position: absolute; left: 0; right: 0; top: 34px; z-index: 5; padding: 6px;
+  border: 1px solid var(--line); border-radius: 10px; background: var(--active-bg);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
+}
+@media (prefers-color-scheme: dark) { .menu { box-shadow: 0 8px 24px rgba(0, 0, 0, .45); } }
+.menu .item {
+  display: flex; align-items: center; gap: 8px; width: 100%; padding: 7px 8px; margin: 0;
+  border: 0; border-radius: 7px; background: transparent; color: inherit; font: inherit; text-align: start; cursor: pointer;
+}
+.menu .item:hover { background: var(--hover); }
+.menu .item .tick { width: 14px; color: var(--dim); }
+.menu .item .label { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.menu .item .count { color: var(--dim); font-size: 12px; }
+.menu .rule { height: 1px; margin: 5px 4px; background: var(--line); }
+.menu input.inline { margin: 2px 0; }
+
+.dim { color: var(--dim); font-size: 12px; line-height: 1.5; margin: 10px 8px 0; }
+.dim button.quiet { font-size: 12px; padding: 0 4px; }
+.empty { margin: 12px 8px; }
+.empty button.quiet { padding: 0 4px; }
+button.quiet.add { display: block; margin: 4px 0 0; margin-inline-start: 2px; }
+
+/* A visible focus ring for the keyboard; the mouse does not draw it */
+.mega .name:focus-visible, .mega .close:focus-visible, button.quiet:focus-visible, .icon:focus-visible,
+.switcher:focus-visible, .menu .item:focus-visible, .tile:focus-visible, .home-actions button:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 1px;
+}
+
+button.quiet, .icon {
+  border: 0; background: transparent; color: var(--dim); font: inherit; cursor: pointer;
+  border-radius: 6px; padding: 2px 6px;
+}
+button.quiet:hover, .icon:hover { color: var(--fg); background: var(--hover); }
+
+input.inline {
+  width: 100%; padding: 7px 8px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--active-bg); color: var(--fg); font: inherit;
+}
+input.inline:focus, input.inline:focus-visible { outline: 2px solid var(--accent); outline-offset: 0; border-color: var(--accent); }
+
+.empty { color: var(--dim); padding: 24px 8px; line-height: 1.6; }
+.busy { opacity: .55; pointer-events: none; }
+.error { color: #c0392b; font-size: 12px; padding: 4px 8px; }
+
+/* Open windows: workspaces without a name of their own, shown by their tab title */
+.space.open .mega:not(.current) .name { color: var(--dim); }
+
+/* Space header tools: a quiet "Board" entry, and the + that shows on hover */
+.space-head .tools { display: flex; align-items: center; gap: 2px; }
+.space-head .board { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+
+/* The current mega tab's "how this works" text: dim, at most three lines */
+.how {
+  margin: 1px 8px 8px; margin-inline-start: 19px; color: var(--dim); font-size: 12px; line-height: 1.5;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}

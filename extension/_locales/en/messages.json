@@ -1,0 +1,1587 @@
+{
+  "lang": {
+    "message": "en"
+  },
+  "extName": {
+    "message": "Mega Tabs: Workspaces, Notes & Canvas",
+    "description": "Product name shown in the browser and the Chrome Web Store. \"Mega Tabs\" stays in Latin letters; translate only the words after the colon. At most 75 characters in total."
+  },
+  "extDescription": {
+    "message": "Switch tab sets by project without reloading. Notes and a canvas sit beside them, and your AI can edit both. Private and free.",
+    "description": "Short summary shown in the Chrome Web Store and at chrome://extensions. At most 132 characters."
+  },
+  "cmdOpen": {
+    "message": "Open the workspace list"
+  },
+  "cmdTogglePanel": {
+    "message": "Open or close the mega tabs panel"
+  },
+  "cmdNext": {
+    "message": "Next workspace"
+  },
+  "cmdPrev": {
+    "message": "Previous workspace"
+  },
+  "cmdLast": {
+    "message": "Last used workspace"
+  },
+  "cmdSwitch": {
+    "message": "Switch to workspace"
+  },
+  "tabs_one": {
+    "message": "$1 tab"
+  },
+  "tabs_other": {
+    "message": "$1 tabs"
+  },
+  "workspaces_one": {
+    "message": "$1 workspace"
+  },
+  "workspaces_other": {
+    "message": "$1 workspaces"
+  },
+  "groups_one": {
+    "message": "$1 group"
+  },
+  "groups_other": {
+    "message": "$1 groups"
+  },
+  "tabGroups_one": {
+    "message": "$1 tab group"
+  },
+  "tabGroups_other": {
+    "message": "$1 tab groups"
+  },
+  "pinnedTabs_one": {
+    "message": "$1 pinned tab"
+  },
+  "pinnedTabs_other": {
+    "message": "$1 pinned tabs"
+  },
+  "pinnedTabsDative_one": {
+    "message": "$1 pinned tab"
+  },
+  "pinnedTabsDative_other": {
+    "message": "$1 pinned tabs"
+  },
+  "oldWorkspaces_one": {
+    "message": "$1 old workspace"
+  },
+  "oldWorkspaces_other": {
+    "message": "$1 old workspaces"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 tab not restored"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 tabs not restored"
+  },
+  "notRestoredTabs_one": {
+    "message": "$1 tab that was not restored"
+  },
+  "notRestoredTabs_other": {
+    "message": "$1 tabs that were not restored"
+  },
+  "closeTabs_one": {
+    "message": "Close $1 tab?"
+  },
+  "closeTabs_other": {
+    "message": "Close $1 tabs?"
+  },
+  "error": {
+    "message": "Error"
+  },
+  "newWorkspace": {
+    "message": "＋ New workspace"
+  },
+  "openTransfer": {
+    "message": "⇅ Export / import"
+  },
+  "muteStash": {
+    "message": "Mute stashes"
+  },
+  "muteStashTitle": {
+    "message": "Tabs in workspaces that are not shown play no sound"
+  },
+  "unloadAfter": {
+    "message": "Unload stashes after"
+  },
+  "unloadNever": {
+    "message": "never"
+  },
+  "unloadMinutes": {
+    "message": "$1 minutes"
+  },
+  "unloadHour": {
+    "message": "1 hour"
+  },
+  "unloadHours": {
+    "message": "$1 hours"
+  },
+  "keySummary": {
+    "message": "Key for install.sh"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "copied": {
+    "message": "Copied"
+  },
+  "copyFailed": {
+    "message": "Failed"
+  },
+  "keyUnavailable": {
+    "message": "Not available: $1"
+  },
+  "popupHint": {
+    "message": "↑ / ↓ and Enter or Alt+Shift+↑ / ↓ switch · Right-click on a page: move tab"
+  },
+  "versionTitle": {
+    "message": "Version of the extension"
+  },
+  "reload": {
+    "message": "Reload"
+  },
+  "backupFailingSince": {
+    "message": "Backup failing since $1"
+  },
+  "backupFailingHint": {
+    "message": "If a window is lost, all changes since then are missing."
+  },
+  "storageFull": {
+    "message": "Extension storage $1% full"
+  },
+  "storageFullHint": {
+    "message": "Once it is full, it can no longer switch workspaces or reliably save tabs. Close tabs or windows you do not need."
+  },
+  "storageFullUpdate": {
+    "message": "From Chrome 112 on, the storage is ten times larger."
+  },
+  "storageTight": {
+    "message": "This browser gives the extension only $1 MB of storage"
+  },
+  "storageTightHint": {
+    "message": "With very many tabs it can fill up, and then it can no longer switch workspaces or reliably save tabs. From Chrome 112 on it is 10 MB, and this notice goes away."
+  },
+  "storageUsed": {
+    "message": "In use: $1%"
+  },
+  "colorBlue": {
+    "message": "Blue"
+  },
+  "colorRed": {
+    "message": "Red"
+  },
+  "colorGreen": {
+    "message": "Green"
+  },
+  "colorOrange": {
+    "message": "Orange"
+  },
+  "colorPurple": {
+    "message": "Purple"
+  },
+  "colorPink": {
+    "message": "Pink"
+  },
+  "colorTeal": {
+    "message": "Teal"
+  },
+  "colorGray": {
+    "message": "Gray"
+  },
+  "keyN": {
+    "message": "Key $1"
+  },
+  "otherWindow": {
+    "message": "other window"
+  },
+  "muteTitle": {
+    "message": "Mute"
+  },
+  "muteLabel": {
+    "message": "Mute “$1”"
+  },
+  "muting": {
+    "message": "Muting …"
+  },
+  "muteFailed": {
+    "message": "Could not mute the sound."
+  },
+  "unmuteTitle": {
+    "message": "Unmute"
+  },
+  "unmuteLabel": {
+    "message": "Unmute “$1”"
+  },
+  "unmuting": {
+    "message": "Unmuting …"
+  },
+  "unmuteFailed": {
+    "message": "Could not unmute the sound."
+  },
+  "moveTabTitle": {
+    "message": "Move the current tab here"
+  },
+  "moveTabsTitle": {
+    "message": "Move $1 selected tabs here"
+  },
+  "moveTabLabel": {
+    "message": "Move the current tab to “$1”"
+  },
+  "moveTabsLabel": {
+    "message": "Move $1 selected tabs to “$2”"
+  },
+  "movingTab": {
+    "message": "Moving tab …"
+  },
+  "movingTabs": {
+    "message": "Moving tabs …"
+  },
+  "moveTabFailed": {
+    "message": "Could not move the tab."
+  },
+  "moveTabsFailed": {
+    "message": "Could not move the tabs."
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editLabel": {
+    "message": "Edit “$1”"
+  },
+  "retry": {
+    "message": "Try again"
+  },
+  "retryTitle": {
+    "message": "Switches to this workspace"
+  },
+  "discard": {
+    "message": "Discard"
+  },
+  "discardTitle": {
+    "message": "Remove the missing tabs from the backup"
+  },
+  "confirm": {
+    "message": "Sure?"
+  },
+  "restoring": {
+    "message": "Restoring tabs …"
+  },
+  "restoreFailed": {
+    "message": "Could not restore the tabs."
+  },
+  "discarding": {
+    "message": "Discarding …"
+  },
+  "discardFailed": {
+    "message": "Could not discard the tabs."
+  },
+  "emojiTitle": {
+    "message": "Emoji (empty = first letter)"
+  },
+  "emojiLabel": {
+    "message": "Emoji, empty for the first letter"
+  },
+  "name": {
+    "message": "Name"
+  },
+  "color": {
+    "message": "Color"
+  },
+  "moveUp": {
+    "message": "Move up"
+  },
+  "moveDown": {
+    "message": "Move down"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "deleteLastTitle": {
+    "message": "The last workspace cannot be deleted"
+  },
+  "confirmDelete": {
+    "message": "Really delete?"
+  },
+  "deletedOne": {
+    "message": "Deleted “$1”"
+  },
+  "deletedMany": {
+    "message": "Deleted $1"
+  },
+  "undo": {
+    "message": "Undo"
+  },
+  "undoTitle": {
+    "message": "Brings back what was deleted, tabs included, until the browser restarts"
+  },
+  "undoing": {
+    "message": "Restoring …"
+  },
+  "undoFailed": {
+    "message": "Could not restore the deleted workspaces."
+  },
+  "forgetDeleted": {
+    "message": "Hide; afterwards the deletion can no longer be undone"
+  },
+  "forgetFailed": {
+    "message": "Could not hide the notice."
+  },
+  "saving": {
+    "message": "Saving …"
+  },
+  "saveFailed": {
+    "message": "Could not save the change."
+  },
+  "settingFailed": {
+    "message": "Could not save the setting."
+  },
+  "deleting": {
+    "message": "Deleting workspace …"
+  },
+  "deleteFailed": {
+    "message": "Could not delete the workspace."
+  },
+  "reordering": {
+    "message": "Saving order …"
+  },
+  "reorderFailed": {
+    "message": "Could not change the order."
+  },
+  "switching": {
+    "message": "Switching workspace …"
+  },
+  "switchFailed": {
+    "message": "Could not switch the workspace."
+  },
+  "creating": {
+    "message": "Creating workspace …"
+  },
+  "createFailed": {
+    "message": "Could not create the workspace."
+  },
+  "opening": {
+    "message": "Opening …"
+  },
+  "openTransferFailed": {
+    "message": "Could not open export and import."
+  },
+  "loading": {
+    "message": "Loading …"
+  },
+  "loadFailed": {
+    "message": "Could not load the workspaces."
+  },
+  "transferTitle": {
+    "message": "Export and import workspaces"
+  },
+  "exportHeading": {
+    "message": "Export"
+  },
+  "exportText": {
+    "message": "Saves all workspaces with name, color, emoji, order, tabs and tab groups, the pinned tabs and the settings as a JSON file. Window IDs and the device key are left out."
+  },
+  "exportPlainText": {
+    "message": "The file contains the full addresses and titles of all tabs in plain text, including any access tokens or sharing and password reset links in them. Passing it on or syncing the Downloads folder passes those on too."
+  },
+  "exportButton": {
+    "message": "Save as file"
+  },
+  "importHeading": {
+    "message": "Import"
+  },
+  "importText": {
+    "message": "The file is checked completely first. Nothing changes until you confirm below."
+  },
+  "modesLegend": {
+    "message": "What should happen?"
+  },
+  "mergeName": {
+    "message": "Merge"
+  },
+  "mergeText": {
+    "message": "existing workspaces and tabs stay, nothing is closed."
+  },
+  "replaceName": {
+    "message": "Replace"
+  },
+  "replaceText": {
+    "message": "the existing workspaces are deleted and replaced by the ones from the file."
+  },
+  "importButton": {
+    "message": "Import"
+  },
+  "exporting": {
+    "message": "Exporting …"
+  },
+  "exportDone": {
+    "message": "Exported $1 with $2."
+  },
+  "exportDonePinned": {
+    "message": "Exported $1 with $2 and $3."
+  },
+  "exportFailed": {
+    "message": "Export failed: $1"
+  },
+  "fileValid": {
+    "message": "The file is valid: $1."
+  },
+  "fileValidDate": {
+    "message": "The file is valid: $1 (exported on $2)."
+  },
+  "pinnedPlan": {
+    "message": "Pinned tabs: $1 new"
+  },
+  "pinnedPlanSkip": {
+    "message": "Pinned tabs: $1 new, $2 already there"
+  },
+  "mergeById": {
+    "message": "same workspace"
+  },
+  "mergeByName": {
+    "message": "same name"
+  },
+  "mergeNew": {
+    "message": "“$1” is created ($2)."
+  },
+  "mergeNothing": {
+    "message": "“$1” ($2): all $3 already there, nothing to do."
+  },
+  "mergeAdd": {
+    "message": "“$1” ($2): $3 new."
+  },
+  "mergeAddSkip": {
+    "message": "“$1” ($2): $3 new, $4 already there."
+  },
+  "replaceDelete": {
+    "message": "Deletes $1 ($2) and closes $3."
+  },
+  "replaceDiscard": {
+    "message": "Discards $1."
+  },
+  "replaceCreate": {
+    "message": "Creates $1 from the file."
+  },
+  "replaceKeep": {
+    "message": "Keeps $1 in windows that match workspaces in the file open, with their history."
+  },
+  "replacePinned": {
+    "message": "Pinned tabs stay open, missing ones from the file are added."
+  },
+  "replaceUndo": {
+    "message": "Until the browser restarts, you can undo this in the popup."
+  },
+  "quoted": {
+    "message": "“$1”"
+  },
+  "checkingFile": {
+    "message": "Checking file …"
+  },
+  "fileTooLarge": {
+    "message": "The file is too large."
+  },
+  "fileRejected": {
+    "message": "This file cannot be imported. Nothing was changed."
+  },
+  "checkingCurrent": {
+    "message": "Checking current state …"
+  },
+  "confirmReplaceTabs": {
+    "message": "Close $1 and replace?"
+  },
+  "confirmReplace": {
+    "message": "Really replace?"
+  },
+  "importing": {
+    "message": "Importing …"
+  },
+  "resCreated": {
+    "message": "$1 created"
+  },
+  "resMerged": {
+    "message": "$1 extended"
+  },
+  "resAdded": {
+    "message": "$1 imported"
+  },
+  "resSkipped": {
+    "message": "$1 duplicates skipped"
+  },
+  "resPinned": {
+    "message": "$1 added"
+  },
+  "settingsPlan": {
+    "message": "Applies the settings: $1."
+  },
+  "settingsSame": {
+    "message": "The settings in the file already apply here."
+  },
+  "settingValue": {
+    "message": "$1: $2"
+  },
+  "settingOn": {
+    "message": "on"
+  },
+  "settingOff": {
+    "message": "off"
+  },
+  "resSettings": {
+    "message": "$1 applied"
+  },
+  "settings_one": {
+    "message": "$1 setting"
+  },
+  "settings_other": {
+    "message": "$1 settings"
+  },
+  "resRemoved": {
+    "message": "$1 with $2 removed"
+  },
+  "resKept": {
+    "message": "$1 kept open"
+  },
+  "importDone": {
+    "message": "Import complete: $1."
+  },
+  "importDoneFailed": {
+    "message": "Import complete: $1. $2 could not be opened, the popup lists them as “not restored”."
+  },
+  "importFailed": {
+    "message": "Import failed."
+  },
+  "stashHeading": {
+    "message": "Workspace stash"
+  },
+  "stashText": {
+    "message": "This hidden window belongs to the Mega Tabs extension. It holds the tabs of a workspace that is not shown right now. Please do not close it – use the panel to switch."
+  },
+  "defaultWorkspace": {
+    "message": "Default"
+  },
+  "recoveredWorkspace": {
+    "message": "Recovered"
+  },
+  "iconTitle": {
+    "message": "Workspace: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Workspace: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Extension storage almost full, tabs will soon no longer be saved"
+  },
+  "menuLink": {
+    "message": "Open link in workspace"
+  },
+  "menuMove": {
+    "message": "Move tab to workspace"
+  },
+  "menuMoveMarked": {
+    "message": "Move $1 selected tabs to workspace"
+  },
+  "menuGroup": {
+    "message": "Move group to workspace"
+  },
+  "unloadInvalid": {
+    "message": "Invalid time for unloading."
+  },
+  "importModeUnknown": {
+    "message": "Unknown kind of import."
+  },
+  "importReplaceUnconfirmed": {
+    "message": "Replacing closes tabs and has to be confirmed."
+  },
+  "exNotJson": {
+    "message": "The file is not valid JSON."
+  },
+  "exNotText": {
+    "message": "“$1” is missing or not text."
+  },
+  "exTooLong": {
+    "message": "“$1” is too long."
+  },
+  "exNotList": {
+    "message": "“$1” is missing or not a list."
+  },
+  "exBadUrl": {
+    "message": "“$1” is not a valid address."
+  },
+  "exJavascript": {
+    "message": "javascript: addresses are not imported."
+  },
+  "exOwnPage": {
+    "message": "Pages of the extension itself do not belong in the file."
+  },
+  "exNotExport": {
+    "message": "This is not an export file of Helium Workspaces."
+  },
+  "exBadVersion": {
+    "message": "The version number of the format is missing or invalid."
+  },
+  "exNewerVersion": {
+    "message": "The file has format version $1, this extension only knows version $2."
+  },
+  "exNotObject": {
+    "message": "Entry is not an object."
+  },
+  "exNoWorkspaces": {
+    "message": "The file contains no workspaces."
+  },
+  "exTooManyWorkspaces": {
+    "message": "The file contains too many workspaces."
+  },
+  "exTooManyTabs": {
+    "message": "The file contains too many tabs."
+  },
+  "exBadColor": {
+    "message": "“$1” is not a color of the form #rrggbb."
+  },
+  "exBadId": {
+    "message": "“id” may only contain letters and digits."
+  },
+  "exDupId": {
+    "message": "The ID “$1” occurs more than once."
+  },
+  "exEmptyId": {
+    "message": "“id” is empty."
+  },
+  "exDupGroupId": {
+    "message": "The group ID “$1” occurs more than once."
+  },
+  "exBadGroupColor": {
+    "message": "“$1” is not a group color ($2)."
+  },
+  "exBadCollapsed": {
+    "message": "“collapsed” must be true or false."
+  },
+  "exUnknownGroup": {
+    "message": "Group “$1” is not listed under “groups”."
+  },
+  "exWherePinned": {
+    "message": "Pinned tab $1"
+  },
+  "exWhereWs": {
+    "message": "Workspace $1"
+  },
+  "exWhereWsNamed": {
+    "message": "Workspace $1 (“$2”)"
+  },
+  "exWhereGroup": {
+    "message": "$1, group $2"
+  },
+  "exWhereTab": {
+    "message": "$1, tab $2"
+  },
+  "workspaceName": {
+    "message": "Workspace"
+  },
+  "workspaceN": {
+    "message": "Workspace $1"
+  },
+  "autoHeading": {
+    "message": "Automatic backup"
+  },
+  "autoText": {
+    "message": "Regularly saves an export to Downloads/$1/ and keeps the last $2. This way the workspaces survive even if the extension is removed or the profile breaks."
+  },
+  "autoPlainText": {
+    "message": "The backups also contain all addresses and titles in plain text, including access tokens and password reset links. Syncing the Downloads folder passes those on too."
+  },
+  "autoLabel": {
+    "message": "Frequency"
+  },
+  "autoNever": {
+    "message": "never"
+  },
+  "autoDaily": {
+    "message": "daily"
+  },
+  "autoWeekly": {
+    "message": "weekly"
+  },
+  "autoLast": {
+    "message": "Last on $1: $2"
+  },
+  "autoLastAt": {
+    "message": "Last on $1."
+  },
+  "autoPending": {
+    "message": "Started on $1, the file is not saved yet."
+  },
+  "autoFailed": {
+    "message": "Automatic backup on $1 failed"
+  },
+  "autoFailedHint": {
+    "message": "Details under Export / Import. The next backup will try again."
+  },
+  "autoBackupInvalid": {
+    "message": "Unknown interval for the automatic backup."
+  },
+  "autoBackupInterrupted": {
+    "message": "Download interrupted ($1)"
+  },
+  "autoHint": {
+    "message": "Automatic backup is off. If the extension is removed or the profile breaks, all workspaces are gone."
+  },
+  "autoHintSetup": {
+    "message": "Set up"
+  },
+  "autoHintSetupTitle": {
+    "message": "Opens Export / Import, where automatic backup can be turned on"
+  },
+  "autoHintHide": {
+    "message": "Don’t show this again"
+  },
+  "backupNow": {
+    "message": "Back up now"
+  },
+  "backingUp": {
+    "message": "Backing up …"
+  },
+  "backupNowFailed": {
+    "message": "Could not start the backup."
+  },
+  "earlierText": {
+    "message": "Or choose an earlier state. On every browser start the extension keeps the state from before, the last three remain."
+  },
+  "earlierButton": {
+    "message": "Choose"
+  },
+  "earlierSummary": {
+    "message": "State from $1: $2."
+  },
+  "checkingEarlier": {
+    "message": "Checking earlier state …"
+  },
+  "earlierRejected": {
+    "message": "This state cannot be restored. Nothing was changed."
+  },
+  "earlierGone": {
+    "message": "This state no longer exists."
+  },
+  "appName": {
+    "message": "Mega Tabs",
+    "description": "Product name. Keep in Latin letters in every language."
+  },
+  "noAnswer": {
+    "message": "No answer from the extension",
+    "description": "Error line when the extension's background does not reply."
+  },
+  "generalSpace": {
+    "message": "General",
+    "description": "Name shown for the group that holds mega tabs that belong to no space."
+  },
+  "spaces": {
+    "message": "Spaces",
+    "description": "Heading and label for the list of spaces (projects)."
+  },
+  "setUp": {
+    "message": "Set up",
+    "description": "Button that opens the page explaining how to turn on files."
+  },
+  "filesOffLead": {
+    "message": "Files are off:",
+    "description": "Short lead-in before a Set up button; the colon is part of the text."
+  },
+  "retryBtn": {
+    "message": "Retry",
+    "description": "Button that checks again whether files work."
+  },
+  "switchToMega": {
+    "message": "Switch to $1",
+    "description": "Tooltip on a mega tab row. $1 is the mega tab name."
+  },
+  "closeMegaAsk": {
+    "message": "Click again to close this mega tab and its tabs",
+    "description": "Tooltip on the close button after the first click."
+  },
+  "closeMegaAskLabel": {
+    "message": "Close $1 and its tabs: click again",
+    "description": "Accessible name of the close button after the first click. $1 is the mega tab name."
+  },
+  "closeMega": {
+    "message": "Close mega tab",
+    "description": "Tooltip on the close button of a mega tab row."
+  },
+  "closeMegaLabel": {
+    "message": "Close mega tab $1",
+    "description": "Accessible name of the close button. $1 is the mega tab name."
+  },
+  "closeQuestion": {
+    "message": "close?",
+    "description": "Tiny button text asking for confirmation of closing."
+  },
+  "spaceName": {
+    "message": "Space name",
+    "description": "Placeholder and accessible name of the field for renaming a space."
+  },
+  "showSpace": {
+    "message": "Show $1 (double click to rename)",
+    "description": "Tooltip on a space in the switcher. $1 is the space name."
+  },
+  "newSpaceName": {
+    "message": "Name the new space",
+    "description": "Placeholder of the field for a new space's name."
+  },
+  "newSpaceItem": {
+    "message": "New space…",
+    "description": "Menu item that starts creating a space."
+  },
+  "allSpaces": {
+    "message": "All spaces",
+    "description": "Menu item that opens the Spaces home page."
+  },
+  "switchSpace": {
+    "message": "Switch space",
+    "description": "Tooltip on the button that opens the space switcher."
+  },
+  "board": {
+    "message": "Board",
+    "description": "Name of the notes and canvas page of a space; also the button that opens it."
+  },
+  "boardOpen": {
+    "message": "Open the Board: the .md files of $1",
+    "description": "Tooltip on the Board button. $1 is the space name."
+  },
+  "settingsPage": {
+    "message": "Settings",
+    "description": "Name of the settings page and the button that opens it."
+  },
+  "settingsOpen": {
+    "message": "Settings: Edge reveal, backup, export",
+    "description": "Tooltip on the Settings button."
+  },
+  "newMegaName": {
+    "message": "New mega tab name",
+    "description": "Placeholder of the field for a new mega tab's name."
+  },
+  "noMegas": {
+    "message": "No mega tabs yet.",
+    "description": "Empty state of a space."
+  },
+  "newMega": {
+    "message": "+ New mega tab",
+    "description": "Button that starts creating a mega tab."
+  },
+  "noSpaces": {
+    "message": "No spaces yet.",
+    "description": "Empty state when there is no space at all."
+  },
+  "newSpace": {
+    "message": "+ New space",
+    "description": "Button that starts creating a space."
+  },
+  "openWindows": {
+    "message": "Open windows",
+    "description": "Heading of the list of browser windows that are not mega tabs."
+  },
+  "emptyWindow": {
+    "message": "Empty window",
+    "description": "Name of a window that has no page to show a title for."
+  },
+  "undoClose": {
+    "message": "Undo close",
+    "description": "Button that brings back a closed mega tab."
+  },
+  "intro": {
+    "message": "A mega tab is a set of tabs you switch to as one. Click one to begin.",
+    "description": "First-run hint under the list."
+  },
+  "homeSetupTitle": {
+    "message": "Turn files on",
+    "description": "Heading of the box that explains how to enable files."
+  },
+  "homeSetupText": {
+    "message": "Spaces keep their notes as plain files in $1. Chrome needs a small helper to read and write them. In the Mega Tabs folder, run $2, then press Retry.",
+    "description": "$1 is a folder path and $2 a shell command; both are shown as code and must stay as given."
+  },
+  "retryChecking": {
+    "message": "Checking…",
+    "description": "Shown while the helper is being checked again."
+  },
+  "retryOn": {
+    "message": "Files are on.",
+    "description": "Shown when files work after a retry."
+  },
+  "retryOff": {
+    "message": "Still off. Run the command, then press Retry again.",
+    "description": "Shown when files still do not work after a retry."
+  },
+  "tileLabel": {
+    "message": "$1, $2",
+    "description": "Accessible name of a space tile. $1 is the space name, $2 a count such as \"3 mega tabs\"."
+  },
+  "tileOpen": {
+    "message": "Open $1 (double click to rename, drop an image for its cover)",
+    "description": "Tooltip on a space tile. $1 is the space name."
+  },
+  "tileTypeName": {
+    "message": "type a name, press Enter",
+    "description": "Hint inside the tile that creates a space."
+  },
+  "newSpaceAria": {
+    "message": "New space",
+    "description": "Accessible name of the tile that creates a space."
+  },
+  "tileNewTitle": {
+    "message": "Type a name to make a new space",
+    "description": "Tooltip of the tile that creates a space."
+  },
+  "tileNewHint": {
+    "message": "type a name",
+    "description": "Hint under the tile that creates a space."
+  },
+  "coverType": {
+    "message": "Use a png, jpg or webp image.",
+    "description": "Error when a dropped file is not a usable image type."
+  },
+  "coverBig": {
+    "message": "That image is over 700 KB. Use a smaller one.",
+    "description": "Error when a dropped image is too large."
+  },
+  "coverNotSaved": {
+    "message": "Files are off: the cover was not saved.",
+    "description": "Error when a cover cannot be saved because files are off."
+  },
+  "edgeHeading": {
+    "message": "Edge reveal",
+    "description": "Heading of a settings section."
+  },
+  "edgeToggle": {
+    "message": "Show a mini switcher when the pointer rests at the screen edge",
+    "description": "Label of a checkbox."
+  },
+  "edgeHelp": {
+    "message": "Hold the pointer still at the edge for a moment and your mega tabs appear over the page. Chrome asks once for permission to run on web pages. The switcher reads nothing from them and sends nothing anywhere. It does not appear on the new tab page or on chrome:// pages.",
+    "description": "Explanation under the Edge reveal checkbox."
+  },
+  "side": {
+    "message": "Side",
+    "description": "Legend of the choice between the left and right screen edge."
+  },
+  "sideLeft": {
+    "message": "Left",
+    "description": "Choice: left screen edge."
+  },
+  "sideRight": {
+    "message": "Right",
+    "description": "Choice: right screen edge."
+  },
+  "edgeOnLeft": {
+    "message": "On. Rest the pointer at the left edge of a web page.",
+    "description": "Status line when Edge reveal is on at the left."
+  },
+  "edgeOnRight": {
+    "message": "On. Rest the pointer at the right edge of a web page.",
+    "description": "Status line when Edge reveal is on at the right."
+  },
+  "edgeDenied": {
+    "message": "Edge reveal needs that permission to run on web pages. It stays off.",
+    "description": "Shown when the person declines the permission."
+  },
+  "backupHeading": {
+    "message": "Backup",
+    "description": "Heading of a settings section."
+  },
+  "backupLabel": {
+    "message": "Save a backup file",
+    "description": "Label of the select that sets how often a backup file is saved."
+  },
+  "backupNever": {
+    "message": "Never",
+    "description": "Choice: no automatic backup."
+  },
+  "backupDaily": {
+    "message": "Every day",
+    "description": "Choice: daily backup."
+  },
+  "backupWeekly": {
+    "message": "Every week",
+    "description": "Choice: weekly backup."
+  },
+  "backupLast": {
+    "message": "Last saved $1.",
+    "description": "$1 is a date and time."
+  },
+  "backupSaving": {
+    "message": "Saving…",
+    "description": "Shown while a setting is being saved."
+  },
+  "dataHeading": {
+    "message": "Your mega tabs",
+    "description": "Heading of the export and import section."
+  },
+  "dataHelp": {
+    "message": "One file with every space, mega tab and its tabs. Importing it adds what is missing and closes nothing.",
+    "description": "Explanation of export and import."
+  },
+  "exportBtn": {
+    "message": "Export mega tabs",
+    "description": "Button."
+  },
+  "importBtn": {
+    "message": "Import mega tabs…",
+    "description": "Button; the dots mean a file picker follows."
+  },
+  "chooseFile": {
+    "message": "Choose an exported file",
+    "description": "Accessible name of the file input."
+  },
+  "exportSaved": {
+    "message": "Saved $1: $2, $3.",
+    "description": "$1 is a file name, $2 a count of mega tabs and $3 a count of tabs, for example \"3 mega tabs, 14 tabs\"."
+  },
+  "exportFail": {
+    "message": "Could not export: $1",
+    "description": "$1 is the reason."
+  },
+  "importAdded": {
+    "message": "Added $1 and $2 from $3.",
+    "description": "$1 is a count of mega tabs, $2 a count of tabs and $3 a file name."
+  },
+  "importNothing": {
+    "message": "Nothing to add: everything in $1 is already here.",
+    "description": "$1 is a file name."
+  },
+  "importFail": {
+    "message": "Could not import: $1",
+    "description": "$1 is the reason."
+  },
+  "boardTitle": {
+    "message": "Board · $1",
+    "description": "Page title. $1 is the space name."
+  },
+  "folderLabel": {
+    "message": "Folder: $1",
+    "description": "Shows the folder the person picked. $1 is its name."
+  },
+  "change": {
+    "message": "Change",
+    "description": "Button that picks another folder."
+  },
+  "chooseFolder": {
+    "message": "Choose a folder",
+    "description": "Button that picks the folder that holds the notes."
+  },
+  "allowFolder": {
+    "message": "Allow access to \"$1\"",
+    "description": "Button that asks the browser again for access to a folder. $1 is the folder name."
+  },
+  "hostMissing": {
+    "message": "The Board host is not installed. Run $1 in the Mega Tabs folder, then reload this page.",
+    "description": "$1 is a shell command shown as given. \"Host\" is the small helper program."
+  },
+  "hostForbidden": {
+    "message": "Chrome does not let this extension use the Board host. Run $1 again, then reload this page.",
+    "description": "$1 is a shell command shown as given."
+  },
+  "hostStopped": {
+    "message": "The Board host stopped. Trying again.",
+    "description": "Shown when the helper program stops."
+  },
+  "hostUnreachable": {
+    "message": "The Board cannot reach its host ($1).",
+    "description": "$1 is a technical reason."
+  },
+  "cannotOpenMeta": {
+    "message": "can't open here ($1)",
+    "description": "Small line under a file name. $1 is the reason, for example too-large."
+  },
+  "howItWorks": {
+    "message": "How it works",
+    "description": "Title of a mega tab's MEGATAB.md note."
+  },
+  "rename": {
+    "message": "Rename",
+    "description": "Button on a file row."
+  },
+  "renameLabel": {
+    "message": "Rename $1",
+    "description": "Accessible name of the rename button. $1 is a file name."
+  },
+  "renameTitle": {
+    "message": "Rename (or double-click the name)",
+    "description": "Tooltip of the rename button."
+  },
+  "deleteLabel": {
+    "message": "Delete $1",
+    "description": "Accessible name of the delete button. $1 is a file name."
+  },
+  "deleteTitle": {
+    "message": "Delete (to the trash, with Undo)",
+    "description": "Tooltip of the delete button."
+  },
+  "noMatches": {
+    "message": "No matches.",
+    "description": "Search found nothing."
+  },
+  "newNote": {
+    "message": "New note",
+    "description": "Button that starts a note."
+  },
+  "newCanvas": {
+    "message": "New canvas",
+    "description": "Button that starts a canvas."
+  },
+  "newNoteTitle": {
+    "message": "Start a new note in this space",
+    "description": "Tooltip of New note."
+  },
+  "newCanvasTitle": {
+    "message": "Start a new canvas in this space",
+    "description": "Tooltip of New canvas."
+  },
+  "emptyNotesFolder": {
+    "message": "No notes in this space yet. Press New note to start one.",
+    "description": "Empty state of the notes list."
+  },
+  "emptyNotesDir": {
+    "message": "No .md files in ~/Spaces/$1/ yet. Press New note to start one.",
+    "description": "Empty state. $1 is the space name; the path is shown as given."
+  },
+  "noFolderNotes": {
+    "message": "No folder for \"$1\" yet. Make ~/Spaces/$1/ and put .md files in it.",
+    "description": "Empty state. $1 is the space name; the path is shown as given."
+  },
+  "emptyCanvasFolder": {
+    "message": "No canvases in this space yet. Press New canvas to start one.",
+    "description": "Empty state of the canvas list."
+  },
+  "emptyCanvasDir": {
+    "message": "No .canvas files in ~/Spaces/$1/ yet. Press New canvas to start one.",
+    "description": "Empty state. $1 is the space name."
+  },
+  "noFolderCanvas": {
+    "message": "No folder for \"$1\" yet. Make ~/Spaces/$1/ and put .canvas files in it.",
+    "description": "Empty state. $1 is the space name."
+  },
+  "done": {
+    "message": "Done",
+    "description": "Button that leaves the editor."
+  },
+  "backToReading": {
+    "message": "Back to reading (Esc)",
+    "description": "Tooltip of Done."
+  },
+  "typeInFile": {
+    "message": "Type in this file (E)",
+    "description": "Tooltip of Edit."
+  },
+  "openCursor": {
+    "message": "Open in Cursor",
+    "description": "Link that opens a file in the Cursor editor. Cursor is a product name."
+  },
+  "openCursorTitle": {
+    "message": "Open this file in Cursor",
+    "description": "Tooltip of that link."
+  },
+  "typeHere": {
+    "message": "Type here.",
+    "description": "Placeholder of the empty editor."
+  },
+  "textOf": {
+    "message": "Text of $1",
+    "description": "Accessible name of the editor. $1 is a file name."
+  },
+  "statusUnsaved": {
+    "message": "Unsaved",
+    "description": "Save state of the open file."
+  },
+  "statusSaving": {
+    "message": "Saving",
+    "description": "Save state of the open file."
+  },
+  "statusSaved": {
+    "message": "Saved",
+    "description": "Save state of the open file."
+  },
+  "mixedEol": {
+    "message": "Mixed line endings: edit this file in Cursor.",
+    "description": "Shown when a file cannot be edited here."
+  },
+  "notSavedWhy": {
+    "message": "Not saved ($1)",
+    "description": "Save state. $1 is the reason."
+  },
+  "hostNotConnected": {
+    "message": "host not connected",
+    "description": "A reason inside \"Not saved (...)\"."
+  },
+  "notSaved": {
+    "message": "Not saved: $1",
+    "description": "Alert. $1 is the reason."
+  },
+  "notSavedTooLarge": {
+    "message": "Not saved: this note is over the $1 KB the files can hold. Shorten it, or split it in two.",
+    "description": "Alert. $1 is a number."
+  },
+  "changedOnDisk": {
+    "message": "Changed on disk",
+    "description": "Accessible name of the conflict bar."
+  },
+  "conflictGone": {
+    "message": "Deleted on disk:",
+    "description": "Lead of a conflict bar; buttons follow."
+  },
+  "conflictTooLarge": {
+    "message": "Changed on disk and now too big to show here:",
+    "description": "Lead of a conflict bar; buttons follow."
+  },
+  "conflictNotText": {
+    "message": "Changed on disk and no longer text:",
+    "description": "Lead of a conflict bar; buttons follow."
+  },
+  "conflictChanged": {
+    "message": "Changed on disk:",
+    "description": "Lead of a conflict bar; buttons follow."
+  },
+  "loadTheirs": {
+    "message": "Load theirs",
+    "description": "Button: take the other version of the file."
+  },
+  "keepMine": {
+    "message": "Keep mine",
+    "description": "Button: keep the person's own version."
+  },
+  "dropIt": {
+    "message": "Drop it",
+    "description": "Button: let a deleted file go."
+  },
+  "seeTheirs": {
+    "message": "See theirs",
+    "description": "Label of a collapsible that shows the other version."
+  },
+  "removedFromFolder": {
+    "message": "$1 was removed from the folder.",
+    "description": "$1 is a file name."
+  },
+  "cannotOpenNote": {
+    "message": "This file cannot be opened here ($1).",
+    "description": "$1 is a reason."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "This file cannot be opened here ($1). Cursor can.",
+    "description": "$1 is a reason. Cursor is a product name."
+  },
+  "cannotOpenCanvas": {
+    "message": "This canvas cannot be opened here ($1).",
+    "description": "$1 is a reason."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "This canvas cannot be opened here ($1). Cursor can.",
+    "description": "$1 is a reason. Cursor is a product name."
+  },
+  "waitingStorage": {
+    "message": "Waiting for the Board storage.",
+    "description": "Shown while the files are not connected yet."
+  },
+  "couldNotRead": {
+    "message": "Could not read $1 ($2).",
+    "description": "$1 is a file name, $2 a reason."
+  },
+  "couldNotOpen": {
+    "message": "Could not open $1 ($2).",
+    "description": "$1 is a file name, $2 a reason."
+  },
+  "noteName": {
+    "message": "Note name",
+    "description": "Placeholder of the field for a new note's name."
+  },
+  "canvasName": {
+    "message": "Canvas name",
+    "description": "Placeholder of the field for a new canvas's name."
+  },
+  "nameTaken": {
+    "message": "That name is taken.",
+    "description": "Error."
+  },
+  "nameBad": {
+    "message": "That name can't be used.",
+    "description": "Error."
+  },
+  "notCreated": {
+    "message": "Not created ($1).",
+    "description": "Error. $1 is a reason."
+  },
+  "renameNewName": {
+    "message": "New name for $1",
+    "description": "Accessible name of the rename field. $1 is a file name."
+  },
+  "resolveFirst": {
+    "message": "Resolve the change on disk first.",
+    "description": "Error."
+  },
+  "notSavedYetRename": {
+    "message": "Not saved yet; try again in a moment.",
+    "description": "Error."
+  },
+  "fileGone": {
+    "message": "That file is gone.",
+    "description": "Error."
+  },
+  "notRenamed": {
+    "message": "Not renamed ($1).",
+    "description": "Error. $1 is a reason."
+  },
+  "deletedToast": {
+    "message": "Deleted \"$1\"",
+    "description": "Toast after deleting. $1 is a title."
+  },
+  "resolveFirstDelete": {
+    "message": "Resolve the change on disk first, then delete.",
+    "description": "Error."
+  },
+  "notSavedYetDelete": {
+    "message": "Not saved yet, so not deleted. Try again in a moment.",
+    "description": "Error."
+  },
+  "notDeleted": {
+    "message": "Not deleted: $1",
+    "description": "Error. $1 is a reason."
+  },
+  "notRestored": {
+    "message": "Not restored: $1",
+    "description": "Error. $1 is a reason."
+  },
+  "cvThreeFailed": {
+    "message": "3D could not start here ($1).",
+    "description": "Alert in the canvas. $1 is a reason."
+  },
+  "cvDidNotLoad": {
+    "message": "it did not load",
+    "description": "A reason inside the line above."
+  },
+  "cvSelect": {
+    "message": "Select and move (V)",
+    "description": "Tooltip and name of a canvas tool. The letter is its key."
+  },
+  "cvCard": {
+    "message": "Add a text card (T)",
+    "description": "Tooltip and name of a canvas tool. The letter is its key."
+  },
+  "cvPen": {
+    "message": "Pen (P)",
+    "description": "Tooltip and name of a canvas tool. The letter is its key."
+  },
+  "cvEraser": {
+    "message": "Eraser (E)",
+    "description": "Tooltip and name of a canvas tool. The letter is its key."
+  },
+  "cvTools": {
+    "message": "Canvas tools",
+    "description": "Accessible name of the canvas toolbar."
+  },
+  "cvUndo": {
+    "message": "Undo (Cmd+Z)",
+    "description": "Tooltip of the undo button."
+  },
+  "cvRedo": {
+    "message": "Redo (Shift+Cmd+Z)",
+    "description": "Tooltip of the redo button."
+  },
+  "cvRedoLabel": {
+    "message": "Redo",
+    "description": "Accessible name of the redo button."
+  },
+  "cvDelete": {
+    "message": "Delete the selection (Backspace)",
+    "description": "Tooltip of the delete button."
+  },
+  "cvDeleteLabel": {
+    "message": "Delete the selection",
+    "description": "Accessible name of the delete button."
+  },
+  "cvView": {
+    "message": "View",
+    "description": "Accessible name of the 2D and 3D switch."
+  },
+  "cv2d": {
+    "message": "The canvas, flat",
+    "description": "Tooltip of the 2D button."
+  },
+  "cv3d": {
+    "message": "The same canvas in 3D (read only)",
+    "description": "Tooltip of the 3D button."
+  },
+  "cvDeleted": {
+    "message": "Deleted on disk. This canvas is no longer in the folder.",
+    "description": "Alert in the canvas."
+  },
+  "cvEmptyCard": {
+    "message": "Empty card",
+    "description": "Accessible name of a card with no text."
+  },
+  "cvWriteHere": {
+    "message": "Write here",
+    "description": "Placeholder of a card's text field."
+  },
+  "cvCardText": {
+    "message": "Card text",
+    "description": "Accessible name of a card's text field."
+  },
+  "cvOpenNotes": {
+    "message": "Open in Notes",
+    "description": "Tooltip of a button on a file card."
+  },
+  "cvOpenCanvas": {
+    "message": "Open this canvas",
+    "description": "Tooltip of a button on a file card."
+  },
+  "cvModelGone": {
+    "message": "This model is not in the folder.",
+    "description": "Shown on a 3D model card."
+  },
+  "cvModelBig": {
+    "message": "This model is over 24 MB.",
+    "description": "Shown on a 3D model card."
+  },
+  "cvModelFail": {
+    "message": "This model cannot be shown ($1).",
+    "description": "Shown on a 3D model card. $1 is a reason."
+  },
+  "cvUnknownError": {
+    "message": "unknown error",
+    "description": "A reason inside the line above."
+  },
+  "cvLoadingModel": {
+    "message": "Loading model",
+    "description": "Shown on a 3D model card while it loads."
+  },
+  "cvLink": {
+    "message": "Link",
+    "description": "Label of a link card in the 3D view."
+  },
+  "cvGroup": {
+    "message": "Group",
+    "description": "Label of a group in the 3D view."
+  },
+  "cvNodeNote": {
+    "message": "Note $1",
+    "description": "Accessible name of a note card. $1 is a file name."
+  },
+  "cvNodeLink": {
+    "message": "Link $1",
+    "description": "Accessible name of a link card. $1 is an address."
+  },
+  "cvNodeGroup": {
+    "message": "Group $1",
+    "description": "Accessible name of a named group. $1 is its name."
+  },
+  "cvNodeType": {
+    "message": "Card of type $1",
+    "description": "Accessible name of a card of an unknown type."
+  },
+  "sInvalid": {
+    "message": "This file is not a JSON Canvas ($1). Fix it in Cursor; nothing is saved here meanwhile.",
+    "description": "Alert. $1 is a technical reason. Cursor is a product name."
+  },
+  "sInvalidNow": {
+    "message": "Changed on disk and not a JSON Canvas now ($1). Nothing is saved here until it is valid again.",
+    "description": "Alert. $1 is a technical reason."
+  },
+  "sTooBig": {
+    "message": "Not saved (this canvas is $1; the files hold at most $2. Erase some strokes or cards)",
+    "description": "Alert. $1 and $2 are sizes such as 3 KB."
+  },
+  "sBlockedBig": {
+    "message": "Not saved (the file on disk changed and is over the size limit: Keep mine or leave it)",
+    "description": "Alert."
+  },
+  "sBlockedText": {
+    "message": "Not saved (the file on disk changed and is not text: Keep mine or leave it)",
+    "description": "Alert."
+  },
+  "sKeepsChanging": {
+    "message": "Not saved (the file keeps changing)",
+    "description": "Alert."
+  },
+  "edgeOpenPanel": {
+    "message": "Open panel",
+    "description": "Button in the small switcher shown at the screen edge."
+  },
+  "errNameEmpty": {
+    "message": "Type a name.",
+    "description": "Error."
+  },
+  "errNameLong": {
+    "message": "That name is too long.",
+    "description": "Error."
+  },
+  "errHost": {
+    "message": "The host did not answer.",
+    "description": "Error."
+  },
+  "backupKept": {
+    "message": "Kept in Downloads/$2. Files kept: $1.",
+    "description": "Settings note. $1 is a number and $2 a folder name."
+  },
+  "filesLabel": {
+    "message": "Files",
+    "description": "Accessible name of the file list."
+  },
+  "roomLabel": {
+    "message": "Room",
+    "description": "Accessible name of the Notes and Canvas tabs."
+  },
+  "roomNotes": {
+    "message": "Notes",
+    "description": "Name of the notes room (a tab)."
+  },
+  "roomCanvas": {
+    "message": "Canvas",
+    "description": "Name of the canvas room (a tab)."
+  },
+  "search": {
+    "message": "Search",
+    "description": "Placeholder of the search field."
+  },
+  "searchLabel": {
+    "message": "Search this space",
+    "description": "Accessible name of the search field."
+  },
+  "noteLabel": {
+    "message": "Note",
+    "description": "Accessible name of the note pane."
+  },
+  "cvNotShown": {
+    "message": "$1 (not shown here)",
+    "description": "Shown on a card of a type this room cannot draw. $1 is the type name."
+  },
+  "cvDrawFail": {
+    "message": "This canvas could not be drawn ($1).",
+    "description": "Alert. $1 is a technical reason."
+  },
+  "cvDrawFail2": {
+    "message": "Nothing was changed on disk. Open it in Cursor, or pick another canvas.",
+    "description": "Second line of the alert above. Cursor is a product name."
+  },
+  "statusDeleted": {
+    "message": "Deleted on disk",
+    "description": "Save state when the file was deleted outside."
+  },
+  "cv3dScene": {
+    "message": "3D view of this canvas. Drag to orbit, scroll to zoom, click a card to open it.",
+    "description": "Accessible name of the 3D view of a canvas."
+  },
+  "cvModelScene": {
+    "message": "3D model. Drag to turn it, arrow keys too.",
+    "description": "Accessible name of a 3D model on a card."
+  },
+  "cvModelCompressed": {
+    "message": "it uses compressed geometry or textures (Draco, KTX2 or Meshopt), which this view cannot read",
+    "description": "A reason inside \"This model cannot be shown ($1)\". Draco, KTX2 and Meshopt are format names."
+  },
+  "cvNoWebgl": {
+    "message": "WebGL is not available in this browser",
+    "description": "A reason inside \"This model cannot be shown ($1)\". WebGL is a browser technology name."
+  },
+  "megaTabs_one": {
+    "message": "$1 mega tab",
+    "description": "A count of mega tabs. $1 is the number."
+  },
+  "megaTabs_other": {
+    "message": "$1 mega tabs",
+    "description": "A count of mega tabs. $1 is the number."
+  }
+}

@@ -1,0 +1,785 @@
+{
+  "lang": {
+    "message": "ko"
+  },
+  "extName": {
+    "message": "Mega Tabs: 스페이스, 메모, 캔버스"
+  },
+  "extDescription": {
+    "message": "프로젝트별로 탭 묶음을 새로고침 없이 전환하세요. 옆에는 메모와 캔버스, AI도 편집할 수 있어요. 비공개, 무료."
+  },
+  "cmdOpen": {
+    "message": "워크스페이스 목록 열기"
+  },
+  "cmdTogglePanel": {
+    "message": "Mega Tabs 패널 열기 또는 닫기"
+  },
+  "cmdNext": {
+    "message": "다음 워크스페이스"
+  },
+  "cmdPrev": {
+    "message": "이전 워크스페이스"
+  },
+  "cmdLast": {
+    "message": "마지막으로 쓴 워크스페이스"
+  },
+  "cmdSwitch": {
+    "message": "워크스페이스로 전환"
+  },
+  "tabs_other": {
+    "message": "탭 $1개"
+  },
+  "tabsNotRestored_other": {
+    "message": "복원되지 않은 탭 $1개"
+  },
+  "edit": {
+    "message": "편집"
+  },
+  "name": {
+    "message": "이름"
+  },
+  "delete": {
+    "message": "삭제"
+  },
+  "undo": {
+    "message": "실행 취소"
+  },
+  "stashHeading": {
+    "message": "워크스페이스 보관 창"
+  },
+  "stashText": {
+    "message": "이 숨겨진 창은 Mega Tabs 확장 프로그램의 것입니다. 지금 표시되지 않는 워크스페이스의 탭을 담고 있어요. 닫지 말고 패널로 전환하세요."
+  },
+  "defaultWorkspace": {
+    "message": "기본"
+  },
+  "recoveredWorkspace": {
+    "message": "복구됨"
+  },
+  "iconTitle": {
+    "message": "워크스페이스: $1"
+  },
+  "iconTitleMissing": {
+    "message": "워크스페이스: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "확장 프로그램 저장 공간이 거의 찼습니다. 곧 탭이 저장되지 않습니다"
+  },
+  "menuLink": {
+    "message": "링크를 워크스페이스에서 열기"
+  },
+  "menuMove": {
+    "message": "탭을 워크스페이스로 이동"
+  },
+  "menuMoveMarked": {
+    "message": "선택한 탭 $1개를 워크스페이스로 이동"
+  },
+  "menuGroup": {
+    "message": "그룹을 워크스페이스로 이동"
+  },
+  "exNotJson": {
+    "message": "파일이 올바른 JSON이 아닙니다."
+  },
+  "exNotText": {
+    "message": "\"$1\"이(가) 없거나 텍스트가 아닙니다."
+  },
+  "exTooLong": {
+    "message": "\"$1\"이(가) 너무 깁니다."
+  },
+  "exNotList": {
+    "message": "\"$1\"이(가) 없거나 목록이 아닙니다."
+  },
+  "exBadUrl": {
+    "message": "\"$1\"은(는) 올바른 주소가 아닙니다."
+  },
+  "exJavascript": {
+    "message": "javascript: 주소는 가져오지 않습니다."
+  },
+  "exOwnPage": {
+    "message": "확장 프로그램 자체의 페이지는 파일에 들어갈 수 없습니다."
+  },
+  "exNotExport": {
+    "message": "Helium Workspaces의 내보내기 파일이 아닙니다."
+  },
+  "exBadVersion": {
+    "message": "형식 버전 번호가 없거나 올바르지 않습니다."
+  },
+  "exNewerVersion": {
+    "message": "파일의 형식 버전은 $1이고, 이 확장 프로그램은 버전 $2만 지원합니다."
+  },
+  "exNotObject": {
+    "message": "항목이 객체가 아닙니다."
+  },
+  "exNoWorkspaces": {
+    "message": "파일에 워크스페이스가 없습니다."
+  },
+  "exTooManyWorkspaces": {
+    "message": "파일에 워크스페이스가 너무 많습니다."
+  },
+  "exTooManyTabs": {
+    "message": "파일에 탭이 너무 많습니다."
+  },
+  "exBadColor": {
+    "message": "\"$1\"은(는) #rrggbb 형식의 색이 아닙니다."
+  },
+  "exBadId": {
+    "message": "\"id\"에는 영문자와 숫자만 쓸 수 있습니다."
+  },
+  "exDupId": {
+    "message": "ID \"$1\"이(가) 두 번 이상 나옵니다."
+  },
+  "exEmptyId": {
+    "message": "\"id\"가 비어 있습니다."
+  },
+  "exDupGroupId": {
+    "message": "그룹 ID \"$1\"이(가) 두 번 이상 나옵니다."
+  },
+  "exBadGroupColor": {
+    "message": "\"$1\"은(는) 그룹 색이 아닙니다($2)."
+  },
+  "exBadCollapsed": {
+    "message": "\"collapsed\"는 true 또는 false여야 합니다."
+  },
+  "exUnknownGroup": {
+    "message": "그룹 \"$1\"이(가) \"groups\"에 없습니다."
+  },
+  "exWherePinned": {
+    "message": "고정된 탭 $1"
+  },
+  "exWhereWs": {
+    "message": "워크스페이스 $1"
+  },
+  "exWhereWsNamed": {
+    "message": "워크스페이스 $1(\"$2\")"
+  },
+  "exWhereGroup": {
+    "message": "$1, 그룹 $2"
+  },
+  "exWhereTab": {
+    "message": "$1, 탭 $2"
+  },
+  "workspaceName": {
+    "message": "워크스페이스"
+  },
+  "workspaceN": {
+    "message": "워크스페이스 $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "다운로드가 중단되었습니다($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "확장 프로그램이 응답하지 않습니다"
+  },
+  "generalSpace": {
+    "message": "일반"
+  },
+  "spaces": {
+    "message": "스페이스"
+  },
+  "setUp": {
+    "message": "설정하기"
+  },
+  "filesOffLead": {
+    "message": "파일이 꺼져 있습니다:"
+  },
+  "retryBtn": {
+    "message": "다시 시도"
+  },
+  "switchToMega": {
+    "message": "$1(으)로 전환"
+  },
+  "closeMegaAsk": {
+    "message": "다시 클릭하면 이 메가 탭과 그 탭을 닫습니다"
+  },
+  "closeMegaAskLabel": {
+    "message": "$1과(와) 그 탭 닫기: 다시 클릭"
+  },
+  "closeMega": {
+    "message": "메가 탭 닫기"
+  },
+  "closeMegaLabel": {
+    "message": "메가 탭 $1 닫기"
+  },
+  "closeQuestion": {
+    "message": "닫을까요?"
+  },
+  "spaceName": {
+    "message": "스페이스 이름"
+  },
+  "showSpace": {
+    "message": "$1 보기(더블클릭으로 이름 변경)"
+  },
+  "newSpaceName": {
+    "message": "새 스페이스 이름"
+  },
+  "newSpaceItem": {
+    "message": "새 스페이스…"
+  },
+  "allSpaces": {
+    "message": "모든 스페이스"
+  },
+  "switchSpace": {
+    "message": "스페이스 전환"
+  },
+  "board": {
+    "message": "보드"
+  },
+  "boardOpen": {
+    "message": "보드 열기: $1의 .md 파일"
+  },
+  "settingsPage": {
+    "message": "설정"
+  },
+  "settingsOpen": {
+    "message": "설정: 가장자리 표시, 백업, 내보내기"
+  },
+  "newMegaName": {
+    "message": "새 메가 탭 이름"
+  },
+  "noMegas": {
+    "message": "아직 메가 탭이 없습니다."
+  },
+  "newMega": {
+    "message": "+ 새 메가 탭"
+  },
+  "noSpaces": {
+    "message": "아직 스페이스가 없습니다."
+  },
+  "newSpace": {
+    "message": "+ 새 스페이스"
+  },
+  "openWindows": {
+    "message": "열린 창"
+  },
+  "emptyWindow": {
+    "message": "빈 창"
+  },
+  "undoClose": {
+    "message": "닫기 취소"
+  },
+  "intro": {
+    "message": "메가 탭은 한꺼번에 전환하는 탭 묶음입니다. 하나를 클릭해 시작하세요."
+  },
+  "homeSetupTitle": {
+    "message": "파일 켜기"
+  },
+  "homeSetupText": {
+    "message": "스페이스는 메모를 $1에 일반 파일로 저장합니다. Chrome이 이를 읽고 쓰려면 작은 도우미가 필요합니다. Mega Tabs 폴더에서 $2을(를) 실행한 뒤 다시 시도를 누르세요."
+  },
+  "retryChecking": {
+    "message": "확인 중…"
+  },
+  "retryOn": {
+    "message": "파일이 켜져 있습니다."
+  },
+  "retryOff": {
+    "message": "아직 꺼져 있습니다. 명령을 실행한 뒤 다시 시도를 누르세요."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "$1 열기(더블클릭으로 이름 변경, 이미지를 놓으면 표지로 설정)"
+  },
+  "tileTypeName": {
+    "message": "이름을 입력하고 Enter"
+  },
+  "newSpaceAria": {
+    "message": "새 스페이스"
+  },
+  "tileNewTitle": {
+    "message": "이름을 입력해 새 스페이스 만들기"
+  },
+  "tileNewHint": {
+    "message": "이름 입력"
+  },
+  "coverType": {
+    "message": "png, jpg, webp 이미지를 사용하세요."
+  },
+  "coverBig": {
+    "message": "이미지가 700 KB를 넘습니다. 더 작은 것을 쓰세요."
+  },
+  "coverNotSaved": {
+    "message": "파일이 꺼져 있어 표지를 저장하지 못했습니다."
+  },
+  "edgeHeading": {
+    "message": "가장자리 표시"
+  },
+  "edgeToggle": {
+    "message": "포인터가 화면 가장자리에 머물면 미니 전환기 표시"
+  },
+  "edgeHelp": {
+    "message": "가장자리에서 포인터를 잠시 멈추면 메가 탭이 페이지 위에 나타납니다. Chrome이 웹페이지에서 실행할 권한을 한 번 물어봅니다. 전환기는 웹페이지에서 아무것도 읽지 않고 어디에도 보내지 않습니다. 새 탭 페이지와 chrome:// 페이지에는 나타나지 않습니다."
+  },
+  "side": {
+    "message": "위치"
+  },
+  "sideLeft": {
+    "message": "왼쪽"
+  },
+  "sideRight": {
+    "message": "오른쪽"
+  },
+  "edgeOnLeft": {
+    "message": "켜짐. 웹페이지의 왼쪽 가장자리에 포인터를 두세요."
+  },
+  "edgeOnRight": {
+    "message": "켜짐. 웹페이지의 오른쪽 가장자리에 포인터를 두세요."
+  },
+  "edgeDenied": {
+    "message": "가장자리 표시는 웹페이지에서 실행되려면 이 권한이 필요합니다. 꺼진 채로 둡니다."
+  },
+  "backupHeading": {
+    "message": "백업"
+  },
+  "backupLabel": {
+    "message": "백업 파일 저장"
+  },
+  "backupNever": {
+    "message": "안 함"
+  },
+  "backupDaily": {
+    "message": "매일"
+  },
+  "backupWeekly": {
+    "message": "매주"
+  },
+  "backupLast": {
+    "message": "마지막 저장: $1."
+  },
+  "backupSaving": {
+    "message": "저장 중…"
+  },
+  "dataHeading": {
+    "message": "내 메가 탭"
+  },
+  "dataHelp": {
+    "message": "모든 스페이스, 메가 탭, 탭을 담은 파일 하나. 가져오기는 없는 것만 추가하고 아무것도 닫지 않습니다."
+  },
+  "exportBtn": {
+    "message": "메가 탭 내보내기"
+  },
+  "importBtn": {
+    "message": "메가 탭 가져오기…"
+  },
+  "chooseFile": {
+    "message": "내보낸 파일 선택"
+  },
+  "exportSaved": {
+    "message": "$1 저장됨: $2, $3."
+  },
+  "exportFail": {
+    "message": "내보낼 수 없습니다: $1"
+  },
+  "importAdded": {
+    "message": "$3에서 $1과(와) $2을(를) 추가했습니다."
+  },
+  "importNothing": {
+    "message": "추가할 것이 없습니다. $1의 내용이 모두 이미 있습니다."
+  },
+  "importFail": {
+    "message": "가져올 수 없습니다: $1"
+  },
+  "boardTitle": {
+    "message": "보드 · $1"
+  },
+  "folderLabel": {
+    "message": "폴더: $1"
+  },
+  "change": {
+    "message": "변경"
+  },
+  "chooseFolder": {
+    "message": "폴더 선택"
+  },
+  "allowFolder": {
+    "message": "\"$1\"에 대한 접근 허용"
+  },
+  "hostMissing": {
+    "message": "보드 호스트가 설치되어 있지 않습니다. Mega Tabs 폴더에서 $1을(를) 실행한 뒤 이 페이지를 새로고침하세요."
+  },
+  "hostForbidden": {
+    "message": "Chrome이 이 확장 프로그램의 보드 호스트 사용을 허용하지 않습니다. $1을(를) 다시 실행한 뒤 이 페이지를 새로고침하세요."
+  },
+  "hostStopped": {
+    "message": "보드 호스트가 멈췄습니다. 다시 시도합니다."
+  },
+  "hostUnreachable": {
+    "message": "보드가 호스트에 연결할 수 없습니다($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "여기서는 열 수 없음($1)"
+  },
+  "howItWorks": {
+    "message": "사용 방법"
+  },
+  "rename": {
+    "message": "이름 변경"
+  },
+  "renameLabel": {
+    "message": "$1 이름 변경"
+  },
+  "renameTitle": {
+    "message": "이름 변경(또는 이름을 더블클릭)"
+  },
+  "deleteLabel": {
+    "message": "$1 삭제"
+  },
+  "deleteTitle": {
+    "message": "삭제(휴지통으로 이동, 실행 취소 가능)"
+  },
+  "noMatches": {
+    "message": "일치하는 항목이 없습니다."
+  },
+  "newNote": {
+    "message": "새 메모"
+  },
+  "newCanvas": {
+    "message": "새 캔버스"
+  },
+  "newNoteTitle": {
+    "message": "이 스페이스에서 새 메모 시작"
+  },
+  "newCanvasTitle": {
+    "message": "이 스페이스에서 새 캔버스 시작"
+  },
+  "emptyNotesFolder": {
+    "message": "이 스페이스에는 아직 메모가 없습니다. 새 메모를 눌러 시작하세요."
+  },
+  "emptyNotesDir": {
+    "message": "~/Spaces/$1/에는 아직 .md 파일이 없습니다. 새 메모를 눌러 시작하세요."
+  },
+  "noFolderNotes": {
+    "message": "\"$1\"의 폴더가 아직 없습니다. ~/Spaces/$1/을(를) 만들고 .md 파일을 넣으세요."
+  },
+  "emptyCanvasFolder": {
+    "message": "이 스페이스에는 아직 캔버스가 없습니다. 새 캔버스를 눌러 시작하세요."
+  },
+  "emptyCanvasDir": {
+    "message": "~/Spaces/$1/에는 아직 .canvas 파일이 없습니다. 새 캔버스를 눌러 시작하세요."
+  },
+  "noFolderCanvas": {
+    "message": "\"$1\"의 폴더가 아직 없습니다. ~/Spaces/$1/을(를) 만들고 .canvas 파일을 넣으세요."
+  },
+  "done": {
+    "message": "완료"
+  },
+  "backToReading": {
+    "message": "읽기로 돌아가기(Esc)"
+  },
+  "typeInFile": {
+    "message": "이 파일에 입력(E)"
+  },
+  "openCursor": {
+    "message": "Cursor에서 열기"
+  },
+  "openCursorTitle": {
+    "message": "이 파일을 Cursor에서 열기"
+  },
+  "typeHere": {
+    "message": "여기에 입력하세요."
+  },
+  "textOf": {
+    "message": "$1의 텍스트"
+  },
+  "statusUnsaved": {
+    "message": "저장 안 됨"
+  },
+  "statusSaving": {
+    "message": "저장 중"
+  },
+  "statusSaved": {
+    "message": "저장됨"
+  },
+  "mixedEol": {
+    "message": "줄 끝 형식이 섞여 있습니다. 이 파일은 Cursor에서 편집하세요."
+  },
+  "notSavedWhy": {
+    "message": "저장되지 않음($1)"
+  },
+  "hostNotConnected": {
+    "message": "호스트 연결 안 됨"
+  },
+  "notSaved": {
+    "message": "저장되지 않음: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "저장되지 않음: 이 메모가 파일이 담을 수 있는 $1 KB를 넘습니다. 줄이거나 둘로 나누세요."
+  },
+  "changedOnDisk": {
+    "message": "디스크에서 변경됨"
+  },
+  "conflictGone": {
+    "message": "디스크에서 삭제됨:"
+  },
+  "conflictTooLarge": {
+    "message": "디스크에서 변경되어 여기에 표시하기엔 너무 큼:"
+  },
+  "conflictNotText": {
+    "message": "디스크에서 변경되어 더 이상 텍스트가 아님:"
+  },
+  "conflictChanged": {
+    "message": "디스크에서 변경됨:"
+  },
+  "loadTheirs": {
+    "message": "상대 것 불러오기"
+  },
+  "keepMine": {
+    "message": "내 것 유지"
+  },
+  "dropIt": {
+    "message": "버리기"
+  },
+  "seeTheirs": {
+    "message": "상대 것 보기"
+  },
+  "removedFromFolder": {
+    "message": "$1이(가) 폴더에서 제거되었습니다."
+  },
+  "cannotOpenNote": {
+    "message": "이 파일은 여기서 열 수 없습니다($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "이 파일은 여기서 열 수 없습니다($1). Cursor에서는 열 수 있습니다."
+  },
+  "cannotOpenCanvas": {
+    "message": "이 캔버스는 여기서 열 수 없습니다($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "이 캔버스는 여기서 열 수 없습니다($1). Cursor에서는 열 수 있습니다."
+  },
+  "waitingStorage": {
+    "message": "보드 저장소를 기다리는 중입니다."
+  },
+  "couldNotRead": {
+    "message": "$1을(를) 읽을 수 없습니다($2)."
+  },
+  "couldNotOpen": {
+    "message": "$1을(를) 열 수 없습니다($2)."
+  },
+  "noteName": {
+    "message": "메모 이름"
+  },
+  "canvasName": {
+    "message": "캔버스 이름"
+  },
+  "nameTaken": {
+    "message": "이미 있는 이름입니다."
+  },
+  "nameBad": {
+    "message": "사용할 수 없는 이름입니다."
+  },
+  "notCreated": {
+    "message": "만들지 못했습니다($1)."
+  },
+  "renameNewName": {
+    "message": "$1의 새 이름"
+  },
+  "resolveFirst": {
+    "message": "먼저 디스크의 변경을 해결하세요."
+  },
+  "notSavedYetRename": {
+    "message": "아직 저장되지 않았습니다. 잠시 후 다시 시도하세요."
+  },
+  "fileGone": {
+    "message": "그 파일은 이제 없습니다."
+  },
+  "notRenamed": {
+    "message": "이름을 바꾸지 못했습니다($1)."
+  },
+  "deletedToast": {
+    "message": "\"$1\" 삭제됨"
+  },
+  "resolveFirstDelete": {
+    "message": "먼저 디스크의 변경을 해결한 뒤 삭제하세요."
+  },
+  "notSavedYetDelete": {
+    "message": "아직 저장되지 않아 삭제하지 않았습니다. 잠시 후 다시 시도하세요."
+  },
+  "notDeleted": {
+    "message": "삭제하지 못했습니다: $1"
+  },
+  "notRestored": {
+    "message": "복원하지 못했습니다: $1"
+  },
+  "cvThreeFailed": {
+    "message": "여기서 3D를 시작할 수 없습니다($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "불러오지 못했습니다"
+  },
+  "cvSelect": {
+    "message": "선택 및 이동(V)"
+  },
+  "cvCard": {
+    "message": "텍스트 카드 추가(T)"
+  },
+  "cvPen": {
+    "message": "펜(P)"
+  },
+  "cvEraser": {
+    "message": "지우개(E)"
+  },
+  "cvTools": {
+    "message": "캔버스 도구"
+  },
+  "cvUndo": {
+    "message": "실행 취소(Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "다시 실행(Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "다시 실행"
+  },
+  "cvDelete": {
+    "message": "선택 항목 삭제(Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "선택 항목 삭제"
+  },
+  "cvView": {
+    "message": "보기"
+  },
+  "cv2d": {
+    "message": "캔버스(평면)"
+  },
+  "cv3d": {
+    "message": "같은 캔버스를 3D로(읽기 전용)"
+  },
+  "cvDeleted": {
+    "message": "디스크에서 삭제됨. 이 캔버스는 더 이상 폴더에 없습니다."
+  },
+  "cvEmptyCard": {
+    "message": "빈 카드"
+  },
+  "cvWriteHere": {
+    "message": "여기에 입력"
+  },
+  "cvCardText": {
+    "message": "카드 텍스트"
+  },
+  "cvOpenNotes": {
+    "message": "메모에서 열기"
+  },
+  "cvOpenCanvas": {
+    "message": "이 캔버스 열기"
+  },
+  "cvModelGone": {
+    "message": "이 모델이 폴더에 없습니다."
+  },
+  "cvModelBig": {
+    "message": "이 모델은 24 MB를 넘습니다."
+  },
+  "cvModelFail": {
+    "message": "이 모델을 표시할 수 없습니다($1)."
+  },
+  "cvUnknownError": {
+    "message": "알 수 없는 오류"
+  },
+  "cvLoadingModel": {
+    "message": "모델 불러오는 중"
+  },
+  "cvLink": {
+    "message": "링크"
+  },
+  "cvGroup": {
+    "message": "그룹"
+  },
+  "cvNodeNote": {
+    "message": "메모 $1"
+  },
+  "cvNodeLink": {
+    "message": "링크 $1"
+  },
+  "cvNodeGroup": {
+    "message": "그룹 $1"
+  },
+  "cvNodeType": {
+    "message": "$1 유형의 카드"
+  },
+  "sInvalid": {
+    "message": "이 파일은 JSON Canvas가 아닙니다($1). Cursor에서 고치세요. 그동안 여기에는 아무것도 저장되지 않습니다."
+  },
+  "sInvalidNow": {
+    "message": "디스크에서 변경되어 이제 JSON Canvas가 아닙니다($1). 다시 올바르게 될 때까지 여기에는 아무것도 저장되지 않습니다."
+  },
+  "sTooBig": {
+    "message": "저장되지 않음(이 캔버스는 $1이고, 파일은 최대 $2까지 담을 수 있습니다. 획이나 카드를 일부 지우세요)"
+  },
+  "sBlockedBig": {
+    "message": "저장되지 않음(디스크의 파일이 변경되었고 크기 제한을 넘습니다: 내 것 유지 또는 그대로 두기)"
+  },
+  "sBlockedText": {
+    "message": "저장되지 않음(디스크의 파일이 변경되었고 텍스트가 아닙니다: 내 것 유지 또는 그대로 두기)"
+  },
+  "sKeepsChanging": {
+    "message": "저장되지 않음(파일이 계속 바뀌고 있습니다)"
+  },
+  "edgeOpenPanel": {
+    "message": "패널 열기"
+  },
+  "errNameEmpty": {
+    "message": "이름을 입력하세요."
+  },
+  "errNameLong": {
+    "message": "이름이 너무 깁니다."
+  },
+  "errHost": {
+    "message": "호스트가 응답하지 않았습니다."
+  },
+  "backupKept": {
+    "message": "다운로드/$2에 보관. 보관하는 파일 수: $1."
+  },
+  "filesLabel": {
+    "message": "파일"
+  },
+  "roomLabel": {
+    "message": "공간"
+  },
+  "roomNotes": {
+    "message": "메모"
+  },
+  "roomCanvas": {
+    "message": "캔버스"
+  },
+  "search": {
+    "message": "검색"
+  },
+  "searchLabel": {
+    "message": "이 스페이스 검색"
+  },
+  "noteLabel": {
+    "message": "메모"
+  },
+  "cvNotShown": {
+    "message": "$1(여기서는 표시되지 않음)"
+  },
+  "cvDrawFail": {
+    "message": "이 캔버스를 그릴 수 없습니다($1)."
+  },
+  "cvDrawFail2": {
+    "message": "디스크에서는 아무것도 바뀌지 않았습니다. Cursor에서 열거나 다른 캔버스를 고르세요."
+  },
+  "statusDeleted": {
+    "message": "디스크에서 삭제됨"
+  },
+  "cv3dScene": {
+    "message": "이 캔버스의 3D 보기. 드래그로 회전, 스크롤로 확대, 카드를 클릭하면 엽니다."
+  },
+  "cvModelScene": {
+    "message": "3D 모델. 드래그해서 돌리세요. 화살표 키도 됩니다."
+  },
+  "cvModelCompressed": {
+    "message": "압축된 지오메트리나 텍스처(Draco, KTX2, Meshopt)를 사용하며, 이 보기는 읽을 수 없습니다"
+  },
+  "cvNoWebgl": {
+    "message": "이 브라우저에서는 WebGL을 사용할 수 없습니다"
+  },
+  "megaTabs_other": {
+    "message": "메가 탭 $1개"
+  }
+}

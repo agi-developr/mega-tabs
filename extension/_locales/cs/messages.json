@@ -1,0 +1,737 @@
+{
+  "lang": {
+    "message": "cs"
+  },
+  "extName": {
+    "message": "Mega Tabs: prostory, poznámky a plátno"
+  },
+  "extDescription": {
+    "message": "Přepínejte sady karet podle projektu bez obnovení. K tomu poznámky a plátno, které upraví i vaše AI. Soukromé a zdarma."
+  },
+  "cmdOpen": {
+    "message": "Otevřít seznam pracovních prostorů"
+  },
+  "cmdTogglePanel": {
+    "message": "Otevřít nebo zavřít panel Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Další pracovní prostor"
+  },
+  "cmdPrev": {
+    "message": "Předchozí pracovní prostor"
+  },
+  "cmdLast": {
+    "message": "Naposledy použitý pracovní prostor"
+  },
+  "cmdSwitch": {
+    "message": "Přepnout na pracovní prostor"
+  },
+  "tabs_one": {
+    "message": "$1 karta"
+  },
+  "tabs_other": {
+    "message": "$1 karet"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 karta nebyla obnovena"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 karet nebylo obnoveno"
+  },
+  "edit": {
+    "message": "Upravit"
+  },
+  "name": {
+    "message": "Název"
+  },
+  "delete": {
+    "message": "Smazat"
+  },
+  "undo": {
+    "message": "Zpět"
+  },
+  "stashHeading": {
+    "message": "Úložiště pracovních prostorů"
+  },
+  "stashText": {
+    "message": "Toto skryté okno patří rozšíření Mega Tabs. Drží karty pracovního prostoru, který se právě nezobrazuje. Nezavírejte ho; přepínejte přes panel."
+  },
+  "defaultWorkspace": {
+    "message": "Výchozí"
+  },
+  "recoveredWorkspace": {
+    "message": "Obnoveno"
+  },
+  "iconTitle": {
+    "message": "Pracovní prostor: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Pracovní prostor: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Úložiště rozšíření je skoro plné; brzy se karty přestanou ukládat"
+  },
+  "menuLink": {
+    "message": "Otevřít odkaz v pracovním prostoru"
+  },
+  "menuMove": {
+    "message": "Přesunout kartu do pracovního prostoru"
+  },
+  "menuMoveMarked": {
+    "message": "Přesunout $1 vybraných karet do pracovního prostoru"
+  },
+  "menuGroup": {
+    "message": "Přesunout skupinu do pracovního prostoru"
+  },
+  "exNotJson": {
+    "message": "Soubor není platný JSON."
+  },
+  "exNotExport": {
+    "message": "Toto není exportní soubor Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "Soubor neobsahuje žádné pracovní prostory."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Soubor obsahuje příliš mnoho pracovních prostorů."
+  },
+  "exTooManyTabs": {
+    "message": "Soubor obsahuje příliš mnoho karet."
+  },
+  "workspaceName": {
+    "message": "Pracovní prostor"
+  },
+  "workspaceN": {
+    "message": "Pracovní prostor $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Stahování bylo přerušeno ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Rozšíření neodpovídá"
+  },
+  "generalSpace": {
+    "message": "Obecné"
+  },
+  "spaces": {
+    "message": "Prostory"
+  },
+  "setUp": {
+    "message": "Nastavit"
+  },
+  "filesOffLead": {
+    "message": "Soubory jsou vypnuté:"
+  },
+  "retryBtn": {
+    "message": "Zkusit znovu"
+  },
+  "switchToMega": {
+    "message": "Přepnout na $1"
+  },
+  "closeMegaAsk": {
+    "message": "Klikněte znovu a tato megakarta se zavře i s kartami"
+  },
+  "closeMegaAskLabel": {
+    "message": "Zavřít $1 a její karty: klikněte znovu"
+  },
+  "closeMega": {
+    "message": "Zavřít megakartu"
+  },
+  "closeMegaLabel": {
+    "message": "Zavřít megakartu $1"
+  },
+  "closeQuestion": {
+    "message": "zavřít?"
+  },
+  "spaceName": {
+    "message": "Název prostoru"
+  },
+  "showSpace": {
+    "message": "Zobrazit $1 (dvojklikem přejmenujete)"
+  },
+  "newSpaceName": {
+    "message": "Název nového prostoru"
+  },
+  "newSpaceItem": {
+    "message": "Nový prostor…"
+  },
+  "allSpaces": {
+    "message": "Všechny prostory"
+  },
+  "switchSpace": {
+    "message": "Změnit prostor"
+  },
+  "board": {
+    "message": "Nástěnka"
+  },
+  "boardOpen": {
+    "message": "Otevřít nástěnku: soubory .md prostoru $1"
+  },
+  "settingsPage": {
+    "message": "Nastavení"
+  },
+  "settingsOpen": {
+    "message": "Nastavení: zobrazení u okraje, záloha, export"
+  },
+  "newMegaName": {
+    "message": "Název nové megakarty"
+  },
+  "noMegas": {
+    "message": "Zatím žádné megakarty."
+  },
+  "newMega": {
+    "message": "+ Nová megakarta"
+  },
+  "noSpaces": {
+    "message": "Zatím žádné prostory."
+  },
+  "newSpace": {
+    "message": "+ Nový prostor"
+  },
+  "openWindows": {
+    "message": "Otevřená okna"
+  },
+  "emptyWindow": {
+    "message": "Prázdné okno"
+  },
+  "undoClose": {
+    "message": "Vrátit zavření"
+  },
+  "intro": {
+    "message": "Megakarta je sada karet, na kterou přepnete jedním krokem. Začněte kliknutím na některou."
+  },
+  "homeSetupTitle": {
+    "message": "Zapnout soubory"
+  },
+  "homeSetupText": {
+    "message": "Prostory ukládají poznámky jako obyčejné soubory v $1. Chrome potřebuje malého pomocníka, aby je četl a zapisoval. Ve složce Mega Tabs spusťte $2 a stiskněte Zkusit znovu."
+  },
+  "retryChecking": {
+    "message": "Kontroluji…"
+  },
+  "retryOn": {
+    "message": "Soubory jsou zapnuté."
+  },
+  "retryOff": {
+    "message": "Stále vypnuto. Spusťte příkaz a znovu stiskněte Zkusit znovu."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Otevřít $1 (dvojklikem přejmenujete, obrázek přetažením nastavíte obálku)"
+  },
+  "tileTypeName": {
+    "message": "zadejte název a stiskněte Enter"
+  },
+  "newSpaceAria": {
+    "message": "Nový prostor"
+  },
+  "tileNewTitle": {
+    "message": "Zadejte název a vytvořte nový prostor"
+  },
+  "tileNewHint": {
+    "message": "zadejte název"
+  },
+  "coverType": {
+    "message": "Použijte obrázek png, jpg nebo webp."
+  },
+  "coverBig": {
+    "message": "Obrázek má přes 700 KB. Použijte menší."
+  },
+  "coverNotSaved": {
+    "message": "Soubory jsou vypnuté: obálka se neuložila."
+  },
+  "edgeHeading": {
+    "message": "Zobrazit u okraje"
+  },
+  "edgeToggle": {
+    "message": "Zobrazit malý přepínač, když kurzor zůstane u okraje obrazovky"
+  },
+  "edgeHelp": {
+    "message": "Podržte kurzor chvíli u okraje a vaše megakarty se objeví nad stránkou. Chrome se jednou zeptá na oprávnění běžet na webových stránkách. Přepínač z nich nic nečte a nic nikam neposílá. Na stránce nové karty a stránkách chrome:// se nezobrazí."
+  },
+  "side": {
+    "message": "Strana"
+  },
+  "sideLeft": {
+    "message": "Vlevo"
+  },
+  "sideRight": {
+    "message": "Vpravo"
+  },
+  "edgeOnLeft": {
+    "message": "Zapnuto. Podržte kurzor u levého okraje webové stránky."
+  },
+  "edgeOnRight": {
+    "message": "Zapnuto. Podržte kurzor u pravého okraje webové stránky."
+  },
+  "edgeDenied": {
+    "message": "Zobrazení u okraje potřebuje toto oprávnění běžet na webových stránkách. Zůstává vypnuté."
+  },
+  "backupHeading": {
+    "message": "Záloha"
+  },
+  "backupLabel": {
+    "message": "Uložit soubor zálohy"
+  },
+  "backupNever": {
+    "message": "Nikdy"
+  },
+  "backupDaily": {
+    "message": "Každý den"
+  },
+  "backupWeekly": {
+    "message": "Každý týden"
+  },
+  "backupLast": {
+    "message": "Naposledy uloženo: $1."
+  },
+  "backupSaving": {
+    "message": "Ukládám…"
+  },
+  "dataHeading": {
+    "message": "Vaše megakarty"
+  },
+  "dataHelp": {
+    "message": "Jeden soubor se všemi prostory, megakartami a jejich kartami. Import přidá, co chybí, a nic nezavře."
+  },
+  "exportBtn": {
+    "message": "Exportovat megakarty"
+  },
+  "importBtn": {
+    "message": "Importovat megakarty…"
+  },
+  "chooseFile": {
+    "message": "Vyberte exportovaný soubor"
+  },
+  "exportSaved": {
+    "message": "Uloženo $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Export se nezdařil: $1"
+  },
+  "importAdded": {
+    "message": "Přidáno $1 a $2 z $3."
+  },
+  "importNothing": {
+    "message": "Není co přidat: vše z $1 už tu je."
+  },
+  "importFail": {
+    "message": "Import se nezdařil: $1"
+  },
+  "boardTitle": {
+    "message": "Nástěnka · $1"
+  },
+  "folderLabel": {
+    "message": "Složka: $1"
+  },
+  "change": {
+    "message": "Změnit"
+  },
+  "chooseFolder": {
+    "message": "Vybrat složku"
+  },
+  "allowFolder": {
+    "message": "Povolit přístup k „$1“"
+  },
+  "hostMissing": {
+    "message": "Hostitel nástěnky není nainstalován. Ve složce Mega Tabs spusťte $1 a pak tuto stránku znovu načtěte."
+  },
+  "hostForbidden": {
+    "message": "Chrome tomuto rozšíření nedovoluje používat hostitele nástěnky. Spusťte znovu $1 a pak tuto stránku znovu načtěte."
+  },
+  "hostStopped": {
+    "message": "Hostitel nástěnky se zastavil. Zkouším znovu."
+  },
+  "hostUnreachable": {
+    "message": "Nástěnka se nemůže spojit se svým hostitelem ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "tady nejde otevřít ($1)"
+  },
+  "howItWorks": {
+    "message": "Jak to funguje"
+  },
+  "rename": {
+    "message": "Přejmenovat"
+  },
+  "renameLabel": {
+    "message": "Přejmenovat $1"
+  },
+  "renameTitle": {
+    "message": "Přejmenovat (nebo dvojklik na název)"
+  },
+  "deleteLabel": {
+    "message": "Smazat $1"
+  },
+  "deleteTitle": {
+    "message": "Smazat (do koše, lze vrátit zpět)"
+  },
+  "noMatches": {
+    "message": "Nic nenalezeno."
+  },
+  "newNote": {
+    "message": "Nová poznámka"
+  },
+  "newCanvas": {
+    "message": "Nové plátno"
+  },
+  "newNoteTitle": {
+    "message": "Začít novou poznámku v tomto prostoru"
+  },
+  "newCanvasTitle": {
+    "message": "Začít nové plátno v tomto prostoru"
+  },
+  "emptyNotesFolder": {
+    "message": "V tomto prostoru zatím nejsou žádné poznámky. Začněte tlačítkem Nová poznámka."
+  },
+  "emptyNotesDir": {
+    "message": "V ~/Spaces/$1/ zatím nejsou žádné soubory .md. Začněte tlačítkem Nová poznámka."
+  },
+  "noFolderNotes": {
+    "message": "Pro „$1“ zatím není složka. Vytvořte ~/Spaces/$1/ a vložte do ní soubory .md."
+  },
+  "emptyCanvasFolder": {
+    "message": "V tomto prostoru zatím nejsou žádná plátna. Začněte tlačítkem Nové plátno."
+  },
+  "emptyCanvasDir": {
+    "message": "V ~/Spaces/$1/ zatím nejsou žádné soubory .canvas. Začněte tlačítkem Nové plátno."
+  },
+  "noFolderCanvas": {
+    "message": "Pro „$1“ zatím není složka. Vytvořte ~/Spaces/$1/ a vložte do ní soubory .canvas."
+  },
+  "done": {
+    "message": "Hotovo"
+  },
+  "backToReading": {
+    "message": "Zpět ke čtení (Esc)"
+  },
+  "typeInFile": {
+    "message": "Psát do tohoto souboru (E)"
+  },
+  "openCursor": {
+    "message": "Otevřít v Cursoru"
+  },
+  "openCursorTitle": {
+    "message": "Otevřít tento soubor v Cursoru"
+  },
+  "typeHere": {
+    "message": "Pište sem."
+  },
+  "textOf": {
+    "message": "Text $1"
+  },
+  "statusUnsaved": {
+    "message": "Neuloženo"
+  },
+  "statusSaving": {
+    "message": "Ukládám"
+  },
+  "statusSaved": {
+    "message": "Uloženo"
+  },
+  "mixedEol": {
+    "message": "Smíšené konce řádků: upravte tento soubor v Cursoru."
+  },
+  "notSavedWhy": {
+    "message": "Neuloženo ($1)"
+  },
+  "hostNotConnected": {
+    "message": "hostitel není připojen"
+  },
+  "notSaved": {
+    "message": "Neuloženo: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Neuloženo: poznámka je větší než $1 KB, které soubor pojme. Zkraťte ji nebo rozdělte na dvě."
+  },
+  "changedOnDisk": {
+    "message": "Změněno na disku"
+  },
+  "conflictGone": {
+    "message": "Smazáno na disku:"
+  },
+  "conflictTooLarge": {
+    "message": "Změněno na disku a nyní příliš velké na zobrazení:"
+  },
+  "conflictNotText": {
+    "message": "Změněno na disku a už to není text:"
+  },
+  "conflictChanged": {
+    "message": "Změněno na disku:"
+  },
+  "loadTheirs": {
+    "message": "Načíst jejich"
+  },
+  "keepMine": {
+    "message": "Ponechat moji"
+  },
+  "dropIt": {
+    "message": "Zahodit"
+  },
+  "seeTheirs": {
+    "message": "Zobrazit jejich"
+  },
+  "removedFromFolder": {
+    "message": "$1 byl odebrán ze složky."
+  },
+  "cannotOpenNote": {
+    "message": "Tento soubor tu nejde otevřít ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Tento soubor tu nejde otevřít ($1). Cursor to umí."
+  },
+  "cannotOpenCanvas": {
+    "message": "Toto plátno tu nejde otevřít ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Toto plátno tu nejde otevřít ($1). Cursor to umí."
+  },
+  "waitingStorage": {
+    "message": "Čekám na úložiště nástěnky."
+  },
+  "couldNotRead": {
+    "message": "$1 se nepodařilo přečíst ($2)."
+  },
+  "couldNotOpen": {
+    "message": "$1 se nepodařilo otevřít ($2)."
+  },
+  "noteName": {
+    "message": "Název poznámky"
+  },
+  "canvasName": {
+    "message": "Název plátna"
+  },
+  "nameTaken": {
+    "message": "Tento název už existuje."
+  },
+  "nameBad": {
+    "message": "Tento název nelze použít."
+  },
+  "notCreated": {
+    "message": "Nevytvořeno ($1)."
+  },
+  "renameNewName": {
+    "message": "Nový název pro $1"
+  },
+  "resolveFirst": {
+    "message": "Nejdřív vyřešte změnu na disku."
+  },
+  "notSavedYetRename": {
+    "message": "Zatím neuloženo; zkuste to za chvíli."
+  },
+  "fileGone": {
+    "message": "Ten soubor už neexistuje."
+  },
+  "notRenamed": {
+    "message": "Nepřejmenováno ($1)."
+  },
+  "deletedToast": {
+    "message": "„$1“ smazáno"
+  },
+  "resolveFirstDelete": {
+    "message": "Nejdřív vyřešte změnu na disku, pak smažte."
+  },
+  "notSavedYetDelete": {
+    "message": "Zatím neuloženo, proto nesmazáno. Zkuste to za chvíli."
+  },
+  "notDeleted": {
+    "message": "Nesmazáno: $1"
+  },
+  "notRestored": {
+    "message": "Neobnoveno: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D se tu nepodařilo spustit ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "nenačteno"
+  },
+  "cvSelect": {
+    "message": "Vybrat a přesunout (V)"
+  },
+  "cvCard": {
+    "message": "Přidat textovou kartu (T)"
+  },
+  "cvPen": {
+    "message": "Pero (P)"
+  },
+  "cvEraser": {
+    "message": "Guma (E)"
+  },
+  "cvTools": {
+    "message": "Nástroje plátna"
+  },
+  "cvUndo": {
+    "message": "Zpět (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Znovu (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Znovu"
+  },
+  "cvDelete": {
+    "message": "Smazat výběr (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Smazat výběr"
+  },
+  "cvView": {
+    "message": "Zobrazení"
+  },
+  "cv2d": {
+    "message": "Plátno, ploché"
+  },
+  "cv3d": {
+    "message": "Totéž plátno ve 3D (jen pro čtení)"
+  },
+  "cvDeleted": {
+    "message": "Smazáno na disku. Toto plátno už ve složce není."
+  },
+  "cvEmptyCard": {
+    "message": "Prázdná karta"
+  },
+  "cvWriteHere": {
+    "message": "Pište sem"
+  },
+  "cvCardText": {
+    "message": "Text karty"
+  },
+  "cvOpenNotes": {
+    "message": "Otevřít v Poznámkách"
+  },
+  "cvOpenCanvas": {
+    "message": "Otevřít toto plátno"
+  },
+  "cvModelGone": {
+    "message": "Tento model ve složce není."
+  },
+  "cvModelBig": {
+    "message": "Tento model je větší než 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Tento model nelze zobrazit ($1)."
+  },
+  "cvUnknownError": {
+    "message": "neznámá chyba"
+  },
+  "cvLoadingModel": {
+    "message": "Načítám model"
+  },
+  "cvLink": {
+    "message": "Odkaz"
+  },
+  "cvGroup": {
+    "message": "Skupina"
+  },
+  "cvNodeNote": {
+    "message": "Poznámka $1"
+  },
+  "cvNodeLink": {
+    "message": "Odkaz $1"
+  },
+  "cvNodeGroup": {
+    "message": "Skupina $1"
+  },
+  "cvNodeType": {
+    "message": "Karta typu $1"
+  },
+  "sInvalid": {
+    "message": "Tento soubor není JSON Canvas ($1). Opravte ho v Cursoru; mezitím se tu nic neukládá."
+  },
+  "sInvalidNow": {
+    "message": "Změněno na disku a nyní to není JSON Canvas ($1). Nic se tu neuloží, dokud nebude znovu platný."
+  },
+  "sTooBig": {
+    "message": "Neuloženo (toto plátno má $1; soubor pojme nejvýš $2. Smažte nějaké čáry nebo karty)"
+  },
+  "sBlockedBig": {
+    "message": "Neuloženo (soubor na disku se změnil a je příliš velký: Ponechat moji, nebo nechat být)"
+  },
+  "sBlockedText": {
+    "message": "Neuloženo (soubor na disku se změnil a není text: Ponechat moji, nebo nechat být)"
+  },
+  "sKeepsChanging": {
+    "message": "Neuloženo (soubor se neustále mění)"
+  },
+  "edgeOpenPanel": {
+    "message": "Otevřít panel"
+  },
+  "errNameEmpty": {
+    "message": "Zadejte název."
+  },
+  "errNameLong": {
+    "message": "Ten název je příliš dlouhý."
+  },
+  "errHost": {
+    "message": "Hostitel neodpověděl."
+  },
+  "backupKept": {
+    "message": "Uloženo do Downloads/$2. Uložené soubory: $1."
+  },
+  "filesLabel": {
+    "message": "Soubory"
+  },
+  "roomLabel": {
+    "message": "Místnost"
+  },
+  "roomNotes": {
+    "message": "Poznámky"
+  },
+  "roomCanvas": {
+    "message": "Plátno"
+  },
+  "search": {
+    "message": "Hledat"
+  },
+  "searchLabel": {
+    "message": "Hledat v tomto prostoru"
+  },
+  "noteLabel": {
+    "message": "Poznámka"
+  },
+  "cvNotShown": {
+    "message": "$1 (tady se nezobrazuje)"
+  },
+  "cvDrawFail": {
+    "message": "Toto plátno se nepodařilo vykreslit ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Na disku se nic nezměnilo. Otevřete v Cursoru nebo vyberte jiné plátno."
+  },
+  "statusDeleted": {
+    "message": "Smazáno na disku"
+  },
+  "cv3dScene": {
+    "message": "3D pohled na toto plátno. Tažením otáčíte, rolováním přibližujete, kliknutím na kartu ji otevřete."
+  },
+  "cvModelScene": {
+    "message": "3D model. Tažením otáčíte; fungují i šipky."
+  },
+  "cvModelCompressed": {
+    "message": "používá komprimovanou geometrii nebo textury (Draco, KTX2 nebo Meshopt), které tento pohled nepřečte"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL není v tomto prohlížeči dostupné"
+  },
+  "megaTabs_one": {
+    "message": "$1 megakarta"
+  },
+  "megaTabs_other": {
+    "message": "$1 megakaret"
+  },
+  "tabs_few": {
+    "message": "$1 karty"
+  },
+  "tabsNotRestored_few": {
+    "message": "$1 karty nebyly obnoveny"
+  },
+  "megaTabs_few": {
+    "message": "$1 megakarty"
+  }
+}

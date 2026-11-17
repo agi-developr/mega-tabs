@@ -1,0 +1,41 @@
+name: Prüfungen
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  # Wöchentlich gegen das aktuelle Chrome Stable (setup-chrome unten), damit eine neue
+  # Chrome-Version, die die Erweiterung bricht, nicht erst beim nächsten PR auffällt
+  schedule:
+    - cron: '17 5 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      # Volle Historie, damit test/static.test.js die Version mit origin/main vergleichen kann
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      # Für test/chromium.test.js (die Erweiterung in einem echten Browser) sowie
+      # test/popup.test.js und test/transfer.test.js (die Seiten im Browser)
+      - uses: browser-actions/setup-chrome@v2
+        id: chrome
+        with:
+          install-dependencies: true
+      # Quoting- und Portabilitätsfehler in install.sh, auch auf Wegen, die kein Test nimmt
+      - run: shellcheck install.sh
+      # Undefinierte Namen in der Erweiterung und im KWin-Skript, auch in Zweigen, die kein Test nimmt.
+      # Die Skripte einer Umgebung werden zusammen geprüft (eslint.config.js)
+      - run: npx --yes eslint@10.14.0 extension kwin
+      # Syntax, Manifest samt erhöhter Version und KWin-Metadaten (test/static.test.js), das Verhalten der
+      # Hintergrundlogik mit nachgebildeten Chrome-APIs und dieselben Abläufe in Chrome
+      - run: node --test test/*.test.js
+        env:
+          CHROME: ${{ steps.chrome.outputs.chrome-path }}

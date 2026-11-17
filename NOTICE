@@ -1,0 +1,17 @@
+Mega Tabs
+Copyright (C) 2026 the Mega Tabs contributors
+
+Mega Tabs is a modified version of Helium Workspaces by Jerry0205dotde
+(https://github.com/Jerry0205dotde/helium-workspaces), which is licensed under the
+GNU General Public License, version 3 or (at your option) any later version.
+
+Modifications, from 2026-11-16: a side panel with spaces and mega tabs replaces the popup;
+a Board with Notes and a Canvas; a Spaces home page; an optional edge switcher and a Settings
+page; a native helper for plain files; and changes to the tests and the manifest.
+
+This work as a whole is licensed under the same terms; see LICENSE. You may redistribute it
+and modify it under the GPL-3.0-or-later. There is NO WARRANTY, to the extent permitted by law.
+
+Third-party code bundled in extension/vendor/ keeps its own licences, in the LICENSE-* files
+next to it: marked (MIT), DOMPurify (Apache-2.0 or MPL-2.0), OverType (MIT), and a bundle of
+React, React Flow and their dependencies (see LICENSE-canvas-bundle).

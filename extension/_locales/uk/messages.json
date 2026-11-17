@@ -1,0 +1,737 @@
+{
+  "lang": {
+    "message": "uk"
+  },
+  "extName": {
+    "message": "Mega Tabs: простори, нотатки й полотно"
+  },
+  "extDescription": {
+    "message": "Перемикайте набори вкладок між проєктами без перезавантаження. Нотатки й полотно, яке редагує й ваш ШІ. Приватно, безкоштовно."
+  },
+  "cmdOpen": {
+    "message": "Відкрити список робочих просторів"
+  },
+  "cmdTogglePanel": {
+    "message": "Показати або сховати панель Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Наступний робочий простір"
+  },
+  "cmdPrev": {
+    "message": "Попередній робочий простір"
+  },
+  "cmdLast": {
+    "message": "Останній використаний робочий простір"
+  },
+  "cmdSwitch": {
+    "message": "Перейти до робочого простору"
+  },
+  "tabs_one": {
+    "message": "$1 вкладка"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 вкладку не відновлено"
+  },
+  "edit": {
+    "message": "Редагувати"
+  },
+  "name": {
+    "message": "Назва"
+  },
+  "delete": {
+    "message": "Видалити"
+  },
+  "undo": {
+    "message": "Скасувати"
+  },
+  "stashHeading": {
+    "message": "Сховище робочих просторів"
+  },
+  "stashText": {
+    "message": "Це приховане вікно належить розширенню Mega Tabs. У ньому зберігаються вкладки робочого простору, який зараз не показано. Не закривайте його, а перемикайтеся через панель."
+  },
+  "defaultWorkspace": {
+    "message": "Типовий"
+  },
+  "recoveredWorkspace": {
+    "message": "Відновлено"
+  },
+  "iconTitle": {
+    "message": "Робочий простір: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Робочий простір: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Сховище розширення майже заповнене, невдовзі вкладки не зберігатимуться"
+  },
+  "menuLink": {
+    "message": "Відкрити посилання в робочому просторі"
+  },
+  "menuMove": {
+    "message": "Перемістити вкладку до робочого простору"
+  },
+  "menuMoveMarked": {
+    "message": "Перемістити вибрані вкладки ($1) до робочого простору"
+  },
+  "menuGroup": {
+    "message": "Перемістити групу до робочого простору"
+  },
+  "exNotJson": {
+    "message": "Файл не є коректним JSON."
+  },
+  "exNotExport": {
+    "message": "Це не файл експорту Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "У файлі немає робочих просторів."
+  },
+  "exTooManyWorkspaces": {
+    "message": "У файлі забагато робочих просторів."
+  },
+  "exTooManyTabs": {
+    "message": "У файлі забагато вкладок."
+  },
+  "workspaceName": {
+    "message": "Робочий простір"
+  },
+  "workspaceN": {
+    "message": "Робочий простір $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Завантаження перервано ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Розширення не відповідає"
+  },
+  "generalSpace": {
+    "message": "Загальний"
+  },
+  "spaces": {
+    "message": "Простори"
+  },
+  "setUp": {
+    "message": "Налаштувати"
+  },
+  "filesOffLead": {
+    "message": "Файли вимкнено:"
+  },
+  "retryBtn": {
+    "message": "Спробувати знову"
+  },
+  "switchToMega": {
+    "message": "Перейти до $1"
+  },
+  "closeMegaAsk": {
+    "message": "Натисніть ще раз, щоб закрити цю мега-вкладку та її вкладки"
+  },
+  "closeMegaAskLabel": {
+    "message": "Закрити $1 та її вкладки: натисніть ще раз"
+  },
+  "closeMega": {
+    "message": "Закрити мега-вкладку"
+  },
+  "closeMegaLabel": {
+    "message": "Закрити мега-вкладку $1"
+  },
+  "closeQuestion": {
+    "message": "закрити?"
+  },
+  "spaceName": {
+    "message": "Назва простору"
+  },
+  "showSpace": {
+    "message": "Показати $1 (двічі клацніть, щоб перейменувати)"
+  },
+  "newSpaceName": {
+    "message": "Назва нового простору"
+  },
+  "newSpaceItem": {
+    "message": "Новий простір…"
+  },
+  "allSpaces": {
+    "message": "Усі простори"
+  },
+  "switchSpace": {
+    "message": "Змінити простір"
+  },
+  "board": {
+    "message": "Дошка"
+  },
+  "boardOpen": {
+    "message": "Відкрити дошку: файли .md простору $1"
+  },
+  "settingsPage": {
+    "message": "Налаштування"
+  },
+  "settingsOpen": {
+    "message": "Налаштування: показ біля краю, резервна копія, експорт"
+  },
+  "newMegaName": {
+    "message": "Назва нової мега-вкладки"
+  },
+  "noMegas": {
+    "message": "Мега-вкладок ще немає."
+  },
+  "newMega": {
+    "message": "+ Нова мега-вкладка"
+  },
+  "noSpaces": {
+    "message": "Просторів ще немає."
+  },
+  "newSpace": {
+    "message": "+ Новий простір"
+  },
+  "openWindows": {
+    "message": "Відкриті вікна"
+  },
+  "emptyWindow": {
+    "message": "Порожнє вікно"
+  },
+  "undoClose": {
+    "message": "Скасувати закриття"
+  },
+  "intro": {
+    "message": "Мега-вкладка — це набір вкладок, на який ви перемикаєтесь одразу. Клацніть мега-вкладку, щоб почати."
+  },
+  "homeSetupTitle": {
+    "message": "Увімкнути файли"
+  },
+  "homeSetupText": {
+    "message": "Простори зберігають нотатки як звичайні файли в $1. Chrome потрібен маленький помічник, щоб їх читати й записувати. У теці Mega Tabs виконайте $2 і натисніть Спробувати знову."
+  },
+  "retryChecking": {
+    "message": "Перевірка…"
+  },
+  "retryOn": {
+    "message": "Файли ввімкнено."
+  },
+  "retryOff": {
+    "message": "Ще вимкнено. Виконайте команду й знову натисніть Спробувати знову."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Відкрити $1 (двічі клацніть, щоб перейменувати; киньте зображення, щоб задати обкладинку)"
+  },
+  "tileTypeName": {
+    "message": "введіть назву й натисніть Enter"
+  },
+  "newSpaceAria": {
+    "message": "Новий простір"
+  },
+  "tileNewTitle": {
+    "message": "Введіть назву, щоб створити новий простір"
+  },
+  "tileNewHint": {
+    "message": "введіть назву"
+  },
+  "coverType": {
+    "message": "Використайте зображення png, jpg або webp."
+  },
+  "coverBig": {
+    "message": "Це зображення більше за 700 КБ. Візьміть менше."
+  },
+  "coverNotSaved": {
+    "message": "Файли вимкнено: обкладинку не збережено."
+  },
+  "edgeHeading": {
+    "message": "Показ біля краю"
+  },
+  "edgeToggle": {
+    "message": "Показувати маленький перемикач, коли вказівник затримується біля краю екрана"
+  },
+  "edgeHelp": {
+    "message": "Затримайте вказівник біля краю, і ваші мега-вкладки з’являться поверх сторінки. Chrome один раз запитає дозвіл працювати на веб-сторінках. Перемикач нічого з них не читає й нікуди не надсилає. На сторінці нової вкладки та сторінках chrome:// його не буде."
+  },
+  "side": {
+    "message": "Сторона"
+  },
+  "sideLeft": {
+    "message": "Ліворуч"
+  },
+  "sideRight": {
+    "message": "Праворуч"
+  },
+  "edgeOnLeft": {
+    "message": "Увімкнено. Затримайте вказівник біля лівого краю веб-сторінки."
+  },
+  "edgeOnRight": {
+    "message": "Увімкнено. Затримайте вказівник біля правого краю веб-сторінки."
+  },
+  "edgeDenied": {
+    "message": "Показу біля краю потрібен цей дозвіл працювати на веб-сторінках. Його вимкнено."
+  },
+  "backupHeading": {
+    "message": "Резервна копія"
+  },
+  "backupLabel": {
+    "message": "Зберігати файл резервної копії"
+  },
+  "backupNever": {
+    "message": "Ніколи"
+  },
+  "backupDaily": {
+    "message": "Щодня"
+  },
+  "backupWeekly": {
+    "message": "Щотижня"
+  },
+  "backupLast": {
+    "message": "Востаннє збережено: $1."
+  },
+  "backupSaving": {
+    "message": "Збереження…"
+  },
+  "dataHeading": {
+    "message": "Ваші мега-вкладки"
+  },
+  "dataHelp": {
+    "message": "Один файл з усіма просторами, мега-вкладками та їхніми вкладками. Імпорт додає те, чого бракує, і нічого не закриває."
+  },
+  "exportBtn": {
+    "message": "Експортувати мега-вкладки"
+  },
+  "importBtn": {
+    "message": "Імпортувати мега-вкладки…"
+  },
+  "chooseFile": {
+    "message": "Виберіть експортований файл"
+  },
+  "exportSaved": {
+    "message": "Збережено: $1, $2, $3."
+  },
+  "exportFail": {
+    "message": "Не вдалося експортувати: $1"
+  },
+  "importAdded": {
+    "message": "Додано $1 і $2 з $3."
+  },
+  "importNothing": {
+    "message": "Нічого додавати: усе з $1 уже є."
+  },
+  "importFail": {
+    "message": "Не вдалося імпортувати: $1"
+  },
+  "boardTitle": {
+    "message": "Дошка · $1"
+  },
+  "folderLabel": {
+    "message": "Тека: $1"
+  },
+  "change": {
+    "message": "Змінити"
+  },
+  "chooseFolder": {
+    "message": "Вибрати теку"
+  },
+  "allowFolder": {
+    "message": "Дозволити доступ до «$1»"
+  },
+  "hostMissing": {
+    "message": "Помічник дошки не встановлено. У теці Mega Tabs виконайте $1, потім перезавантажте цю сторінку."
+  },
+  "hostForbidden": {
+    "message": "Chrome не дозволяє цьому розширенню користуватися помічником дошки. Знову виконайте $1, потім перезавантажте цю сторінку."
+  },
+  "hostStopped": {
+    "message": "Помічник дошки зупинився. Спробую ще раз."
+  },
+  "hostUnreachable": {
+    "message": "Дошка не може зв’язатися зі своїм помічником ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "тут не відкрити ($1)"
+  },
+  "howItWorks": {
+    "message": "Як це працює"
+  },
+  "rename": {
+    "message": "Перейменувати"
+  },
+  "renameLabel": {
+    "message": "Перейменувати $1"
+  },
+  "renameTitle": {
+    "message": "Перейменувати (або двічі клацніть назву)"
+  },
+  "deleteLabel": {
+    "message": "Видалити $1"
+  },
+  "deleteTitle": {
+    "message": "Видалити (до кошика, можна скасувати)"
+  },
+  "noMatches": {
+    "message": "Нічого не знайдено."
+  },
+  "newNote": {
+    "message": "Нова нотатка"
+  },
+  "newCanvas": {
+    "message": "Нове полотно"
+  },
+  "newNoteTitle": {
+    "message": "Почати нову нотатку в цьому просторі"
+  },
+  "newCanvasTitle": {
+    "message": "Почати нове полотно в цьому просторі"
+  },
+  "emptyNotesFolder": {
+    "message": "У цьому просторі ще немає нотаток. Натисніть Нова нотатка, щоб почати."
+  },
+  "emptyNotesDir": {
+    "message": "У ~/Spaces/$1/ ще немає файлів .md. Натисніть Нова нотатка, щоб почати."
+  },
+  "noFolderNotes": {
+    "message": "Теки для «$1» ще немає. Створіть ~/Spaces/$1/ і покладіть туди файли .md."
+  },
+  "emptyCanvasFolder": {
+    "message": "У цьому просторі ще немає полотен. Натисніть Нове полотно, щоб почати."
+  },
+  "emptyCanvasDir": {
+    "message": "У ~/Spaces/$1/ ще немає файлів .canvas. Натисніть Нове полотно, щоб почати."
+  },
+  "noFolderCanvas": {
+    "message": "Теки для «$1» ще немає. Створіть ~/Spaces/$1/ і покладіть туди файли .canvas."
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "backToReading": {
+    "message": "Назад до читання (Esc)"
+  },
+  "typeInFile": {
+    "message": "Друкувати в цьому файлі (E)"
+  },
+  "openCursor": {
+    "message": "Відкрити в Cursor"
+  },
+  "openCursorTitle": {
+    "message": "Відкрити цей файл у Cursor"
+  },
+  "typeHere": {
+    "message": "Пишіть тут."
+  },
+  "textOf": {
+    "message": "Текст $1"
+  },
+  "statusUnsaved": {
+    "message": "Не збережено"
+  },
+  "statusSaving": {
+    "message": "Збереження"
+  },
+  "statusSaved": {
+    "message": "Збережено"
+  },
+  "mixedEol": {
+    "message": "Змішані кінці рядків: редагуйте цей файл у Cursor."
+  },
+  "notSavedWhy": {
+    "message": "Не збережено ($1)"
+  },
+  "hostNotConnected": {
+    "message": "помічник не підключений"
+  },
+  "notSaved": {
+    "message": "Не збережено: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Не збережено: ця нотатка більша за $1 КБ, які вміщає файл. Скоротіть її або розділіть надвоє."
+  },
+  "changedOnDisk": {
+    "message": "Змінено на диску"
+  },
+  "conflictGone": {
+    "message": "Видалено на диску:"
+  },
+  "conflictTooLarge": {
+    "message": "Змінено на диску й тепер завелике, щоб показати тут:"
+  },
+  "conflictNotText": {
+    "message": "Змінено на диску й більше не текст:"
+  },
+  "conflictChanged": {
+    "message": "Змінено на диску:"
+  },
+  "loadTheirs": {
+    "message": "Завантажити їхню"
+  },
+  "keepMine": {
+    "message": "Залишити мою"
+  },
+  "dropIt": {
+    "message": "Відкинути"
+  },
+  "seeTheirs": {
+    "message": "Переглянути їхню"
+  },
+  "removedFromFolder": {
+    "message": "$1 видалено з теки."
+  },
+  "cannotOpenNote": {
+    "message": "Цей файл тут не відкрити ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Цей файл тут не відкрити ($1). Cursor може."
+  },
+  "cannotOpenCanvas": {
+    "message": "Це полотно тут не відкрити ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Це полотно тут не відкрити ($1). Cursor може."
+  },
+  "waitingStorage": {
+    "message": "Очікування сховища дошки."
+  },
+  "couldNotRead": {
+    "message": "Не вдалося прочитати $1 ($2)."
+  },
+  "couldNotOpen": {
+    "message": "Не вдалося відкрити $1 ($2)."
+  },
+  "noteName": {
+    "message": "Назва нотатки"
+  },
+  "canvasName": {
+    "message": "Назва полотна"
+  },
+  "nameTaken": {
+    "message": "Ця назва вже зайнята."
+  },
+  "nameBad": {
+    "message": "Цю назву не можна використати."
+  },
+  "notCreated": {
+    "message": "Не створено ($1)."
+  },
+  "renameNewName": {
+    "message": "Нова назва для $1"
+  },
+  "resolveFirst": {
+    "message": "Спершу розв’яжіть зміну на диску."
+  },
+  "notSavedYetRename": {
+    "message": "Ще не збережено; спробуйте за мить."
+  },
+  "fileGone": {
+    "message": "Цього файлу вже немає."
+  },
+  "notRenamed": {
+    "message": "Не перейменовано ($1)."
+  },
+  "deletedToast": {
+    "message": "«$1» видалено"
+  },
+  "resolveFirstDelete": {
+    "message": "Спершу розв’яжіть зміну на диску, потім видаляйте."
+  },
+  "notSavedYetDelete": {
+    "message": "Ще не збережено, тому не видалено. Спробуйте за мить."
+  },
+  "notDeleted": {
+    "message": "Не видалено: $1"
+  },
+  "notRestored": {
+    "message": "Не відновлено: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D тут не запустилося ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "не завантажилося"
+  },
+  "cvSelect": {
+    "message": "Вибрати й перемістити (V)"
+  },
+  "cvCard": {
+    "message": "Додати текстову картку (T)"
+  },
+  "cvPen": {
+    "message": "Перо (P)"
+  },
+  "cvEraser": {
+    "message": "Гумка (E)"
+  },
+  "cvTools": {
+    "message": "Інструменти полотна"
+  },
+  "cvUndo": {
+    "message": "Скасувати (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Повторити (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Повторити"
+  },
+  "cvDelete": {
+    "message": "Видалити вибране (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Видалити вибране"
+  },
+  "cvView": {
+    "message": "Вигляд"
+  },
+  "cv2d": {
+    "message": "Полотно, пласке"
+  },
+  "cv3d": {
+    "message": "Те саме полотно в 3D (лише читання)"
+  },
+  "cvDeleted": {
+    "message": "Видалено на диску. Цього полотна більше немає в теці."
+  },
+  "cvEmptyCard": {
+    "message": "Порожня картка"
+  },
+  "cvWriteHere": {
+    "message": "Пишіть тут"
+  },
+  "cvCardText": {
+    "message": "Текст картки"
+  },
+  "cvOpenNotes": {
+    "message": "Відкрити в Нотатках"
+  },
+  "cvOpenCanvas": {
+    "message": "Відкрити це полотно"
+  },
+  "cvModelGone": {
+    "message": "Цієї моделі немає в теці."
+  },
+  "cvModelBig": {
+    "message": "Ця модель більша за 24 МБ."
+  },
+  "cvModelFail": {
+    "message": "Цю модель не вдалося показати ($1)."
+  },
+  "cvUnknownError": {
+    "message": "невідома помилка"
+  },
+  "cvLoadingModel": {
+    "message": "Завантаження моделі"
+  },
+  "cvLink": {
+    "message": "Посилання"
+  },
+  "cvGroup": {
+    "message": "Група"
+  },
+  "cvNodeNote": {
+    "message": "Нотатка $1"
+  },
+  "cvNodeLink": {
+    "message": "Посилання $1"
+  },
+  "cvNodeGroup": {
+    "message": "Група $1"
+  },
+  "cvNodeType": {
+    "message": "Картка типу $1"
+  },
+  "sInvalid": {
+    "message": "Цей файл не є JSON Canvas ($1). Виправте його в Cursor; поки що тут нічого не зберігається."
+  },
+  "sInvalidNow": {
+    "message": "Змінено на диску й тепер це не JSON Canvas ($1). Тут нічого не зберігатиметься, доки він знову не стане коректним."
+  },
+  "sTooBig": {
+    "message": "Не збережено (це полотно $1; файли вміщують не більше $2. Приберіть кілька ліній або карток)"
+  },
+  "sBlockedBig": {
+    "message": "Не збережено (файл на диску змінено, і він завеликий: Залишити мою або лишити як є)"
+  },
+  "sBlockedText": {
+    "message": "Не збережено (файл на диску змінено, і він не текстовий: Залишити мою або лишити як є)"
+  },
+  "sKeepsChanging": {
+    "message": "Не збережено (файл постійно змінюється)"
+  },
+  "edgeOpenPanel": {
+    "message": "Відкрити панель"
+  },
+  "errNameEmpty": {
+    "message": "Введіть назву."
+  },
+  "errNameLong": {
+    "message": "Ця назва задовга."
+  },
+  "errHost": {
+    "message": "Помічник не відповів."
+  },
+  "backupKept": {
+    "message": "Збережено в Downloads/$2. Збережено файлів: $1."
+  },
+  "filesLabel": {
+    "message": "Файли"
+  },
+  "roomLabel": {
+    "message": "Кімната"
+  },
+  "roomNotes": {
+    "message": "Нотатки"
+  },
+  "roomCanvas": {
+    "message": "Полотно"
+  },
+  "search": {
+    "message": "Пошук"
+  },
+  "searchLabel": {
+    "message": "Шукати в цьому просторі"
+  },
+  "noteLabel": {
+    "message": "Нотатка"
+  },
+  "cvNotShown": {
+    "message": "$1 (тут не показано)"
+  },
+  "cvDrawFail": {
+    "message": "Не вдалося намалювати це полотно ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "На диску нічого не змінилося. Відкрийте в Cursor або виберіть інше полотно."
+  },
+  "statusDeleted": {
+    "message": "Видалено на диску"
+  },
+  "cv3dScene": {
+    "message": "3D-вигляд цього полотна. Тягніть, щоб обертати, прокручуйте, щоб масштабувати, клацніть картку, щоб відкрити."
+  },
+  "cvModelScene": {
+    "message": "3D-модель. Тягніть, щоб обертати; працюють і стрілки."
+  },
+  "cvModelCompressed": {
+    "message": "використовує стиснуту геометрію або текстури (Draco, KTX2 чи Meshopt), які цей вигляд не читає"
+  },
+  "cvNoWebgl": {
+    "message": "У цьому браузері немає WebGL"
+  },
+  "megaTabs_one": {
+    "message": "$1 мега-вкладка"
+  },
+  "tabs_many": {
+    "message": "$1 вкладок"
+  },
+  "tabs_few": {
+    "message": "$1 вкладки"
+  },
+  "tabsNotRestored_many": {
+    "message": "$1 вкладок не відновлено"
+  },
+  "tabsNotRestored_few": {
+    "message": "$1 вкладки не відновлено"
+  },
+  "megaTabs_many": {
+    "message": "$1 мега-вкладок"
+  },
+  "megaTabs_few": {
+    "message": "$1 мега-вкладки"
+  }
+}

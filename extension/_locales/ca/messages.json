@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "ca"
+  },
+  "extName": {
+    "message": "Mega Tabs: espais, notes i llenç"
+  },
+  "extDescription": {
+    "message": "Canvia de conjunt de pestanyes per projecte sense recarregar. Amb notes i un llenç que també edita la teva IA. Privat i gratuït."
+  },
+  "cmdOpen": {
+    "message": "Obre la llista d'espais de treball"
+  },
+  "cmdTogglePanel": {
+    "message": "Obre o tanca el tauler de Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Espai de treball següent"
+  },
+  "cmdPrev": {
+    "message": "Espai de treball anterior"
+  },
+  "cmdLast": {
+    "message": "Últim espai de treball utilitzat"
+  },
+  "cmdSwitch": {
+    "message": "Canvia a un espai de treball"
+  },
+  "tabs_one": {
+    "message": "$1 pestanya"
+  },
+  "tabs_other": {
+    "message": "$1 pestanyes"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 pestanya no restaurada"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 pestanyes no restaurades"
+  },
+  "edit": {
+    "message": "Edita"
+  },
+  "name": {
+    "message": "Nom"
+  },
+  "delete": {
+    "message": "Suprimeix"
+  },
+  "undo": {
+    "message": "Desfés"
+  },
+  "stashHeading": {
+    "message": "Emmagatzematge d'espais de treball"
+  },
+  "stashText": {
+    "message": "Aquesta finestra oculta pertany a l'extensió Mega Tabs. Guarda les pestanyes d'un espai de treball que ara no es mostra. No la tanquis; canvia d'espai des del tauler."
+  },
+  "defaultWorkspace": {
+    "message": "Per defecte"
+  },
+  "recoveredWorkspace": {
+    "message": "Recuperat"
+  },
+  "iconTitle": {
+    "message": "Espai de treball: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Espai de treball: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "L'emmagatzematge de l'extensió està gairebé ple; aviat no es podran desar pestanyes"
+  },
+  "menuLink": {
+    "message": "Obre l'enllaç en un espai de treball"
+  },
+  "menuMove": {
+    "message": "Mou la pestanya a un espai de treball"
+  },
+  "menuMoveMarked": {
+    "message": "Mou les $1 pestanyes seleccionades a un espai de treball"
+  },
+  "menuGroup": {
+    "message": "Mou el grup a un espai de treball"
+  },
+  "exNotJson": {
+    "message": "El fitxer no és un JSON vàlid."
+  },
+  "exNotExport": {
+    "message": "Aquest no és un fitxer d'exportació de Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "El fitxer no té cap espai de treball."
+  },
+  "exTooManyWorkspaces": {
+    "message": "El fitxer té massa espais de treball."
+  },
+  "exTooManyTabs": {
+    "message": "El fitxer té massa pestanyes."
+  },
+  "workspaceName": {
+    "message": "Espai de treball"
+  },
+  "workspaceN": {
+    "message": "Espai de treball $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "S'ha interromput la baixada ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "L'extensió no respon"
+  },
+  "generalSpace": {
+    "message": "General"
+  },
+  "spaces": {
+    "message": "Espais"
+  },
+  "setUp": {
+    "message": "Configura"
+  },
+  "filesOffLead": {
+    "message": "Els fitxers estan desactivats:"
+  },
+  "retryBtn": {
+    "message": "Torna-ho a provar"
+  },
+  "switchToMega": {
+    "message": "Canvia a $1"
+  },
+  "closeMegaAsk": {
+    "message": "Torna a fer clic per tancar aquesta megapestanya i les seves pestanyes"
+  },
+  "closeMegaAskLabel": {
+    "message": "Tanca $1 i les seves pestanyes: torna a fer clic"
+  },
+  "closeMega": {
+    "message": "Tanca la megapestanya"
+  },
+  "closeMegaLabel": {
+    "message": "Tanca la megapestanya $1"
+  },
+  "closeQuestion": {
+    "message": "vols tancar?"
+  },
+  "spaceName": {
+    "message": "Nom de l'espai"
+  },
+  "showSpace": {
+    "message": "Mostra $1 (doble clic per canviar-li el nom)"
+  },
+  "newSpaceName": {
+    "message": "Nom de l'espai nou"
+  },
+  "newSpaceItem": {
+    "message": "Espai nou…"
+  },
+  "allSpaces": {
+    "message": "Tots els espais"
+  },
+  "switchSpace": {
+    "message": "Canvia d'espai"
+  },
+  "board": {
+    "message": "Tauler"
+  },
+  "boardOpen": {
+    "message": "Obre el tauler: els fitxers .md de $1"
+  },
+  "settingsPage": {
+    "message": "Configuració"
+  },
+  "settingsOpen": {
+    "message": "Configuració: aparició a la vora, còpia de seguretat, exportació"
+  },
+  "newMegaName": {
+    "message": "Nom de la megapestanya nova"
+  },
+  "noMegas": {
+    "message": "Encara no hi ha megapestanyes."
+  },
+  "newMega": {
+    "message": "+ Megapestanya nova"
+  },
+  "noSpaces": {
+    "message": "Encara no hi ha espais."
+  },
+  "newSpace": {
+    "message": "+ Espai nou"
+  },
+  "openWindows": {
+    "message": "Finestres obertes"
+  },
+  "emptyWindow": {
+    "message": "Finestra buida"
+  },
+  "undoClose": {
+    "message": "Desfés el tancament"
+  },
+  "intro": {
+    "message": "Una megapestanya és un conjunt de pestanyes al qual canvies d'un cop. Fes clic en una per començar."
+  },
+  "homeSetupTitle": {
+    "message": "Activa els fitxers"
+  },
+  "homeSetupText": {
+    "message": "Els espais desen les notes com a fitxers normals a $1. Chrome necessita un petit ajudant per llegir-los i escriure'ls. A la carpeta Mega Tabs, executa $2 i prem Torna-ho a provar."
+  },
+  "retryChecking": {
+    "message": "S'està comprovant…"
+  },
+  "retryOn": {
+    "message": "Els fitxers estan activats."
+  },
+  "retryOff": {
+    "message": "Encara desactivat. Executa l'ordre i torna a prémer Torna-ho a provar."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Obre $1 (doble clic per canviar-li el nom, deixa anar una imatge per a la coberta)"
+  },
+  "tileTypeName": {
+    "message": "escriu un nom i prem Retorn"
+  },
+  "newSpaceAria": {
+    "message": "Espai nou"
+  },
+  "tileNewTitle": {
+    "message": "Escriu un nom per crear un espai nou"
+  },
+  "tileNewHint": {
+    "message": "escriu un nom"
+  },
+  "coverType": {
+    "message": "Utilitza una imatge png, jpg o webp."
+  },
+  "coverBig": {
+    "message": "Aquesta imatge passa de 700 KB. Utilitza'n una de més petita."
+  },
+  "coverNotSaved": {
+    "message": "Els fitxers estan desactivats: la coberta no s'ha desat."
+  },
+  "edgeHeading": {
+    "message": "Aparició a la vora"
+  },
+  "edgeToggle": {
+    "message": "Mostra un petit selector quan el punter s'atura a la vora de la pantalla"
+  },
+  "edgeHelp": {
+    "message": "Deixa el punter un moment a la vora i les megapestanyes apareixen sobre la pàgina. Chrome demana una sola vegada permís per funcionar en pàgines web. El selector no en llegeix res i no envia res enlloc. No apareix a la pàgina de pestanya nova ni a les pàgines chrome://."
+  },
+  "side": {
+    "message": "Costat"
+  },
+  "sideLeft": {
+    "message": "Esquerra"
+  },
+  "sideRight": {
+    "message": "Dreta"
+  },
+  "edgeOnLeft": {
+    "message": "Activat. Deixa el punter a la vora esquerra d'una pàgina web."
+  },
+  "edgeOnRight": {
+    "message": "Activat. Deixa el punter a la vora dreta d'una pàgina web."
+  },
+  "edgeDenied": {
+    "message": "L'aparició a la vora necessita aquest permís per funcionar en pàgines web. Es queda desactivada."
+  },
+  "backupHeading": {
+    "message": "Còpia de seguretat"
+  },
+  "backupLabel": {
+    "message": "Desa un fitxer de còpia de seguretat"
+  },
+  "backupNever": {
+    "message": "Mai"
+  },
+  "backupDaily": {
+    "message": "Cada dia"
+  },
+  "backupWeekly": {
+    "message": "Cada setmana"
+  },
+  "backupLast": {
+    "message": "Últim desament: $1."
+  },
+  "backupSaving": {
+    "message": "S'està desant…"
+  },
+  "dataHeading": {
+    "message": "Les teves megapestanyes"
+  },
+  "dataHelp": {
+    "message": "Un fitxer amb tots els espais, les megapestanyes i les seves pestanyes. La importació afegeix el que falta i no tanca res."
+  },
+  "exportBtn": {
+    "message": "Exporta les megapestanyes"
+  },
+  "importBtn": {
+    "message": "Importa megapestanyes…"
+  },
+  "chooseFile": {
+    "message": "Tria un fitxer exportat"
+  },
+  "exportSaved": {
+    "message": "S'han desat $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "No s'ha pogut exportar: $1"
+  },
+  "importAdded": {
+    "message": "S'han afegit $1 i $2 de $3."
+  },
+  "importNothing": {
+    "message": "No hi ha res a afegir: tot el que hi ha a $1 ja hi és."
+  },
+  "importFail": {
+    "message": "No s'ha pogut importar: $1"
+  },
+  "boardTitle": {
+    "message": "Tauler · $1"
+  },
+  "folderLabel": {
+    "message": "Carpeta: $1"
+  },
+  "change": {
+    "message": "Canvia"
+  },
+  "chooseFolder": {
+    "message": "Tria una carpeta"
+  },
+  "allowFolder": {
+    "message": "Permet l'accés a «$1»"
+  },
+  "hostMissing": {
+    "message": "L'amfitrió del tauler no està instal·lat. A la carpeta Mega Tabs, executa $1 i després torna a carregar aquesta pàgina."
+  },
+  "hostForbidden": {
+    "message": "Chrome no deixa que aquesta extensió utilitzi l'amfitrió del tauler. Torna a executar $1 i després torna a carregar aquesta pàgina."
+  },
+  "hostStopped": {
+    "message": "L'amfitrió del tauler s'ha aturat. S'està tornant a provar."
+  },
+  "hostUnreachable": {
+    "message": "El tauler no pot arribar al seu amfitrió ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "no es pot obrir aquí ($1)"
+  },
+  "howItWorks": {
+    "message": "Com funciona"
+  },
+  "rename": {
+    "message": "Canvia el nom"
+  },
+  "renameLabel": {
+    "message": "Canvia el nom de $1"
+  },
+  "renameTitle": {
+    "message": "Canvia el nom (o fes doble clic al nom)"
+  },
+  "deleteLabel": {
+    "message": "Suprimeix $1"
+  },
+  "deleteTitle": {
+    "message": "Suprimeix (a la paperera, es pot desfer)"
+  },
+  "noMatches": {
+    "message": "No s'ha trobat res."
+  },
+  "newNote": {
+    "message": "Nota nova"
+  },
+  "newCanvas": {
+    "message": "Llenç nou"
+  },
+  "newNoteTitle": {
+    "message": "Comença una nota nova en aquest espai"
+  },
+  "newCanvasTitle": {
+    "message": "Comença un llenç nou en aquest espai"
+  },
+  "emptyNotesFolder": {
+    "message": "Encara no hi ha notes en aquest espai. Prem Nota nova per començar."
+  },
+  "emptyNotesDir": {
+    "message": "Encara no hi ha fitxers .md a ~/Spaces/$1/. Prem Nota nova per començar."
+  },
+  "noFolderNotes": {
+    "message": "Encara no hi ha carpeta per a «$1». Crea ~/Spaces/$1/ i posa-hi fitxers .md."
+  },
+  "emptyCanvasFolder": {
+    "message": "Encara no hi ha llenços en aquest espai. Prem Llenç nou per començar."
+  },
+  "emptyCanvasDir": {
+    "message": "Encara no hi ha fitxers .canvas a ~/Spaces/$1/. Prem Llenç nou per començar."
+  },
+  "noFolderCanvas": {
+    "message": "Encara no hi ha carpeta per a «$1». Crea ~/Spaces/$1/ i posa-hi fitxers .canvas."
+  },
+  "done": {
+    "message": "Fet"
+  },
+  "backToReading": {
+    "message": "Torna a la lectura (Esc)"
+  },
+  "typeInFile": {
+    "message": "Escriu en aquest fitxer (E)"
+  },
+  "openCursor": {
+    "message": "Obre amb Cursor"
+  },
+  "openCursorTitle": {
+    "message": "Obre aquest fitxer amb Cursor"
+  },
+  "typeHere": {
+    "message": "Escriu aquí."
+  },
+  "textOf": {
+    "message": "Text de $1"
+  },
+  "statusUnsaved": {
+    "message": "No desat"
+  },
+  "statusSaving": {
+    "message": "S'està desant"
+  },
+  "statusSaved": {
+    "message": "Desat"
+  },
+  "mixedEol": {
+    "message": "Salts de línia barrejats: edita aquest fitxer amb Cursor."
+  },
+  "notSavedWhy": {
+    "message": "No desat ($1)"
+  },
+  "hostNotConnected": {
+    "message": "l'amfitrió no està connectat"
+  },
+  "notSaved": {
+    "message": "No desat: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "No desat: la nota és més gran que els $1 KB que admet un fitxer. Escurça-la o divideix-la en dues."
+  },
+  "changedOnDisk": {
+    "message": "Canviat al disc"
+  },
+  "conflictGone": {
+    "message": "Suprimit al disc:"
+  },
+  "conflictTooLarge": {
+    "message": "Canviat al disc i ara massa gran per mostrar-lo aquí:"
+  },
+  "conflictNotText": {
+    "message": "Canviat al disc i ja no és text:"
+  },
+  "conflictChanged": {
+    "message": "Canviat al disc:"
+  },
+  "loadTheirs": {
+    "message": "Carrega la seva"
+  },
+  "keepMine": {
+    "message": "Conserva la meva"
+  },
+  "dropIt": {
+    "message": "Descarta"
+  },
+  "seeTheirs": {
+    "message": "Mira la seva"
+  },
+  "removedFromFolder": {
+    "message": "S'ha tret $1 de la carpeta."
+  },
+  "cannotOpenNote": {
+    "message": "Aquest fitxer no es pot obrir aquí ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Aquest fitxer no es pot obrir aquí ($1). Cursor sí que pot."
+  },
+  "cannotOpenCanvas": {
+    "message": "Aquest llenç no es pot obrir aquí ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Aquest llenç no es pot obrir aquí ($1). Cursor sí que pot."
+  },
+  "waitingStorage": {
+    "message": "S'està esperant l'emmagatzematge del tauler."
+  },
+  "couldNotRead": {
+    "message": "No s'ha pogut llegir $1 ($2)."
+  },
+  "couldNotOpen": {
+    "message": "No s'ha pogut obrir $1 ($2)."
+  },
+  "noteName": {
+    "message": "Nom de la nota"
+  },
+  "canvasName": {
+    "message": "Nom del llenç"
+  },
+  "nameTaken": {
+    "message": "Aquest nom ja s'utilitza."
+  },
+  "nameBad": {
+    "message": "Aquest nom no es pot utilitzar."
+  },
+  "notCreated": {
+    "message": "No s'ha creat ($1)."
+  },
+  "renameNewName": {
+    "message": "Nom nou per a $1"
+  },
+  "resolveFirst": {
+    "message": "Resol primer el canvi al disc."
+  },
+  "notSavedYetRename": {
+    "message": "Encara no desat; torna-ho a provar d'aquí a un moment."
+  },
+  "fileGone": {
+    "message": "Aquest fitxer ja no existeix."
+  },
+  "notRenamed": {
+    "message": "No s'ha canviat el nom ($1)."
+  },
+  "deletedToast": {
+    "message": "S'ha suprimit «$1»"
+  },
+  "resolveFirstDelete": {
+    "message": "Resol primer el canvi al disc i després suprimeix."
+  },
+  "notSavedYetDelete": {
+    "message": "Encara no desat, per tant no suprimit. Torna-ho a provar d'aquí a un moment."
+  },
+  "notDeleted": {
+    "message": "No s'ha suprimit: $1"
+  },
+  "notRestored": {
+    "message": "No s'ha restaurat: $1"
+  },
+  "cvThreeFailed": {
+    "message": "El 3D no ha pogut arrencar aquí ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "no s'ha carregat"
+  },
+  "cvSelect": {
+    "message": "Selecciona i mou (V)"
+  },
+  "cvCard": {
+    "message": "Afegeix una targeta de text (T)"
+  },
+  "cvPen": {
+    "message": "Llapis (P)"
+  },
+  "cvEraser": {
+    "message": "Goma (E)"
+  },
+  "cvTools": {
+    "message": "Eines del llenç"
+  },
+  "cvUndo": {
+    "message": "Desfés (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Refés (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Refés"
+  },
+  "cvDelete": {
+    "message": "Suprimeix la selecció (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Suprimeix la selecció"
+  },
+  "cvView": {
+    "message": "Vista"
+  },
+  "cv2d": {
+    "message": "El llenç, pla"
+  },
+  "cv3d": {
+    "message": "El mateix llenç en 3D (només lectura)"
+  },
+  "cvDeleted": {
+    "message": "Suprimit al disc. Aquest llenç ja no és a la carpeta."
+  },
+  "cvEmptyCard": {
+    "message": "Targeta buida"
+  },
+  "cvWriteHere": {
+    "message": "Escriu aquí"
+  },
+  "cvCardText": {
+    "message": "Text de la targeta"
+  },
+  "cvOpenNotes": {
+    "message": "Obre a Notes"
+  },
+  "cvOpenCanvas": {
+    "message": "Obre aquest llenç"
+  },
+  "cvModelGone": {
+    "message": "Aquest model no és a la carpeta."
+  },
+  "cvModelBig": {
+    "message": "Aquest model és més gran de 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Aquest model no es pot mostrar ($1)."
+  },
+  "cvUnknownError": {
+    "message": "error desconegut"
+  },
+  "cvLoadingModel": {
+    "message": "S'està carregant el model"
+  },
+  "cvLink": {
+    "message": "Enllaç"
+  },
+  "cvGroup": {
+    "message": "Grup"
+  },
+  "cvNodeNote": {
+    "message": "Nota $1"
+  },
+  "cvNodeLink": {
+    "message": "Enllaç $1"
+  },
+  "cvNodeGroup": {
+    "message": "Grup $1"
+  },
+  "cvNodeType": {
+    "message": "Targeta de tipus $1"
+  },
+  "sInvalid": {
+    "message": "Aquest fitxer no és JSON Canvas ($1). Arregla'l amb Cursor; mentrestant aquí no es desa res."
+  },
+  "sInvalidNow": {
+    "message": "Canviat al disc i ara no és JSON Canvas ($1). Aquí no es desarà res fins que torni a ser vàlid."
+  },
+  "sTooBig": {
+    "message": "No desat (aquest llenç fa $1; els fitxers admeten com a màxim $2. Suprimeix algunes línies o targetes)"
+  },
+  "sBlockedBig": {
+    "message": "No desat (el fitxer del disc ha canviat i és massa gran: Conserva la meva, o deixa-ho)"
+  },
+  "sBlockedText": {
+    "message": "No desat (el fitxer del disc ha canviat i no és text: Conserva la meva, o deixa-ho)"
+  },
+  "sKeepsChanging": {
+    "message": "No desat (el fitxer no para de canviar)"
+  },
+  "edgeOpenPanel": {
+    "message": "Obre el tauler"
+  },
+  "errNameEmpty": {
+    "message": "Escriu un nom."
+  },
+  "errNameLong": {
+    "message": "Aquest nom és massa llarg."
+  },
+  "errHost": {
+    "message": "L'amfitrió no ha respost."
+  },
+  "backupKept": {
+    "message": "Desat a Downloads/$2. Fitxers desats: $1."
+  },
+  "filesLabel": {
+    "message": "Fitxers"
+  },
+  "roomLabel": {
+    "message": "Sala"
+  },
+  "roomNotes": {
+    "message": "Notes"
+  },
+  "roomCanvas": {
+    "message": "Llenç"
+  },
+  "search": {
+    "message": "Cerca"
+  },
+  "searchLabel": {
+    "message": "Cerca en aquest espai"
+  },
+  "noteLabel": {
+    "message": "Nota"
+  },
+  "cvNotShown": {
+    "message": "$1 (no es mostra aquí)"
+  },
+  "cvDrawFail": {
+    "message": "No s'ha pogut dibuixar aquest llenç ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "No ha canviat res al disc. Obre'l amb Cursor o tria un altre llenç."
+  },
+  "statusDeleted": {
+    "message": "Suprimit al disc"
+  },
+  "cv3dScene": {
+    "message": "Vista 3D d'aquest llenç. Arrossega per girar, desplaça per ampliar, fes clic en una targeta per obrir-la."
+  },
+  "cvModelScene": {
+    "message": "Model 3D. Arrossega per girar; les tecles de fletxa també funcionen."
+  },
+  "cvModelCompressed": {
+    "message": "utilitza geometria o textures comprimides (Draco, KTX2 o Meshopt) que aquesta vista no pot llegir"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL no està disponible en aquest navegador"
+  },
+  "megaTabs_one": {
+    "message": "$1 megapestanya"
+  },
+  "megaTabs_other": {
+    "message": "$1 megapestanyes"
+  }
+}

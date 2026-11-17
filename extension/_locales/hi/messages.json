@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "hi"
+  },
+  "extName": {
+    "message": "Mega Tabs: स्पेस, नोट्स और कैनवस"
+  },
+  "extDescription": {
+    "message": "प्रोजेक्ट के हिसाब से टैब के सेट बिना रीलोड बदलें। साथ में नोट्स और कैनवस, जिन्हें आपका AI भी बदल सकता है। निजी और मुफ़्त।"
+  },
+  "cmdOpen": {
+    "message": "वर्कस्पेस की सूची खोलें"
+  },
+  "cmdTogglePanel": {
+    "message": "Mega Tabs पैनल खोलें या बंद करें"
+  },
+  "cmdNext": {
+    "message": "अगला वर्कस्पेस"
+  },
+  "cmdPrev": {
+    "message": "पिछला वर्कस्पेस"
+  },
+  "cmdLast": {
+    "message": "हाल में इस्तेमाल किया वर्कस्पेस"
+  },
+  "cmdSwitch": {
+    "message": "वर्कस्पेस पर जाएँ"
+  },
+  "tabs_one": {
+    "message": "$1 टैब"
+  },
+  "tabs_other": {
+    "message": "$1 टैब"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 टैब बहाल नहीं हुआ"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 टैब बहाल नहीं हुए"
+  },
+  "edit": {
+    "message": "बदलें"
+  },
+  "name": {
+    "message": "नाम"
+  },
+  "delete": {
+    "message": "हटाएँ"
+  },
+  "undo": {
+    "message": "पहले जैसा करें"
+  },
+  "stashHeading": {
+    "message": "वर्कस्पेस भंडार"
+  },
+  "stashText": {
+    "message": "यह छिपी हुई विंडो Mega Tabs एक्सटेंशन की है। इसमें उस वर्कस्पेस के टैब हैं जो अभी दिख नहीं रहा। इसे बंद न करें; बदलने के लिए पैनल इस्तेमाल करें।"
+  },
+  "defaultWorkspace": {
+    "message": "डिफ़ॉल्ट"
+  },
+  "recoveredWorkspace": {
+    "message": "बहाल किया गया"
+  },
+  "iconTitle": {
+    "message": "वर्कस्पेस: $1"
+  },
+  "iconTitleMissing": {
+    "message": "वर्कस्पेस: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "एक्सटेंशन का स्टोरेज लगभग भर गया है, जल्द ही टैब सेव नहीं होंगे"
+  },
+  "menuLink": {
+    "message": "लिंक वर्कस्पेस में खोलें"
+  },
+  "menuMove": {
+    "message": "टैब को वर्कस्पेस में ले जाएँ"
+  },
+  "menuMoveMarked": {
+    "message": "चुने हुए $1 टैब वर्कस्पेस में ले जाएँ"
+  },
+  "menuGroup": {
+    "message": "समूह को वर्कस्पेस में ले जाएँ"
+  },
+  "exNotJson": {
+    "message": "फ़ाइल मान्य JSON नहीं है।"
+  },
+  "exNotExport": {
+    "message": "यह Helium Workspaces की एक्सपोर्ट फ़ाइल नहीं है।"
+  },
+  "exNoWorkspaces": {
+    "message": "फ़ाइल में कोई वर्कस्पेस नहीं है।"
+  },
+  "exTooManyWorkspaces": {
+    "message": "फ़ाइल में बहुत ज़्यादा वर्कस्पेस हैं।"
+  },
+  "exTooManyTabs": {
+    "message": "फ़ाइल में बहुत ज़्यादा टैब हैं।"
+  },
+  "workspaceName": {
+    "message": "वर्कस्पेस"
+  },
+  "workspaceN": {
+    "message": "वर्कस्पेस $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "डाउनलोड रुक गया ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "एक्सटेंशन से कोई जवाब नहीं मिला"
+  },
+  "generalSpace": {
+    "message": "सामान्य"
+  },
+  "spaces": {
+    "message": "स्पेस"
+  },
+  "setUp": {
+    "message": "सेट अप करें"
+  },
+  "filesOffLead": {
+    "message": "फ़ाइलें बंद हैं:"
+  },
+  "retryBtn": {
+    "message": "फिर कोशिश करें"
+  },
+  "switchToMega": {
+    "message": "$1 पर जाएँ"
+  },
+  "closeMegaAsk": {
+    "message": "इस मेगा टैब और इसके टैब बंद करने के लिए फिर क्लिक करें"
+  },
+  "closeMegaAskLabel": {
+    "message": "$1 और उसके टैब बंद करें: फिर क्लिक करें"
+  },
+  "closeMega": {
+    "message": "मेगा टैब बंद करें"
+  },
+  "closeMegaLabel": {
+    "message": "मेगा टैब $1 बंद करें"
+  },
+  "closeQuestion": {
+    "message": "बंद करें?"
+  },
+  "spaceName": {
+    "message": "स्पेस का नाम"
+  },
+  "showSpace": {
+    "message": "$1 दिखाएँ (नाम बदलने के लिए डबल क्लिक करें)"
+  },
+  "newSpaceName": {
+    "message": "नए स्पेस का नाम"
+  },
+  "newSpaceItem": {
+    "message": "नया स्पेस…"
+  },
+  "allSpaces": {
+    "message": "सभी स्पेस"
+  },
+  "switchSpace": {
+    "message": "स्पेस बदलें"
+  },
+  "board": {
+    "message": "बोर्ड"
+  },
+  "boardOpen": {
+    "message": "बोर्ड खोलें: $1 की .md फ़ाइलें"
+  },
+  "settingsPage": {
+    "message": "सेटिंग"
+  },
+  "settingsOpen": {
+    "message": "सेटिंग: किनारे पर दिखना, बैकअप, एक्सपोर्ट"
+  },
+  "newMegaName": {
+    "message": "नए मेगा टैब का नाम"
+  },
+  "noMegas": {
+    "message": "अभी कोई मेगा टैब नहीं है।"
+  },
+  "newMega": {
+    "message": "+ नया मेगा टैब"
+  },
+  "noSpaces": {
+    "message": "अभी कोई स्पेस नहीं है।"
+  },
+  "newSpace": {
+    "message": "+ नया स्पेस"
+  },
+  "openWindows": {
+    "message": "खुली विंडो"
+  },
+  "emptyWindow": {
+    "message": "खाली विंडो"
+  },
+  "undoClose": {
+    "message": "बंद करना वापस लें"
+  },
+  "intro": {
+    "message": "मेगा टैब टैब का एक सेट है जिस पर आप एक साथ जाते हैं। शुरू करने के लिए किसी एक पर क्लिक करें।"
+  },
+  "homeSetupTitle": {
+    "message": "फ़ाइलें चालू करें"
+  },
+  "homeSetupText": {
+    "message": "स्पेस अपने नोट्स $1 में सामान्य फ़ाइलों के रूप में रखते हैं। Chrome को इन्हें पढ़ने-लिखने के लिए एक छोटा सहायक चाहिए। Mega Tabs फ़ोल्डर में $2 चलाएँ, फिर फिर कोशिश करें दबाएँ।"
+  },
+  "retryChecking": {
+    "message": "जाँच हो रही है…"
+  },
+  "retryOn": {
+    "message": "फ़ाइलें चालू हैं।"
+  },
+  "retryOff": {
+    "message": "अब भी बंद हैं। कमांड चलाएँ, फिर दोबारा फिर कोशिश करें दबाएँ।"
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "$1 खोलें (नाम बदलने के लिए डबल क्लिक करें, कवर के लिए तस्वीर छोड़ें)"
+  },
+  "tileTypeName": {
+    "message": "नाम लिखें, Enter दबाएँ"
+  },
+  "newSpaceAria": {
+    "message": "नया स्पेस"
+  },
+  "tileNewTitle": {
+    "message": "नया स्पेस बनाने के लिए नाम लिखें"
+  },
+  "tileNewHint": {
+    "message": "नाम लिखें"
+  },
+  "coverType": {
+    "message": "png, jpg या webp तस्वीर इस्तेमाल करें।"
+  },
+  "coverBig": {
+    "message": "यह तस्वीर 700 KB से बड़ी है। छोटी तस्वीर इस्तेमाल करें।"
+  },
+  "coverNotSaved": {
+    "message": "फ़ाइलें बंद हैं: कवर सेव नहीं हुआ।"
+  },
+  "edgeHeading": {
+    "message": "किनारे पर दिखना"
+  },
+  "edgeToggle": {
+    "message": "पॉइंटर स्क्रीन के किनारे पर टिकने पर मिनी स्विचर दिखाएँ"
+  },
+  "edgeHelp": {
+    "message": "पॉइंटर को किनारे पर थोड़ी देर स्थिर रखें और आपके मेगा टैब पेज के ऊपर दिखेंगे। Chrome वेब पेजों पर चलने की अनुमति एक बार पूछता है। स्विचर उनसे कुछ नहीं पढ़ता और कहीं कुछ नहीं भेजता। यह नए टैब पेज और chrome:// पेजों पर नहीं दिखता।"
+  },
+  "side": {
+    "message": "तरफ़"
+  },
+  "sideLeft": {
+    "message": "बाईं"
+  },
+  "sideRight": {
+    "message": "दाईं"
+  },
+  "edgeOnLeft": {
+    "message": "चालू। वेब पेज के बाएँ किनारे पर पॉइंटर रखें।"
+  },
+  "edgeOnRight": {
+    "message": "चालू। वेब पेज के दाएँ किनारे पर पॉइंटर रखें।"
+  },
+  "edgeDenied": {
+    "message": "किनारे पर दिखने के लिए वेब पेजों पर चलने की यह अनुमति चाहिए। यह बंद रहेगा।"
+  },
+  "backupHeading": {
+    "message": "बैकअप"
+  },
+  "backupLabel": {
+    "message": "बैकअप फ़ाइल सेव करें"
+  },
+  "backupNever": {
+    "message": "कभी नहीं"
+  },
+  "backupDaily": {
+    "message": "हर दिन"
+  },
+  "backupWeekly": {
+    "message": "हर हफ़्ते"
+  },
+  "backupLast": {
+    "message": "आख़िरी बार सेव: $1।"
+  },
+  "backupSaving": {
+    "message": "सेव हो रहा है…"
+  },
+  "dataHeading": {
+    "message": "आपके मेगा टैब"
+  },
+  "dataHelp": {
+    "message": "सभी स्पेस, मेगा टैब और उनके टैब वाली एक फ़ाइल। इंपोर्ट करने पर जो कम है वह जुड़ता है और कुछ बंद नहीं होता।"
+  },
+  "exportBtn": {
+    "message": "मेगा टैब एक्सपोर्ट करें"
+  },
+  "importBtn": {
+    "message": "मेगा टैब इंपोर्ट करें…"
+  },
+  "chooseFile": {
+    "message": "एक्सपोर्ट की हुई फ़ाइल चुनें"
+  },
+  "exportSaved": {
+    "message": "$1 सेव हुई: $2, $3।"
+  },
+  "exportFail": {
+    "message": "एक्सपोर्ट नहीं हो सका: $1"
+  },
+  "importAdded": {
+    "message": "$3 से $1 और $2 जोड़े गए।"
+  },
+  "importNothing": {
+    "message": "जोड़ने को कुछ नहीं: $1 की सब चीज़ें पहले से यहाँ हैं।"
+  },
+  "importFail": {
+    "message": "इंपोर्ट नहीं हो सका: $1"
+  },
+  "boardTitle": {
+    "message": "बोर्ड · $1"
+  },
+  "folderLabel": {
+    "message": "फ़ोल्डर: $1"
+  },
+  "change": {
+    "message": "बदलें"
+  },
+  "chooseFolder": {
+    "message": "फ़ोल्डर चुनें"
+  },
+  "allowFolder": {
+    "message": "\"$1\" तक पहुँच की अनुमति दें"
+  },
+  "hostMissing": {
+    "message": "बोर्ड होस्ट इंस्टॉल नहीं है। Mega Tabs फ़ोल्डर में $1 चलाएँ, फिर यह पेज रीलोड करें।"
+  },
+  "hostForbidden": {
+    "message": "Chrome इस एक्सटेंशन को बोर्ड होस्ट इस्तेमाल करने नहीं देता। $1 फिर से चलाएँ, फिर यह पेज रीलोड करें।"
+  },
+  "hostStopped": {
+    "message": "बोर्ड होस्ट रुक गया। फिर कोशिश हो रही है।"
+  },
+  "hostUnreachable": {
+    "message": "बोर्ड अपने होस्ट तक नहीं पहुँच पा रहा ($1)।"
+  },
+  "cannotOpenMeta": {
+    "message": "यहाँ नहीं खुल सकता ($1)"
+  },
+  "howItWorks": {
+    "message": "यह कैसे काम करता है"
+  },
+  "rename": {
+    "message": "नाम बदलें"
+  },
+  "renameLabel": {
+    "message": "$1 का नाम बदलें"
+  },
+  "renameTitle": {
+    "message": "नाम बदलें (या नाम पर डबल क्लिक करें)"
+  },
+  "deleteLabel": {
+    "message": "$1 हटाएँ"
+  },
+  "deleteTitle": {
+    "message": "हटाएँ (ट्रैश में, वापस लेने की सुविधा के साथ)"
+  },
+  "noMatches": {
+    "message": "कोई मेल नहीं मिला।"
+  },
+  "newNote": {
+    "message": "नया नोट"
+  },
+  "newCanvas": {
+    "message": "नया कैनवस"
+  },
+  "newNoteTitle": {
+    "message": "इस स्पेस में नया नोट शुरू करें"
+  },
+  "newCanvasTitle": {
+    "message": "इस स्पेस में नया कैनवस शुरू करें"
+  },
+  "emptyNotesFolder": {
+    "message": "इस स्पेस में अभी कोई नोट नहीं है। शुरू करने के लिए नया नोट दबाएँ।"
+  },
+  "emptyNotesDir": {
+    "message": "~/Spaces/$1/ में अभी कोई .md फ़ाइल नहीं है। शुरू करने के लिए नया नोट दबाएँ।"
+  },
+  "noFolderNotes": {
+    "message": "\"$1\" के लिए अभी कोई फ़ोल्डर नहीं है। ~/Spaces/$1/ बनाएँ और उसमें .md फ़ाइलें रखें।"
+  },
+  "emptyCanvasFolder": {
+    "message": "इस स्पेस में अभी कोई कैनवस नहीं है। शुरू करने के लिए नया कैनवस दबाएँ।"
+  },
+  "emptyCanvasDir": {
+    "message": "~/Spaces/$1/ में अभी कोई .canvas फ़ाइल नहीं है। शुरू करने के लिए नया कैनवस दबाएँ।"
+  },
+  "noFolderCanvas": {
+    "message": "\"$1\" के लिए अभी कोई फ़ोल्डर नहीं है। ~/Spaces/$1/ बनाएँ और उसमें .canvas फ़ाइलें रखें।"
+  },
+  "done": {
+    "message": "हो गया"
+  },
+  "backToReading": {
+    "message": "पढ़ने पर लौटें (Esc)"
+  },
+  "typeInFile": {
+    "message": "इस फ़ाइल में लिखें (E)"
+  },
+  "openCursor": {
+    "message": "Cursor में खोलें"
+  },
+  "openCursorTitle": {
+    "message": "इस फ़ाइल को Cursor में खोलें"
+  },
+  "typeHere": {
+    "message": "यहाँ लिखें।"
+  },
+  "textOf": {
+    "message": "$1 का टेक्स्ट"
+  },
+  "statusUnsaved": {
+    "message": "सेव नहीं हुआ"
+  },
+  "statusSaving": {
+    "message": "सेव हो रहा है"
+  },
+  "statusSaved": {
+    "message": "सेव हो गया"
+  },
+  "mixedEol": {
+    "message": "लाइन के अंत मिले-जुले हैं: इस फ़ाइल को Cursor में बदलें।"
+  },
+  "notSavedWhy": {
+    "message": "सेव नहीं हुआ ($1)"
+  },
+  "hostNotConnected": {
+    "message": "होस्ट जुड़ा नहीं है"
+  },
+  "notSaved": {
+    "message": "सेव नहीं हुआ: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "सेव नहीं हुआ: यह नोट $1 KB से बड़ा है, जितना फ़ाइलें रख सकती हैं। इसे छोटा करें या दो में बाँटें।"
+  },
+  "changedOnDisk": {
+    "message": "डिस्क पर बदल गया"
+  },
+  "conflictGone": {
+    "message": "डिस्क पर हट गया:"
+  },
+  "conflictTooLarge": {
+    "message": "डिस्क पर बदल गया और अब यहाँ दिखाने के लिए बहुत बड़ा है:"
+  },
+  "conflictNotText": {
+    "message": "डिस्क पर बदल गया और अब टेक्स्ट नहीं है:"
+  },
+  "conflictChanged": {
+    "message": "डिस्क पर बदल गया:"
+  },
+  "loadTheirs": {
+    "message": "उनका लोड करें"
+  },
+  "keepMine": {
+    "message": "मेरा रखें"
+  },
+  "dropIt": {
+    "message": "छोड़ दें"
+  },
+  "seeTheirs": {
+    "message": "उनका देखें"
+  },
+  "removedFromFolder": {
+    "message": "$1 फ़ोल्डर से हटा दी गई।"
+  },
+  "cannotOpenNote": {
+    "message": "यह फ़ाइल यहाँ नहीं खुल सकती ($1)।"
+  },
+  "cannotOpenNoteCursor": {
+    "message": "यह फ़ाइल यहाँ नहीं खुल सकती ($1)। Cursor खोल सकता है।"
+  },
+  "cannotOpenCanvas": {
+    "message": "यह कैनवस यहाँ नहीं खुल सकता ($1)।"
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "यह कैनवस यहाँ नहीं खुल सकता ($1)। Cursor खोल सकता है।"
+  },
+  "waitingStorage": {
+    "message": "बोर्ड स्टोरेज का इंतज़ार है।"
+  },
+  "couldNotRead": {
+    "message": "$1 पढ़ा नहीं जा सका ($2)।"
+  },
+  "couldNotOpen": {
+    "message": "$1 खोला नहीं जा सका ($2)।"
+  },
+  "noteName": {
+    "message": "नोट का नाम"
+  },
+  "canvasName": {
+    "message": "कैनवस का नाम"
+  },
+  "nameTaken": {
+    "message": "यह नाम पहले से है।"
+  },
+  "nameBad": {
+    "message": "यह नाम इस्तेमाल नहीं हो सकता।"
+  },
+  "notCreated": {
+    "message": "बना नहीं ($1)।"
+  },
+  "renameNewName": {
+    "message": "$1 का नया नाम"
+  },
+  "resolveFirst": {
+    "message": "पहले डिस्क पर हुआ बदलाव सुलझाएँ।"
+  },
+  "notSavedYetRename": {
+    "message": "अभी सेव नहीं हुआ; थोड़ी देर में फिर कोशिश करें।"
+  },
+  "fileGone": {
+    "message": "वह फ़ाइल अब नहीं है।"
+  },
+  "notRenamed": {
+    "message": "नाम नहीं बदला ($1)।"
+  },
+  "deletedToast": {
+    "message": "\"$1\" हटाया गया"
+  },
+  "resolveFirstDelete": {
+    "message": "पहले डिस्क पर हुआ बदलाव सुलझाएँ, फिर हटाएँ।"
+  },
+  "notSavedYetDelete": {
+    "message": "अभी सेव नहीं हुआ, इसलिए हटाया नहीं गया। थोड़ी देर में फिर कोशिश करें।"
+  },
+  "notDeleted": {
+    "message": "हटाया नहीं गया: $1"
+  },
+  "notRestored": {
+    "message": "वापस नहीं आया: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D यहाँ शुरू नहीं हो सका ($1)।"
+  },
+  "cvDidNotLoad": {
+    "message": "लोड नहीं हुआ"
+  },
+  "cvSelect": {
+    "message": "चुनें और खिसकाएँ (V)"
+  },
+  "cvCard": {
+    "message": "टेक्स्ट कार्ड जोड़ें (T)"
+  },
+  "cvPen": {
+    "message": "पेन (P)"
+  },
+  "cvEraser": {
+    "message": "रबर (E)"
+  },
+  "cvTools": {
+    "message": "कैनवस के औज़ार"
+  },
+  "cvUndo": {
+    "message": "पहले जैसा करें (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "दोबारा करें (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "दोबारा करें"
+  },
+  "cvDelete": {
+    "message": "चुना हुआ हटाएँ (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "चुना हुआ हटाएँ"
+  },
+  "cvView": {
+    "message": "दृश्य"
+  },
+  "cv2d": {
+    "message": "कैनवस, सपाट"
+  },
+  "cv3d": {
+    "message": "वही कैनवस 3D में (सिर्फ़ पढ़ने के लिए)"
+  },
+  "cvDeleted": {
+    "message": "डिस्क पर हट गया। यह कैनवस अब फ़ोल्डर में नहीं है।"
+  },
+  "cvEmptyCard": {
+    "message": "खाली कार्ड"
+  },
+  "cvWriteHere": {
+    "message": "यहाँ लिखें"
+  },
+  "cvCardText": {
+    "message": "कार्ड का टेक्स्ट"
+  },
+  "cvOpenNotes": {
+    "message": "नोट्स में खोलें"
+  },
+  "cvOpenCanvas": {
+    "message": "यह कैनवस खोलें"
+  },
+  "cvModelGone": {
+    "message": "यह मॉडल फ़ोल्डर में नहीं है।"
+  },
+  "cvModelBig": {
+    "message": "यह मॉडल 24 MB से बड़ा है।"
+  },
+  "cvModelFail": {
+    "message": "यह मॉडल दिखाया नहीं जा सकता ($1)।"
+  },
+  "cvUnknownError": {
+    "message": "अज्ञात गड़बड़ी"
+  },
+  "cvLoadingModel": {
+    "message": "मॉडल लोड हो रहा है"
+  },
+  "cvLink": {
+    "message": "लिंक"
+  },
+  "cvGroup": {
+    "message": "समूह"
+  },
+  "cvNodeNote": {
+    "message": "नोट $1"
+  },
+  "cvNodeLink": {
+    "message": "लिंक $1"
+  },
+  "cvNodeGroup": {
+    "message": "समूह $1"
+  },
+  "cvNodeType": {
+    "message": "$1 प्रकार का कार्ड"
+  },
+  "sInvalid": {
+    "message": "यह फ़ाइल JSON Canvas नहीं है ($1)। इसे Cursor में ठीक करें; तब तक यहाँ कुछ सेव नहीं होगा।"
+  },
+  "sInvalidNow": {
+    "message": "डिस्क पर बदल गया और अब JSON Canvas नहीं है ($1)। जब तक यह फिर मान्य न हो, यहाँ कुछ सेव नहीं होगा।"
+  },
+  "sTooBig": {
+    "message": "सेव नहीं हुआ (यह कैनवस $1 का है; फ़ाइलें ज़्यादा से ज़्यादा $2 रख सकती हैं। कुछ लकीरें या कार्ड मिटाएँ)"
+  },
+  "sBlockedBig": {
+    "message": "सेव नहीं हुआ (डिस्क की फ़ाइल बदल गई है और आकार सीमा से बड़ी है: मेरा रखें या रहने दें)"
+  },
+  "sBlockedText": {
+    "message": "सेव नहीं हुआ (डिस्क की फ़ाइल बदल गई है और टेक्स्ट नहीं है: मेरा रखें या रहने दें)"
+  },
+  "sKeepsChanging": {
+    "message": "सेव नहीं हुआ (फ़ाइल लगातार बदल रही है)"
+  },
+  "edgeOpenPanel": {
+    "message": "पैनल खोलें"
+  },
+  "errNameEmpty": {
+    "message": "नाम लिखें।"
+  },
+  "errNameLong": {
+    "message": "यह नाम बहुत लंबा है।"
+  },
+  "errHost": {
+    "message": "होस्ट ने जवाब नहीं दिया।"
+  },
+  "backupKept": {
+    "message": "Downloads/$2 में रखी गईं। रखी गई फ़ाइलें: $1।"
+  },
+  "filesLabel": {
+    "message": "फ़ाइलें"
+  },
+  "roomLabel": {
+    "message": "कक्ष"
+  },
+  "roomNotes": {
+    "message": "नोट्स"
+  },
+  "roomCanvas": {
+    "message": "कैनवस"
+  },
+  "search": {
+    "message": "खोजें"
+  },
+  "searchLabel": {
+    "message": "इस स्पेस में खोजें"
+  },
+  "noteLabel": {
+    "message": "नोट"
+  },
+  "cvNotShown": {
+    "message": "$1 (यहाँ नहीं दिखाया गया)"
+  },
+  "cvDrawFail": {
+    "message": "यह कैनवस बनाया नहीं जा सका ($1)।"
+  },
+  "cvDrawFail2": {
+    "message": "डिस्क पर कुछ नहीं बदला। इसे Cursor में खोलें या कोई दूसरा कैनवस चुनें।"
+  },
+  "statusDeleted": {
+    "message": "डिस्क पर हट गया"
+  },
+  "cv3dScene": {
+    "message": "इस कैनवस का 3D दृश्य। घुमाने के लिए खींचें, ज़ूम के लिए स्क्रॉल करें, खोलने के लिए कार्ड पर क्लिक करें।"
+  },
+  "cvModelScene": {
+    "message": "3D मॉडल। घुमाने के लिए खींचें; तीर वाली कुंजियाँ भी चलती हैं।"
+  },
+  "cvModelCompressed": {
+    "message": "यह संपीड़ित ज्यामिति या टेक्सचर (Draco, KTX2 या Meshopt) इस्तेमाल करता है, जिन्हें यह दृश्य पढ़ नहीं सकता"
+  },
+  "cvNoWebgl": {
+    "message": "इस ब्राउज़र में WebGL उपलब्ध नहीं है"
+  },
+  "megaTabs_one": {
+    "message": "$1 मेगा टैब"
+  },
+  "megaTabs_other": {
+    "message": "$1 मेगा टैब"
+  }
+}

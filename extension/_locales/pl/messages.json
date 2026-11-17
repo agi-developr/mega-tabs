@@ -1,0 +1,737 @@
+{
+  "lang": {
+    "message": "pl"
+  },
+  "extName": {
+    "message": "Mega Tabs: przestrzenie, notatki i kanwa"
+  },
+  "extDescription": {
+    "message": "Przełączaj zestawy kart według projektu bez przeładowania. Obok notatki i kanwa, które edytuje też Twoja AI. Za darmo."
+  },
+  "cmdOpen": {
+    "message": "Otwórz listę obszarów roboczych"
+  },
+  "cmdTogglePanel": {
+    "message": "Otwórz lub zamknij panel Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Następny obszar roboczy"
+  },
+  "cmdPrev": {
+    "message": "Poprzedni obszar roboczy"
+  },
+  "cmdLast": {
+    "message": "Ostatnio używany obszar roboczy"
+  },
+  "cmdSwitch": {
+    "message": "Przełącz na obszar roboczy"
+  },
+  "tabs_one": {
+    "message": "$1 karta"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 karta nieprzywrócona"
+  },
+  "edit": {
+    "message": "Edytuj"
+  },
+  "name": {
+    "message": "Nazwa"
+  },
+  "delete": {
+    "message": "Usuń"
+  },
+  "undo": {
+    "message": "Cofnij"
+  },
+  "stashHeading": {
+    "message": "Schowek obszaru roboczego"
+  },
+  "stashText": {
+    "message": "To ukryte okno należy do rozszerzenia Mega Tabs. Trzyma karty obszaru roboczego, który nie jest teraz wyświetlany. Nie zamykaj go; do przełączania używaj panelu."
+  },
+  "defaultWorkspace": {
+    "message": "Domyślny"
+  },
+  "recoveredWorkspace": {
+    "message": "Odzyskany"
+  },
+  "iconTitle": {
+    "message": "Obszar roboczy: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Obszar roboczy: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Pamięć rozszerzenia jest prawie pełna, wkrótce karty przestaną się zapisywać"
+  },
+  "menuLink": {
+    "message": "Otwórz link w obszarze roboczym"
+  },
+  "menuMove": {
+    "message": "Przenieś kartę do obszaru roboczego"
+  },
+  "menuMoveMarked": {
+    "message": "Przenieś zaznaczone karty ($1) do obszaru roboczego"
+  },
+  "menuGroup": {
+    "message": "Przenieś grupę do obszaru roboczego"
+  },
+  "exNotJson": {
+    "message": "Plik nie jest prawidłowym JSON-em."
+  },
+  "exNotExport": {
+    "message": "To nie jest plik eksportu Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "Plik nie zawiera obszarów roboczych."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Plik zawiera zbyt wiele obszarów roboczych."
+  },
+  "exTooManyTabs": {
+    "message": "Plik zawiera zbyt wiele kart."
+  },
+  "workspaceName": {
+    "message": "Obszar roboczy"
+  },
+  "workspaceN": {
+    "message": "Obszar roboczy $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Pobieranie przerwane ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Rozszerzenie nie odpowiedziało"
+  },
+  "generalSpace": {
+    "message": "Ogólne"
+  },
+  "spaces": {
+    "message": "Przestrzenie"
+  },
+  "setUp": {
+    "message": "Skonfiguruj"
+  },
+  "filesOffLead": {
+    "message": "Pliki są wyłączone:"
+  },
+  "retryBtn": {
+    "message": "Spróbuj ponownie"
+  },
+  "switchToMega": {
+    "message": "Przełącz na: $1"
+  },
+  "closeMegaAsk": {
+    "message": "Kliknij jeszcze raz, aby zamknąć ten mega tab i jego karty"
+  },
+  "closeMegaAskLabel": {
+    "message": "Zamknij „$1” i jego karty: kliknij jeszcze raz"
+  },
+  "closeMega": {
+    "message": "Zamknij mega tab"
+  },
+  "closeMegaLabel": {
+    "message": "Zamknij mega tab „$1”"
+  },
+  "closeQuestion": {
+    "message": "zamknąć?"
+  },
+  "spaceName": {
+    "message": "Nazwa przestrzeni"
+  },
+  "showSpace": {
+    "message": "Pokaż „$1” (dwukrotne kliknięcie zmienia nazwę)"
+  },
+  "newSpaceName": {
+    "message": "Nazwa nowej przestrzeni"
+  },
+  "newSpaceItem": {
+    "message": "Nowa przestrzeń…"
+  },
+  "allSpaces": {
+    "message": "Wszystkie przestrzenie"
+  },
+  "switchSpace": {
+    "message": "Zmień przestrzeń"
+  },
+  "board": {
+    "message": "Tablica"
+  },
+  "boardOpen": {
+    "message": "Otwórz tablicę: pliki .md przestrzeni „$1”"
+  },
+  "settingsPage": {
+    "message": "Ustawienia"
+  },
+  "settingsOpen": {
+    "message": "Ustawienia: pojawianie się przy krawędzi, kopia zapasowa, eksport"
+  },
+  "newMegaName": {
+    "message": "Nazwa nowego mega taba"
+  },
+  "noMegas": {
+    "message": "Nie ma jeszcze mega tabów."
+  },
+  "newMega": {
+    "message": "+ Nowy mega tab"
+  },
+  "noSpaces": {
+    "message": "Nie ma jeszcze przestrzeni."
+  },
+  "newSpace": {
+    "message": "+ Nowa przestrzeń"
+  },
+  "openWindows": {
+    "message": "Otwarte okna"
+  },
+  "emptyWindow": {
+    "message": "Puste okno"
+  },
+  "undoClose": {
+    "message": "Cofnij zamknięcie"
+  },
+  "intro": {
+    "message": "Mega tab to zestaw kart, na który przełączasz się naraz. Kliknij któryś, aby zacząć."
+  },
+  "homeSetupTitle": {
+    "message": "Włącz pliki"
+  },
+  "homeSetupText": {
+    "message": "Przestrzenie trzymają notatki jako zwykłe pliki w $1. Chrome potrzebuje małego pomocnika do ich odczytu i zapisu. W folderze Mega Tabs uruchom $2, a potem kliknij Spróbuj ponownie."
+  },
+  "retryChecking": {
+    "message": "Sprawdzanie…"
+  },
+  "retryOn": {
+    "message": "Pliki są włączone."
+  },
+  "retryOff": {
+    "message": "Nadal wyłączone. Uruchom polecenie i jeszcze raz kliknij Spróbuj ponownie."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Otwórz „$1” (dwukrotne kliknięcie zmienia nazwę, upuść obraz jako okładkę)"
+  },
+  "tileTypeName": {
+    "message": "wpisz nazwę i naciśnij Enter"
+  },
+  "newSpaceAria": {
+    "message": "Nowa przestrzeń"
+  },
+  "tileNewTitle": {
+    "message": "Wpisz nazwę, aby utworzyć przestrzeń"
+  },
+  "tileNewHint": {
+    "message": "wpisz nazwę"
+  },
+  "coverType": {
+    "message": "Użyj obrazu png, jpg lub webp."
+  },
+  "coverBig": {
+    "message": "Ten obraz ma ponad 700 KB. Użyj mniejszego."
+  },
+  "coverNotSaved": {
+    "message": "Pliki są wyłączone: okładka nie została zapisana."
+  },
+  "edgeHeading": {
+    "message": "Pojawianie się przy krawędzi"
+  },
+  "edgeToggle": {
+    "message": "Pokazuj mini przełącznik, gdy wskaźnik zatrzyma się przy krawędzi ekranu"
+  },
+  "edgeHelp": {
+    "message": "Przytrzymaj wskaźnik chwilę przy krawędzi, a mega taby pojawią się nad stroną. Chrome raz zapyta o zgodę na działanie na stronach internetowych. Przełącznik niczego z nich nie czyta i niczego nigdzie nie wysyła. Nie pojawia się na stronie nowej karty ani na stronach chrome://."
+  },
+  "side": {
+    "message": "Strona"
+  },
+  "sideLeft": {
+    "message": "Lewa"
+  },
+  "sideRight": {
+    "message": "Prawa"
+  },
+  "edgeOnLeft": {
+    "message": "Włączone. Zatrzymaj wskaźnik przy lewej krawędzi strony internetowej."
+  },
+  "edgeOnRight": {
+    "message": "Włączone. Zatrzymaj wskaźnik przy prawej krawędzi strony internetowej."
+  },
+  "edgeDenied": {
+    "message": "Pojawianie się przy krawędzi potrzebuje tej zgody na działanie na stronach internetowych. Zostaje wyłączone."
+  },
+  "backupHeading": {
+    "message": "Kopia zapasowa"
+  },
+  "backupLabel": {
+    "message": "Zapisuj plik kopii zapasowej"
+  },
+  "backupNever": {
+    "message": "Nigdy"
+  },
+  "backupDaily": {
+    "message": "Codziennie"
+  },
+  "backupWeekly": {
+    "message": "Co tydzień"
+  },
+  "backupLast": {
+    "message": "Ostatni zapis: $1."
+  },
+  "backupSaving": {
+    "message": "Zapisywanie…"
+  },
+  "dataHeading": {
+    "message": "Twoje mega taby"
+  },
+  "dataHelp": {
+    "message": "Jeden plik ze wszystkimi przestrzeniami, mega tabami i ich kartami. Import dodaje to, czego brakuje, i niczego nie zamyka."
+  },
+  "exportBtn": {
+    "message": "Eksportuj mega taby"
+  },
+  "importBtn": {
+    "message": "Importuj mega taby…"
+  },
+  "chooseFile": {
+    "message": "Wybierz wyeksportowany plik"
+  },
+  "exportSaved": {
+    "message": "Zapisano $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Nie udało się wyeksportować: $1"
+  },
+  "importAdded": {
+    "message": "Dodano $1 i $2 z pliku $3."
+  },
+  "importNothing": {
+    "message": "Nie ma czego dodać: wszystko z pliku $1 już tu jest."
+  },
+  "importFail": {
+    "message": "Nie udało się zaimportować: $1"
+  },
+  "boardTitle": {
+    "message": "Tablica · $1"
+  },
+  "folderLabel": {
+    "message": "Folder: $1"
+  },
+  "change": {
+    "message": "Zmień"
+  },
+  "chooseFolder": {
+    "message": "Wybierz folder"
+  },
+  "allowFolder": {
+    "message": "Zezwól na dostęp do „$1”"
+  },
+  "hostMissing": {
+    "message": "Host tablicy nie jest zainstalowany. W folderze Mega Tabs uruchom $1, a potem przeładuj tę stronę."
+  },
+  "hostForbidden": {
+    "message": "Chrome nie pozwala temu rozszerzeniu używać hosta tablicy. Uruchom $1 jeszcze raz, a potem przeładuj tę stronę."
+  },
+  "hostStopped": {
+    "message": "Host tablicy się zatrzymał. Próbuję ponownie."
+  },
+  "hostUnreachable": {
+    "message": "Tablica nie może połączyć się ze swoim hostem ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "nie można tu otworzyć ($1)"
+  },
+  "howItWorks": {
+    "message": "Jak to działa"
+  },
+  "rename": {
+    "message": "Zmień nazwę"
+  },
+  "renameLabel": {
+    "message": "Zmień nazwę „$1”"
+  },
+  "renameTitle": {
+    "message": "Zmień nazwę (lub kliknij nazwę dwukrotnie)"
+  },
+  "deleteLabel": {
+    "message": "Usuń „$1”"
+  },
+  "deleteTitle": {
+    "message": "Usuń (do kosza, z możliwością cofnięcia)"
+  },
+  "noMatches": {
+    "message": "Brak wyników."
+  },
+  "newNote": {
+    "message": "Nowa notatka"
+  },
+  "newCanvas": {
+    "message": "Nowa kanwa"
+  },
+  "newNoteTitle": {
+    "message": "Zacznij nową notatkę w tej przestrzeni"
+  },
+  "newCanvasTitle": {
+    "message": "Zacznij nową kanwę w tej przestrzeni"
+  },
+  "emptyNotesFolder": {
+    "message": "W tej przestrzeni nie ma jeszcze notatek. Kliknij Nowa notatka, aby zacząć."
+  },
+  "emptyNotesDir": {
+    "message": "W ~/Spaces/$1/ nie ma jeszcze plików .md. Kliknij Nowa notatka, aby zacząć."
+  },
+  "noFolderNotes": {
+    "message": "Nie ma jeszcze folderu dla „$1”. Utwórz ~/Spaces/$1/ i włóż do niego pliki .md."
+  },
+  "emptyCanvasFolder": {
+    "message": "W tej przestrzeni nie ma jeszcze kanw. Kliknij Nowa kanwa, aby zacząć."
+  },
+  "emptyCanvasDir": {
+    "message": "W ~/Spaces/$1/ nie ma jeszcze plików .canvas. Kliknij Nowa kanwa, aby zacząć."
+  },
+  "noFolderCanvas": {
+    "message": "Nie ma jeszcze folderu dla „$1”. Utwórz ~/Spaces/$1/ i włóż do niego pliki .canvas."
+  },
+  "done": {
+    "message": "Gotowe"
+  },
+  "backToReading": {
+    "message": "Wróć do czytania (Esc)"
+  },
+  "typeInFile": {
+    "message": "Pisz w tym pliku (E)"
+  },
+  "openCursor": {
+    "message": "Otwórz w Cursorze"
+  },
+  "openCursorTitle": {
+    "message": "Otwórz ten plik w Cursorze"
+  },
+  "typeHere": {
+    "message": "Pisz tutaj."
+  },
+  "textOf": {
+    "message": "Tekst „$1”"
+  },
+  "statusUnsaved": {
+    "message": "Niezapisane"
+  },
+  "statusSaving": {
+    "message": "Zapisywanie"
+  },
+  "statusSaved": {
+    "message": "Zapisano"
+  },
+  "mixedEol": {
+    "message": "Mieszane końce wierszy: edytuj ten plik w Cursorze."
+  },
+  "notSavedWhy": {
+    "message": "Nie zapisano ($1)"
+  },
+  "hostNotConnected": {
+    "message": "host niepołączony"
+  },
+  "notSaved": {
+    "message": "Nie zapisano: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Nie zapisano: ta notatka przekracza $1 KB, które mieszczą pliki. Skróć ją lub podziel na dwie."
+  },
+  "changedOnDisk": {
+    "message": "Zmieniono na dysku"
+  },
+  "conflictGone": {
+    "message": "Usunięto na dysku:"
+  },
+  "conflictTooLarge": {
+    "message": "Zmieniono na dysku i jest teraz za duże, by je tu pokazać:"
+  },
+  "conflictNotText": {
+    "message": "Zmieniono na dysku i to już nie jest tekst:"
+  },
+  "conflictChanged": {
+    "message": "Zmieniono na dysku:"
+  },
+  "loadTheirs": {
+    "message": "Wczytaj ich wersję"
+  },
+  "keepMine": {
+    "message": "Zachowaj moją"
+  },
+  "dropIt": {
+    "message": "Odrzuć"
+  },
+  "seeTheirs": {
+    "message": "Zobacz ich wersję"
+  },
+  "removedFromFolder": {
+    "message": "Plik „$1” usunięto z folderu."
+  },
+  "cannotOpenNote": {
+    "message": "Tego pliku nie można tu otworzyć ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Tego pliku nie można tu otworzyć ($1). Cursor może."
+  },
+  "cannotOpenCanvas": {
+    "message": "Tej kanwy nie można tu otworzyć ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Tej kanwy nie można tu otworzyć ($1). Cursor może."
+  },
+  "waitingStorage": {
+    "message": "Czekam na magazyn tablicy."
+  },
+  "couldNotRead": {
+    "message": "Nie udało się odczytać „$1” ($2)."
+  },
+  "couldNotOpen": {
+    "message": "Nie udało się otworzyć „$1” ($2)."
+  },
+  "noteName": {
+    "message": "Nazwa notatki"
+  },
+  "canvasName": {
+    "message": "Nazwa kanwy"
+  },
+  "nameTaken": {
+    "message": "Ta nazwa jest zajęta."
+  },
+  "nameBad": {
+    "message": "Tej nazwy nie można użyć."
+  },
+  "notCreated": {
+    "message": "Nie utworzono ($1)."
+  },
+  "renameNewName": {
+    "message": "Nowa nazwa dla „$1”"
+  },
+  "resolveFirst": {
+    "message": "Najpierw rozwiąż zmianę na dysku."
+  },
+  "notSavedYetRename": {
+    "message": "Jeszcze nie zapisano; spróbuj za chwilę."
+  },
+  "fileGone": {
+    "message": "Tego pliku już nie ma."
+  },
+  "notRenamed": {
+    "message": "Nie zmieniono nazwy ($1)."
+  },
+  "deletedToast": {
+    "message": "Usunięto „$1”"
+  },
+  "resolveFirstDelete": {
+    "message": "Najpierw rozwiąż zmianę na dysku, potem usuń."
+  },
+  "notSavedYetDelete": {
+    "message": "Jeszcze nie zapisano, więc nie usunięto. Spróbuj za chwilę."
+  },
+  "notDeleted": {
+    "message": "Nie usunięto: $1"
+  },
+  "notRestored": {
+    "message": "Nie przywrócono: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D nie mogło się tu uruchomić ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "nie załadowało się"
+  },
+  "cvSelect": {
+    "message": "Zaznacz i przesuwaj (V)"
+  },
+  "cvCard": {
+    "message": "Dodaj kartę tekstową (T)"
+  },
+  "cvPen": {
+    "message": "Pióro (P)"
+  },
+  "cvEraser": {
+    "message": "Gumka (E)"
+  },
+  "cvTools": {
+    "message": "Narzędzia kanwy"
+  },
+  "cvUndo": {
+    "message": "Cofnij (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Ponów (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Ponów"
+  },
+  "cvDelete": {
+    "message": "Usuń zaznaczenie (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Usuń zaznaczenie"
+  },
+  "cvView": {
+    "message": "Widok"
+  },
+  "cv2d": {
+    "message": "Kanwa, płaska"
+  },
+  "cv3d": {
+    "message": "Ta sama kanwa w 3D (tylko do odczytu)"
+  },
+  "cvDeleted": {
+    "message": "Usunięto na dysku. Tej kanwy nie ma już w folderze."
+  },
+  "cvEmptyCard": {
+    "message": "Pusta karta"
+  },
+  "cvWriteHere": {
+    "message": "Pisz tutaj"
+  },
+  "cvCardText": {
+    "message": "Tekst karty"
+  },
+  "cvOpenNotes": {
+    "message": "Otwórz w Notatkach"
+  },
+  "cvOpenCanvas": {
+    "message": "Otwórz tę kanwę"
+  },
+  "cvModelGone": {
+    "message": "Tego modelu nie ma w folderze."
+  },
+  "cvModelBig": {
+    "message": "Ten model ma ponad 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Tego modelu nie można wyświetlić ($1)."
+  },
+  "cvUnknownError": {
+    "message": "nieznany błąd"
+  },
+  "cvLoadingModel": {
+    "message": "Wczytywanie modelu"
+  },
+  "cvLink": {
+    "message": "Link"
+  },
+  "cvGroup": {
+    "message": "Grupa"
+  },
+  "cvNodeNote": {
+    "message": "Notatka $1"
+  },
+  "cvNodeLink": {
+    "message": "Link $1"
+  },
+  "cvNodeGroup": {
+    "message": "Grupa $1"
+  },
+  "cvNodeType": {
+    "message": "Karta typu $1"
+  },
+  "sInvalid": {
+    "message": "Ten plik nie jest JSON Canvas ($1). Napraw go w Cursorze; do tego czasu nic się tu nie zapisuje."
+  },
+  "sInvalidNow": {
+    "message": "Zmieniono na dysku i to już nie jest JSON Canvas ($1). Nic się tu nie zapisuje, dopóki znów nie będzie poprawny."
+  },
+  "sTooBig": {
+    "message": "Nie zapisano (ta kanwa ma $1; pliki mieszczą najwyżej $2. Usuń część kresek lub kart)"
+  },
+  "sBlockedBig": {
+    "message": "Nie zapisano (plik na dysku się zmienił i przekracza limit rozmiaru: Zachowaj moją albo zostaw)"
+  },
+  "sBlockedText": {
+    "message": "Nie zapisano (plik na dysku się zmienił i nie jest tekstem: Zachowaj moją albo zostaw)"
+  },
+  "sKeepsChanging": {
+    "message": "Nie zapisano (plik ciągle się zmienia)"
+  },
+  "edgeOpenPanel": {
+    "message": "Otwórz panel"
+  },
+  "errNameEmpty": {
+    "message": "Wpisz nazwę."
+  },
+  "errNameLong": {
+    "message": "Ta nazwa jest zbyt długa."
+  },
+  "errHost": {
+    "message": "Host nie odpowiedział."
+  },
+  "backupKept": {
+    "message": "Zapisane w Downloads/$2. Przechowywane pliki: $1."
+  },
+  "filesLabel": {
+    "message": "Pliki"
+  },
+  "roomLabel": {
+    "message": "Pokój"
+  },
+  "roomNotes": {
+    "message": "Notatki"
+  },
+  "roomCanvas": {
+    "message": "Kanwa"
+  },
+  "search": {
+    "message": "Szukaj"
+  },
+  "searchLabel": {
+    "message": "Szukaj w tej przestrzeni"
+  },
+  "noteLabel": {
+    "message": "Notatka"
+  },
+  "cvNotShown": {
+    "message": "$1 (nie pokazano tutaj)"
+  },
+  "cvDrawFail": {
+    "message": "Nie udało się narysować tej kanwy ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Na dysku nic nie zmieniono. Otwórz ją w Cursorze albo wybierz inną kanwę."
+  },
+  "statusDeleted": {
+    "message": "Usunięto na dysku"
+  },
+  "cv3dScene": {
+    "message": "Widok 3D tej kanwy. Przeciągnij, aby obracać, przewiń, aby powiększyć, kliknij kartę, aby ją otworzyć."
+  },
+  "cvModelScene": {
+    "message": "Model 3D. Przeciągnij, aby obrócić; strzałki też działają."
+  },
+  "cvModelCompressed": {
+    "message": "używa skompresowanej geometrii lub tekstur (Draco, KTX2 lub Meshopt), których ten widok nie odczyta"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL nie jest dostępny w tej przeglądarce"
+  },
+  "megaTabs_one": {
+    "message": "$1 mega tab"
+  },
+  "tabs_many": {
+    "message": "$1 kart"
+  },
+  "tabs_few": {
+    "message": "$1 karty"
+  },
+  "tabsNotRestored_many": {
+    "message": "$1 kart nieprzywróconych"
+  },
+  "tabsNotRestored_few": {
+    "message": "$1 karty nieprzywrócone"
+  },
+  "megaTabs_many": {
+    "message": "$1 mega tabów"
+  },
+  "megaTabs_few": {
+    "message": "$1 mega taby"
+  }
+}

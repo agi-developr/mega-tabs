@@ -1,0 +1,737 @@
+{
+  "lang": {
+    "message": "lt"
+  },
+  "extName": {
+    "message": "Mega Tabs: erdvės, užrašai ir drobė"
+  },
+  "extDescription": {
+    "message": "Keiskite kortelių rinkinį pagal projektą be įkėlimo iš naujo. Šalia užrašai ir drobė, kurią redaguoja ir jūsų AI. Nemokama."
+  },
+  "cmdOpen": {
+    "message": "Atidaryti darbo sričių sąrašą"
+  },
+  "cmdTogglePanel": {
+    "message": "Atidaryti arba uždaryti Mega Tabs skydelį"
+  },
+  "cmdNext": {
+    "message": "Kita darbo sritis"
+  },
+  "cmdPrev": {
+    "message": "Ankstesnė darbo sritis"
+  },
+  "cmdLast": {
+    "message": "Paskutinė naudota darbo sritis"
+  },
+  "cmdSwitch": {
+    "message": "Perjungti į darbo sritį"
+  },
+  "tabs_one": {
+    "message": "$1 kortelė"
+  },
+  "tabs_other": {
+    "message": "$1 kortelių"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 kortelė neatkurta"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 kortelių neatkurta"
+  },
+  "edit": {
+    "message": "Redaguoti"
+  },
+  "name": {
+    "message": "Pavadinimas"
+  },
+  "delete": {
+    "message": "Ištrinti"
+  },
+  "undo": {
+    "message": "Atšaukti"
+  },
+  "stashHeading": {
+    "message": "Darbo sričių saugykla"
+  },
+  "stashText": {
+    "message": "Šis paslėptas langas priklauso plėtiniui Mega Tabs. Jame laikomos šiuo metu nerodomos darbo srities kortelės. Neuždarykite jo; sritis keiskite skydelyje."
+  },
+  "defaultWorkspace": {
+    "message": "Numatytoji"
+  },
+  "recoveredWorkspace": {
+    "message": "Atkurta"
+  },
+  "iconTitle": {
+    "message": "Darbo sritis: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Darbo sritis: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Plėtinio saugykla beveik pilna; netrukus kortelių nebus galima išsaugoti"
+  },
+  "menuLink": {
+    "message": "Atidaryti nuorodą darbo srityje"
+  },
+  "menuMove": {
+    "message": "Perkelti kortelę į darbo sritį"
+  },
+  "menuMoveMarked": {
+    "message": "Perkelti pasirinktas $1 korteles į darbo sritį"
+  },
+  "menuGroup": {
+    "message": "Perkelti grupę į darbo sritį"
+  },
+  "exNotJson": {
+    "message": "Failas nėra tinkamas JSON."
+  },
+  "exNotExport": {
+    "message": "Tai ne Helium Workspaces eksporto failas."
+  },
+  "exNoWorkspaces": {
+    "message": "Faile nėra darbo sričių."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Faile per daug darbo sričių."
+  },
+  "exTooManyTabs": {
+    "message": "Faile per daug kortelių."
+  },
+  "workspaceName": {
+    "message": "Darbo sritis"
+  },
+  "workspaceN": {
+    "message": "Darbo sritis $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Atsisiuntimas nutrūko ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Plėtinys neatsako"
+  },
+  "generalSpace": {
+    "message": "Bendra"
+  },
+  "spaces": {
+    "message": "Erdvės"
+  },
+  "setUp": {
+    "message": "Nustatyti"
+  },
+  "filesOffLead": {
+    "message": "Failai išjungti:"
+  },
+  "retryBtn": {
+    "message": "Bandyti dar kartą"
+  },
+  "switchToMega": {
+    "message": "Perjungti į $1"
+  },
+  "closeMegaAsk": {
+    "message": "Spustelėkite dar kartą, kad uždarytumėte šią megakortelę ir jos korteles"
+  },
+  "closeMegaAskLabel": {
+    "message": "Uždaryti $1 ir jos korteles: spustelėkite dar kartą"
+  },
+  "closeMega": {
+    "message": "Uždaryti megakortelę"
+  },
+  "closeMegaLabel": {
+    "message": "Uždaryti megakortelę $1"
+  },
+  "closeQuestion": {
+    "message": "uždaryti?"
+  },
+  "spaceName": {
+    "message": "Erdvės pavadinimas"
+  },
+  "showSpace": {
+    "message": "Rodyti $1 (dukart spustelėkite, kad pervadintumėte)"
+  },
+  "newSpaceName": {
+    "message": "Naujos erdvės pavadinimas"
+  },
+  "newSpaceItem": {
+    "message": "Nauja erdvė…"
+  },
+  "allSpaces": {
+    "message": "Visos erdvės"
+  },
+  "switchSpace": {
+    "message": "Keisti erdvę"
+  },
+  "board": {
+    "message": "Lenta"
+  },
+  "boardOpen": {
+    "message": "Atidaryti lentą: $1 .md failai"
+  },
+  "settingsPage": {
+    "message": "Nustatymai"
+  },
+  "settingsOpen": {
+    "message": "Nustatymai: rodymas krašte, atsarginė kopija, eksportas"
+  },
+  "newMegaName": {
+    "message": "Naujos megakortelės pavadinimas"
+  },
+  "noMegas": {
+    "message": "Megakortelių dar nėra."
+  },
+  "newMega": {
+    "message": "+ Nauja megakortelė"
+  },
+  "noSpaces": {
+    "message": "Erdvių dar nėra."
+  },
+  "newSpace": {
+    "message": "+ Nauja erdvė"
+  },
+  "openWindows": {
+    "message": "Atidaryti langai"
+  },
+  "emptyWindow": {
+    "message": "Tuščias langas"
+  },
+  "undoClose": {
+    "message": "Atšaukti uždarymą"
+  },
+  "intro": {
+    "message": "Megakortelė yra kortelių rinkinys, į kurį persijungiate vienu žingsniu. Norėdami pradėti, spustelėkite vieną."
+  },
+  "homeSetupTitle": {
+    "message": "Įjungti failus"
+  },
+  "homeSetupText": {
+    "message": "Erdvės užrašus saugo kaip paprastus failus aplanke $1. „Chrome“ reikia mažo pagalbininko jiems skaityti ir rašyti. Aplanke Mega Tabs paleiskite $2 ir paspauskite Bandyti dar kartą."
+  },
+  "retryChecking": {
+    "message": "Tikrinama…"
+  },
+  "retryOn": {
+    "message": "Failai įjungti."
+  },
+  "retryOff": {
+    "message": "Dar išjungta. Paleiskite komandą ir dar kartą paspauskite Bandyti dar kartą."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Atidaryti $1 (dukart spustelėkite, kad pervadintumėte, nuleiskite paveikslėlį viršeliui)"
+  },
+  "tileTypeName": {
+    "message": "įveskite pavadinimą ir paspauskite Enter"
+  },
+  "newSpaceAria": {
+    "message": "Nauja erdvė"
+  },
+  "tileNewTitle": {
+    "message": "Įveskite pavadinimą, kad sukurtumėte naują erdvę"
+  },
+  "tileNewHint": {
+    "message": "įveskite pavadinimą"
+  },
+  "coverType": {
+    "message": "Naudokite png, jpg arba webp paveikslėlį."
+  },
+  "coverBig": {
+    "message": "Tas paveikslėlis didesnis nei 700 KB. Naudokite mažesnį."
+  },
+  "coverNotSaved": {
+    "message": "Failai išjungti: viršelis neišsaugotas."
+  },
+  "edgeHeading": {
+    "message": "Rodymas krašte"
+  },
+  "edgeToggle": {
+    "message": "Rodyti mažą jungiklį, kai žymeklis sustoja ekrano krašte"
+  },
+  "edgeHelp": {
+    "message": "Palaikykite žymeklį akimirką prie krašto ir jūsų megakortelės pasirodys virš puslapio. „Chrome“ vieną kartą paprašys leidimo veikti tinklalapiuose. Jungiklis iš jų nieko neskaito ir niekur nieko nesiunčia. Jis nerodomas naujos kortelės puslapyje ir chrome:// puslapiuose."
+  },
+  "side": {
+    "message": "Pusė"
+  },
+  "sideLeft": {
+    "message": "Kairė"
+  },
+  "sideRight": {
+    "message": "Dešinė"
+  },
+  "edgeOnLeft": {
+    "message": "Įjungta. Palaikykite žymeklį prie kairiojo tinklalapio krašto."
+  },
+  "edgeOnRight": {
+    "message": "Įjungta. Palaikykite žymeklį prie dešiniojo tinklalapio krašto."
+  },
+  "edgeDenied": {
+    "message": "Rodymui krašte reikia šio leidimo veikti tinklalapiuose. Jis lieka išjungtas."
+  },
+  "backupHeading": {
+    "message": "Atsarginė kopija"
+  },
+  "backupLabel": {
+    "message": "Išsaugoti atsarginės kopijos failą"
+  },
+  "backupNever": {
+    "message": "Niekada"
+  },
+  "backupDaily": {
+    "message": "Kasdien"
+  },
+  "backupWeekly": {
+    "message": "Kas savaitę"
+  },
+  "backupLast": {
+    "message": "Paskutinį kartą išsaugota: $1."
+  },
+  "backupSaving": {
+    "message": "Saugoma…"
+  },
+  "dataHeading": {
+    "message": "Jūsų megakortelės"
+  },
+  "dataHelp": {
+    "message": "Vienas failas su visomis erdvėmis, megakortelėmis ir jų kortelėmis. Importas prideda trūkstamą ir nieko neuždaro."
+  },
+  "exportBtn": {
+    "message": "Eksportuoti megakorteles"
+  },
+  "importBtn": {
+    "message": "Importuoti megakorteles…"
+  },
+  "chooseFile": {
+    "message": "Pasirinkite eksportuotą failą"
+  },
+  "exportSaved": {
+    "message": "Išsaugota $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Eksportuoti nepavyko: $1"
+  },
+  "importAdded": {
+    "message": "Pridėta $1 ir $2 iš $3."
+  },
+  "importNothing": {
+    "message": "Nėra ką pridėti: viskas iš $1 jau yra."
+  },
+  "importFail": {
+    "message": "Importuoti nepavyko: $1"
+  },
+  "boardTitle": {
+    "message": "Lenta · $1"
+  },
+  "folderLabel": {
+    "message": "Aplankas: $1"
+  },
+  "change": {
+    "message": "Keisti"
+  },
+  "chooseFolder": {
+    "message": "Pasirinkti aplanką"
+  },
+  "allowFolder": {
+    "message": "Leisti prieigą prie „$1“"
+  },
+  "hostMissing": {
+    "message": "Lentos šeimininkas neįdiegtas. Aplanke Mega Tabs paleiskite $1, tada iš naujo įkelkite šį puslapį."
+  },
+  "hostForbidden": {
+    "message": "„Chrome“ neleidžia šiam plėtiniui naudoti lentos šeimininko. Dar kartą paleiskite $1, tada iš naujo įkelkite šį puslapį."
+  },
+  "hostStopped": {
+    "message": "Lentos šeimininkas sustojo. Bandoma iš naujo."
+  },
+  "hostUnreachable": {
+    "message": "Lenta nepasiekia savo šeimininko ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "čia neatsidaro ($1)"
+  },
+  "howItWorks": {
+    "message": "Kaip tai veikia"
+  },
+  "rename": {
+    "message": "Pervadinti"
+  },
+  "renameLabel": {
+    "message": "Pervadinti $1"
+  },
+  "renameTitle": {
+    "message": "Pervadinti (arba dukart spustelėti pavadinimą)"
+  },
+  "deleteLabel": {
+    "message": "Ištrinti $1"
+  },
+  "deleteTitle": {
+    "message": "Ištrinti (į šiukšlinę, galima atšaukti)"
+  },
+  "noMatches": {
+    "message": "Nieko nerasta."
+  },
+  "newNote": {
+    "message": "Naujas užrašas"
+  },
+  "newCanvas": {
+    "message": "Nauja drobė"
+  },
+  "newNoteTitle": {
+    "message": "Pradėti naują užrašą šioje erdvėje"
+  },
+  "newCanvasTitle": {
+    "message": "Pradėti naują drobę šioje erdvėje"
+  },
+  "emptyNotesFolder": {
+    "message": "Šioje erdvėje dar nėra užrašų. Norėdami pradėti, paspauskite Naujas užrašas."
+  },
+  "emptyNotesDir": {
+    "message": "Aplanke ~/Spaces/$1/ dar nėra .md failų. Norėdami pradėti, paspauskite Naujas užrašas."
+  },
+  "noFolderNotes": {
+    "message": "„$1“ dar neturi aplanko. Sukurkite ~/Spaces/$1/ ir įdėkite į jį .md failų."
+  },
+  "emptyCanvasFolder": {
+    "message": "Šioje erdvėje dar nėra drobių. Norėdami pradėti, paspauskite Nauja drobė."
+  },
+  "emptyCanvasDir": {
+    "message": "Aplanke ~/Spaces/$1/ dar nėra .canvas failų. Norėdami pradėti, paspauskite Nauja drobė."
+  },
+  "noFolderCanvas": {
+    "message": "„$1“ dar neturi aplanko. Sukurkite ~/Spaces/$1/ ir įdėkite į jį .canvas failų."
+  },
+  "done": {
+    "message": "Baigta"
+  },
+  "backToReading": {
+    "message": "Atgal į skaitymą (Esc)"
+  },
+  "typeInFile": {
+    "message": "Rašyti į šį failą (E)"
+  },
+  "openCursor": {
+    "message": "Atidaryti „Cursor“"
+  },
+  "openCursorTitle": {
+    "message": "Atidaryti šį failą „Cursor“"
+  },
+  "typeHere": {
+    "message": "Rašykite čia."
+  },
+  "textOf": {
+    "message": "$1 tekstas"
+  },
+  "statusUnsaved": {
+    "message": "Neišsaugota"
+  },
+  "statusSaving": {
+    "message": "Saugoma"
+  },
+  "statusSaved": {
+    "message": "Išsaugota"
+  },
+  "mixedEol": {
+    "message": "Mišrios eilučių pabaigos: redaguokite šį failą „Cursor“."
+  },
+  "notSavedWhy": {
+    "message": "Neišsaugota ($1)"
+  },
+  "hostNotConnected": {
+    "message": "šeimininkas neprijungtas"
+  },
+  "notSaved": {
+    "message": "Neišsaugota: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Neišsaugota: užrašas didesnis nei $1 KB, kiek telpa faile. Sutrumpinkite arba padalykite į du."
+  },
+  "changedOnDisk": {
+    "message": "Pakeista diske"
+  },
+  "conflictGone": {
+    "message": "Ištrinta diske:"
+  },
+  "conflictTooLarge": {
+    "message": "Pakeista diske ir dabar per didelė, kad būtų rodoma čia:"
+  },
+  "conflictNotText": {
+    "message": "Pakeista diske ir daugiau nebėra tekstas:"
+  },
+  "conflictChanged": {
+    "message": "Pakeista diske:"
+  },
+  "loadTheirs": {
+    "message": "Įkelti jų"
+  },
+  "keepMine": {
+    "message": "Palikti mano"
+  },
+  "dropIt": {
+    "message": "Atmesti"
+  },
+  "seeTheirs": {
+    "message": "Peržiūrėti jų"
+  },
+  "removedFromFolder": {
+    "message": "$1 pašalintas iš aplanko."
+  },
+  "cannotOpenNote": {
+    "message": "Šio failo čia atidaryti negalima ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Šio failo čia atidaryti negalima ($1). „Cursor“ gali."
+  },
+  "cannotOpenCanvas": {
+    "message": "Šios drobės čia atidaryti negalima ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Šios drobės čia atidaryti negalima ($1). „Cursor“ gali."
+  },
+  "waitingStorage": {
+    "message": "Laukiama lentos saugyklos."
+  },
+  "couldNotRead": {
+    "message": "Nepavyko perskaityti $1 ($2)."
+  },
+  "couldNotOpen": {
+    "message": "Nepavyko atidaryti $1 ($2)."
+  },
+  "noteName": {
+    "message": "Užrašo pavadinimas"
+  },
+  "canvasName": {
+    "message": "Drobės pavadinimas"
+  },
+  "nameTaken": {
+    "message": "Šis pavadinimas jau naudojamas."
+  },
+  "nameBad": {
+    "message": "Šio pavadinimo naudoti negalima."
+  },
+  "notCreated": {
+    "message": "Nesukurta ($1)."
+  },
+  "renameNewName": {
+    "message": "Naujas $1 pavadinimas"
+  },
+  "resolveFirst": {
+    "message": "Pirmiausia išspręskite pakeitimą diske."
+  },
+  "notSavedYetRename": {
+    "message": "Dar neišsaugota; po akimirkos bandykite dar kartą."
+  },
+  "fileGone": {
+    "message": "To failo nebėra."
+  },
+  "notRenamed": {
+    "message": "Nepervadinta ($1)."
+  },
+  "deletedToast": {
+    "message": "„$1“ ištrinta"
+  },
+  "resolveFirstDelete": {
+    "message": "Pirmiausia išspręskite pakeitimą diske, tada trinkite."
+  },
+  "notSavedYetDelete": {
+    "message": "Dar neišsaugota, todėl neištrinta. Po akimirkos bandykite dar kartą."
+  },
+  "notDeleted": {
+    "message": "Neištrinta: $1"
+  },
+  "notRestored": {
+    "message": "Neatkurta: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D čia nepavyko paleisti ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "neįkelta"
+  },
+  "cvSelect": {
+    "message": "Pasirinkti ir perkelti (V)"
+  },
+  "cvCard": {
+    "message": "Pridėti teksto kortelę (T)"
+  },
+  "cvPen": {
+    "message": "Rašiklis (P)"
+  },
+  "cvEraser": {
+    "message": "Trintukas (E)"
+  },
+  "cvTools": {
+    "message": "Drobės įrankiai"
+  },
+  "cvUndo": {
+    "message": "Atšaukti (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Kartoti (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Kartoti"
+  },
+  "cvDelete": {
+    "message": "Ištrinti pasirinkimą (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Ištrinti pasirinkimą"
+  },
+  "cvView": {
+    "message": "Rodinys"
+  },
+  "cv2d": {
+    "message": "Drobė, plokščia"
+  },
+  "cv3d": {
+    "message": "Ta pati drobė 3D (tik skaitymui)"
+  },
+  "cvDeleted": {
+    "message": "Ištrinta diske. Šios drobės aplanke nebėra."
+  },
+  "cvEmptyCard": {
+    "message": "Tuščia kortelė"
+  },
+  "cvWriteHere": {
+    "message": "Rašykite čia"
+  },
+  "cvCardText": {
+    "message": "Kortelės tekstas"
+  },
+  "cvOpenNotes": {
+    "message": "Atidaryti Užrašuose"
+  },
+  "cvOpenCanvas": {
+    "message": "Atidaryti šią drobę"
+  },
+  "cvModelGone": {
+    "message": "Šio modelio aplanke nėra."
+  },
+  "cvModelBig": {
+    "message": "Šis modelis didesnis nei 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Šio modelio rodyti negalima ($1)."
+  },
+  "cvUnknownError": {
+    "message": "nežinoma klaida"
+  },
+  "cvLoadingModel": {
+    "message": "Įkeliamas modelis"
+  },
+  "cvLink": {
+    "message": "Nuoroda"
+  },
+  "cvGroup": {
+    "message": "Grupė"
+  },
+  "cvNodeNote": {
+    "message": "Užrašas $1"
+  },
+  "cvNodeLink": {
+    "message": "Nuoroda $1"
+  },
+  "cvNodeGroup": {
+    "message": "Grupė $1"
+  },
+  "cvNodeType": {
+    "message": "$1 tipo kortelė"
+  },
+  "sInvalid": {
+    "message": "Šis failas nėra JSON Canvas ($1). Pataisykite jį „Cursor“; kol kas čia nieko neišsaugoma."
+  },
+  "sInvalidNow": {
+    "message": "Pakeista diske ir dabar tai nėra JSON Canvas ($1). Čia nieko neišsaugoma, kol vėl taps tinkamas."
+  },
+  "sTooBig": {
+    "message": "Neišsaugota (ši drobė yra $1; failai talpina ne daugiau kaip $2. Ištrinkite keletą linijų ar kortelių)"
+  },
+  "sBlockedBig": {
+    "message": "Neišsaugota (failas diske pasikeitė ir yra per didelis: Palikti mano, arba palikite kaip yra)"
+  },
+  "sBlockedText": {
+    "message": "Neišsaugota (failas diske pasikeitė ir nėra tekstas: Palikti mano, arba palikite kaip yra)"
+  },
+  "sKeepsChanging": {
+    "message": "Neišsaugota (failas nuolat keičiasi)"
+  },
+  "edgeOpenPanel": {
+    "message": "Atidaryti skydelį"
+  },
+  "errNameEmpty": {
+    "message": "Įveskite pavadinimą."
+  },
+  "errNameLong": {
+    "message": "Tas pavadinimas per ilgas."
+  },
+  "errHost": {
+    "message": "Šeimininkas neatsakė."
+  },
+  "backupKept": {
+    "message": "Išsaugota aplanke Downloads/$2. Išsaugota failų: $1."
+  },
+  "filesLabel": {
+    "message": "Failai"
+  },
+  "roomLabel": {
+    "message": "Kambarys"
+  },
+  "roomNotes": {
+    "message": "Užrašai"
+  },
+  "roomCanvas": {
+    "message": "Drobė"
+  },
+  "search": {
+    "message": "Ieškoti"
+  },
+  "searchLabel": {
+    "message": "Ieškoti šioje erdvėje"
+  },
+  "noteLabel": {
+    "message": "Užrašas"
+  },
+  "cvNotShown": {
+    "message": "$1 (čia nerodoma)"
+  },
+  "cvDrawFail": {
+    "message": "Šios drobės nepavyko nupiešti ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Diske niekas nepasikeitė. Atidarykite „Cursor“ arba pasirinkite kitą drobę."
+  },
+  "statusDeleted": {
+    "message": "Ištrinta diske"
+  },
+  "cv3dScene": {
+    "message": "Šios drobės 3D vaizdas. Vilkite, kad pasuktumėte, slinkite, kad keistumėte mastelį, spustelėkite kortelę, kad ją atidarytumėte."
+  },
+  "cvModelScene": {
+    "message": "3D modelis. Vilkite, kad pasuktumėte; veikia ir rodyklių klavišai."
+  },
+  "cvModelCompressed": {
+    "message": "naudoja suspaustą geometriją ar tekstūras (Draco, KTX2 ar Meshopt), kurių šis vaizdas nemoka skaityti"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL šioje naršyklėje neprieinamas"
+  },
+  "megaTabs_one": {
+    "message": "$1 megakortelė"
+  },
+  "megaTabs_other": {
+    "message": "$1 megakortelių"
+  },
+  "tabs_few": {
+    "message": "$1 kortelės"
+  },
+  "tabsNotRestored_few": {
+    "message": "$1 kortelės neatkurtos"
+  },
+  "megaTabs_few": {
+    "message": "$1 megakortelės"
+  }
+}

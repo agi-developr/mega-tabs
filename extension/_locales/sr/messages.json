@@ -1,0 +1,737 @@
+{
+  "lang": {
+    "message": "sr"
+  },
+  "extName": {
+    "message": "Mega Tabs: простори, белешке и платно"
+  },
+  "extDescription": {
+    "message": "Мењајте скуп картица по пројекту без поновног учитавања. Уз то белешке и платно које уређује и ваш AI. Приватно и бесплатно."
+  },
+  "cmdOpen": {
+    "message": "Отвори листу радних простора"
+  },
+  "cmdTogglePanel": {
+    "message": "Отвори или затвори панел Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Следећи радни простор"
+  },
+  "cmdPrev": {
+    "message": "Претходни радни простор"
+  },
+  "cmdLast": {
+    "message": "Последњи коришћени радни простор"
+  },
+  "cmdSwitch": {
+    "message": "Пређи на радни простор"
+  },
+  "tabs_one": {
+    "message": "$1 картица"
+  },
+  "tabs_other": {
+    "message": "$1 картица"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 картица није враћена"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 картица није враћено"
+  },
+  "edit": {
+    "message": "Измени"
+  },
+  "name": {
+    "message": "Назив"
+  },
+  "delete": {
+    "message": "Обриши"
+  },
+  "undo": {
+    "message": "Поништи"
+  },
+  "stashHeading": {
+    "message": "Складиште радних простора"
+  },
+  "stashText": {
+    "message": "Овај скривени прозор припада проширењу Mega Tabs. Држи картице радног простора који се тренутно не приказује. Немојте га затварати; мењајте просторе преко панела."
+  },
+  "defaultWorkspace": {
+    "message": "Подразумевано"
+  },
+  "recoveredWorkspace": {
+    "message": "Враћено"
+  },
+  "iconTitle": {
+    "message": "Радни простор: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Радни простор: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Складиште проширења је скоро пуно; ускоро се картице неће моћи чувати"
+  },
+  "menuLink": {
+    "message": "Отвори везу у радном простору"
+  },
+  "menuMove": {
+    "message": "Премести картицу у радни простор"
+  },
+  "menuMoveMarked": {
+    "message": "Премести $1 изабраних картица у радни простор"
+  },
+  "menuGroup": {
+    "message": "Премести групу у радни простор"
+  },
+  "exNotJson": {
+    "message": "Датотека није исправан JSON."
+  },
+  "exNotExport": {
+    "message": "Ово није извозна датотека програма Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "Датотека нема радних простора."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Датотека има превише радних простора."
+  },
+  "exTooManyTabs": {
+    "message": "Датотека има превише картица."
+  },
+  "workspaceName": {
+    "message": "Радни простор"
+  },
+  "workspaceN": {
+    "message": "Радни простор $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Преузимање је прекинуто ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Проширење не одговара"
+  },
+  "generalSpace": {
+    "message": "Опште"
+  },
+  "spaces": {
+    "message": "Простори"
+  },
+  "setUp": {
+    "message": "Подеси"
+  },
+  "filesOffLead": {
+    "message": "Датотеке су искључене:"
+  },
+  "retryBtn": {
+    "message": "Покушај поново"
+  },
+  "switchToMega": {
+    "message": "Пређи на $1"
+  },
+  "closeMegaAsk": {
+    "message": "Кликните поново да затворите ову мегакартицу и њене картице"
+  },
+  "closeMegaAskLabel": {
+    "message": "Затвори $1 и њене картице: кликните поново"
+  },
+  "closeMega": {
+    "message": "Затвори мегакартицу"
+  },
+  "closeMegaLabel": {
+    "message": "Затвори мегакартицу $1"
+  },
+  "closeQuestion": {
+    "message": "затворити?"
+  },
+  "spaceName": {
+    "message": "Назив простора"
+  },
+  "showSpace": {
+    "message": "Прикажи $1 (двоклик за преименовање)"
+  },
+  "newSpaceName": {
+    "message": "Назив новог простора"
+  },
+  "newSpaceItem": {
+    "message": "Нови простор…"
+  },
+  "allSpaces": {
+    "message": "Сви простори"
+  },
+  "switchSpace": {
+    "message": "Промени простор"
+  },
+  "board": {
+    "message": "Табла"
+  },
+  "boardOpen": {
+    "message": "Отвори таблу: .md датотеке простора $1"
+  },
+  "settingsPage": {
+    "message": "Подешавања"
+  },
+  "settingsOpen": {
+    "message": "Подешавања: приказ на ивици, резервна копија, извоз"
+  },
+  "newMegaName": {
+    "message": "Назив нове мегакартице"
+  },
+  "noMegas": {
+    "message": "Још нема мегакартица."
+  },
+  "newMega": {
+    "message": "+ Нова мегакартица"
+  },
+  "noSpaces": {
+    "message": "Још нема простора."
+  },
+  "newSpace": {
+    "message": "+ Нови простор"
+  },
+  "openWindows": {
+    "message": "Отворени прозори"
+  },
+  "emptyWindow": {
+    "message": "Празан прозор"
+  },
+  "undoClose": {
+    "message": "Поништи затварање"
+  },
+  "intro": {
+    "message": "Мегакартица је скуп картица на који прелазите одједном. Кликните једну да почнете."
+  },
+  "homeSetupTitle": {
+    "message": "Укључи датотеке"
+  },
+  "homeSetupText": {
+    "message": "Простори белешке чувају као обичне датотеке у $1. Chrome-у треба мали помоћник да их чита и пише. У фасцикли Mega Tabs покрените $2 и притисните Покушај поново."
+  },
+  "retryChecking": {
+    "message": "Провера…"
+  },
+  "retryOn": {
+    "message": "Датотеке су укључене."
+  },
+  "retryOff": {
+    "message": "Још искључено. Покрените команду и поново притисните Покушај поново."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Отвори $1 (двоклик за преименовање, спустите слику за насловну)"
+  },
+  "tileTypeName": {
+    "message": "унесите назив и притисните Enter"
+  },
+  "newSpaceAria": {
+    "message": "Нови простор"
+  },
+  "tileNewTitle": {
+    "message": "Унесите назив за нови простор"
+  },
+  "tileNewHint": {
+    "message": "унесите назив"
+  },
+  "coverType": {
+    "message": "Користите слику png, jpg или webp."
+  },
+  "coverBig": {
+    "message": "Та слика је већа од 700 KB. Користите мању."
+  },
+  "coverNotSaved": {
+    "message": "Датотеке су искључене: насловна није сачувана."
+  },
+  "edgeHeading": {
+    "message": "Приказ на ивици"
+  },
+  "edgeToggle": {
+    "message": "Прикажи мали мењач када показивач застане на ивици екрана"
+  },
+  "edgeHelp": {
+    "message": "Задржите показивач на ивици тренутак и ваше мегакартице се појаве изнад странице. Chrome једном тражи дозволу за рад на веб-страницама. Мењач са њих ништа не чита и никуда ништа не шаље. Не појављује се на страници нове картице ни на страницама chrome://."
+  },
+  "side": {
+    "message": "Страна"
+  },
+  "sideLeft": {
+    "message": "Лево"
+  },
+  "sideRight": {
+    "message": "Десно"
+  },
+  "edgeOnLeft": {
+    "message": "Укључено. Задржите показивач на левој ивици веб-странице."
+  },
+  "edgeOnRight": {
+    "message": "Укључено. Задржите показивач на десној ивици веб-странице."
+  },
+  "edgeDenied": {
+    "message": "Приказу на ивици треба ова дозвола за рад на веб-страницама. Остаје искључен."
+  },
+  "backupHeading": {
+    "message": "Резервна копија"
+  },
+  "backupLabel": {
+    "message": "Сачувај датотеку резервне копије"
+  },
+  "backupNever": {
+    "message": "Никад"
+  },
+  "backupDaily": {
+    "message": "Сваког дана"
+  },
+  "backupWeekly": {
+    "message": "Сваке недеље"
+  },
+  "backupLast": {
+    "message": "Последње чување: $1."
+  },
+  "backupSaving": {
+    "message": "Чување…"
+  },
+  "dataHeading": {
+    "message": "Ваше мегакартице"
+  },
+  "dataHelp": {
+    "message": "Једна датотека са свим просторима, мегакартицама и њиховим картицама. Увоз додаје оно што недостаје и ништа не затвара."
+  },
+  "exportBtn": {
+    "message": "Извези мегакартице"
+  },
+  "importBtn": {
+    "message": "Увези мегакартице…"
+  },
+  "chooseFile": {
+    "message": "Изаберите извезену датотеку"
+  },
+  "exportSaved": {
+    "message": "Сачувано $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Извоз није успео: $1"
+  },
+  "importAdded": {
+    "message": "Додато $1 и $2 из $3."
+  },
+  "importNothing": {
+    "message": "Нема шта да се дода: све из $1 већ постоји."
+  },
+  "importFail": {
+    "message": "Увоз није успео: $1"
+  },
+  "boardTitle": {
+    "message": "Табла · $1"
+  },
+  "folderLabel": {
+    "message": "Фасцикла: $1"
+  },
+  "change": {
+    "message": "Промени"
+  },
+  "chooseFolder": {
+    "message": "Изабери фасциклу"
+  },
+  "allowFolder": {
+    "message": "Дозволи приступ за „$1“"
+  },
+  "hostMissing": {
+    "message": "Домаћин табле није инсталиран. У фасцикли Mega Tabs покрените $1, а затим поново учитајте ову страницу."
+  },
+  "hostForbidden": {
+    "message": "Chrome не дозвољава овом проширењу употребу домаћина табле. Поново покрените $1, а затим поново учитајте ову страницу."
+  },
+  "hostStopped": {
+    "message": "Домаћин табле је стао. Покушавам поново."
+  },
+  "hostUnreachable": {
+    "message": "Табла не може да дође до свог домаћина ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "овде не може да се отвори ($1)"
+  },
+  "howItWorks": {
+    "message": "Како ради"
+  },
+  "rename": {
+    "message": "Преименуј"
+  },
+  "renameLabel": {
+    "message": "Преименуј $1"
+  },
+  "renameTitle": {
+    "message": "Преименуј (или двоклик на назив)"
+  },
+  "deleteLabel": {
+    "message": "Обриши $1"
+  },
+  "deleteTitle": {
+    "message": "Обриши (у смеће, може да се поништи)"
+  },
+  "noMatches": {
+    "message": "Нема резултата."
+  },
+  "newNote": {
+    "message": "Нова белешка"
+  },
+  "newCanvas": {
+    "message": "Ново платно"
+  },
+  "newNoteTitle": {
+    "message": "Започни нову белешку у овом простору"
+  },
+  "newCanvasTitle": {
+    "message": "Започни ново платно у овом простору"
+  },
+  "emptyNotesFolder": {
+    "message": "У овом простору још нема белешки. Притисните Нова белешка да почнете."
+  },
+  "emptyNotesDir": {
+    "message": "У ~/Spaces/$1/ још нема .md датотека. Притисните Нова белешка да почнете."
+  },
+  "noFolderNotes": {
+    "message": "За „$1“ још нема фасцикле. Направите ~/Spaces/$1/ и ставите у њу .md датотеке."
+  },
+  "emptyCanvasFolder": {
+    "message": "У овом простору још нема платна. Притисните Ново платно да почнете."
+  },
+  "emptyCanvasDir": {
+    "message": "У ~/Spaces/$1/ још нема .canvas датотека. Притисните Ново платно да почнете."
+  },
+  "noFolderCanvas": {
+    "message": "За „$1“ још нема фасцикле. Направите ~/Spaces/$1/ и ставите у њу .canvas датотеке."
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "backToReading": {
+    "message": "Назад на читање (Esc)"
+  },
+  "typeInFile": {
+    "message": "Пишите у ову датотеку (E)"
+  },
+  "openCursor": {
+    "message": "Отвори у Cursor-у"
+  },
+  "openCursorTitle": {
+    "message": "Отвори ову датотеку у Cursor-у"
+  },
+  "typeHere": {
+    "message": "Пишите овде."
+  },
+  "textOf": {
+    "message": "Текст за $1"
+  },
+  "statusUnsaved": {
+    "message": "Није сачувано"
+  },
+  "statusSaving": {
+    "message": "Чување"
+  },
+  "statusSaved": {
+    "message": "Сачувано"
+  },
+  "mixedEol": {
+    "message": "Помешани завршеци редова: уредите ову датотеку у Cursor-у."
+  },
+  "notSavedWhy": {
+    "message": "Није сачувано ($1)"
+  },
+  "hostNotConnected": {
+    "message": "домаћин није повезан"
+  },
+  "notSaved": {
+    "message": "Није сачувано: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Није сачувано: белешка је већа од $1 KB колико датотека може да прими. Скратите је или поделите на две."
+  },
+  "changedOnDisk": {
+    "message": "Промењено на диску"
+  },
+  "conflictGone": {
+    "message": "Обрисано на диску:"
+  },
+  "conflictTooLarge": {
+    "message": "Промењено на диску и сада превелико за приказ овде:"
+  },
+  "conflictNotText": {
+    "message": "Промењено на диску и више није текст:"
+  },
+  "conflictChanged": {
+    "message": "Промењено на диску:"
+  },
+  "loadTheirs": {
+    "message": "Учитај њихову"
+  },
+  "keepMine": {
+    "message": "Задржи моју"
+  },
+  "dropIt": {
+    "message": "Одбаци"
+  },
+  "seeTheirs": {
+    "message": "Погледај њихову"
+  },
+  "removedFromFolder": {
+    "message": "$1 је уклоњен из фасцикле."
+  },
+  "cannotOpenNote": {
+    "message": "Ова датотека не може овде да се отвори ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Ова датотека не може овде да се отвори ($1). Cursor може."
+  },
+  "cannotOpenCanvas": {
+    "message": "Ово платно не може овде да се отвори ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Ово платно не може овде да се отвори ($1). Cursor може."
+  },
+  "waitingStorage": {
+    "message": "Чекам складиште табле."
+  },
+  "couldNotRead": {
+    "message": "$1 није могуће прочитати ($2)."
+  },
+  "couldNotOpen": {
+    "message": "$1 није могуће отворити ($2)."
+  },
+  "noteName": {
+    "message": "Назив белешке"
+  },
+  "canvasName": {
+    "message": "Назив платна"
+  },
+  "nameTaken": {
+    "message": "Тај назив је већ заузет."
+  },
+  "nameBad": {
+    "message": "Тај назив не може да се користи."
+  },
+  "notCreated": {
+    "message": "Није направљено ($1)."
+  },
+  "renameNewName": {
+    "message": "Нови назив за $1"
+  },
+  "resolveFirst": {
+    "message": "Прво решите промену на диску."
+  },
+  "notSavedYetRename": {
+    "message": "Још није сачувано; покушајте поново за тренутак."
+  },
+  "fileGone": {
+    "message": "Те датотеке више нема."
+  },
+  "notRenamed": {
+    "message": "Није преименовано ($1)."
+  },
+  "deletedToast": {
+    "message": "„$1“ обрисано"
+  },
+  "resolveFirstDelete": {
+    "message": "Прво решите промену на диску, затим бришите."
+  },
+  "notSavedYetDelete": {
+    "message": "Још није сачувано, па није обрисано. Покушајте поново за тренутак."
+  },
+  "notDeleted": {
+    "message": "Није обрисано: $1"
+  },
+  "notRestored": {
+    "message": "Није враћено: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D овде није могао да се покрене ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "није учитано"
+  },
+  "cvSelect": {
+    "message": "Изабери и премести (V)"
+  },
+  "cvCard": {
+    "message": "Додај текстуалну картицу (T)"
+  },
+  "cvPen": {
+    "message": "Оловка (P)"
+  },
+  "cvEraser": {
+    "message": "Гумица (E)"
+  },
+  "cvTools": {
+    "message": "Алатке платна"
+  },
+  "cvUndo": {
+    "message": "Поништи (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Понови (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Понови"
+  },
+  "cvDelete": {
+    "message": "Обриши избор (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Обриши избор"
+  },
+  "cvView": {
+    "message": "Приказ"
+  },
+  "cv2d": {
+    "message": "Платно, равно"
+  },
+  "cv3d": {
+    "message": "Исто платно у 3D-у (само за читање)"
+  },
+  "cvDeleted": {
+    "message": "Обрисано на диску. Овог платна више нема у фасцикли."
+  },
+  "cvEmptyCard": {
+    "message": "Празна картица"
+  },
+  "cvWriteHere": {
+    "message": "Пишите овде"
+  },
+  "cvCardText": {
+    "message": "Текст картице"
+  },
+  "cvOpenNotes": {
+    "message": "Отвори у Белешкама"
+  },
+  "cvOpenCanvas": {
+    "message": "Отвори ово платно"
+  },
+  "cvModelGone": {
+    "message": "Овог модела нема у фасцикли."
+  },
+  "cvModelBig": {
+    "message": "Овај модел је већи од 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Овај модел не може да се прикаже ($1)."
+  },
+  "cvUnknownError": {
+    "message": "непозната грешка"
+  },
+  "cvLoadingModel": {
+    "message": "Учитавање модела"
+  },
+  "cvLink": {
+    "message": "Веза"
+  },
+  "cvGroup": {
+    "message": "Група"
+  },
+  "cvNodeNote": {
+    "message": "Белешка $1"
+  },
+  "cvNodeLink": {
+    "message": "Веза $1"
+  },
+  "cvNodeGroup": {
+    "message": "Група $1"
+  },
+  "cvNodeType": {
+    "message": "Картица врсте $1"
+  },
+  "sInvalid": {
+    "message": "Ова датотека није JSON Canvas ($1). Поправите је у Cursor-у; дотле се овде ништа не чува."
+  },
+  "sInvalidNow": {
+    "message": "Промењено на диску и сада није JSON Canvas ($1). Овде се ништа неће чувати док не постане поново исправно."
+  },
+  "sTooBig": {
+    "message": "Није сачувано (ово платно има $1; датотеке примају највише $2. Обришите неколико линија или картица)"
+  },
+  "sBlockedBig": {
+    "message": "Није сачувано (датотека на диску се променила и превелика је: Задржи моју, или оставите)"
+  },
+  "sBlockedText": {
+    "message": "Није сачувано (датотека на диску се променила и није текст: Задржи моју, или оставите)"
+  },
+  "sKeepsChanging": {
+    "message": "Није сачувано (датотека се стално мења)"
+  },
+  "edgeOpenPanel": {
+    "message": "Отвори панел"
+  },
+  "errNameEmpty": {
+    "message": "Унесите назив."
+  },
+  "errNameLong": {
+    "message": "Тај назив је предугачак."
+  },
+  "errHost": {
+    "message": "Домаћин није одговорио."
+  },
+  "backupKept": {
+    "message": "Сачувано у Downloads/$2. Сачуване датотеке: $1."
+  },
+  "filesLabel": {
+    "message": "Датотеке"
+  },
+  "roomLabel": {
+    "message": "Соба"
+  },
+  "roomNotes": {
+    "message": "Белешке"
+  },
+  "roomCanvas": {
+    "message": "Платно"
+  },
+  "search": {
+    "message": "Тражи"
+  },
+  "searchLabel": {
+    "message": "Тражи у овом простору"
+  },
+  "noteLabel": {
+    "message": "Белешка"
+  },
+  "cvNotShown": {
+    "message": "$1 (овде се не приказује)"
+  },
+  "cvDrawFail": {
+    "message": "Ово платно није могло да се нацрта ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "На диску се ништа није променило. Отворите у Cursor-у или изаберите друго платно."
+  },
+  "statusDeleted": {
+    "message": "Обрисано на диску"
+  },
+  "cv3dScene": {
+    "message": "3D приказ овог платна. Превуците за ротацију, скролујте за зумирање, кликните картицу да је отворите."
+  },
+  "cvModelScene": {
+    "message": "3D модел. Превуците за ротацију; раде и тастери са стрелицама."
+  },
+  "cvModelCompressed": {
+    "message": "користи компримовану геометрију или текстуре (Draco, KTX2 или Meshopt) које овај приказ не може да чита"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL није доступан у овом прегледачу"
+  },
+  "megaTabs_one": {
+    "message": "$1 мегакартица"
+  },
+  "megaTabs_other": {
+    "message": "$1 мегакартица"
+  },
+  "tabs_few": {
+    "message": "$1 картице"
+  },
+  "tabsNotRestored_few": {
+    "message": "$1 картице нису враћене"
+  },
+  "megaTabs_few": {
+    "message": "$1 мегакартице"
+  }
+}

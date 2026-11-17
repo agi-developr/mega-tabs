@@ -1,0 +1,752 @@
+'use strict';
+// Browserstart mit und ohne Sitzungswiederherstellung, verlorene Tabs und Ablagen,
+// Neuladen der Erweiterung und Neustart des Service Workers
+
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const { setup, check, ok, url, where, shows, tabIds, NEWTAB } = require('./harness');
+
+const SPEC = {
+  pinned: ['p1', 'p2'],
+  workspaces: {
+    A: ['a1', { url: 'a2', group: 'Mathe', color: 'blue' }, { url: 'a3', group: 'Mathe', color: 'blue' }, 'a4'],
+    // b0 ist beim Wechsel aktiv; die eingeklappte Gruppe bleibt so eingeklappt
+    B: ['b0', { url: 'b1', group: 'Lesen', color: 'red', collapsed: true }, { url: 'b2', group: 'Lesen', color: 'red', collapsed: true }, 'b3'],
+    C: ['c1', 'c2'],
+  },
+};
+const ALL = { ...SPEC.workspaces, pinned: SPEC.pinned };
+
+// Wechselt im ersten Hauptfenster durch alle Workspaces und prüft danach jeweils alles
+async function cycle(env, expected = ALL, names = ['B', 'C', 'A']) {
+  const main = env.b.mains()[0].id;
+  for (const name of names) {
+    await ok(env.w.request({ type: 'switch', windowId: main, wsId: env.ids[name] }));
+    assert.equal(shows(env, main), name);
+    check(env, expected);
+  }
+}
+
+test('Neustart mit Sitzungswiederherstellung: Fenster werden über ihre Tabs wiedererkannt', async () => {
+  const env = await setup(SPEC);
+  env.b.restart();
+  const w = env.b.startWorker('startup');
+  await w.settle();
+  assert.equal(env.b.mains().length, 1);
+  assert.equal(shows(env, env.b.mains()[0].id), 'A');
+  check(env, ALL);
+  const ids = tabIds(env);
+  await cycle(env);
+  assert.deepEqual(tabIds(env), ids, 'nach dem Neustart wurden Tabs neu angelegt');
+});
+
+test('Nach einem Browserstart lässt sich ein gelöschter Workspace nicht mehr zurückholen (#80)', async () => {
+  const env = await setup(SPEC);
+  await ok(env.w.request({ type: 'delete', wsId: env.ids.C }));
+  assert.ok(env.b.local.data.deleted);
+  env.b.restart();
+  const w = env.b.startWorker('startup');
+  await w.settle();
+  assert.equal(env.b.local.data.deleted, undefined);
+  assert.equal((await ok(w.request({ type: 'state', windowId: env.b.mains()[0].id }))).deleted, null);
+  delete env.ids.C;
+  const { C, ...rest } = ALL;
+  check(env, rest);
+});
+
+test('Neustart mit zwei Hauptfenstern ordnet jedes Fenster seinem Workspace zu', async () => {
+  const env = await setup(SPEC);
+  const { b, ids } = env;
+  const win2 = (await b.chrome.windows.create({ url: url('a1').replace('a1', 'x0'), focused: true })).id;
+  await env.w.settle();
+  await ok(env.w.request({ type: 'switch', windowId: win2, wsId: ids.C }));
+  await ok(env.w.request({ type: 'switch', windowId: env.win, wsId: ids.B }));
+  // x0 wanderte mit dem Wechsel von Fenster 2 in die Ablage von A
+  const expected = { ...ALL, A: [...SPEC.workspaces.A, 'x0'] };
+  check(env, expected);
+
+  b.restart();
+  const w = b.startWorker('startup');
+  await w.settle();
+  const mains = b.mains();
+  assert.equal(mains.length, 2);
+  assert.deepEqual(mains.map((x) => shows(env, x.id)).sort(), ['B', 'C']);
+  assert.equal(where(env, 'b1').win.id, mains.find((x) => shows(env, x.id) === 'B').id);
+  check(env, expected);
+});
+
+test('Beim Wiederherstellen verlorene Tabs werden an ihrer Stelle und in ihrer Gruppe ergänzt', async () => {
+  const env = await setup(SPEC);
+  const lost = new Set([url('a3'), url('b1'), url('c2')]);
+  env.b.restart({ loseTab: (t) => lost.has(t.url) });
+  const w = env.b.startWorker('startup');
+  await w.settle();
+  check(env, ALL);
+  const main = env.b.windows.find((x) => x.id === env.b.mains()[0].id);
+  assert.deepEqual(
+    main.tabs.map((t) => t.url),
+    [url('p1'), url('p2'), url('a1'), url('a2'), url('a3'), url('a4')],
+    'verlorener Tab steht nicht an seiner alten Stelle',
+  );
+  await cycle(env);
+});
+
+// Sicherung aus n Einträgen, jede URL doppelt (p0 … p(n/2-1), danach noch einmal dieselben).
+// In den Fenstern fehlen die Einträge an den Stellen lost, der an redirect zeigt eine
+// umgeleitete Seite. Erwartet: alle übrigen Einträge an ihrem Tab, die übrigen -1.
+function alignCase(n, lost, redirect) {
+  const saved = Array.from({ length: n }, (_, i) => `https://p${i % (n / 2)}.test/`);
+  const live = [];
+  const expected = saved.map((u, i) => {
+    if (lost.includes(i)) return -1;
+    live.push(i === redirect ? 'https://umgeleitet.test/' : u);
+    return i === redirect ? -1 : live.length - 1;
+  });
+  return { saved, live, expected };
+}
+
+test('Abgleich nach dem Start: große Workspaces mit doppelten URLs und umgeleiteten Seiten (#194)', async () => {
+  const env = await setup(SPEC);
+  // 400: genaue Rechnung; 3000: zu groß dafür, gierig; 20000: höchstens so viele erlaubt der Import
+  for (const n of [400, 3000, 20000]) {
+    const { saved, live, expected } = alignCase(n, [5, n / 2, n - 10], n / 4);
+    const started = Date.now();
+    const match = env.w.eval(`align(${JSON.stringify(saved)}, ${JSON.stringify(live)})`);
+    assert.deepEqual([...match], expected, `${n} Tabs`);
+    assert.ok(Date.now() - started < 2000, `${n} Tabs: Abgleich dauert ${Date.now() - started} ms`);
+  }
+  assert.ok(env.w.eval('ALIGN_CELLS') < 3000 * 3000, '3000 Tabs würden genau gerechnet');
+  // Nur Anfang und Ende gleich, dazwischen nichts: kein Eintrag wird falsch zugeordnet
+  const saved = ['a', ...Array.from({ length: 3000 }, (_, i) => `x${i}`), 'z'];
+  const live = ['a', ...Array.from({ length: 2000 }, (_, i) => `y${i}`), 'z'];
+  const match = env.w.eval(`align(${JSON.stringify(saved)}, ${JSON.stringify(live)})`);
+  assert.deepEqual([...match], [0, ...new Array(3000).fill(-1), 2001]);
+});
+
+test('Beim Wiederherstellen verlorene Tabs eines sehr großen Workspace werden an ihrer Stelle ergänzt (#194)', async () => {
+  const many = Array.from({ length: 2100 }, (_, i) => `t${i}`);
+  const spec = { workspaces: { A: many, B: ['b1'] } };
+  const env = await setup(spec);
+  const lost = new Set([url('t3'), url('t1050'), url('t2090')]);
+  env.b.restart({ loseTab: (t) => lost.has(t.url) });
+  const w = env.b.startWorker('startup');
+  await w.settle();
+  check(env, spec.workspaces);
+  const main = env.b.windows.find((x) => x.id === env.b.mains()[0].id);
+  assert.deepEqual(main.tabs.map((t) => t.url), many.map(url), 'verlorener Tab steht nicht an seiner alten Stelle');
+});
+
+test('Sehr großer Workspace mit wiederkehrenden URLs und einer umgeleiteten Seite: genau die verlorenen Tabs kommen zurück (#194)', async () => {
+  const many = Array.from({ length: 2100 }, (_, i) => `t${i}`);
+  const A = ['a', 'd', 'c', 'b', 'a', 'd', 'c', 'b', 'a', ...many, 'd', 'c', 'b', 'a', 'd'];
+  const env = await setup({ workspaces: { A, B: ['b1'] } });
+  // Verloren: das zweite d und c und das dritte d. Das zweite a öffnet nach dem Start
+  // eine andere Seite (der Wiederherstellungsstand wird dafür direkt geändert).
+  const seen = new Map();
+  env.b.restart({
+    loseTab: (t) => {
+      const k = `${t.url}#${(seen.get(t.url) || 0) + 1}`;
+      seen.set(t.url, (seen.get(t.url) || 0) + 1);
+      if (k === `${url('a')}#2`) t.url = url('r');
+      return [`${url('d')}#2`, `${url('c')}#2`, `${url('d')}#3`].includes(k);
+    },
+  });
+  const w = env.b.startWorker('startup');
+  await w.settle();
+  // check() verlangt eindeutige URLs, daher hier nur Fehler und Tabs des Fensters
+  assert.deepEqual(env.b.errors, []);
+  // Wie bei main: Die ergänzten d und c kommen hinter das letzte zugeordnete b, also vor r
+  const expected = ['a', 'd', 'c', 'b', 'd', 'c', 'r', 'b', 'a', ...A.slice(9)];
+  const main = env.b.windows.find((x) => x.id === env.b.mains()[0].id);
+  assert.deepEqual(main.tabs.map((t) => t.url), expected.map(url));
+});
+
+test('Ein kurz nach dem Start geschlossener Tab kommt nicht aus der Sicherung zurück (#150)', async () => {
+  // auch, wenn der Tab vorher noch zu einer anderen Seite gewechselt ist, und wenn er
+  // genau dann geschlossen wird, während die Sicherung mit der neuen Seite gespeichert wird
+  for (const how of ['direkt', 'nach Seitenwechsel', 'beim Sichern']) {
+    const env = await setup(SPEC);
+    const { b } = env;
+    b.restart();
+    const w = b.startWorker('startup');
+    await w.settle();
+    check(env, ALL);
+    // Noch in den ersten 20 s: Tab schließen, danach Seitenwechsel, die den Snapshot hinauszögern
+    const a4 = where(env, 'a4').tab.id;
+    if (how !== 'direkt') {
+      await b.chrome.tabs.update(a4, { url: url('x0') });
+      await w.advance(100);
+    }
+    if (how === 'beim Sichern') {
+      // Der Snapshot nach dem Seitenwechsel ist nach 300 ms fällig
+      const f = b.during('storage.local.set', () => b.removeTab(a4), { when: (o) => !!o.backup });
+      await w.advance(200);
+      assert.equal(f.hits, 1);
+    } else {
+      await b.chrome.tabs.remove(a4);
+    }
+    const a1 = where(env, 'a1').tab.id;
+    for (const name of ['x1', 'x2', 'x3']) {
+      await w.advance(200);
+      await b.chrome.tabs.update(a1, { url: url(name) });
+    }
+    await w.settle();
+    for (const u of ['a4', 'x0']) assert.equal(b.tabsByUrl(url(u)).length, 0, `geschlossener Tab wurde wieder geöffnet (${how})`);
+    b.calls = b.calls.filter((c) => !(c.name === 'tabs.update' && ['x0', 'x1', 'x2', 'x3'].map(url).includes(c.args[1]?.url)));
+    check(env, { ...ALL, A: ['x3', SPEC.workspaces.A[1], SPEC.workspaces.A[2]] });
+  }
+});
+
+test('Ein verlorener Tab lässt sich nicht ergänzen: wird samt Gruppe aufbewahrt und erneut versucht', async () => {
+  const env = await setup(SPEC);
+  const { b } = env;
+  b.restart({ loseTab: (t) => t.url === url('b1') });
+  const f = b.fail('tabs.create', { when: (o) => o.url === url('b1') });
+  const w = b.startWorker('startup');
+  await w.settle();
+  assert.equal(f.hits, 1);
+  const failed = b.local.data.backup[env.ids.B].failed;
+  assert.deepEqual(failed?.map((e) => e.url), [url('b1')], 'Tab fehlt in der Sicherung');
+  assert.equal(failed[0].gt, 'Lesen', 'Gruppenangaben des fehlgeschlagenen Tabs fehlen');
+  assert.deepEqual(failed[0].gs, [url('b2')]);
+  const B = SPEC.workspaces.B.filter((e) => e.url !== 'b1');
+  check(env, { ...ALL, B });
+  // Weitere Abgleiche während des Starts legen den Eintrag nicht doppelt ab
+  const calls = b.calls.length;
+  await w.eval('reconcile()');
+  await w.settle();
+  assert.ok(b.calls.slice(calls).some((c) => c.name === 'storage.session.get'), 'kein weiterer Abgleich');
+  assert.equal(b.local.data.backup[env.ids.B].failed.length, 1);
+  const main = b.mains()[0].id;
+  const st = await ok(w.request({ type: 'state', windowId: main }));
+  assert.equal(st.workspaces.find((x) => x.id === env.ids.B).failed, 1);
+  // Erneuter Versuch legt den Tab in der Gruppe seines Geschwisters an
+  await ok(w.request({ type: 'retry', windowId: main, wsId: env.ids.B }));
+  assert.equal(b.local.data.backup[env.ids.B].failed?.length ?? 0, 0);
+  check(env, ALL);
+});
+
+test('Wird beim Ergänzen gerade ein Tab gezogen, werden Anlegen und Gruppieren wiederholt', async () => {
+  const env = await setup(SPEC);
+  const { b } = env;
+  b.restart({ loseTab: (t) => t.url === url('a3') });
+  const busy = 'Tabs cannot be edited right now (user may be dragging a tab).';
+  const create = b.fail('tabs.create', { when: (o) => o.url === url('a3'), times: 3, message: busy });
+  const group = b.fail('tabs.group', { times: 2, message: busy });
+  const w = b.startWorker('startup');
+  await w.settle();
+  assert.equal(create.hits, 3);
+  assert.equal(group.hits, 2);
+  assert.equal(b.local.data.backup[env.ids.A].failed, undefined);
+  check(env, ALL);
+});
+
+test('Start ohne Sitzungswiederherstellung baut den letzten Workspace aus der Sicherung auf', async () => {
+  for (const keepPinned of [false, true]) {
+    const env = await setup(SPEC);
+    await ok(env.w.request({ type: 'switch', windowId: env.win, wsId: env.ids.B }));
+    env.b.restart({ restore: 'none', keepPinned });
+    const w = env.b.startWorker('startup');
+    await w.settle();
+    assert.equal(env.b.windows.length, 1);
+    const main = env.b.windows[0];
+    assert.equal(shows(env, main.id), 'B');
+    // Die neue Tab-Seite des Starts wird durch die gesicherten Tabs ersetzt
+    assert.equal(main.tabs.filter((t) => t.url === NEWTAB).length, 0);
+    check(env, ALL);
+    // Die übrigen Workspaces kommen beim Wechseln aus der Sicherung, samt Gruppen
+    await cycle(env, ALL, ['A', 'C', 'B', 'A']);
+  }
+});
+
+// Endet der Service Worker beim Aufbau nach dem Start nach dem n-ten angelegten Tab (erst
+// die angehefteten, dann A samt Gruppe), setzt der nächste ihn fort. Kein Snapshot ersetzt
+// die Sicherung vorher durch den Teilstand, auch nicht nach einer weiteren Änderung (#185).
+test('Service Worker endet beim Aufbau nach dem Start: der nächste setzt ihn fort, die Sicherung bleibt ganz (#185)', async () => {
+  for (let n = 1; n <= 5; n++) {
+    const env = await setup(SPEC);
+    const { b } = env;
+    b.restart({ restore: 'none' });
+    b.fail('tabs.create', { hang: true, after: n });
+    b.startWorker('startup');
+    await env.w.settle();
+    assert.ok(b.session.data.pendingStart, `n = ${n}: Aufbau nicht vermerkt`);
+    const w = b.startWorker(null);
+    await w.settle();
+    const main = b.mains()[0];
+    assert.equal(shows(env, main.id), 'A', `n = ${n}`);
+    assert.equal(main.tabs.filter((t) => t.url === NEWTAB).length, 0, `n = ${n}: neue Tab-Seite blieb`);
+    await b.chrome.tabs.create({ windowId: main.id, url: url('x'), active: false });
+    await w.settle();
+    const expected = { ...ALL, A: [...SPEC.workspaces.A, 'x'] };
+    check(env, expected);
+    await cycle(env, expected);
+  }
+});
+
+test('Service Worker endet beim Aufbau nach dem Start nach einem gescheiterten Tab: Zuordnung bleibt richtig (#185)', async () => {
+  const env = await setup(SPEC);
+  const { b } = env;
+  b.restart({ restore: 'none' });
+  // a2 scheitert, a3 entsteht, der Worker endet vor a4
+  b.fail('tabs.create', { when: (o) => o.url === url('a2') });
+  b.fail('tabs.create', { hang: true, when: (o) => o.url === url('a4') });
+  b.startWorker('startup');
+  await env.w.settle();
+  const w = b.startWorker(null);
+  await w.settle();
+  const failed = b.local.data.backup[env.ids.A].failed;
+  assert.deepEqual(failed?.map((e) => e.url), [url('a2')], 'gescheiterter Tab fehlt in der Sicherung');
+  assert.deepEqual(failed[0].gs, [url('a3')]);
+  check(env, { ...ALL, A: SPEC.workspaces.A.filter((e) => e.url !== 'a2') });
+  await ok(w.request({ type: 'retry', windowId: b.mains()[0].id, wsId: env.ids.A }));
+  check(env, ALL);
+});
+
+// Beim Fortsetzen kann zusätzlich die Gruppe von a3 scheitern: a3 kommt dann dazu.
+test('Service Worker endet beim Aufbau nach dem Start gleich nach dem Aufbewahren gescheiterter Tabs: nichts doppelt, nichts verloren (#185)', async () => {
+  for (const groupFails of [false, true]) {
+    const env = await setup(SPEC);
+    const { b } = env;
+    b.restart({ restore: 'none' });
+    b.fail('tabs.create', { when: (o) => o.url === url('a2') });
+    // keepFailed schreibt backup und backupPinned, keepLater nur backup: Der Worker endet dazwischen
+    b.during('storage.local.set', () => b.worker.kill(), { when: (o) => 'backupPinned' in o && b.session.data.pendingStart });
+    b.startWorker('startup');
+    await env.w.settle();
+    assert.ok(b.session.data.pendingStart, 'Aufbau nicht vermerkt');
+    if (groupFails) b.fail('tabs.group');
+    const w = b.startWorker(null);
+    await w.settle();
+    const failed = groupFails ? ['a2', 'a3'] : ['a2'];
+    assert.deepEqual(b.local.data.backup[env.ids.A].failed?.map((e) => e.url), failed.map(url), `groupFails = ${groupFails}`);
+    check(env, { ...ALL, A: SPEC.workspaces.A.filter((e) => !failed.includes(e.url)) });
+    await ok(w.request({ type: 'retry', windowId: b.mains()[0].id, wsId: env.ids.A }));
+    check(env, ALL);
+  }
+});
+
+test('Nach einem Absturz und „Wiederherstellen“ stehen die aus der Sicherung aufgebauten Tabs nicht doppelt da', async () => {
+  const env = await setup(SPEC);
+  const { b } = env;
+  b.restart({ restore: 'crash' });
+  const w = b.startWorker('startup');
+  await w.settle();
+  check(env, ALL);
+  b.restoreAfterCrash();
+  await w.settle();
+  assert.equal(b.mains().length, 1);
+  assert.equal(shows(env, b.mains()[0].id), 'A');
+  check(env, ALL);
+  await cycle(env);
+});
+
+test('Nach einem Absturz: Wurde vor „Wiederherstellen“ gewechselt, bleiben die Kopien im ursprünglichen Workspace', async () => {
+  const env = await setup(SPEC);
+  const { b } = env;
+  b.restart({ restore: 'crash' });
+  const w = b.startWorker('startup');
+  await w.settle();
+  const main = b.mains()[0].id;
+  await ok(w.request({ type: 'switch', windowId: main, wsId: env.ids.B }));
+  b.restoreAfterCrash();
+  await w.settle();
+  // Chromiums Tabs von A landen im Fenster von B; A behält seine Tabs in der Ablage
+  const stashA = b.windows.find((x) => b.stashOf(x) === env.ids.A);
+  assert.deepEqual(
+    stashA.tabs.filter((t) => !t.url.startsWith(b.origin)).map((t) => t.url),
+    SPEC.workspaces.A.map((e) => url(e.url || e)),
+  );
+  assert.deepEqual(
+    b.local.data.backup[env.ids.A].stash.map((e) => e.url),
+    SPEC.workspaces.A.map((e) => url(e.url || e)),
+  );
+});
+
+test('Nach einem Start ohne Wiederherstellung: Wer eine Seite später selbst noch einmal öffnet, behält die Kopie aus der Sicherung', async () => {
+  const env = await setup({ workspaces: { A: ['a1'], B: ['b1'] } });
+  const { b } = env;
+  b.restart({ restore: 'crash' });
+  const w = b.startWorker('startup');
+  await w.settle();
+  const main = b.mains()[0].id;
+  const [copy] = b.tabsByUrl(url('a1'));
+  await w.advance(120000);
+  await b.chrome.tabs.create({ windowId: main, url: url('a1'), active: false });
+  await w.settle();
+  assert.ok(b.tabsByUrl(url('a1')).some((t) => t.id === copy.id), 'die Kopie aus der Sicherung wurde geschlossen');
+  assert.equal(b.tabsByUrl(url('a1')).length, 2);
+});
+
+test('Nach einem Start ohne Wiederherstellung: Wer in der ersten Minute eine Seite selbst noch einmal öffnet, behält die Kopie aus der Sicherung (#151)', async () => {
+  const env = await setup({ workspaces: { A: ['a1'], B: ['b1'] } });
+  const { b } = env;
+  b.restart({ restore: 'crash' });
+  const w = b.startWorker('startup');
+  await w.settle();
+  const main = b.mains()[0].id;
+  const [copy] = b.tabsByUrl(url('a1'));
+  await w.advance(10000);
+  await b.chrome.tabs.create({ windowId: main, url: url('a1'), active: false });
+  await w.settle();
+  assert.ok(b.tabsByUrl(url('a1')).some((t) => t.id === copy.id), 'die Kopie aus der Sicherung wurde geschlossen');
+  assert.equal(b.tabsByUrl(url('a1')).length, 2);
+  // Klickt man danach noch auf „Wiederherstellen“, schließen sich die Kopien trotzdem
+  await w.advance(10000);
+  b.restoreAfterCrash();
+  await w.settle();
+  assert.ok(!b.tabsByUrl(url('a1')).some((t) => t.id === copy.id), 'die Kopie aus der Sicherung blieb offen');
+  assert.equal(b.tabsByUrl(url('a1')).length, 2);
+});
+
+test('Nach einem Start ohne Wiederherstellung: Beim Wechseln selbst angelegte Tabs zählen nicht als Wiederherstellung (#151)', async () => {
+  const env = await setup({ workspaces: { A: ['a1'], B: ['b1'] } });
+  const { b } = env;
+  b.restart({ restore: 'crash' });
+  const w = b.startWorker('startup');
+  await w.settle();
+  const main = b.mains()[0].id;
+  const [copy] = b.tabsByUrl(url('a1'));
+  await w.advance(10000);
+  await ok(w.request({ type: 'switch', windowId: main, wsId: env.ids.B }));
+  await ok(w.request({ type: 'switch', windowId: main, wsId: env.ids.A }));
+  // Auch wenn der Service Worker inzwischen neu gestartet ist
+  await w.advance(30000);
+  const w2 = b.startWorker(null);
+  await w2.settle();
+  await b.chrome.tabs.create({ windowId: main, url: url('a1'), active: false });
+  await w2.settle();
+  assert.ok(b.tabsByUrl(url('a1')).some((t) => t.id === copy.id), 'die Kopie aus der Sicherung wurde geschlossen');
+  assert.equal(b.tabsByUrl(url('a1')).length, 2);
+});
+
+test('Start ohne Sitzungswiederherstellung: zusammen wiederhergestellte Ablage-Seiten und angeheftete Tabs verdrängen keine gesicherten Tabs', async () => {
+  const spec = {
+    pinned: ['pin'],
+    workspaces: {
+      S: ['a'],
+      U: [{ url: 'b', group: 'Uni', color: 'blue' }, { url: 'c', group: 'Uni', color: 'blue' }, 'd', 'e'],
+      D: [],
+    },
+  };
+  const all = { ...spec.workspaces, pinned: spec.pinned };
+  const env = await setup(spec);
+  const { b } = env;
+  // D bekommt eine neue Tab-Seite in seine Ablage, zuletzt zeigt das Fenster wieder S
+  await ok(env.w.request({ type: 'switch', windowId: env.win, wsId: env.ids.D }));
+  await ok(env.w.request({ type: 'switch', windowId: env.win, wsId: env.ids.S }));
+  // Ablagen von U und D sowie die leere Ablage von S
+  assert.equal(b.windows.filter((x) => b.stashOf(x)).length, 3);
+  // Wie im beobachteten Fall steht die Ablage-Seite von U im Startfenster vorn
+  const stashU = b.windows.find((x) => b.stashOf(x) === env.ids.U);
+  b.windows = [stashU, ...b.windows.filter((x) => x !== stashU)];
+  b.restart({ restore: 'none', keepPinned: true });
+  assert.equal(b.windows[0].tabs.filter((t) => t.url.startsWith(b.origin)).length, 3);
+  const w = b.startWorker('startup');
+  await w.settle();
+  assert.equal(b.windows.length, 1);
+  assert.equal(shows(env, b.windows[0].id), 'S');
+  check(env, all);
+  await cycle(env, all, ['U', 'D', 'S', 'U']);
+});
+
+// Zweites Hauptfenster mit C, in dem q1 und (wie in Fenster 1) p1 angeheftet sind
+async function secondWindowWithPinned(env) {
+  const { b } = env;
+  const win2 = (await b.chrome.windows.create({ focused: true })).id;
+  await env.w.settle();
+  await ok(env.w.request({ type: 'switch', windowId: win2, wsId: env.ids.C }));
+  for (const p of ['q1', 'p1']) {
+    const t = await b.chrome.tabs.create({ windowId: win2, url: url(p), active: false });
+    await b.chrome.tabs.update(t.id, { pinned: true });
+  }
+  await env.w.settle();
+  assert.deepEqual(b.local.data.backupPinned.map((e) => e.url), ['p1', 'p2', 'q1'].map(url));
+  return win2;
+}
+
+test('Angeheftete Tabs eines zweiten Hauptfensters kommen nach einem Start ohne Sitzungswiederherstellung zurück', async () => {
+  for (const keepPinned of [false, true]) {
+    const env = await setup(SPEC);
+    await secondWindowWithPinned(env);
+    env.b.restart({ restore: 'none', keepPinned });
+    const w = env.b.startWorker('startup');
+    await w.settle();
+    assert.equal(env.b.windows.length, 1);
+    assert.equal(shows(env, env.b.windows[0].id), 'C');
+    const all = { ...ALL, pinned: [...SPEC.pinned, 'q1'] };
+    check(env, all);
+    await cycle(env, all, ['A', 'B', 'C']);
+  }
+});
+
+test('Neuaufbau des Hauptfensters bringt die angehefteten Tabs aller Hauptfenster zurück', async () => {
+  const env = await setup(SPEC);
+  const { b } = env;
+  await secondWindowWithPinned(env);
+  // Chromium stellt nur die Ablagen wieder her, keins der beiden Hauptfenster
+  b.restart({ loseWindow: (x) => !x.tabs.some((t) => t.url.startsWith(b.origin)) });
+  const w = b.startWorker('startup');
+  await w.settle();
+  assert.equal(b.mains().length, 1);
+  const all = { ...ALL, pinned: [...SPEC.pinned, 'q1'] };
+  check(env, all);
+  await cycle(env, all);
+});
+
+test('Start, bei dem Chromium die Fenster erst nach dem Service Worker wiederherstellt', async () => {
+  const env = await setup(SPEC);
+  env.b.restart({ restore: 'later', loseTab: (t) => t.url === url('b2') });
+  const w = env.b.startWorker('startup');
+  await w.advance(500);
+  env.b.finishRestore();
+  await w.settle();
+  check(env, ALL);
+  await cycle(env);
+});
+
+test('Nicht wiederhergestellte Ablage: ihr Workspace kommt beim Wechseln aus der Sicherung', async () => {
+  const env = await setup(SPEC);
+  const stashB = env.b.windows.find((x) => env.b.stashOf(x) === env.ids.B);
+  env.b.restart({ loseWindow: (s) => s.tabs.some((t) => t.url.endsWith(`#${env.ids.B}`)) && stashB });
+  const w = env.b.startWorker('startup');
+  await w.settle();
+  assert.equal(env.b.windows.some((x) => env.b.stashOf(x) === env.ids.B), false);
+  check(env, ALL);
+  await cycle(env);
+});
+
+test('Neuladen der Erweiterung: geschlossene Ablage-Seiten werden ersetzt, kein Tab geht verloren', async () => {
+  const env = await setup({ ...SPEC, workspaces: { ...SPEC.workspaces, D: [] } });
+  const expected = { ...ALL, D: [] };
+  await ok(env.w.request({ type: 'switch', windowId: env.win, wsId: env.ids.C }));
+  const ids = tabIds(env);
+  const w = env.b.reloadExtension();
+  // Ohne Ablage-Seite sähen die Ablagen wie Hauptfenster aus
+  assert.equal(env.b.windows.filter((x) => env.b.stashOf(x)).length, 0);
+  await w.settle();
+  assert.equal(env.b.mains().length, 1);
+  assert.equal(shows(env, env.b.mains()[0].id), 'C');
+  check(env, expected);
+  assert.deepEqual(tabIds(env), ids, 'Tabs wurden neu angelegt');
+  await cycle(env, expected, ['D', 'A', 'B', 'C']);
+});
+
+test('Neuladen der Erweiterung: leere Ablage bleibt Ablage statt eines weiteren Hauptfensters', async () => {
+  const env = await setup(SPEC);
+  const { b, ids } = env;
+  await ok(env.w.request({ type: 'switch', windowId: env.win, wsId: ids.B }));
+  await ok(env.w.request({ type: 'switch', windowId: env.win, wsId: ids.A }));
+  const stashA = b.windows.find((x) => b.stashOf(x) === ids.A);
+  assert.equal(stashA.tabs.length, 1, 'Ablage von A enthält nur ihre Ablage-Seite');
+
+  const w = b.reloadExtension();
+  await w.settle();
+  assert.equal(b.mains().length, 1);
+  assert.equal(shows(env, env.win), 'A');
+  assert.equal(b.stashOf(stashA), ids.A);
+  assert.deepEqual(b.tabsByUrl(NEWTAB), [], 'neue Tab-Seite ist geblieben');
+  check(env, ALL);
+  await cycle(env);
+});
+
+test('Zweimaliges Neuladen hintereinander und danach ein Browserstart', async () => {
+  const env = await setup(SPEC);
+  let w = env.b.reloadExtension();
+  await w.advance(100); // der erste Abgleich ist noch nicht gelaufen
+  w = env.b.reloadExtension();
+  await w.settle();
+  check(env, ALL);
+  env.b.restart();
+  w = env.b.startWorker('startup');
+  await w.settle();
+  check(env, ALL);
+  await cycle(env);
+});
+
+test('Neustart nur des Service Workers ändert nichts', async () => {
+  const env = await setup(SPEC);
+  await ok(env.w.request({ type: 'switch', windowId: env.win, wsId: env.ids.B }));
+  const layout = JSON.stringify(env.b.windows);
+  const w = env.b.startWorker(null);
+  await w.settle();
+  assert.equal(JSON.stringify(env.b.windows), layout);
+  check(env, ALL);
+  await cycle(env);
+});
+
+test('Tastenkürzel direkt nach dem Neuladen nutzt den Workspace des Fensters, nicht den zuletzt benutzten', async () => {
+  const env = await setup(SPEC);
+  const { b, ids } = env;
+  const win2 = (await b.chrome.windows.create({ url: url('x0'), focused: true })).id;
+  await env.w.settle();
+  await ok(env.w.request({ type: 'switch', windowId: win2, wsId: ids.B }));
+  // Fenster 1 zeigt A, zuletzt benutzt wurde B
+  assert.equal(shows(env, env.win), 'A');
+  assert.equal(b.local.data.lastWs, ids.B);
+  const expected = { ...ALL, A: [...SPEC.workspaces.A, 'x0'] };
+  check(env, expected);
+
+  const w = b.reloadExtension();
+  b.fire('commands.onCommand', 'prev-workspace', { windowId: env.win }); // vor dem ersten Abgleich
+  await w.settle();
+  assert.equal(shows(env, env.win), 'C');
+  assert.equal(shows(env, win2), 'B');
+  assert.equal(where(env, 'a1').ws, ids.A);
+  check(env, expected);
+});
+
+test('Neuladen der Erweiterung: Fenster nur mit neuem Tab behält seinen Workspace', async () => {
+  const env = await setup({ ...SPEC, workspaces: { ...SPEC.workspaces, D: [] } });
+  const { b, ids } = env;
+  const expected = { ...ALL, D: [] };
+  const win2 = (await b.chrome.windows.create({ url: NEWTAB, focused: true })).id;
+  await env.w.settle();
+  await ok(env.w.request({ type: 'switch', windowId: win2, wsId: ids.D }));
+  await ok(env.w.request({ type: 'switch', windowId: env.win, wsId: ids.B }));
+  assert.equal(shows(env, win2), 'D');
+  assert.equal(b.local.data.lastWs, ids.B);
+
+  const w = b.reloadExtension();
+  await w.settle();
+  assert.equal(shows(env, env.win), 'B');
+  assert.equal(shows(env, win2), 'D');
+  check(env, expected);
+});
+
+test('Nach einem Browserstart werden gespeicherte Fenster-IDs nicht mehr genutzt', async () => {
+  const env = await setup(SPEC);
+  await env.w.settle();
+  assert.ok(env.b.local.data.backupWindows.every((e) => typeof e.id === 'number'));
+  env.b.restart();
+  const w = env.b.startWorker('startup');
+  await w.advance(0);
+  assert.ok(env.b.local.data.backupWindows.every((e) => e.id === undefined || env.b.mains().some((m) => m.id === e.id)));
+  await w.settle();
+  check(env, ALL);
+});
+
+test('Der Schlüssel entsteht bei der Installation und bleibt bei Neustart und Neuladen gleich', async () => {
+  const env = await setup(SPEC);
+  const { token } = env.b.local.data;
+  assert.match(token, /^[0-9a-f]{24}$/);
+  assert.equal(await ok(env.w.request({ type: 'token' })), token);
+  await env.b.reloadExtension().settle();
+  env.b.restart();
+  const w = env.b.startWorker('startup');
+  await w.settle();
+  assert.equal(await ok(w.request({ type: 'token' })), token);
+  assert.equal(env.b.local.data.token, token);
+});
+
+test('Ältere Installation ohne Schlüssel bekommt ihn beim nächsten Start des Service Workers', async () => {
+  const env = await setup(SPEC);
+  delete env.b.local.data.token;
+  const w = env.b.startWorker(null);
+  await w.settle();
+  const { token } = env.b.local.data;
+  assert.match(token, /^[0-9a-f]{24}$/);
+  assert.equal(await ok(w.request({ type: 'token' })), token);
+});
+
+// Start ohne Sitzungswiederherstellung: B und C liegen nur in der Sicherung. Danach ist die
+// Startphase vorbei, in der repairFromBackup fehlende Tabs ergänzt.
+async function onlyBackedUp() {
+  const env = await setup(SPEC);
+  env.b.restart({ restore: 'none', keepPinned: true });
+  env.b.startWorker('startup');
+  await env.w.settle();
+  check(env, ALL);
+  env.b.now += 60000;
+  return { env, main: env.b.mains()[0].id };
+}
+
+// Endet der Worker, während die Ablage eines Workspace ohne Fenster beim Verschieben eines
+// Tabs aus der Sicherung entsteht (nach b0 oder vor Titel und Farbe der Gruppe), ergänzt
+// der nächste den Rest. Kein Snapshot ersetzt die Sicherung vorher durch die halbe Ablage.
+test('Service Worker endet beim Aufbau der Ablage für einen verschobenen Tab: der Rest wird ergänzt (#149)', async () => {
+  for (const api of ['tabs.create', 'tabGroups.update']) {
+    const { env, main } = await onlyBackedUp();
+    const { b, ids } = env;
+    if (api === 'tabs.create') b.fail(api, { hang: true, after: 1, when: (o) => o.windowId !== main });
+    else b.fail(api, { hang: true });
+    env.w.send({ type: 'moveTab', tabId: where(env, 'a1').tab.id, wsId: ids.B });
+    await env.w.settle();
+    assert.equal(b.session.data.pendingStash?.ws, ids.B);
+    const w = b.startWorker(null);
+    await w.settle();
+    // Eine weitere Änderung löst einen Snapshot aus
+    await b.chrome.tabs.create({ windowId: main, url: url('a5'), active: false });
+    await w.settle();
+    // a1 bleibt in A: Das Verschieben war noch nicht ausgeführt
+    const expected = { ...ALL, A: [...SPEC.workspaces.A, 'a5'] };
+    check(env, expected);
+    await ok(w.request({ type: 'moveTab', tabId: where(env, 'a1').tab.id, wsId: ids.B }));
+    expected.A = expected.A.slice(1);
+    expected.B = [...SPEC.workspaces.B, 'a1'];
+    check(env, expected);
+    await cycle(env, expected);
+  }
+});
+
+test('Service Worker endet beim Aufbau der Ablage nach einem gescheiterten Tab: Zuordnung bleibt richtig (#149)', async () => {
+  const { env, main } = await onlyBackedUp();
+  const { b, ids } = env;
+  // b1 scheitert, b2 entsteht, der Worker endet vor b3
+  b.fail('tabs.create', { when: (o) => o.url === url('b1') });
+  b.fail('tabs.create', { hang: true, when: (o) => o.url === url('b3') });
+  env.w.send({ type: 'moveTab', tabId: where(env, 'a1').tab.id, wsId: ids.B });
+  await env.w.settle();
+  const w = b.startWorker(null);
+  await w.settle();
+  const failed = b.local.data.backup[ids.B].failed;
+  assert.deepEqual(failed?.map((e) => e.url), [url('b1')], 'gescheiterter Tab fehlt in der Sicherung');
+  assert.deepEqual(failed[0].gs, [url('b2')]);
+  check(env, { ...ALL, B: SPEC.workspaces.B.filter((e) => e.url !== 'b1') });
+  await ok(w.request({ type: 'retry', windowId: main, wsId: ids.B }));
+  check(env, ALL);
+});
+
+test('Service Worker endet, während eine nicht anlegbare Gruppe der Ablage wieder entfernt wird: Zuordnung bleibt richtig (#149)', async () => {
+  const { env, main } = await onlyBackedUp();
+  const { b, ids } = env;
+  // Die Gruppe aus b1 und b2 scheitert, b1 ist schon wieder entfernt, der Worker endet vor b2
+  b.fail('tabs.group');
+  b.fail('tabs.remove', { hang: true, after: 1 });
+  env.w.send({ type: 'moveTab', tabId: where(env, 'a1').tab.id, wsId: ids.B });
+  await env.w.settle();
+  const w = b.startWorker(null);
+  await w.settle();
+  const failed = b.local.data.backup[ids.B].failed;
+  assert.deepEqual(failed?.map((e) => e.url), [url('b1')], 'gescheiterter Tab fehlt in der Sicherung');
+  check(env, { ...ALL, B: SPEC.workspaces.B.filter((e) => e.url !== 'b1') });
+  await ok(w.request({ type: 'retry', windowId: main, wsId: ids.B }));
+  check(env, ALL);
+});
+
+test('Scheitert der Aufbau der Ablage für einen verschobenen Tab, wird danach wieder gesichert (#149)', async () => {
+  const { env, main } = await onlyBackedUp();
+  const { b, ids } = env;
+  // Der erste neue Tab löst noch einen Abgleich aus, der die Kopien vom Start vergisst
+  await b.chrome.tabs.create({ windowId: main, url: url('a5'), active: false });
+  await env.w.settle();
+  assert.equal(b.session.data.startCopies, undefined);
+  b.fail('windows.create');
+  const r = await env.w.request({ type: 'moveTab', tabId: where(env, 'a1').tab.id, wsId: ids.B });
+  assert.equal(r.ok, false);
+  await env.w.settle();
+  await b.chrome.tabs.create({ windowId: main, url: url('a6'), active: false });
+  await env.w.settle();
+  check(env, { ...ALL, A: [...SPEC.workspaces.A, 'a5', 'a6'] });
+});
+
+test('Link in einen Workspace öffnen, der nur in der Sicherung liegt: seine Ablage entsteht samt Link (#157)', async () => {
+  const { env } = await onlyBackedUp();
+  const { b, ids } = env;
+  b.fire('contextMenus.onClicked', { menuItemId: `link:${ids.B}`, linkUrl: url('l1') }, where(env, 'a1').tab);
+  await env.w.settle();
+  const expected = { ...ALL, B: [...SPEC.workspaces.B, 'l1'] };
+  check(env, expected);
+  assert.equal(where(env, 'l1').stash, true);
+  await cycle(env, expected);
+});

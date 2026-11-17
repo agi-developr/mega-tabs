@@ -1,0 +1,719 @@
+{
+  "lang": {
+    "message": "ms"
+  },
+  "extName": {
+    "message": "Mega Tabs: Ruang, Nota & Kanvas"
+  },
+  "extDescription": {
+    "message": "Tukar set tab mengikut projek tanpa muat semula. Ada nota dan kanvas yang AI anda boleh sunting. Peribadi dan percuma."
+  },
+  "cmdOpen": {
+    "message": "Buka senarai ruang kerja"
+  },
+  "cmdTogglePanel": {
+    "message": "Buka atau tutup panel Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Ruang kerja seterusnya"
+  },
+  "cmdPrev": {
+    "message": "Ruang kerja sebelumnya"
+  },
+  "cmdLast": {
+    "message": "Ruang kerja yang terakhir digunakan"
+  },
+  "cmdSwitch": {
+    "message": "Tukar ke ruang kerja"
+  },
+  "tabs_other": {
+    "message": "$1 tab"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 tab tidak dipulihkan"
+  },
+  "edit": {
+    "message": "Sunting"
+  },
+  "name": {
+    "message": "Nama"
+  },
+  "delete": {
+    "message": "Padam"
+  },
+  "undo": {
+    "message": "Buat asal"
+  },
+  "stashHeading": {
+    "message": "Simpanan ruang kerja"
+  },
+  "stashText": {
+    "message": "Tetingkap tersembunyi ini milik sambungan Mega Tabs. Ia menyimpan tab ruang kerja yang tidak dipaparkan sekarang. Jangan tutup; gunakan panel untuk menukar."
+  },
+  "defaultWorkspace": {
+    "message": "Lalai"
+  },
+  "recoveredWorkspace": {
+    "message": "Dipulihkan"
+  },
+  "iconTitle": {
+    "message": "Ruang kerja: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Ruang kerja: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Storan sambungan hampir penuh; tab tidak lama lagi tidak dapat disimpan"
+  },
+  "menuLink": {
+    "message": "Buka pautan dalam ruang kerja"
+  },
+  "menuMove": {
+    "message": "Alih tab ke ruang kerja"
+  },
+  "menuMoveMarked": {
+    "message": "Alih $1 tab terpilih ke ruang kerja"
+  },
+  "menuGroup": {
+    "message": "Alih kumpulan ke ruang kerja"
+  },
+  "exNotJson": {
+    "message": "Fail ini bukan JSON yang sah."
+  },
+  "exNotExport": {
+    "message": "Ini bukan fail eksport Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "Fail ini tiada ruang kerja."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Fail ini mempunyai terlalu banyak ruang kerja."
+  },
+  "exTooManyTabs": {
+    "message": "Fail ini mempunyai terlalu banyak tab."
+  },
+  "workspaceName": {
+    "message": "Ruang kerja"
+  },
+  "workspaceN": {
+    "message": "Ruang kerja $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Muat turun terganggu ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Sambungan tidak bertindak balas"
+  },
+  "generalSpace": {
+    "message": "Am"
+  },
+  "spaces": {
+    "message": "Ruang"
+  },
+  "setUp": {
+    "message": "Sediakan"
+  },
+  "filesOffLead": {
+    "message": "Fail dimatikan:"
+  },
+  "retryBtn": {
+    "message": "Cuba lagi"
+  },
+  "switchToMega": {
+    "message": "Tukar ke $1"
+  },
+  "closeMegaAsk": {
+    "message": "Klik sekali lagi untuk menutup mega tab ini dan tabnya"
+  },
+  "closeMegaAskLabel": {
+    "message": "Tutup $1 dan tabnya: klik sekali lagi"
+  },
+  "closeMega": {
+    "message": "Tutup mega tab"
+  },
+  "closeMegaLabel": {
+    "message": "Tutup mega tab $1"
+  },
+  "closeQuestion": {
+    "message": "tutup?"
+  },
+  "spaceName": {
+    "message": "Nama ruang"
+  },
+  "showSpace": {
+    "message": "Tunjuk $1 (klik dua kali untuk menamakan semula)"
+  },
+  "newSpaceName": {
+    "message": "Nama ruang baharu"
+  },
+  "newSpaceItem": {
+    "message": "Ruang baharu…"
+  },
+  "allSpaces": {
+    "message": "Semua ruang"
+  },
+  "switchSpace": {
+    "message": "Tukar ruang"
+  },
+  "board": {
+    "message": "Papan"
+  },
+  "boardOpen": {
+    "message": "Buka papan: fail .md bagi $1"
+  },
+  "settingsPage": {
+    "message": "Tetapan"
+  },
+  "settingsOpen": {
+    "message": "Tetapan: muncul di tepi, sandaran, eksport"
+  },
+  "newMegaName": {
+    "message": "Nama mega tab baharu"
+  },
+  "noMegas": {
+    "message": "Belum ada mega tab."
+  },
+  "newMega": {
+    "message": "+ Mega tab baharu"
+  },
+  "noSpaces": {
+    "message": "Belum ada ruang."
+  },
+  "newSpace": {
+    "message": "+ Ruang baharu"
+  },
+  "openWindows": {
+    "message": "Tetingkap terbuka"
+  },
+  "emptyWindow": {
+    "message": "Tetingkap kosong"
+  },
+  "undoClose": {
+    "message": "Buat asal penutupan"
+  },
+  "intro": {
+    "message": "Mega tab ialah set tab yang anda tukar sekali gus. Klik satu untuk bermula."
+  },
+  "homeSetupTitle": {
+    "message": "Hidupkan fail"
+  },
+  "homeSetupText": {
+    "message": "Ruang menyimpan nota sebagai fail biasa dalam $1. Chrome memerlukan pembantu kecil untuk membaca dan menulisnya. Dalam folder Mega Tabs, jalankan $2 kemudian tekan Cuba lagi."
+  },
+  "retryChecking": {
+    "message": "Menyemak…"
+  },
+  "retryOn": {
+    "message": "Fail dihidupkan."
+  },
+  "retryOff": {
+    "message": "Masih mati. Jalankan arahan itu dan tekan Cuba lagi sekali lagi."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Buka $1 (klik dua kali untuk menamakan semula, lepaskan imej untuk kulit)"
+  },
+  "tileTypeName": {
+    "message": "taip nama dan tekan Enter"
+  },
+  "newSpaceAria": {
+    "message": "Ruang baharu"
+  },
+  "tileNewTitle": {
+    "message": "Taip nama untuk mencipta ruang baharu"
+  },
+  "tileNewHint": {
+    "message": "taip nama"
+  },
+  "coverType": {
+    "message": "Gunakan imej png, jpg atau webp."
+  },
+  "coverBig": {
+    "message": "Imej itu lebih 700 KB. Guna yang lebih kecil."
+  },
+  "coverNotSaved": {
+    "message": "Fail dimatikan: kulit tidak disimpan."
+  },
+  "edgeHeading": {
+    "message": "Muncul di tepi"
+  },
+  "edgeToggle": {
+    "message": "Tunjuk penukar kecil apabila penuding berhenti di tepi skrin"
+  },
+  "edgeHelp": {
+    "message": "Biarkan penuding di tepi seketika dan mega tab anda muncul di atas halaman. Chrome meminta kebenaran sekali untuk berjalan pada halaman web. Penukar tidak membaca apa-apa daripadanya dan tidak menghantar ke mana-mana. Ia tidak muncul pada halaman tab baharu dan halaman chrome://."
+  },
+  "side": {
+    "message": "Sisi"
+  },
+  "sideLeft": {
+    "message": "Kiri"
+  },
+  "sideRight": {
+    "message": "Kanan"
+  },
+  "edgeOnLeft": {
+    "message": "Hidup. Biarkan penuding di tepi kiri halaman web."
+  },
+  "edgeOnRight": {
+    "message": "Hidup. Biarkan penuding di tepi kanan halaman web."
+  },
+  "edgeDenied": {
+    "message": "Muncul di tepi memerlukan kebenaran ini untuk berjalan pada halaman web. Ia kekal mati."
+  },
+  "backupHeading": {
+    "message": "Sandaran"
+  },
+  "backupLabel": {
+    "message": "Simpan fail sandaran"
+  },
+  "backupNever": {
+    "message": "Tidak pernah"
+  },
+  "backupDaily": {
+    "message": "Setiap hari"
+  },
+  "backupWeekly": {
+    "message": "Setiap minggu"
+  },
+  "backupLast": {
+    "message": "Terakhir disimpan: $1."
+  },
+  "backupSaving": {
+    "message": "Menyimpan…"
+  },
+  "dataHeading": {
+    "message": "Mega tab anda"
+  },
+  "dataHelp": {
+    "message": "Satu fail dengan semua ruang, mega tab dan tabnya. Import menambah yang tiada dan tidak menutup apa-apa."
+  },
+  "exportBtn": {
+    "message": "Eksport mega tab"
+  },
+  "importBtn": {
+    "message": "Import mega tab…"
+  },
+  "chooseFile": {
+    "message": "Pilih fail yang dieksport"
+  },
+  "exportSaved": {
+    "message": "$1 disimpan: $2, $3."
+  },
+  "exportFail": {
+    "message": "Tidak dapat eksport: $1"
+  },
+  "importAdded": {
+    "message": "$1 dan $2 ditambah daripada $3."
+  },
+  "importNothing": {
+    "message": "Tiada apa untuk ditambah: semua dalam $1 sudah ada."
+  },
+  "importFail": {
+    "message": "Tidak dapat import: $1"
+  },
+  "boardTitle": {
+    "message": "Papan · $1"
+  },
+  "folderLabel": {
+    "message": "Folder: $1"
+  },
+  "change": {
+    "message": "Tukar"
+  },
+  "chooseFolder": {
+    "message": "Pilih folder"
+  },
+  "allowFolder": {
+    "message": "Benarkan akses ke \"$1\""
+  },
+  "hostMissing": {
+    "message": "Hos papan belum dipasang. Dalam folder Mega Tabs, jalankan $1 kemudian muat semula halaman ini."
+  },
+  "hostForbidden": {
+    "message": "Chrome tidak membenarkan sambungan ini menggunakan hos papan. Jalankan $1 sekali lagi kemudian muat semula halaman ini."
+  },
+  "hostStopped": {
+    "message": "Hos papan berhenti. Mencuba semula."
+  },
+  "hostUnreachable": {
+    "message": "Papan tidak dapat menghubungi hosnya ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "tidak dapat dibuka di sini ($1)"
+  },
+  "howItWorks": {
+    "message": "Cara ia berfungsi"
+  },
+  "rename": {
+    "message": "Namakan semula"
+  },
+  "renameLabel": {
+    "message": "Namakan semula $1"
+  },
+  "renameTitle": {
+    "message": "Namakan semula (atau klik dua kali pada nama)"
+  },
+  "deleteLabel": {
+    "message": "Padam $1"
+  },
+  "deleteTitle": {
+    "message": "Padam (ke tong sampah, boleh dibuat asal)"
+  },
+  "noMatches": {
+    "message": "Tiada padanan."
+  },
+  "newNote": {
+    "message": "Nota baharu"
+  },
+  "newCanvas": {
+    "message": "Kanvas baharu"
+  },
+  "newNoteTitle": {
+    "message": "Mulakan nota baharu dalam ruang ini"
+  },
+  "newCanvasTitle": {
+    "message": "Mulakan kanvas baharu dalam ruang ini"
+  },
+  "emptyNotesFolder": {
+    "message": "Belum ada nota dalam ruang ini. Tekan Nota baharu untuk bermula."
+  },
+  "emptyNotesDir": {
+    "message": "Belum ada fail .md dalam ~/Spaces/$1/. Tekan Nota baharu untuk bermula."
+  },
+  "noFolderNotes": {
+    "message": "Belum ada folder untuk \"$1\". Cipta ~/Spaces/$1/ dan letakkan fail .md di dalamnya."
+  },
+  "emptyCanvasFolder": {
+    "message": "Belum ada kanvas dalam ruang ini. Tekan Kanvas baharu untuk bermula."
+  },
+  "emptyCanvasDir": {
+    "message": "Belum ada fail .canvas dalam ~/Spaces/$1/. Tekan Kanvas baharu untuk bermula."
+  },
+  "noFolderCanvas": {
+    "message": "Belum ada folder untuk \"$1\". Cipta ~/Spaces/$1/ dan letakkan fail .canvas di dalamnya."
+  },
+  "done": {
+    "message": "Siap"
+  },
+  "backToReading": {
+    "message": "Kembali membaca (Esc)"
+  },
+  "typeInFile": {
+    "message": "Taip dalam fail ini (E)"
+  },
+  "openCursor": {
+    "message": "Buka dalam Cursor"
+  },
+  "openCursorTitle": {
+    "message": "Buka fail ini dalam Cursor"
+  },
+  "typeHere": {
+    "message": "Taip di sini."
+  },
+  "textOf": {
+    "message": "Teks $1"
+  },
+  "statusUnsaved": {
+    "message": "Belum disimpan"
+  },
+  "statusSaving": {
+    "message": "Menyimpan"
+  },
+  "statusSaved": {
+    "message": "Disimpan"
+  },
+  "mixedEol": {
+    "message": "Pengakhir baris bercampur: sunting fail ini dalam Cursor."
+  },
+  "notSavedWhy": {
+    "message": "Belum disimpan ($1)"
+  },
+  "hostNotConnected": {
+    "message": "hos tidak bersambung"
+  },
+  "notSaved": {
+    "message": "Belum disimpan: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Belum disimpan: nota ini lebih besar daripada $1 KB yang boleh dimuatkan fail. Pendekkan atau pecahkan kepada dua."
+  },
+  "changedOnDisk": {
+    "message": "Berubah pada cakera"
+  },
+  "conflictGone": {
+    "message": "Dipadam pada cakera:"
+  },
+  "conflictTooLarge": {
+    "message": "Berubah pada cakera dan kini terlalu besar untuk dipaparkan di sini:"
+  },
+  "conflictNotText": {
+    "message": "Berubah pada cakera dan bukan lagi teks:"
+  },
+  "conflictChanged": {
+    "message": "Berubah pada cakera:"
+  },
+  "loadTheirs": {
+    "message": "Muatkan versi mereka"
+  },
+  "keepMine": {
+    "message": "Kekalkan versi saya"
+  },
+  "dropIt": {
+    "message": "Buang"
+  },
+  "seeTheirs": {
+    "message": "Lihat versi mereka"
+  },
+  "removedFromFolder": {
+    "message": "$1 dialih keluar daripada folder."
+  },
+  "cannotOpenNote": {
+    "message": "Fail ini tidak dapat dibuka di sini ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Fail ini tidak dapat dibuka di sini ($1). Cursor boleh."
+  },
+  "cannotOpenCanvas": {
+    "message": "Kanvas ini tidak dapat dibuka di sini ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Kanvas ini tidak dapat dibuka di sini ($1). Cursor boleh."
+  },
+  "waitingStorage": {
+    "message": "Menunggu storan papan."
+  },
+  "couldNotRead": {
+    "message": "$1 tidak dapat dibaca ($2)."
+  },
+  "couldNotOpen": {
+    "message": "$1 tidak dapat dibuka ($2)."
+  },
+  "noteName": {
+    "message": "Nama nota"
+  },
+  "canvasName": {
+    "message": "Nama kanvas"
+  },
+  "nameTaken": {
+    "message": "Nama itu sudah digunakan."
+  },
+  "nameBad": {
+    "message": "Nama itu tidak boleh digunakan."
+  },
+  "notCreated": {
+    "message": "Tidak dicipta ($1)."
+  },
+  "renameNewName": {
+    "message": "Nama baharu untuk $1"
+  },
+  "resolveFirst": {
+    "message": "Selesaikan perubahan pada cakera dahulu."
+  },
+  "notSavedYetRename": {
+    "message": "Belum disimpan; cuba lagi sebentar lagi."
+  },
+  "fileGone": {
+    "message": "Fail itu sudah tiada."
+  },
+  "notRenamed": {
+    "message": "Tidak dinamakan semula ($1)."
+  },
+  "deletedToast": {
+    "message": "\"$1\" dipadam"
+  },
+  "resolveFirstDelete": {
+    "message": "Selesaikan perubahan pada cakera dahulu, kemudian padam."
+  },
+  "notSavedYetDelete": {
+    "message": "Belum disimpan, jadi belum dipadam. Cuba lagi sebentar lagi."
+  },
+  "notDeleted": {
+    "message": "Tidak dipadam: $1"
+  },
+  "notRestored": {
+    "message": "Tidak dipulihkan: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D tidak dapat bermula di sini ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "tidak dimuatkan"
+  },
+  "cvSelect": {
+    "message": "Pilih dan alih (V)"
+  },
+  "cvCard": {
+    "message": "Tambah kad teks (T)"
+  },
+  "cvPen": {
+    "message": "Pen (P)"
+  },
+  "cvEraser": {
+    "message": "Pemadam (E)"
+  },
+  "cvTools": {
+    "message": "Alat kanvas"
+  },
+  "cvUndo": {
+    "message": "Buat asal (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Buat semula (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Buat semula"
+  },
+  "cvDelete": {
+    "message": "Padam pilihan (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Padam pilihan"
+  },
+  "cvView": {
+    "message": "Paparan"
+  },
+  "cv2d": {
+    "message": "Kanvas, rata"
+  },
+  "cv3d": {
+    "message": "Kanvas yang sama dalam 3D (baca sahaja)"
+  },
+  "cvDeleted": {
+    "message": "Dipadam pada cakera. Kanvas ini tiada lagi dalam folder."
+  },
+  "cvEmptyCard": {
+    "message": "Kad kosong"
+  },
+  "cvWriteHere": {
+    "message": "Tulis di sini"
+  },
+  "cvCardText": {
+    "message": "Teks kad"
+  },
+  "cvOpenNotes": {
+    "message": "Buka dalam Nota"
+  },
+  "cvOpenCanvas": {
+    "message": "Buka kanvas ini"
+  },
+  "cvModelGone": {
+    "message": "Model ini tiada dalam folder."
+  },
+  "cvModelBig": {
+    "message": "Model ini lebih besar daripada 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Model ini tidak dapat dipaparkan ($1)."
+  },
+  "cvUnknownError": {
+    "message": "ralat tidak diketahui"
+  },
+  "cvLoadingModel": {
+    "message": "Memuatkan model"
+  },
+  "cvLink": {
+    "message": "Pautan"
+  },
+  "cvGroup": {
+    "message": "Kumpulan"
+  },
+  "cvNodeNote": {
+    "message": "Nota $1"
+  },
+  "cvNodeLink": {
+    "message": "Pautan $1"
+  },
+  "cvNodeGroup": {
+    "message": "Kumpulan $1"
+  },
+  "cvNodeType": {
+    "message": "Kad jenis $1"
+  },
+  "sInvalid": {
+    "message": "Fail ini bukan JSON Canvas ($1). Betulkan dalam Cursor; sementara itu tiada apa disimpan di sini."
+  },
+  "sInvalidNow": {
+    "message": "Berubah pada cakera dan kini bukan JSON Canvas ($1). Tiada apa akan disimpan di sini sehingga ia sah semula."
+  },
+  "sTooBig": {
+    "message": "Belum disimpan (kanvas ini $1; fail memuatkan paling banyak $2. Padam beberapa garisan atau kad)"
+  },
+  "sBlockedBig": {
+    "message": "Belum disimpan (fail pada cakera berubah dan terlalu besar: Kekalkan versi saya, atau biarkan)"
+  },
+  "sBlockedText": {
+    "message": "Belum disimpan (fail pada cakera berubah dan bukan teks: Kekalkan versi saya, atau biarkan)"
+  },
+  "sKeepsChanging": {
+    "message": "Belum disimpan (fail terus berubah)"
+  },
+  "edgeOpenPanel": {
+    "message": "Buka panel"
+  },
+  "errNameEmpty": {
+    "message": "Taip nama."
+  },
+  "errNameLong": {
+    "message": "Nama itu terlalu panjang."
+  },
+  "errHost": {
+    "message": "Hos tidak menjawab."
+  },
+  "backupKept": {
+    "message": "Disimpan dalam Downloads/$2. Fail disimpan: $1."
+  },
+  "filesLabel": {
+    "message": "Fail"
+  },
+  "roomLabel": {
+    "message": "Bilik"
+  },
+  "roomNotes": {
+    "message": "Nota"
+  },
+  "roomCanvas": {
+    "message": "Kanvas"
+  },
+  "search": {
+    "message": "Cari"
+  },
+  "searchLabel": {
+    "message": "Cari dalam ruang ini"
+  },
+  "noteLabel": {
+    "message": "Nota"
+  },
+  "cvNotShown": {
+    "message": "$1 (tidak dipaparkan di sini)"
+  },
+  "cvDrawFail": {
+    "message": "Kanvas ini tidak dapat dilukis ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Tiada yang berubah pada cakera. Buka dalam Cursor atau pilih kanvas lain."
+  },
+  "statusDeleted": {
+    "message": "Dipadam pada cakera"
+  },
+  "cv3dScene": {
+    "message": "Paparan 3D kanvas ini. Seret untuk memutar, tatal untuk zum, klik kad untuk membukanya."
+  },
+  "cvModelScene": {
+    "message": "Model 3D. Seret untuk memutar; kekunci anak panah juga berfungsi."
+  },
+  "cvModelCompressed": {
+    "message": "menggunakan geometri atau tekstur termampat (Draco, KTX2 atau Meshopt) yang tidak dapat dibaca paparan ini"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL tiada dalam pelayar ini"
+  },
+  "megaTabs_other": {
+    "message": "$1 mega tab"
+  }
+}

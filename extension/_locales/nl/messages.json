@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "nl"
+  },
+  "extName": {
+    "message": "Mega Tabs: ruimtes, notities en canvas"
+  },
+  "extDescription": {
+    "message": "Wissel per project van tabbladenset zonder te herladen. Met notities en een canvas dat ook je AI kan bewerken. Privé en gratis."
+  },
+  "cmdOpen": {
+    "message": "Lijst met werkruimtes openen"
+  },
+  "cmdTogglePanel": {
+    "message": "Mega Tabs-paneel openen of sluiten"
+  },
+  "cmdNext": {
+    "message": "Volgende werkruimte"
+  },
+  "cmdPrev": {
+    "message": "Vorige werkruimte"
+  },
+  "cmdLast": {
+    "message": "Laatst gebruikte werkruimte"
+  },
+  "cmdSwitch": {
+    "message": "Naar werkruimte wisselen"
+  },
+  "tabs_one": {
+    "message": "$1 tabblad"
+  },
+  "tabs_other": {
+    "message": "$1 tabbladen"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 tabblad niet hersteld"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 tabbladen niet hersteld"
+  },
+  "edit": {
+    "message": "Bewerken"
+  },
+  "name": {
+    "message": "Naam"
+  },
+  "delete": {
+    "message": "Verwijderen"
+  },
+  "undo": {
+    "message": "Ongedaan maken"
+  },
+  "stashHeading": {
+    "message": "Werkruimteopslag"
+  },
+  "stashText": {
+    "message": "Dit verborgen venster hoort bij de extensie Mega Tabs. Het bevat de tabbladen van een werkruimte die nu niet wordt getoond. Sluit het niet; gebruik het paneel om te wisselen."
+  },
+  "defaultWorkspace": {
+    "message": "Standaard"
+  },
+  "recoveredWorkspace": {
+    "message": "Hersteld"
+  },
+  "iconTitle": {
+    "message": "Werkruimte: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Werkruimte: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Opslag van de extensie bijna vol; tabbladen worden binnenkort niet meer bewaard"
+  },
+  "menuLink": {
+    "message": "Link openen in werkruimte"
+  },
+  "menuMove": {
+    "message": "Tabblad naar werkruimte verplaatsen"
+  },
+  "menuMoveMarked": {
+    "message": "$1 geselecteerde tabbladen naar werkruimte verplaatsen"
+  },
+  "menuGroup": {
+    "message": "Groep naar werkruimte verplaatsen"
+  },
+  "exNotJson": {
+    "message": "Het bestand is geen geldige JSON."
+  },
+  "exNotExport": {
+    "message": "Dit is geen exportbestand van Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "Het bestand bevat geen werkruimtes."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Het bestand bevat te veel werkruimtes."
+  },
+  "exTooManyTabs": {
+    "message": "Het bestand bevat te veel tabbladen."
+  },
+  "workspaceName": {
+    "message": "Werkruimte"
+  },
+  "workspaceN": {
+    "message": "Werkruimte $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Download onderbroken ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Geen antwoord van de extensie"
+  },
+  "generalSpace": {
+    "message": "Algemeen"
+  },
+  "spaces": {
+    "message": "Ruimtes"
+  },
+  "setUp": {
+    "message": "Instellen"
+  },
+  "filesOffLead": {
+    "message": "Bestanden staan uit:"
+  },
+  "retryBtn": {
+    "message": "Opnieuw proberen"
+  },
+  "switchToMega": {
+    "message": "Wisselen naar $1"
+  },
+  "closeMegaAsk": {
+    "message": "Klik nogmaals om deze mega-tab en de tabbladen te sluiten"
+  },
+  "closeMegaAskLabel": {
+    "message": "$1 en de tabbladen sluiten: klik nogmaals"
+  },
+  "closeMega": {
+    "message": "Mega-tab sluiten"
+  },
+  "closeMegaLabel": {
+    "message": "Mega-tab $1 sluiten"
+  },
+  "closeQuestion": {
+    "message": "sluiten?"
+  },
+  "spaceName": {
+    "message": "Naam van de ruimte"
+  },
+  "showSpace": {
+    "message": "$1 tonen (dubbelklik om te hernoemen)"
+  },
+  "newSpaceName": {
+    "message": "Naam van de nieuwe ruimte"
+  },
+  "newSpaceItem": {
+    "message": "Nieuwe ruimte…"
+  },
+  "allSpaces": {
+    "message": "Alle ruimtes"
+  },
+  "switchSpace": {
+    "message": "Van ruimte wisselen"
+  },
+  "board": {
+    "message": "Bord"
+  },
+  "boardOpen": {
+    "message": "Het bord openen: de .md-bestanden van $1"
+  },
+  "settingsPage": {
+    "message": "Instellingen"
+  },
+  "settingsOpen": {
+    "message": "Instellingen: verschijnen bij de rand, back-up, exporteren"
+  },
+  "newMegaName": {
+    "message": "Naam van de nieuwe mega-tab"
+  },
+  "noMegas": {
+    "message": "Nog geen mega-tabs."
+  },
+  "newMega": {
+    "message": "+ Nieuwe mega-tab"
+  },
+  "noSpaces": {
+    "message": "Nog geen ruimtes."
+  },
+  "newSpace": {
+    "message": "+ Nieuwe ruimte"
+  },
+  "openWindows": {
+    "message": "Geopende vensters"
+  },
+  "emptyWindow": {
+    "message": "Leeg venster"
+  },
+  "undoClose": {
+    "message": "Sluiten ongedaan maken"
+  },
+  "intro": {
+    "message": "Een mega-tab is een set tabbladen waarnaar je in één keer wisselt. Klik op een mega-tab om te beginnen."
+  },
+  "homeSetupTitle": {
+    "message": "Bestanden aanzetten"
+  },
+  "homeSetupText": {
+    "message": "Ruimtes bewaren hun notities als gewone bestanden in $1. Chrome heeft een klein hulpprogramma nodig om ze te lezen en te schrijven. Voer in de map Mega Tabs $2 uit en klik op Opnieuw proberen."
+  },
+  "retryChecking": {
+    "message": "Controleren…"
+  },
+  "retryOn": {
+    "message": "Bestanden staan aan."
+  },
+  "retryOff": {
+    "message": "Nog uit. Voer de opdracht uit en klik nogmaals op Opnieuw proberen."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "$1 openen (dubbelklik om te hernoemen, sleep een afbeelding als omslag)"
+  },
+  "tileTypeName": {
+    "message": "typ een naam en druk op Enter"
+  },
+  "newSpaceAria": {
+    "message": "Nieuwe ruimte"
+  },
+  "tileNewTitle": {
+    "message": "Typ een naam om een nieuwe ruimte te maken"
+  },
+  "tileNewHint": {
+    "message": "typ een naam"
+  },
+  "coverType": {
+    "message": "Gebruik een png-, jpg- of webp-afbeelding."
+  },
+  "coverBig": {
+    "message": "Die afbeelding is groter dan 700 KB. Gebruik een kleinere."
+  },
+  "coverNotSaved": {
+    "message": "Bestanden staan uit: het omslag is niet bewaard."
+  },
+  "edgeHeading": {
+    "message": "Verschijnen bij de rand"
+  },
+  "edgeToggle": {
+    "message": "Toon een minischakelaar als de aanwijzer bij de schermrand blijft staan"
+  },
+  "edgeHelp": {
+    "message": "Houd de aanwijzer even stil bij de rand en je mega-tabs verschijnen over de pagina. Chrome vraagt één keer toestemming om op webpagina's te draaien. De schakelaar leest er niets van en stuurt nergens iets naartoe. Op de nieuwe-tabpagina en chrome://-pagina's verschijnt hij niet."
+  },
+  "side": {
+    "message": "Kant"
+  },
+  "sideLeft": {
+    "message": "Links"
+  },
+  "sideRight": {
+    "message": "Rechts"
+  },
+  "edgeOnLeft": {
+    "message": "Aan. Laat de aanwijzer rusten bij de linkerrand van een webpagina."
+  },
+  "edgeOnRight": {
+    "message": "Aan. Laat de aanwijzer rusten bij de rechterrand van een webpagina."
+  },
+  "edgeDenied": {
+    "message": "Verschijnen bij de rand heeft die toestemming nodig om op webpagina's te draaien. Het blijft uit."
+  },
+  "backupHeading": {
+    "message": "Back-up"
+  },
+  "backupLabel": {
+    "message": "Een back-upbestand bewaren"
+  },
+  "backupNever": {
+    "message": "Nooit"
+  },
+  "backupDaily": {
+    "message": "Elke dag"
+  },
+  "backupWeekly": {
+    "message": "Elke week"
+  },
+  "backupLast": {
+    "message": "Laatst bewaard: $1."
+  },
+  "backupSaving": {
+    "message": "Bewaren…"
+  },
+  "dataHeading": {
+    "message": "Je mega-tabs"
+  },
+  "dataHelp": {
+    "message": "Eén bestand met alle ruimtes, mega-tabs en hun tabbladen. Importeren voegt toe wat ontbreekt en sluit niets."
+  },
+  "exportBtn": {
+    "message": "Mega-tabs exporteren"
+  },
+  "importBtn": {
+    "message": "Mega-tabs importeren…"
+  },
+  "chooseFile": {
+    "message": "Kies een geëxporteerd bestand"
+  },
+  "exportSaved": {
+    "message": "$1 bewaard: $2, $3."
+  },
+  "exportFail": {
+    "message": "Exporteren is mislukt: $1"
+  },
+  "importAdded": {
+    "message": "$1 en $2 toegevoegd uit $3."
+  },
+  "importNothing": {
+    "message": "Niets toe te voegen: alles in $1 is er al."
+  },
+  "importFail": {
+    "message": "Importeren is mislukt: $1"
+  },
+  "boardTitle": {
+    "message": "Bord · $1"
+  },
+  "folderLabel": {
+    "message": "Map: $1"
+  },
+  "change": {
+    "message": "Wijzigen"
+  },
+  "chooseFolder": {
+    "message": "Een map kiezen"
+  },
+  "allowFolder": {
+    "message": "Toegang tot \"$1\" toestaan"
+  },
+  "hostMissing": {
+    "message": "De bordhost is niet geïnstalleerd. Voer in de map Mega Tabs $1 uit en laad deze pagina daarna opnieuw."
+  },
+  "hostForbidden": {
+    "message": "Chrome staat deze extensie niet toe de bordhost te gebruiken. Voer $1 opnieuw uit en laad deze pagina daarna opnieuw."
+  },
+  "hostStopped": {
+    "message": "De bordhost is gestopt. Er wordt opnieuw geprobeerd."
+  },
+  "hostUnreachable": {
+    "message": "Het bord kan zijn host niet bereiken ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "hier niet te openen ($1)"
+  },
+  "howItWorks": {
+    "message": "Hoe het werkt"
+  },
+  "rename": {
+    "message": "Hernoemen"
+  },
+  "renameLabel": {
+    "message": "$1 hernoemen"
+  },
+  "renameTitle": {
+    "message": "Hernoemen (of dubbelklik op de naam)"
+  },
+  "deleteLabel": {
+    "message": "$1 verwijderen"
+  },
+  "deleteTitle": {
+    "message": "Verwijderen (naar de prullenbak, met Ongedaan maken)"
+  },
+  "noMatches": {
+    "message": "Geen resultaten."
+  },
+  "newNote": {
+    "message": "Nieuwe notitie"
+  },
+  "newCanvas": {
+    "message": "Nieuw canvas"
+  },
+  "newNoteTitle": {
+    "message": "Een nieuwe notitie beginnen in deze ruimte"
+  },
+  "newCanvasTitle": {
+    "message": "Een nieuw canvas beginnen in deze ruimte"
+  },
+  "emptyNotesFolder": {
+    "message": "Nog geen notities in deze ruimte. Klik op Nieuwe notitie om er een te beginnen."
+  },
+  "emptyNotesDir": {
+    "message": "Nog geen .md-bestanden in ~/Spaces/$1/. Klik op Nieuwe notitie om er een te beginnen."
+  },
+  "noFolderNotes": {
+    "message": "Nog geen map voor \"$1\". Maak ~/Spaces/$1/ aan en zet er .md-bestanden in."
+  },
+  "emptyCanvasFolder": {
+    "message": "Nog geen canvassen in deze ruimte. Klik op Nieuw canvas om er een te beginnen."
+  },
+  "emptyCanvasDir": {
+    "message": "Nog geen .canvas-bestanden in ~/Spaces/$1/. Klik op Nieuw canvas om er een te beginnen."
+  },
+  "noFolderCanvas": {
+    "message": "Nog geen map voor \"$1\". Maak ~/Spaces/$1/ aan en zet er .canvas-bestanden in."
+  },
+  "done": {
+    "message": "Klaar"
+  },
+  "backToReading": {
+    "message": "Terug naar lezen (Esc)"
+  },
+  "typeInFile": {
+    "message": "In dit bestand typen (E)"
+  },
+  "openCursor": {
+    "message": "Openen in Cursor"
+  },
+  "openCursorTitle": {
+    "message": "Dit bestand openen in Cursor"
+  },
+  "typeHere": {
+    "message": "Typ hier."
+  },
+  "textOf": {
+    "message": "Tekst van $1"
+  },
+  "statusUnsaved": {
+    "message": "Niet bewaard"
+  },
+  "statusSaving": {
+    "message": "Bewaren"
+  },
+  "statusSaved": {
+    "message": "Bewaard"
+  },
+  "mixedEol": {
+    "message": "Gemengde regeleinden: bewerk dit bestand in Cursor."
+  },
+  "notSavedWhy": {
+    "message": "Niet bewaard ($1)"
+  },
+  "hostNotConnected": {
+    "message": "host niet verbonden"
+  },
+  "notSaved": {
+    "message": "Niet bewaard: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Niet bewaard: deze notitie is groter dan de $1 KB die bestanden aankunnen. Maak hem korter of splits hem in tweeën."
+  },
+  "changedOnDisk": {
+    "message": "Gewijzigd op schijf"
+  },
+  "conflictGone": {
+    "message": "Verwijderd op schijf:"
+  },
+  "conflictTooLarge": {
+    "message": "Gewijzigd op schijf en nu te groot om hier te tonen:"
+  },
+  "conflictNotText": {
+    "message": "Gewijzigd op schijf en geen tekst meer:"
+  },
+  "conflictChanged": {
+    "message": "Gewijzigd op schijf:"
+  },
+  "loadTheirs": {
+    "message": "Hun versie laden"
+  },
+  "keepMine": {
+    "message": "Mijn versie houden"
+  },
+  "dropIt": {
+    "message": "Loslaten"
+  },
+  "seeTheirs": {
+    "message": "Hun versie bekijken"
+  },
+  "removedFromFolder": {
+    "message": "$1 is uit de map verwijderd."
+  },
+  "cannotOpenNote": {
+    "message": "Dit bestand kan hier niet worden geopend ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Dit bestand kan hier niet worden geopend ($1). Cursor kan het wel."
+  },
+  "cannotOpenCanvas": {
+    "message": "Dit canvas kan hier niet worden geopend ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Dit canvas kan hier niet worden geopend ($1). Cursor kan het wel."
+  },
+  "waitingStorage": {
+    "message": "Wachten op de bordopslag."
+  },
+  "couldNotRead": {
+    "message": "$1 kon niet worden gelezen ($2)."
+  },
+  "couldNotOpen": {
+    "message": "$1 kon niet worden geopend ($2)."
+  },
+  "noteName": {
+    "message": "Naam van de notitie"
+  },
+  "canvasName": {
+    "message": "Naam van het canvas"
+  },
+  "nameTaken": {
+    "message": "Die naam is al in gebruik."
+  },
+  "nameBad": {
+    "message": "Die naam kan niet worden gebruikt."
+  },
+  "notCreated": {
+    "message": "Niet gemaakt ($1)."
+  },
+  "renameNewName": {
+    "message": "Nieuwe naam voor $1"
+  },
+  "resolveFirst": {
+    "message": "Los eerst de wijziging op schijf op."
+  },
+  "notSavedYetRename": {
+    "message": "Nog niet bewaard; probeer het zo opnieuw."
+  },
+  "fileGone": {
+    "message": "Dat bestand bestaat niet meer."
+  },
+  "notRenamed": {
+    "message": "Niet hernoemd ($1)."
+  },
+  "deletedToast": {
+    "message": "\"$1\" verwijderd"
+  },
+  "resolveFirstDelete": {
+    "message": "Los eerst de wijziging op schijf op en verwijder dan."
+  },
+  "notSavedYetDelete": {
+    "message": "Nog niet bewaard, dus niet verwijderd. Probeer het zo opnieuw."
+  },
+  "notDeleted": {
+    "message": "Niet verwijderd: $1"
+  },
+  "notRestored": {
+    "message": "Niet hersteld: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D kon hier niet starten ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "het is niet geladen"
+  },
+  "cvSelect": {
+    "message": "Selecteren en verplaatsen (V)"
+  },
+  "cvCard": {
+    "message": "Een tekstkaart toevoegen (T)"
+  },
+  "cvPen": {
+    "message": "Pen (P)"
+  },
+  "cvEraser": {
+    "message": "Gum (E)"
+  },
+  "cvTools": {
+    "message": "Canvasgereedschap"
+  },
+  "cvUndo": {
+    "message": "Ongedaan maken (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Opnieuw (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Opnieuw"
+  },
+  "cvDelete": {
+    "message": "Selectie verwijderen (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Selectie verwijderen"
+  },
+  "cvView": {
+    "message": "Weergave"
+  },
+  "cv2d": {
+    "message": "Het canvas, plat"
+  },
+  "cv3d": {
+    "message": "Hetzelfde canvas in 3D (alleen lezen)"
+  },
+  "cvDeleted": {
+    "message": "Verwijderd op schijf. Dit canvas staat niet meer in de map."
+  },
+  "cvEmptyCard": {
+    "message": "Lege kaart"
+  },
+  "cvWriteHere": {
+    "message": "Schrijf hier"
+  },
+  "cvCardText": {
+    "message": "Kaarttekst"
+  },
+  "cvOpenNotes": {
+    "message": "Openen in Notities"
+  },
+  "cvOpenCanvas": {
+    "message": "Dit canvas openen"
+  },
+  "cvModelGone": {
+    "message": "Dit model staat niet in de map."
+  },
+  "cvModelBig": {
+    "message": "Dit model is groter dan 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Dit model kan niet worden getoond ($1)."
+  },
+  "cvUnknownError": {
+    "message": "onbekende fout"
+  },
+  "cvLoadingModel": {
+    "message": "Model laden"
+  },
+  "cvLink": {
+    "message": "Link"
+  },
+  "cvGroup": {
+    "message": "Groep"
+  },
+  "cvNodeNote": {
+    "message": "Notitie $1"
+  },
+  "cvNodeLink": {
+    "message": "Link $1"
+  },
+  "cvNodeGroup": {
+    "message": "Groep $1"
+  },
+  "cvNodeType": {
+    "message": "Kaart van type $1"
+  },
+  "sInvalid": {
+    "message": "Dit bestand is geen JSON Canvas ($1). Herstel het in Cursor; intussen wordt hier niets bewaard."
+  },
+  "sInvalidNow": {
+    "message": "Gewijzigd op schijf en nu geen JSON Canvas meer ($1). Hier wordt niets bewaard tot het weer geldig is."
+  },
+  "sTooBig": {
+    "message": "Niet bewaard (dit canvas is $1; bestanden nemen hooguit $2 aan. Wis wat lijnen of kaarten)"
+  },
+  "sBlockedBig": {
+    "message": "Niet bewaard (het bestand op schijf is gewijzigd en te groot: Mijn versie houden of laten staan)"
+  },
+  "sBlockedText": {
+    "message": "Niet bewaard (het bestand op schijf is gewijzigd en geen tekst: Mijn versie houden of laten staan)"
+  },
+  "sKeepsChanging": {
+    "message": "Niet bewaard (het bestand blijft veranderen)"
+  },
+  "edgeOpenPanel": {
+    "message": "Paneel openen"
+  },
+  "errNameEmpty": {
+    "message": "Typ een naam."
+  },
+  "errNameLong": {
+    "message": "Die naam is te lang."
+  },
+  "errHost": {
+    "message": "De host antwoordde niet."
+  },
+  "backupKept": {
+    "message": "Bewaard in Downloads/$2. Bewaarde bestanden: $1."
+  },
+  "filesLabel": {
+    "message": "Bestanden"
+  },
+  "roomLabel": {
+    "message": "Kamer"
+  },
+  "roomNotes": {
+    "message": "Notities"
+  },
+  "roomCanvas": {
+    "message": "Canvas"
+  },
+  "search": {
+    "message": "Zoeken"
+  },
+  "searchLabel": {
+    "message": "Zoeken in deze ruimte"
+  },
+  "noteLabel": {
+    "message": "Notitie"
+  },
+  "cvNotShown": {
+    "message": "$1 (hier niet getoond)"
+  },
+  "cvDrawFail": {
+    "message": "Dit canvas kon niet worden getekend ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Er is niets gewijzigd op schijf. Open het in Cursor of kies een ander canvas."
+  },
+  "statusDeleted": {
+    "message": "Verwijderd op schijf"
+  },
+  "cv3dScene": {
+    "message": "3D-weergave van dit canvas. Sleep om te draaien, scrol om te zoomen, klik op een kaart om hem te openen."
+  },
+  "cvModelScene": {
+    "message": "3D-model. Sleep om het te draaien; de pijltjestoetsen werken ook."
+  },
+  "cvModelCompressed": {
+    "message": "gebruikt gecomprimeerde geometrie of texturen (Draco, KTX2 of Meshopt) die deze weergave niet kan lezen"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL is niet beschikbaar in deze browser"
+  },
+  "megaTabs_one": {
+    "message": "$1 mega-tab"
+  },
+  "megaTabs_other": {
+    "message": "$1 mega-tabs"
+  }
+}

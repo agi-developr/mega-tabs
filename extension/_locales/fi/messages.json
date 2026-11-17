@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "fi"
+  },
+  "extName": {
+    "message": "Mega Tabs: tilat, muistiinpanot ja kanvas"
+  },
+  "extDescription": {
+    "message": "Vaihda välilehtijoukkoa projektin mukaan ilman latausta. Rinnalla muistiinpanot ja kanvas, jota tekoälysikin muokkaa. Ilmainen."
+  },
+  "cmdOpen": {
+    "message": "Avaa työtilojen luettelo"
+  },
+  "cmdTogglePanel": {
+    "message": "Avaa tai sulje Mega Tabs -paneeli"
+  },
+  "cmdNext": {
+    "message": "Seuraava työtila"
+  },
+  "cmdPrev": {
+    "message": "Edellinen työtila"
+  },
+  "cmdLast": {
+    "message": "Viimeksi käytetty työtila"
+  },
+  "cmdSwitch": {
+    "message": "Vaihda työtilaan"
+  },
+  "tabs_one": {
+    "message": "$1 välilehti"
+  },
+  "tabs_other": {
+    "message": "$1 välilehteä"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 välilehti jäi palauttamatta"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 välilehteä jäi palauttamatta"
+  },
+  "edit": {
+    "message": "Muokkaa"
+  },
+  "name": {
+    "message": "Nimi"
+  },
+  "delete": {
+    "message": "Poista"
+  },
+  "undo": {
+    "message": "Kumoa"
+  },
+  "stashHeading": {
+    "message": "Työtilojen tallennustila"
+  },
+  "stashText": {
+    "message": "Tämä piilotettu ikkuna kuuluu Mega Tabs -laajennukselle. Se pitää sisällään sellaisen työtilan välilehdet, jota ei juuri nyt näytetä. Älä sulje sitä; vaihda työtilaa paneelista."
+  },
+  "defaultWorkspace": {
+    "message": "Oletus"
+  },
+  "recoveredWorkspace": {
+    "message": "Palautettu"
+  },
+  "iconTitle": {
+    "message": "Työtila: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Työtila: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Laajennuksen tallennustila on lähes täynnä; pian välilehtiä ei voi enää tallentaa"
+  },
+  "menuLink": {
+    "message": "Avaa linkki työtilassa"
+  },
+  "menuMove": {
+    "message": "Siirrä välilehti työtilaan"
+  },
+  "menuMoveMarked": {
+    "message": "Siirrä $1 valittua välilehteä työtilaan"
+  },
+  "menuGroup": {
+    "message": "Siirrä ryhmä työtilaan"
+  },
+  "exNotJson": {
+    "message": "Tiedosto ei ole kelvollista JSONia."
+  },
+  "exNotExport": {
+    "message": "Tämä ei ole Helium Workspacesin vientitiedosto."
+  },
+  "exNoWorkspaces": {
+    "message": "Tiedostossa ei ole työtiloja."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Tiedostossa on liian monta työtilaa."
+  },
+  "exTooManyTabs": {
+    "message": "Tiedostossa on liian monta välilehteä."
+  },
+  "workspaceName": {
+    "message": "Työtila"
+  },
+  "workspaceN": {
+    "message": "Työtila $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Lataus keskeytyi ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Laajennus ei vastaa"
+  },
+  "generalSpace": {
+    "message": "Yleiset"
+  },
+  "spaces": {
+    "message": "Tilat"
+  },
+  "setUp": {
+    "message": "Asetukset"
+  },
+  "filesOffLead": {
+    "message": "Tiedostot ovat pois päältä:"
+  },
+  "retryBtn": {
+    "message": "Yritä uudelleen"
+  },
+  "switchToMega": {
+    "message": "Vaihda tilaan $1"
+  },
+  "closeMegaAsk": {
+    "message": "Napsauta uudelleen sulkeaksesi tämän megavälilehden ja sen välilehdet"
+  },
+  "closeMegaAskLabel": {
+    "message": "Sulje $1 ja sen välilehdet: napsauta uudelleen"
+  },
+  "closeMega": {
+    "message": "Sulje megavälilehti"
+  },
+  "closeMegaLabel": {
+    "message": "Sulje megavälilehti $1"
+  },
+  "closeQuestion": {
+    "message": "suljetaanko?"
+  },
+  "spaceName": {
+    "message": "Tilan nimi"
+  },
+  "showSpace": {
+    "message": "Näytä $1 (nimeä uudelleen kaksoisnapsauttamalla)"
+  },
+  "newSpaceName": {
+    "message": "Uuden tilan nimi"
+  },
+  "newSpaceItem": {
+    "message": "Uusi tila…"
+  },
+  "allSpaces": {
+    "message": "Kaikki tilat"
+  },
+  "switchSpace": {
+    "message": "Vaihda tilaa"
+  },
+  "board": {
+    "message": "Taulu"
+  },
+  "boardOpen": {
+    "message": "Avaa taulu: tilan $1 .md-tiedostot"
+  },
+  "settingsPage": {
+    "message": "Asetukset"
+  },
+  "settingsOpen": {
+    "message": "Asetukset: näyttö reunassa, varmuuskopio, vienti"
+  },
+  "newMegaName": {
+    "message": "Uuden megavälilehden nimi"
+  },
+  "noMegas": {
+    "message": "Ei vielä megavälilehtiä."
+  },
+  "newMega": {
+    "message": "+ Uusi megavälilehti"
+  },
+  "noSpaces": {
+    "message": "Ei vielä tiloja."
+  },
+  "newSpace": {
+    "message": "+ Uusi tila"
+  },
+  "openWindows": {
+    "message": "Avoimet ikkunat"
+  },
+  "emptyWindow": {
+    "message": "Tyhjä ikkuna"
+  },
+  "undoClose": {
+    "message": "Kumoa sulkeminen"
+  },
+  "intro": {
+    "message": "Megavälilehti on välilehtijoukko, johon vaihdat kerralla. Aloita napsauttamalla jotakin."
+  },
+  "homeSetupTitle": {
+    "message": "Ota tiedostot käyttöön"
+  },
+  "homeSetupText": {
+    "message": "Tilat tallentavat muistiinpanonsa tavallisina tiedostoina kansioon $1. Chrome tarvitsee pienen apuohjelman niiden lukemiseen ja kirjoittamiseen. Suorita Mega Tabs -kansiossa $2 ja paina Yritä uudelleen."
+  },
+  "retryChecking": {
+    "message": "Tarkistetaan…"
+  },
+  "retryOn": {
+    "message": "Tiedostot ovat käytössä."
+  },
+  "retryOff": {
+    "message": "Vielä pois päältä. Suorita komento ja paina Yritä uudelleen uudelleen."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Avaa $1 (nimeä uudelleen kaksoisnapsauttamalla, pudota kuva kanneksi)"
+  },
+  "tileTypeName": {
+    "message": "kirjoita nimi ja paina Enter"
+  },
+  "newSpaceAria": {
+    "message": "Uusi tila"
+  },
+  "tileNewTitle": {
+    "message": "Luo uusi tila kirjoittamalla nimi"
+  },
+  "tileNewHint": {
+    "message": "kirjoita nimi"
+  },
+  "coverType": {
+    "message": "Käytä png-, jpg- tai webp-kuvaa."
+  },
+  "coverBig": {
+    "message": "Kuva on yli 700 KB. Käytä pienempää."
+  },
+  "coverNotSaved": {
+    "message": "Tiedostot ovat pois päältä: kantta ei tallennettu."
+  },
+  "edgeHeading": {
+    "message": "Näytä reunassa"
+  },
+  "edgeToggle": {
+    "message": "Näytä pieni vaihdin, kun osoitin pysähtyy näytön reunaan"
+  },
+  "edgeHelp": {
+    "message": "Pidä osoitinta hetki reunassa, niin megavälilehtesi ilmestyvät sivun päälle. Chrome kysyy kerran lupaa toimia verkkosivuilla. Vaihdin ei lue niistä mitään eikä lähetä mitään minnekään. Se ei näy uuden välilehden sivulla eikä chrome://-sivuilla."
+  },
+  "side": {
+    "message": "Puoli"
+  },
+  "sideLeft": {
+    "message": "Vasen"
+  },
+  "sideRight": {
+    "message": "Oikea"
+  },
+  "edgeOnLeft": {
+    "message": "Päällä. Pidä osoitinta verkkosivun vasemmassa reunassa."
+  },
+  "edgeOnRight": {
+    "message": "Päällä. Pidä osoitinta verkkosivun oikeassa reunassa."
+  },
+  "edgeDenied": {
+    "message": "Näyttö reunassa tarvitsee tämän luvan toimiakseen verkkosivuilla. Se pysyy pois päältä."
+  },
+  "backupHeading": {
+    "message": "Varmuuskopio"
+  },
+  "backupLabel": {
+    "message": "Tallenna varmuuskopiotiedosto"
+  },
+  "backupNever": {
+    "message": "Ei koskaan"
+  },
+  "backupDaily": {
+    "message": "Joka päivä"
+  },
+  "backupWeekly": {
+    "message": "Joka viikko"
+  },
+  "backupLast": {
+    "message": "Viimeksi tallennettu: $1."
+  },
+  "backupSaving": {
+    "message": "Tallennetaan…"
+  },
+  "dataHeading": {
+    "message": "Megavälilehtesi"
+  },
+  "dataHelp": {
+    "message": "Yksi tiedosto, jossa kaikki tilat, megavälilehdet ja niiden välilehdet. Tuonti lisää puuttuvat eikä sulje mitään."
+  },
+  "exportBtn": {
+    "message": "Vie megavälilehdet"
+  },
+  "importBtn": {
+    "message": "Tuo megavälilehdet…"
+  },
+  "chooseFile": {
+    "message": "Valitse viety tiedosto"
+  },
+  "exportSaved": {
+    "message": "Tallennettu $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Vienti epäonnistui: $1"
+  },
+  "importAdded": {
+    "message": "Lisätty $1 ja $2 kohteesta $3."
+  },
+  "importNothing": {
+    "message": "Ei lisättävää: kaikki kohteessa $1 on jo täällä."
+  },
+  "importFail": {
+    "message": "Tuonti epäonnistui: $1"
+  },
+  "boardTitle": {
+    "message": "Taulu · $1"
+  },
+  "folderLabel": {
+    "message": "Kansio: $1"
+  },
+  "change": {
+    "message": "Vaihda"
+  },
+  "chooseFolder": {
+    "message": "Valitse kansio"
+  },
+  "allowFolder": {
+    "message": "Salli pääsy kansioon \"$1\""
+  },
+  "hostMissing": {
+    "message": "Taulun isäntää ei ole asennettu. Suorita Mega Tabs -kansiossa $1 ja lataa tämä sivu uudelleen."
+  },
+  "hostForbidden": {
+    "message": "Chrome ei salli tämän laajennuksen käyttää taulun isäntää. Suorita $1 uudelleen ja lataa tämä sivu uudelleen."
+  },
+  "hostStopped": {
+    "message": "Taulun isäntä pysähtyi. Yritetään uudelleen."
+  },
+  "hostUnreachable": {
+    "message": "Taulu ei tavoita isäntäänsä ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "ei voi avata täällä ($1)"
+  },
+  "howItWorks": {
+    "message": "Näin se toimii"
+  },
+  "rename": {
+    "message": "Nimeä uudelleen"
+  },
+  "renameLabel": {
+    "message": "Nimeä $1 uudelleen"
+  },
+  "renameTitle": {
+    "message": "Nimeä uudelleen (tai kaksoisnapsauta nimeä)"
+  },
+  "deleteLabel": {
+    "message": "Poista $1"
+  },
+  "deleteTitle": {
+    "message": "Poista (roskakoriin, voi kumota)"
+  },
+  "noMatches": {
+    "message": "Ei hakutuloksia."
+  },
+  "newNote": {
+    "message": "Uusi muistiinpano"
+  },
+  "newCanvas": {
+    "message": "Uusi kanvas"
+  },
+  "newNoteTitle": {
+    "message": "Aloita uusi muistiinpano tässä tilassa"
+  },
+  "newCanvasTitle": {
+    "message": "Aloita uusi kanvas tässä tilassa"
+  },
+  "emptyNotesFolder": {
+    "message": "Tässä tilassa ei ole vielä muistiinpanoja. Aloita painamalla Uusi muistiinpano."
+  },
+  "emptyNotesDir": {
+    "message": "Kansiossa ~/Spaces/$1/ ei ole vielä .md-tiedostoja. Aloita painamalla Uusi muistiinpano."
+  },
+  "noFolderNotes": {
+    "message": "Kohteelle \"$1\" ei ole vielä kansiota. Luo ~/Spaces/$1/ ja laita siihen .md-tiedostoja."
+  },
+  "emptyCanvasFolder": {
+    "message": "Tässä tilassa ei ole vielä kanvaksia. Aloita painamalla Uusi kanvas."
+  },
+  "emptyCanvasDir": {
+    "message": "Kansiossa ~/Spaces/$1/ ei ole vielä .canvas-tiedostoja. Aloita painamalla Uusi kanvas."
+  },
+  "noFolderCanvas": {
+    "message": "Kohteelle \"$1\" ei ole vielä kansiota. Luo ~/Spaces/$1/ ja laita siihen .canvas-tiedostoja."
+  },
+  "done": {
+    "message": "Valmis"
+  },
+  "backToReading": {
+    "message": "Takaisin lukemiseen (Esc)"
+  },
+  "typeInFile": {
+    "message": "Kirjoita tähän tiedostoon (E)"
+  },
+  "openCursor": {
+    "message": "Avaa Cursorissa"
+  },
+  "openCursorTitle": {
+    "message": "Avaa tämä tiedosto Cursorissa"
+  },
+  "typeHere": {
+    "message": "Kirjoita tähän."
+  },
+  "textOf": {
+    "message": "$1 teksti"
+  },
+  "statusUnsaved": {
+    "message": "Ei tallennettu"
+  },
+  "statusSaving": {
+    "message": "Tallennetaan"
+  },
+  "statusSaved": {
+    "message": "Tallennettu"
+  },
+  "mixedEol": {
+    "message": "Sekalaiset rivinvaihdot: muokkaa tätä tiedostoa Cursorissa."
+  },
+  "notSavedWhy": {
+    "message": "Ei tallennettu ($1)"
+  },
+  "hostNotConnected": {
+    "message": "isäntä ei ole yhdistetty"
+  },
+  "notSaved": {
+    "message": "Ei tallennettu: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Ei tallennettu: muistiinpano on suurempi kuin tiedostoon mahtuvat $1 KB. Lyhennä sitä tai jaa kahtia."
+  },
+  "changedOnDisk": {
+    "message": "Muuttunut levyllä"
+  },
+  "conflictGone": {
+    "message": "Poistettu levyltä:"
+  },
+  "conflictTooLarge": {
+    "message": "Muuttunut levyllä ja nyt liian suuri näytettäväksi täällä:"
+  },
+  "conflictNotText": {
+    "message": "Muuttunut levyllä eikä enää ole tekstiä:"
+  },
+  "conflictChanged": {
+    "message": "Muuttunut levyllä:"
+  },
+  "loadTheirs": {
+    "message": "Lataa heidän"
+  },
+  "keepMine": {
+    "message": "Säilytä minun"
+  },
+  "dropIt": {
+    "message": "Hylkää"
+  },
+  "seeTheirs": {
+    "message": "Näytä heidän"
+  },
+  "removedFromFolder": {
+    "message": "$1 poistettiin kansiosta."
+  },
+  "cannotOpenNote": {
+    "message": "Tätä tiedostoa ei voi avata täällä ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Tätä tiedostoa ei voi avata täällä ($1). Cursor voi."
+  },
+  "cannotOpenCanvas": {
+    "message": "Tätä kanvasta ei voi avata täällä ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Tätä kanvasta ei voi avata täällä ($1). Cursor voi."
+  },
+  "waitingStorage": {
+    "message": "Odotetaan taulun tallennustilaa."
+  },
+  "couldNotRead": {
+    "message": "Kohdetta $1 ei voitu lukea ($2)."
+  },
+  "couldNotOpen": {
+    "message": "Kohdetta $1 ei voitu avata ($2)."
+  },
+  "noteName": {
+    "message": "Muistiinpanon nimi"
+  },
+  "canvasName": {
+    "message": "Kanvaksen nimi"
+  },
+  "nameTaken": {
+    "message": "Nimi on jo käytössä."
+  },
+  "nameBad": {
+    "message": "Nimeä ei voi käyttää."
+  },
+  "notCreated": {
+    "message": "Ei luotu ($1)."
+  },
+  "renameNewName": {
+    "message": "Uusi nimi kohteelle $1"
+  },
+  "resolveFirst": {
+    "message": "Ratkaise ensin levyllä tapahtunut muutos."
+  },
+  "notSavedYetRename": {
+    "message": "Ei vielä tallennettu; yritä hetken kuluttua uudelleen."
+  },
+  "fileGone": {
+    "message": "Tiedostoa ei enää ole."
+  },
+  "notRenamed": {
+    "message": "Ei nimetty uudelleen ($1)."
+  },
+  "deletedToast": {
+    "message": "\"$1\" poistettu"
+  },
+  "resolveFirstDelete": {
+    "message": "Ratkaise ensin levyllä tapahtunut muutos ja poista sitten."
+  },
+  "notSavedYetDelete": {
+    "message": "Ei vielä tallennettu, joten ei poistettu. Yritä hetken kuluttua uudelleen."
+  },
+  "notDeleted": {
+    "message": "Ei poistettu: $1"
+  },
+  "notRestored": {
+    "message": "Ei palautettu: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D ei käynnistynyt täällä ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "ei latautunut"
+  },
+  "cvSelect": {
+    "message": "Valitse ja siirrä (V)"
+  },
+  "cvCard": {
+    "message": "Lisää tekstikortti (T)"
+  },
+  "cvPen": {
+    "message": "Kynä (P)"
+  },
+  "cvEraser": {
+    "message": "Pyyhekumi (E)"
+  },
+  "cvTools": {
+    "message": "Kanvaksen työkalut"
+  },
+  "cvUndo": {
+    "message": "Kumoa (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Tee uudelleen (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Tee uudelleen"
+  },
+  "cvDelete": {
+    "message": "Poista valinta (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Poista valinta"
+  },
+  "cvView": {
+    "message": "Näkymä"
+  },
+  "cv2d": {
+    "message": "Kanvas, tasainen"
+  },
+  "cv3d": {
+    "message": "Sama kanvas 3D:nä (vain luku)"
+  },
+  "cvDeleted": {
+    "message": "Poistettu levyltä. Tämä kanvas ei ole enää kansiossa."
+  },
+  "cvEmptyCard": {
+    "message": "Tyhjä kortti"
+  },
+  "cvWriteHere": {
+    "message": "Kirjoita tähän"
+  },
+  "cvCardText": {
+    "message": "Kortin teksti"
+  },
+  "cvOpenNotes": {
+    "message": "Avaa Muistiinpanoissa"
+  },
+  "cvOpenCanvas": {
+    "message": "Avaa tämä kanvas"
+  },
+  "cvModelGone": {
+    "message": "Tämä malli ei ole kansiossa."
+  },
+  "cvModelBig": {
+    "message": "Tämä malli on suurempi kuin 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Tätä mallia ei voi näyttää ($1)."
+  },
+  "cvUnknownError": {
+    "message": "tuntematon virhe"
+  },
+  "cvLoadingModel": {
+    "message": "Ladataan mallia"
+  },
+  "cvLink": {
+    "message": "Linkki"
+  },
+  "cvGroup": {
+    "message": "Ryhmä"
+  },
+  "cvNodeNote": {
+    "message": "Muistiinpano $1"
+  },
+  "cvNodeLink": {
+    "message": "Linkki $1"
+  },
+  "cvNodeGroup": {
+    "message": "Ryhmä $1"
+  },
+  "cvNodeType": {
+    "message": "Tyyppiä $1 oleva kortti"
+  },
+  "sInvalid": {
+    "message": "Tämä tiedosto ei ole JSON Canvas ($1). Korjaa se Cursorissa; sillä välin täällä ei tallenneta mitään."
+  },
+  "sInvalidNow": {
+    "message": "Muuttunut levyllä eikä enää ole JSON Canvas ($1). Mitään ei tallenneta täällä, ennen kuin se on taas kelvollinen."
+  },
+  "sTooBig": {
+    "message": "Ei tallennettu (tämä kanvas on $1; tiedostoon mahtuu enintään $2. Poista joitakin viivoja tai kortteja)"
+  },
+  "sBlockedBig": {
+    "message": "Ei tallennettu (levyllä oleva tiedosto muuttui ja on liian suuri: Säilytä minun, tai jätä)"
+  },
+  "sBlockedText": {
+    "message": "Ei tallennettu (levyllä oleva tiedosto muuttui eikä ole tekstiä: Säilytä minun, tai jätä)"
+  },
+  "sKeepsChanging": {
+    "message": "Ei tallennettu (tiedosto muuttuu koko ajan)"
+  },
+  "edgeOpenPanel": {
+    "message": "Avaa paneeli"
+  },
+  "errNameEmpty": {
+    "message": "Kirjoita nimi."
+  },
+  "errNameLong": {
+    "message": "Nimi on liian pitkä."
+  },
+  "errHost": {
+    "message": "Isäntä ei vastannut."
+  },
+  "backupKept": {
+    "message": "Tallennettu kansioon Downloads/$2. Tallennetut tiedostot: $1."
+  },
+  "filesLabel": {
+    "message": "Tiedostot"
+  },
+  "roomLabel": {
+    "message": "Huone"
+  },
+  "roomNotes": {
+    "message": "Muistiinpanot"
+  },
+  "roomCanvas": {
+    "message": "Kanvas"
+  },
+  "search": {
+    "message": "Haku"
+  },
+  "searchLabel": {
+    "message": "Hae tästä tilasta"
+  },
+  "noteLabel": {
+    "message": "Muistiinpano"
+  },
+  "cvNotShown": {
+    "message": "$1 (ei näytetä täällä)"
+  },
+  "cvDrawFail": {
+    "message": "Tätä kanvasta ei voitu piirtää ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Levyllä ei ole muuttunut mikään. Avaa Cursorissa tai valitse toinen kanvas."
+  },
+  "statusDeleted": {
+    "message": "Poistettu levyltä"
+  },
+  "cv3dScene": {
+    "message": "Tämän kanvaksen 3D-näkymä. Pyöritä vetämällä, zoomaa vierittämällä, avaa kortti napsauttamalla."
+  },
+  "cvModelScene": {
+    "message": "3D-malli. Pyöritä vetämällä; nuolinäppäimet toimivat myös."
+  },
+  "cvModelCompressed": {
+    "message": "käyttää pakattua geometriaa tai tekstuureja (Draco, KTX2 tai Meshopt), joita tämä näkymä ei osaa lukea"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL ei ole käytettävissä tässä selaimessa"
+  },
+  "megaTabs_one": {
+    "message": "$1 megavälilehti"
+  },
+  "megaTabs_other": {
+    "message": "$1 megavälilehteä"
+  }
+}

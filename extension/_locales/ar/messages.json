@@ -1,0 +1,764 @@
+{
+  "lang": {
+    "message": "ar"
+  },
+  "extName": {
+    "message": "Mega Tabs: المساحات والملاحظات واللوحة"
+  },
+  "extDescription": {
+    "message": "بدّل بين مجموعات علامات التبويب حسب المشروع دون إعادة تحميل. بجانبها ملاحظات ولوحة يمكن لذكائك الاصطناعي تعديلها. خاص ومجاني."
+  },
+  "cmdOpen": {
+    "message": "فتح قائمة مساحات العمل"
+  },
+  "cmdTogglePanel": {
+    "message": "فتح لوحة Mega Tabs أو إغلاقها"
+  },
+  "cmdNext": {
+    "message": "مساحة العمل التالية"
+  },
+  "cmdPrev": {
+    "message": "مساحة العمل السابقة"
+  },
+  "cmdLast": {
+    "message": "آخر مساحة عمل مستخدمة"
+  },
+  "cmdSwitch": {
+    "message": "التبديل إلى مساحة العمل"
+  },
+  "tabs_one": {
+    "message": "$1 علامة تبويب"
+  },
+  "tabs_other": {
+    "message": "$1 علامة تبويب"
+  },
+  "tabsNotRestored_one": {
+    "message": "لم تُستعد $1 علامة تبويب"
+  },
+  "tabsNotRestored_other": {
+    "message": "لم تُستعد $1 علامة تبويب"
+  },
+  "edit": {
+    "message": "تعديل"
+  },
+  "name": {
+    "message": "الاسم"
+  },
+  "delete": {
+    "message": "حذف"
+  },
+  "undo": {
+    "message": "تراجع"
+  },
+  "stashHeading": {
+    "message": "مخزن مساحة العمل"
+  },
+  "stashText": {
+    "message": "هذه النافذة المخفية تابعة لإضافة Mega Tabs. تحتوي على علامات تبويب مساحة عمل غير معروضة الآن. لا تغلقها، واستخدم اللوحة للتبديل."
+  },
+  "defaultWorkspace": {
+    "message": "افتراضي"
+  },
+  "recoveredWorkspace": {
+    "message": "مستعادة"
+  },
+  "iconTitle": {
+    "message": "مساحة العمل: $1"
+  },
+  "iconTitleMissing": {
+    "message": "مساحة العمل: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "مساحة تخزين الإضافة شبه ممتلئة، وسيتوقف حفظ علامات التبويب قريبًا"
+  },
+  "menuLink": {
+    "message": "فتح الرابط في مساحة عمل"
+  },
+  "menuMove": {
+    "message": "نقل علامة التبويب إلى مساحة عمل"
+  },
+  "menuMoveMarked": {
+    "message": "نقل $1 من علامات التبويب المحددة إلى مساحة عمل"
+  },
+  "menuGroup": {
+    "message": "نقل المجموعة إلى مساحة عمل"
+  },
+  "exNotJson": {
+    "message": "الملف ليس JSON صالحًا."
+  },
+  "exNotExport": {
+    "message": "هذا ليس ملف تصدير من Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "لا يحتوي الملف على أي مساحة عمل."
+  },
+  "exTooManyWorkspaces": {
+    "message": "يحتوي الملف على مساحات عمل كثيرة جدًا."
+  },
+  "exTooManyTabs": {
+    "message": "يحتوي الملف على علامات تبويب كثيرة جدًا."
+  },
+  "workspaceName": {
+    "message": "مساحة عمل"
+  },
+  "workspaceN": {
+    "message": "مساحة العمل $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "انقطع التنزيل ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "لم تردّ الإضافة"
+  },
+  "generalSpace": {
+    "message": "عام"
+  },
+  "spaces": {
+    "message": "المساحات"
+  },
+  "setUp": {
+    "message": "إعداد"
+  },
+  "filesOffLead": {
+    "message": "الملفات متوقفة:"
+  },
+  "retryBtn": {
+    "message": "حاول مرة أخرى"
+  },
+  "switchToMega": {
+    "message": "التبديل إلى $1"
+  },
+  "closeMegaAsk": {
+    "message": "انقر مرة أخرى لإغلاق هذا الـ Mega Tab وعلامات تبويبه"
+  },
+  "closeMegaAskLabel": {
+    "message": "إغلاق $1 وعلامات تبويبه: انقر مرة أخرى"
+  },
+  "closeMega": {
+    "message": "إغلاق Mega Tab"
+  },
+  "closeMegaLabel": {
+    "message": "إغلاق Mega Tab $1"
+  },
+  "closeQuestion": {
+    "message": "إغلاق؟"
+  },
+  "spaceName": {
+    "message": "اسم المساحة"
+  },
+  "showSpace": {
+    "message": "عرض $1 (انقر مرتين لإعادة التسمية)"
+  },
+  "newSpaceName": {
+    "message": "اسم المساحة الجديدة"
+  },
+  "newSpaceItem": {
+    "message": "مساحة جديدة…"
+  },
+  "allSpaces": {
+    "message": "كل المساحات"
+  },
+  "switchSpace": {
+    "message": "تبديل المساحة"
+  },
+  "board": {
+    "message": "اللوحة"
+  },
+  "boardOpen": {
+    "message": "فتح اللوحة: ملفات .md الخاصة بـ $1"
+  },
+  "settingsPage": {
+    "message": "الإعدادات"
+  },
+  "settingsOpen": {
+    "message": "الإعدادات: الظهور عند الحافة، النسخ الاحتياطي، التصدير"
+  },
+  "newMegaName": {
+    "message": "اسم الـ Mega Tab الجديد"
+  },
+  "noMegas": {
+    "message": "لا توجد Mega Tabs بعد."
+  },
+  "newMega": {
+    "message": "+ Mega Tab جديد"
+  },
+  "noSpaces": {
+    "message": "لا توجد مساحات بعد."
+  },
+  "newSpace": {
+    "message": "+ مساحة جديدة"
+  },
+  "openWindows": {
+    "message": "النوافذ المفتوحة"
+  },
+  "emptyWindow": {
+    "message": "نافذة فارغة"
+  },
+  "undoClose": {
+    "message": "تراجع عن الإغلاق"
+  },
+  "intro": {
+    "message": "الـ Mega Tab مجموعة علامات تبويب تنتقل إليها دفعة واحدة. انقر على أحدها للبدء."
+  },
+  "homeSetupTitle": {
+    "message": "تشغيل الملفات"
+  },
+  "homeSetupText": {
+    "message": "تحفظ المساحات ملاحظاتها كملفات عادية في $1. يحتاج Chrome إلى مساعد صغير لقراءتها وكتابتها. في مجلد Mega Tabs شغّل $2 ثم اضغط «حاول مرة أخرى»."
+  },
+  "retryChecking": {
+    "message": "جارٍ التحقق…"
+  },
+  "retryOn": {
+    "message": "الملفات قيد التشغيل."
+  },
+  "retryOff": {
+    "message": "ما زالت متوقفة. شغّل الأمر ثم اضغط «حاول مرة أخرى»."
+  },
+  "tileLabel": {
+    "message": "$1، $2"
+  },
+  "tileOpen": {
+    "message": "فتح $1 (انقر مرتين لإعادة التسمية، أفلت صورة لتصبح الغلاف)"
+  },
+  "tileTypeName": {
+    "message": "اكتب اسمًا ثم اضغط Enter"
+  },
+  "newSpaceAria": {
+    "message": "مساحة جديدة"
+  },
+  "tileNewTitle": {
+    "message": "اكتب اسمًا لإنشاء مساحة جديدة"
+  },
+  "tileNewHint": {
+    "message": "اكتب اسمًا"
+  },
+  "coverType": {
+    "message": "استخدم صورة png أو jpg أو webp."
+  },
+  "coverBig": {
+    "message": "هذه الصورة أكبر من 700 KB. استخدم صورة أصغر."
+  },
+  "coverNotSaved": {
+    "message": "الملفات متوقفة: لم يُحفظ الغلاف."
+  },
+  "edgeHeading": {
+    "message": "الظهور عند الحافة"
+  },
+  "edgeToggle": {
+    "message": "إظهار مبدّل مصغّر عندما يتوقف المؤشر عند حافة الشاشة"
+  },
+  "edgeHelp": {
+    "message": "أبقِ المؤشر ثابتًا لحظة عند الحافة فتظهر Mega Tabs فوق الصفحة. يطلب Chrome إذنًا مرة واحدة للعمل على صفحات الويب. لا يقرأ المبدّل شيئًا منها ولا يرسل شيئًا إلى أي مكان. ولا يظهر في صفحة علامة التبويب الجديدة ولا في صفحات chrome://."
+  },
+  "side": {
+    "message": "الجانب"
+  },
+  "sideLeft": {
+    "message": "يسار"
+  },
+  "sideRight": {
+    "message": "يمين"
+  },
+  "edgeOnLeft": {
+    "message": "قيد التشغيل. أبقِ المؤشر عند الحافة اليسرى لصفحة ويب."
+  },
+  "edgeOnRight": {
+    "message": "قيد التشغيل. أبقِ المؤشر عند الحافة اليمنى لصفحة ويب."
+  },
+  "edgeDenied": {
+    "message": "يحتاج الظهور عند الحافة إلى هذا الإذن للعمل على صفحات الويب. سيبقى متوقفًا."
+  },
+  "backupHeading": {
+    "message": "النسخ الاحتياطي"
+  },
+  "backupLabel": {
+    "message": "حفظ ملف نسخ احتياطي"
+  },
+  "backupNever": {
+    "message": "أبدًا"
+  },
+  "backupDaily": {
+    "message": "كل يوم"
+  },
+  "backupWeekly": {
+    "message": "كل أسبوع"
+  },
+  "backupLast": {
+    "message": "آخر حفظ: $1."
+  },
+  "backupSaving": {
+    "message": "جارٍ الحفظ…"
+  },
+  "dataHeading": {
+    "message": "Mega Tabs الخاصة بك"
+  },
+  "dataHelp": {
+    "message": "ملف واحد فيه كل المساحات وMega Tabs وعلامات تبويبها. يضيف الاستيراد ما ينقص ولا يغلق شيئًا."
+  },
+  "exportBtn": {
+    "message": "تصدير Mega Tabs"
+  },
+  "importBtn": {
+    "message": "استيراد Mega Tabs…"
+  },
+  "chooseFile": {
+    "message": "اختيار ملف مُصدَّر"
+  },
+  "exportSaved": {
+    "message": "تم حفظ $1: $2، $3."
+  },
+  "exportFail": {
+    "message": "تعذّر التصدير: $1"
+  },
+  "importAdded": {
+    "message": "تمت إضافة $1 و$2 من $3."
+  },
+  "importNothing": {
+    "message": "لا شيء لإضافته: كل ما في $1 موجود هنا بالفعل."
+  },
+  "importFail": {
+    "message": "تعذّر الاستيراد: $1"
+  },
+  "boardTitle": {
+    "message": "اللوحة · $1"
+  },
+  "folderLabel": {
+    "message": "المجلد: $1"
+  },
+  "change": {
+    "message": "تغيير"
+  },
+  "chooseFolder": {
+    "message": "اختيار مجلد"
+  },
+  "allowFolder": {
+    "message": "السماح بالوصول إلى «$1»"
+  },
+  "hostMissing": {
+    "message": "مضيف اللوحة غير مثبّت. شغّل $1 في مجلد Mega Tabs ثم أعد تحميل هذه الصفحة."
+  },
+  "hostForbidden": {
+    "message": "لا يسمح Chrome لهذه الإضافة باستخدام مضيف اللوحة. شغّل $1 مرة أخرى ثم أعد تحميل هذه الصفحة."
+  },
+  "hostStopped": {
+    "message": "توقف مضيف اللوحة. جارٍ إعادة المحاولة."
+  },
+  "hostUnreachable": {
+    "message": "تعذّر على اللوحة الوصول إلى مضيفها ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "لا يمكن فتحه هنا ($1)"
+  },
+  "howItWorks": {
+    "message": "طريقة العمل"
+  },
+  "rename": {
+    "message": "إعادة تسمية"
+  },
+  "renameLabel": {
+    "message": "إعادة تسمية $1"
+  },
+  "renameTitle": {
+    "message": "إعادة تسمية (أو انقر الاسم مرتين)"
+  },
+  "deleteLabel": {
+    "message": "حذف $1"
+  },
+  "deleteTitle": {
+    "message": "حذف (إلى سلة المهملات، مع إمكانية التراجع)"
+  },
+  "noMatches": {
+    "message": "لا توجد نتائج."
+  },
+  "newNote": {
+    "message": "ملاحظة جديدة"
+  },
+  "newCanvas": {
+    "message": "لوحة جديدة"
+  },
+  "newNoteTitle": {
+    "message": "بدء ملاحظة جديدة في هذه المساحة"
+  },
+  "newCanvasTitle": {
+    "message": "بدء لوحة جديدة في هذه المساحة"
+  },
+  "emptyNotesFolder": {
+    "message": "لا توجد ملاحظات في هذه المساحة بعد. اضغط «ملاحظة جديدة» للبدء."
+  },
+  "emptyNotesDir": {
+    "message": "لا توجد ملفات .md في ~/Spaces/$1/ بعد. اضغط «ملاحظة جديدة» للبدء."
+  },
+  "noFolderNotes": {
+    "message": "لا يوجد مجلد لـ «$1» بعد. أنشئ ~/Spaces/$1/ وضع فيه ملفات .md."
+  },
+  "emptyCanvasFolder": {
+    "message": "لا توجد لوحات في هذه المساحة بعد. اضغط «لوحة جديدة» للبدء."
+  },
+  "emptyCanvasDir": {
+    "message": "لا توجد ملفات .canvas في ~/Spaces/$1/ بعد. اضغط «لوحة جديدة» للبدء."
+  },
+  "noFolderCanvas": {
+    "message": "لا يوجد مجلد لـ «$1» بعد. أنشئ ~/Spaces/$1/ وضع فيه ملفات .canvas."
+  },
+  "done": {
+    "message": "تم"
+  },
+  "backToReading": {
+    "message": "العودة إلى القراءة (Esc)"
+  },
+  "typeInFile": {
+    "message": "الكتابة في هذا الملف (E)"
+  },
+  "openCursor": {
+    "message": "فتح في Cursor"
+  },
+  "openCursorTitle": {
+    "message": "فتح هذا الملف في Cursor"
+  },
+  "typeHere": {
+    "message": "اكتب هنا."
+  },
+  "textOf": {
+    "message": "نص $1"
+  },
+  "statusUnsaved": {
+    "message": "غير محفوظ"
+  },
+  "statusSaving": {
+    "message": "جارٍ الحفظ"
+  },
+  "statusSaved": {
+    "message": "تم الحفظ"
+  },
+  "mixedEol": {
+    "message": "نهايات أسطر مختلطة: عدّل هذا الملف في Cursor."
+  },
+  "notSavedWhy": {
+    "message": "لم يُحفظ ($1)"
+  },
+  "hostNotConnected": {
+    "message": "المضيف غير متصل"
+  },
+  "notSaved": {
+    "message": "لم يُحفظ: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "لم يُحفظ: هذه الملاحظة أكبر من $1 KB التي تتسع لها الملفات. اختصرها أو قسّمها إلى اثنتين."
+  },
+  "changedOnDisk": {
+    "message": "تغيّر على القرص"
+  },
+  "conflictGone": {
+    "message": "حُذف على القرص:"
+  },
+  "conflictTooLarge": {
+    "message": "تغيّر على القرص وصار أكبر من أن يُعرض هنا:"
+  },
+  "conflictNotText": {
+    "message": "تغيّر على القرص ولم يعد نصًا:"
+  },
+  "conflictChanged": {
+    "message": "تغيّر على القرص:"
+  },
+  "loadTheirs": {
+    "message": "تحميل نسختهم"
+  },
+  "keepMine": {
+    "message": "الإبقاء على نسختي"
+  },
+  "dropIt": {
+    "message": "تجاهل"
+  },
+  "seeTheirs": {
+    "message": "عرض نسختهم"
+  },
+  "removedFromFolder": {
+    "message": "أُزيل $1 من المجلد."
+  },
+  "cannotOpenNote": {
+    "message": "لا يمكن فتح هذا الملف هنا ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "لا يمكن فتح هذا الملف هنا ($1). يستطيع Cursor ذلك."
+  },
+  "cannotOpenCanvas": {
+    "message": "لا يمكن فتح هذه اللوحة هنا ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "لا يمكن فتح هذه اللوحة هنا ($1). يستطيع Cursor ذلك."
+  },
+  "waitingStorage": {
+    "message": "بانتظار تخزين اللوحة."
+  },
+  "couldNotRead": {
+    "message": "تعذّرت قراءة $1 ($2)."
+  },
+  "couldNotOpen": {
+    "message": "تعذّر فتح $1 ($2)."
+  },
+  "noteName": {
+    "message": "اسم الملاحظة"
+  },
+  "canvasName": {
+    "message": "اسم اللوحة"
+  },
+  "nameTaken": {
+    "message": "هذا الاسم مستخدم."
+  },
+  "nameBad": {
+    "message": "لا يمكن استخدام هذا الاسم."
+  },
+  "notCreated": {
+    "message": "لم يُنشأ ($1)."
+  },
+  "renameNewName": {
+    "message": "اسم جديد لـ $1"
+  },
+  "resolveFirst": {
+    "message": "عالج التغيير على القرص أولًا."
+  },
+  "notSavedYetRename": {
+    "message": "لم يُحفظ بعد؛ حاول مجددًا بعد لحظة."
+  },
+  "fileGone": {
+    "message": "هذا الملف لم يعد موجودًا."
+  },
+  "notRenamed": {
+    "message": "لم تتم إعادة التسمية ($1)."
+  },
+  "deletedToast": {
+    "message": "حُذف «$1»"
+  },
+  "resolveFirstDelete": {
+    "message": "عالج التغيير على القرص أولًا ثم احذف."
+  },
+  "notSavedYetDelete": {
+    "message": "لم يُحفظ بعد، لذا لم يُحذف. حاول مجددًا بعد لحظة."
+  },
+  "notDeleted": {
+    "message": "لم يُحذف: $1"
+  },
+  "notRestored": {
+    "message": "لم تتم الاستعادة: $1"
+  },
+  "cvThreeFailed": {
+    "message": "تعذّر بدء العرض ثلاثي الأبعاد هنا ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "لم يتم التحميل"
+  },
+  "cvSelect": {
+    "message": "تحديد ونقل (V)"
+  },
+  "cvCard": {
+    "message": "إضافة بطاقة نصية (T)"
+  },
+  "cvPen": {
+    "message": "القلم (P)"
+  },
+  "cvEraser": {
+    "message": "الممحاة (E)"
+  },
+  "cvTools": {
+    "message": "أدوات اللوحة"
+  },
+  "cvUndo": {
+    "message": "تراجع (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "إعادة (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "إعادة"
+  },
+  "cvDelete": {
+    "message": "حذف التحديد (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "حذف التحديد"
+  },
+  "cvView": {
+    "message": "العرض"
+  },
+  "cv2d": {
+    "message": "اللوحة، مسطّحة"
+  },
+  "cv3d": {
+    "message": "اللوحة نفسها بثلاثة أبعاد (للقراءة فقط)"
+  },
+  "cvDeleted": {
+    "message": "حُذفت على القرص. لم تعد هذه اللوحة في المجلد."
+  },
+  "cvEmptyCard": {
+    "message": "بطاقة فارغة"
+  },
+  "cvWriteHere": {
+    "message": "اكتب هنا"
+  },
+  "cvCardText": {
+    "message": "نص البطاقة"
+  },
+  "cvOpenNotes": {
+    "message": "فتح في الملاحظات"
+  },
+  "cvOpenCanvas": {
+    "message": "فتح هذه اللوحة"
+  },
+  "cvModelGone": {
+    "message": "هذا النموذج غير موجود في المجلد."
+  },
+  "cvModelBig": {
+    "message": "هذا النموذج أكبر من 24 MB."
+  },
+  "cvModelFail": {
+    "message": "تعذّر عرض هذا النموذج ($1)."
+  },
+  "cvUnknownError": {
+    "message": "خطأ غير معروف"
+  },
+  "cvLoadingModel": {
+    "message": "جارٍ تحميل النموذج"
+  },
+  "cvLink": {
+    "message": "رابط"
+  },
+  "cvGroup": {
+    "message": "مجموعة"
+  },
+  "cvNodeNote": {
+    "message": "ملاحظة $1"
+  },
+  "cvNodeLink": {
+    "message": "رابط $1"
+  },
+  "cvNodeGroup": {
+    "message": "مجموعة $1"
+  },
+  "cvNodeType": {
+    "message": "بطاقة من النوع $1"
+  },
+  "sInvalid": {
+    "message": "هذا الملف ليس JSON Canvas ($1). أصلحه في Cursor؛ ولا يُحفظ شيء هنا في هذه الأثناء."
+  },
+  "sInvalidNow": {
+    "message": "تغيّر على القرص وصار ليس JSON Canvas ($1). لن يُحفظ شيء هنا حتى يصبح صالحًا مجددًا."
+  },
+  "sTooBig": {
+    "message": "لم يُحفظ (حجم هذه اللوحة $1؛ والملفات تتسع لـ $2 كحد أقصى. امسح بعض الخطوط أو البطاقات)"
+  },
+  "sBlockedBig": {
+    "message": "لم يُحفظ (تغيّر الملف على القرص وتجاوز حد الحجم: الإبقاء على نسختي أو تركه)"
+  },
+  "sBlockedText": {
+    "message": "لم يُحفظ (تغيّر الملف على القرص وليس نصًا: الإبقاء على نسختي أو تركه)"
+  },
+  "sKeepsChanging": {
+    "message": "لم يُحفظ (الملف يتغيّر باستمرار)"
+  },
+  "edgeOpenPanel": {
+    "message": "فتح اللوحة الجانبية"
+  },
+  "errNameEmpty": {
+    "message": "اكتب اسمًا."
+  },
+  "errNameLong": {
+    "message": "هذا الاسم طويل جدًا."
+  },
+  "errHost": {
+    "message": "لم يردّ المضيف."
+  },
+  "backupKept": {
+    "message": "محفوظة في Downloads/$2. عدد الملفات المحفوظة: $1."
+  },
+  "filesLabel": {
+    "message": "الملفات"
+  },
+  "roomLabel": {
+    "message": "القسم"
+  },
+  "roomNotes": {
+    "message": "الملاحظات"
+  },
+  "roomCanvas": {
+    "message": "اللوحة"
+  },
+  "search": {
+    "message": "بحث"
+  },
+  "searchLabel": {
+    "message": "البحث في هذه المساحة"
+  },
+  "noteLabel": {
+    "message": "ملاحظة"
+  },
+  "cvNotShown": {
+    "message": "$1 (غير معروض هنا)"
+  },
+  "cvDrawFail": {
+    "message": "تعذّر رسم هذه اللوحة ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "لم يتغيّر شيء على القرص. افتحها في Cursor أو اختر لوحة أخرى."
+  },
+  "statusDeleted": {
+    "message": "حُذف على القرص"
+  },
+  "cv3dScene": {
+    "message": "عرض ثلاثي الأبعاد لهذه اللوحة. اسحب للدوران، مرّر للتكبير، انقر بطاقة لفتحها."
+  },
+  "cvModelScene": {
+    "message": "نموذج ثلاثي الأبعاد. اسحب لتدويره، ومفاتيح الأسهم تعمل أيضًا."
+  },
+  "cvModelCompressed": {
+    "message": "يستخدم هندسة أو خامات مضغوطة (Draco أو KTX2 أو Meshopt) لا يستطيع هذا العرض قراءتها"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL غير متاح في هذا المتصفح"
+  },
+  "megaTabs_one": {
+    "message": "$1 Mega Tab"
+  },
+  "megaTabs_other": {
+    "message": "$1 Mega Tab"
+  },
+  "tabs_zero": {
+    "message": "$1 علامة تبويب"
+  },
+  "tabs_two": {
+    "message": "$1 علامتا تبويب"
+  },
+  "tabs_few": {
+    "message": "$1 علامات تبويب"
+  },
+  "tabs_many": {
+    "message": "$1 علامة تبويب"
+  },
+  "tabsNotRestored_zero": {
+    "message": "لم تُستعد $1 علامة تبويب"
+  },
+  "tabsNotRestored_two": {
+    "message": "لم تُستعد $1 علامتا تبويب"
+  },
+  "tabsNotRestored_few": {
+    "message": "لم تُستعد $1 علامات تبويب"
+  },
+  "tabsNotRestored_many": {
+    "message": "لم تُستعد $1 علامة تبويب"
+  },
+  "megaTabs_zero": {
+    "message": "$1 Mega Tab"
+  },
+  "megaTabs_two": {
+    "message": "$1 Mega Tabs"
+  },
+  "megaTabs_few": {
+    "message": "$1 Mega Tabs"
+  },
+  "megaTabs_many": {
+    "message": "$1 Mega Tab"
+  }
+}

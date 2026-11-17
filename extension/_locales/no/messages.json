@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "no"
+  },
+  "extName": {
+    "message": "Mega Tabs: rom, notater og lerret"
+  },
+  "extDescription": {
+    "message": "Bytt faneoppsett per prosjekt uten å laste på nytt. Med notater og et lerret som AI-en din også kan redigere. Privat, gratis."
+  },
+  "cmdOpen": {
+    "message": "Åpne listen over arbeidsområder"
+  },
+  "cmdTogglePanel": {
+    "message": "Åpne eller lukk Mega Tabs-panelet"
+  },
+  "cmdNext": {
+    "message": "Neste arbeidsområde"
+  },
+  "cmdPrev": {
+    "message": "Forrige arbeidsområde"
+  },
+  "cmdLast": {
+    "message": "Sist brukte arbeidsområde"
+  },
+  "cmdSwitch": {
+    "message": "Bytt til arbeidsområde"
+  },
+  "tabs_one": {
+    "message": "$1 fane"
+  },
+  "tabs_other": {
+    "message": "$1 faner"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 fane ble ikke gjenopprettet"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 faner ble ikke gjenopprettet"
+  },
+  "edit": {
+    "message": "Rediger"
+  },
+  "name": {
+    "message": "Navn"
+  },
+  "delete": {
+    "message": "Slett"
+  },
+  "undo": {
+    "message": "Angre"
+  },
+  "stashHeading": {
+    "message": "Lager for arbeidsområder"
+  },
+  "stashText": {
+    "message": "Dette skjulte vinduet hører til utvidelsen Mega Tabs. Det holder fanene til et arbeidsområde som ikke vises nå. Ikke lukk det; bytt via panelet."
+  },
+  "defaultWorkspace": {
+    "message": "Standard"
+  },
+  "recoveredWorkspace": {
+    "message": "Gjenopprettet"
+  },
+  "iconTitle": {
+    "message": "Arbeidsområde: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Arbeidsområde: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Lagringen til utvidelsen er nesten full; snart kan ikke faner lagres lenger"
+  },
+  "menuLink": {
+    "message": "Åpne lenken i arbeidsområde"
+  },
+  "menuMove": {
+    "message": "Flytt fanen til arbeidsområde"
+  },
+  "menuMoveMarked": {
+    "message": "Flytt de $1 valgte fanene til arbeidsområde"
+  },
+  "menuGroup": {
+    "message": "Flytt gruppen til arbeidsområde"
+  },
+  "exNotJson": {
+    "message": "Filen er ikke gyldig JSON."
+  },
+  "exNotExport": {
+    "message": "Dette er ikke en eksportfil fra Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "Filen har ingen arbeidsområder."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Filen har for mange arbeidsområder."
+  },
+  "exTooManyTabs": {
+    "message": "Filen har for mange faner."
+  },
+  "workspaceName": {
+    "message": "Arbeidsområde"
+  },
+  "workspaceN": {
+    "message": "Arbeidsområde $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Nedlastingen ble avbrutt ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Utvidelsen svarer ikke"
+  },
+  "generalSpace": {
+    "message": "Generelt"
+  },
+  "spaces": {
+    "message": "Rom"
+  },
+  "setUp": {
+    "message": "Oppsett"
+  },
+  "filesOffLead": {
+    "message": "Filer er av:"
+  },
+  "retryBtn": {
+    "message": "Prøv igjen"
+  },
+  "switchToMega": {
+    "message": "Bytt til $1"
+  },
+  "closeMegaAsk": {
+    "message": "Klikk igjen for å lukke denne megafanen og fanene dens"
+  },
+  "closeMegaAskLabel": {
+    "message": "Lukk $1 og fanene: klikk igjen"
+  },
+  "closeMega": {
+    "message": "Lukk megafane"
+  },
+  "closeMegaLabel": {
+    "message": "Lukk megafane $1"
+  },
+  "closeQuestion": {
+    "message": "lukke?"
+  },
+  "spaceName": {
+    "message": "Navn på rommet"
+  },
+  "showSpace": {
+    "message": "Vis $1 (dobbeltklikk for å gi nytt navn)"
+  },
+  "newSpaceName": {
+    "message": "Navn på nytt rom"
+  },
+  "newSpaceItem": {
+    "message": "Nytt rom…"
+  },
+  "allSpaces": {
+    "message": "Alle rom"
+  },
+  "switchSpace": {
+    "message": "Bytt rom"
+  },
+  "board": {
+    "message": "Tavle"
+  },
+  "boardOpen": {
+    "message": "Åpne tavlen: .md-filene til $1"
+  },
+  "settingsPage": {
+    "message": "Innstillinger"
+  },
+  "settingsOpen": {
+    "message": "Innstillinger: vis ved kanten, sikkerhetskopi, eksport"
+  },
+  "newMegaName": {
+    "message": "Navn på ny megafane"
+  },
+  "noMegas": {
+    "message": "Ingen megafaner ennå."
+  },
+  "newMega": {
+    "message": "+ Ny megafane"
+  },
+  "noSpaces": {
+    "message": "Ingen rom ennå."
+  },
+  "newSpace": {
+    "message": "+ Nytt rom"
+  },
+  "openWindows": {
+    "message": "Åpne vinduer"
+  },
+  "emptyWindow": {
+    "message": "Tomt vindu"
+  },
+  "undoClose": {
+    "message": "Angre lukking"
+  },
+  "intro": {
+    "message": "En megafane er et sett med faner du bytter til på én gang. Klikk på en for å komme i gang."
+  },
+  "homeSetupTitle": {
+    "message": "Slå på filer"
+  },
+  "homeSetupText": {
+    "message": "Rom lagrer notatene sine som vanlige filer i $1. Chrome trenger en liten hjelper for å lese og skrive dem. Kjør $2 i mappen Mega Tabs og trykk på Prøv igjen."
+  },
+  "retryChecking": {
+    "message": "Sjekker…"
+  },
+  "retryOn": {
+    "message": "Filer er på."
+  },
+  "retryOff": {
+    "message": "Fortsatt av. Kjør kommandoen og trykk på Prøv igjen igjen."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Åpne $1 (dobbeltklikk for å gi nytt navn, slipp et bilde som omslag)"
+  },
+  "tileTypeName": {
+    "message": "skriv et navn og trykk Enter"
+  },
+  "newSpaceAria": {
+    "message": "Nytt rom"
+  },
+  "tileNewTitle": {
+    "message": "Skriv et navn for å lage et nytt rom"
+  },
+  "tileNewHint": {
+    "message": "skriv et navn"
+  },
+  "coverType": {
+    "message": "Bruk et png-, jpg- eller webp-bilde."
+  },
+  "coverBig": {
+    "message": "Bildet er over 700 KB. Bruk et mindre."
+  },
+  "coverNotSaved": {
+    "message": "Filer er av: omslaget ble ikke lagret."
+  },
+  "edgeHeading": {
+    "message": "Vis ved kanten"
+  },
+  "edgeToggle": {
+    "message": "Vis en liten bytter når pekeren blir stående ved skjermkanten"
+  },
+  "edgeHelp": {
+    "message": "Hold pekeren stille ved kanten et øyeblikk, så dukker megafanene dine opp over siden. Chrome spør én gang om tillatelse til å kjøre på nettsider. Byttere leser ingenting fra dem og sender ingenting noe sted. Den vises ikke på siden for ny fane og chrome://-sider."
+  },
+  "side": {
+    "message": "Side"
+  },
+  "sideLeft": {
+    "message": "Venstre"
+  },
+  "sideRight": {
+    "message": "Høyre"
+  },
+  "edgeOnLeft": {
+    "message": "På. Hold pekeren ved venstre kant av en nettside."
+  },
+  "edgeOnRight": {
+    "message": "På. Hold pekeren ved høyre kant av en nettside."
+  },
+  "edgeDenied": {
+    "message": "Vis ved kanten trenger denne tillatelsen til å kjøre på nettsider. Den forblir av."
+  },
+  "backupHeading": {
+    "message": "Sikkerhetskopi"
+  },
+  "backupLabel": {
+    "message": "Lagre en sikkerhetskopi"
+  },
+  "backupNever": {
+    "message": "Aldri"
+  },
+  "backupDaily": {
+    "message": "Hver dag"
+  },
+  "backupWeekly": {
+    "message": "Hver uke"
+  },
+  "backupLast": {
+    "message": "Sist lagret: $1."
+  },
+  "backupSaving": {
+    "message": "Lagrer…"
+  },
+  "dataHeading": {
+    "message": "Megafanene dine"
+  },
+  "dataHelp": {
+    "message": "Én fil med alle rom, megafaner og fanene deres. Import legger til det som mangler og lukker ingenting."
+  },
+  "exportBtn": {
+    "message": "Eksporter megafaner"
+  },
+  "importBtn": {
+    "message": "Importer megafaner…"
+  },
+  "chooseFile": {
+    "message": "Velg en eksportert fil"
+  },
+  "exportSaved": {
+    "message": "Lagret $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Kunne ikke eksportere: $1"
+  },
+  "importAdded": {
+    "message": "La til $1 og $2 fra $3."
+  },
+  "importNothing": {
+    "message": "Ingenting å legge til: alt i $1 finnes allerede."
+  },
+  "importFail": {
+    "message": "Kunne ikke importere: $1"
+  },
+  "boardTitle": {
+    "message": "Tavle · $1"
+  },
+  "folderLabel": {
+    "message": "Mappe: $1"
+  },
+  "change": {
+    "message": "Endre"
+  },
+  "chooseFolder": {
+    "message": "Velg en mappe"
+  },
+  "allowFolder": {
+    "message": "Gi tilgang til «$1»"
+  },
+  "hostMissing": {
+    "message": "Tavlens vert er ikke installert. Kjør $1 i mappen Mega Tabs og last deretter siden på nytt."
+  },
+  "hostForbidden": {
+    "message": "Chrome tillater ikke at denne utvidelsen bruker tavlens vert. Kjør $1 igjen og last deretter siden på nytt."
+  },
+  "hostStopped": {
+    "message": "Tavlens vert stoppet. Prøver igjen."
+  },
+  "hostUnreachable": {
+    "message": "Tavlen når ikke verten sin ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "kan ikke åpnes her ($1)"
+  },
+  "howItWorks": {
+    "message": "Slik virker det"
+  },
+  "rename": {
+    "message": "Gi nytt navn"
+  },
+  "renameLabel": {
+    "message": "Gi $1 nytt navn"
+  },
+  "renameTitle": {
+    "message": "Gi nytt navn (eller dobbeltklikk på navnet)"
+  },
+  "deleteLabel": {
+    "message": "Slett $1"
+  },
+  "deleteTitle": {
+    "message": "Slett (til papirkurven, kan angres)"
+  },
+  "noMatches": {
+    "message": "Ingen treff."
+  },
+  "newNote": {
+    "message": "Nytt notat"
+  },
+  "newCanvas": {
+    "message": "Nytt lerret"
+  },
+  "newNoteTitle": {
+    "message": "Start et nytt notat i dette rommet"
+  },
+  "newCanvasTitle": {
+    "message": "Start et nytt lerret i dette rommet"
+  },
+  "emptyNotesFolder": {
+    "message": "Ingen notater i dette rommet ennå. Trykk på Nytt notat for å starte."
+  },
+  "emptyNotesDir": {
+    "message": "Ingen .md-filer i ~/Spaces/$1/ ennå. Trykk på Nytt notat for å starte."
+  },
+  "noFolderNotes": {
+    "message": "Ingen mappe for «$1» ennå. Lag ~/Spaces/$1/ og legg .md-filer i den."
+  },
+  "emptyCanvasFolder": {
+    "message": "Ingen lerret i dette rommet ennå. Trykk på Nytt lerret for å starte."
+  },
+  "emptyCanvasDir": {
+    "message": "Ingen .canvas-filer i ~/Spaces/$1/ ennå. Trykk på Nytt lerret for å starte."
+  },
+  "noFolderCanvas": {
+    "message": "Ingen mappe for «$1» ennå. Lag ~/Spaces/$1/ og legg .canvas-filer i den."
+  },
+  "done": {
+    "message": "Ferdig"
+  },
+  "backToReading": {
+    "message": "Tilbake til lesing (Esc)"
+  },
+  "typeInFile": {
+    "message": "Skriv i denne filen (E)"
+  },
+  "openCursor": {
+    "message": "Åpne i Cursor"
+  },
+  "openCursorTitle": {
+    "message": "Åpne denne filen i Cursor"
+  },
+  "typeHere": {
+    "message": "Skriv her."
+  },
+  "textOf": {
+    "message": "Tekst for $1"
+  },
+  "statusUnsaved": {
+    "message": "Ikke lagret"
+  },
+  "statusSaving": {
+    "message": "Lagrer"
+  },
+  "statusSaved": {
+    "message": "Lagret"
+  },
+  "mixedEol": {
+    "message": "Blandede linjeskift: rediger denne filen i Cursor."
+  },
+  "notSavedWhy": {
+    "message": "Ikke lagret ($1)"
+  },
+  "hostNotConnected": {
+    "message": "verten er ikke koblet til"
+  },
+  "notSaved": {
+    "message": "Ikke lagret: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Ikke lagret: notatet er større enn de $1 KB en fil rommer. Gjør det kortere eller del det i to."
+  },
+  "changedOnDisk": {
+    "message": "Endret på disken"
+  },
+  "conflictGone": {
+    "message": "Slettet på disken:"
+  },
+  "conflictTooLarge": {
+    "message": "Endret på disken og nå for stor til å vises her:"
+  },
+  "conflictNotText": {
+    "message": "Endret på disken og ikke lenger tekst:"
+  },
+  "conflictChanged": {
+    "message": "Endret på disken:"
+  },
+  "loadTheirs": {
+    "message": "Last inn deres"
+  },
+  "keepMine": {
+    "message": "Behold min"
+  },
+  "dropIt": {
+    "message": "Forkast"
+  },
+  "seeTheirs": {
+    "message": "Se deres"
+  },
+  "removedFromFolder": {
+    "message": "$1 ble fjernet fra mappen."
+  },
+  "cannotOpenNote": {
+    "message": "Denne filen kan ikke åpnes her ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Denne filen kan ikke åpnes her ($1). Det kan Cursor."
+  },
+  "cannotOpenCanvas": {
+    "message": "Dette lerretet kan ikke åpnes her ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Dette lerretet kan ikke åpnes her ($1). Det kan Cursor."
+  },
+  "waitingStorage": {
+    "message": "Venter på tavlens lager."
+  },
+  "couldNotRead": {
+    "message": "Kunne ikke lese $1 ($2)."
+  },
+  "couldNotOpen": {
+    "message": "Kunne ikke åpne $1 ($2)."
+  },
+  "noteName": {
+    "message": "Navn på notatet"
+  },
+  "canvasName": {
+    "message": "Navn på lerretet"
+  },
+  "nameTaken": {
+    "message": "Det navnet er allerede i bruk."
+  },
+  "nameBad": {
+    "message": "Det navnet kan ikke brukes."
+  },
+  "notCreated": {
+    "message": "Ikke opprettet ($1)."
+  },
+  "renameNewName": {
+    "message": "Nytt navn for $1"
+  },
+  "resolveFirst": {
+    "message": "Løs endringen på disken først."
+  },
+  "notSavedYetRename": {
+    "message": "Ikke lagret ennå; prøv igjen om litt."
+  },
+  "fileGone": {
+    "message": "Den filen finnes ikke lenger."
+  },
+  "notRenamed": {
+    "message": "Ikke omdøpt ($1)."
+  },
+  "deletedToast": {
+    "message": "«$1» slettet"
+  },
+  "resolveFirstDelete": {
+    "message": "Løs endringen på disken først, og slett deretter."
+  },
+  "notSavedYetDelete": {
+    "message": "Ikke lagret ennå, så ikke slettet. Prøv igjen om litt."
+  },
+  "notDeleted": {
+    "message": "Ikke slettet: $1"
+  },
+  "notRestored": {
+    "message": "Ikke gjenopprettet: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D kunne ikke starte her ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "ble ikke lastet"
+  },
+  "cvSelect": {
+    "message": "Velg og flytt (V)"
+  },
+  "cvCard": {
+    "message": "Legg til et tekstkort (T)"
+  },
+  "cvPen": {
+    "message": "Penn (P)"
+  },
+  "cvEraser": {
+    "message": "Viskelær (E)"
+  },
+  "cvTools": {
+    "message": "Lerretsverktøy"
+  },
+  "cvUndo": {
+    "message": "Angre (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Gjør om (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Gjør om"
+  },
+  "cvDelete": {
+    "message": "Slett markeringen (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Slett markeringen"
+  },
+  "cvView": {
+    "message": "Visning"
+  },
+  "cv2d": {
+    "message": "Lerretet, flatt"
+  },
+  "cv3d": {
+    "message": "Samme lerret i 3D (skrivebeskyttet)"
+  },
+  "cvDeleted": {
+    "message": "Slettet på disken. Dette lerretet er ikke lenger i mappen."
+  },
+  "cvEmptyCard": {
+    "message": "Tomt kort"
+  },
+  "cvWriteHere": {
+    "message": "Skriv her"
+  },
+  "cvCardText": {
+    "message": "Kortets tekst"
+  },
+  "cvOpenNotes": {
+    "message": "Åpne i Notater"
+  },
+  "cvOpenCanvas": {
+    "message": "Åpne dette lerretet"
+  },
+  "cvModelGone": {
+    "message": "Denne modellen er ikke i mappen."
+  },
+  "cvModelBig": {
+    "message": "Denne modellen er større enn 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Denne modellen kan ikke vises ($1)."
+  },
+  "cvUnknownError": {
+    "message": "ukjent feil"
+  },
+  "cvLoadingModel": {
+    "message": "Laster modell"
+  },
+  "cvLink": {
+    "message": "Lenke"
+  },
+  "cvGroup": {
+    "message": "Gruppe"
+  },
+  "cvNodeNote": {
+    "message": "Notat $1"
+  },
+  "cvNodeLink": {
+    "message": "Lenke $1"
+  },
+  "cvNodeGroup": {
+    "message": "Gruppe $1"
+  },
+  "cvNodeType": {
+    "message": "Kort av typen $1"
+  },
+  "sInvalid": {
+    "message": "Denne filen er ikke JSON Canvas ($1). Rett den i Cursor; i mellomtiden lagres ingenting her."
+  },
+  "sInvalidNow": {
+    "message": "Endret på disken og nå ikke JSON Canvas ($1). Ingenting lagres her før den er gyldig igjen."
+  },
+  "sTooBig": {
+    "message": "Ikke lagret (dette lerretet er $1; filer rommer høyst $2. Slett noen linjer eller kort)"
+  },
+  "sBlockedBig": {
+    "message": "Ikke lagret (filen på disken er endret og for stor: Behold min, eller la den være)"
+  },
+  "sBlockedText": {
+    "message": "Ikke lagret (filen på disken er endret og er ikke tekst: Behold min, eller la den være)"
+  },
+  "sKeepsChanging": {
+    "message": "Ikke lagret (filen endrer seg hele tiden)"
+  },
+  "edgeOpenPanel": {
+    "message": "Åpne panelet"
+  },
+  "errNameEmpty": {
+    "message": "Skriv et navn."
+  },
+  "errNameLong": {
+    "message": "Det navnet er for langt."
+  },
+  "errHost": {
+    "message": "Verten svarte ikke."
+  },
+  "backupKept": {
+    "message": "Lagret i Downloads/$2. Lagrede filer: $1."
+  },
+  "filesLabel": {
+    "message": "Filer"
+  },
+  "roomLabel": {
+    "message": "Rom"
+  },
+  "roomNotes": {
+    "message": "Notater"
+  },
+  "roomCanvas": {
+    "message": "Lerret"
+  },
+  "search": {
+    "message": "Søk"
+  },
+  "searchLabel": {
+    "message": "Søk i dette rommet"
+  },
+  "noteLabel": {
+    "message": "Notat"
+  },
+  "cvNotShown": {
+    "message": "$1 (vises ikke her)"
+  },
+  "cvDrawFail": {
+    "message": "Dette lerretet kunne ikke tegnes ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Ingenting er endret på disken. Åpne i Cursor eller velg et annet lerret."
+  },
+  "statusDeleted": {
+    "message": "Slettet på disken"
+  },
+  "cv3dScene": {
+    "message": "3D-visning av dette lerretet. Dra for å rotere, rull for å zoome, klikk på et kort for å åpne det."
+  },
+  "cvModelScene": {
+    "message": "3D-modell. Dra for å rotere; piltastene fungerer også."
+  },
+  "cvModelCompressed": {
+    "message": "bruker komprimert geometri eller teksturer (Draco, KTX2 eller Meshopt) som denne visningen ikke kan lese"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL er ikke tilgjengelig i denne nettleseren"
+  },
+  "megaTabs_one": {
+    "message": "$1 megafane"
+  },
+  "megaTabs_other": {
+    "message": "$1 megafaner"
+  }
+}

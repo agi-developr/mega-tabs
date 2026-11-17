@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "hu"
+  },
+  "extName": {
+    "message": "Mega Tabs: terek, jegyzetek és vászon"
+  },
+  "extDescription": {
+    "message": "Projektenként váltson lapkészletet újratöltés nélkül. Mellé jegyzetek és vászon, amit az AI is szerkeszthet. Privát, ingyenes."
+  },
+  "cmdOpen": {
+    "message": "Munkaterületek listájának megnyitása"
+  },
+  "cmdTogglePanel": {
+    "message": "A Mega Tabs panel megnyitása vagy bezárása"
+  },
+  "cmdNext": {
+    "message": "Következő munkaterület"
+  },
+  "cmdPrev": {
+    "message": "Előző munkaterület"
+  },
+  "cmdLast": {
+    "message": "Legutóbb használt munkaterület"
+  },
+  "cmdSwitch": {
+    "message": "Váltás munkaterületre"
+  },
+  "tabs_one": {
+    "message": "$1 lap"
+  },
+  "tabs_other": {
+    "message": "$1 lap"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 lap nem lett visszaállítva"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 lap nem lett visszaállítva"
+  },
+  "edit": {
+    "message": "Szerkesztés"
+  },
+  "name": {
+    "message": "Név"
+  },
+  "delete": {
+    "message": "Törlés"
+  },
+  "undo": {
+    "message": "Visszavonás"
+  },
+  "stashHeading": {
+    "message": "Munkaterület-tároló"
+  },
+  "stashText": {
+    "message": "Ez a rejtett ablak a Mega Tabs bővítményé. Azoknak a munkaterületeknek a lapjait őrzi, amelyek épp nem látszanak. Ne zárja be; a panelen váltson."
+  },
+  "defaultWorkspace": {
+    "message": "Alapértelmezett"
+  },
+  "recoveredWorkspace": {
+    "message": "Helyreállított"
+  },
+  "iconTitle": {
+    "message": "Munkaterület: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Munkaterület: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "A bővítmény tárhelye majdnem megtelt; hamarosan nem menthetők a lapok"
+  },
+  "menuLink": {
+    "message": "Hivatkozás megnyitása munkaterületen"
+  },
+  "menuMove": {
+    "message": "Lap áthelyezése munkaterületre"
+  },
+  "menuMoveMarked": {
+    "message": "A kijelölt $1 lap áthelyezése munkaterületre"
+  },
+  "menuGroup": {
+    "message": "Csoport áthelyezése munkaterületre"
+  },
+  "exNotJson": {
+    "message": "A fájl nem érvényes JSON."
+  },
+  "exNotExport": {
+    "message": "Ez nem Helium Workspaces exportfájl."
+  },
+  "exNoWorkspaces": {
+    "message": "A fájlban nincs munkaterület."
+  },
+  "exTooManyWorkspaces": {
+    "message": "A fájlban túl sok a munkaterület."
+  },
+  "exTooManyTabs": {
+    "message": "A fájlban túl sok a lap."
+  },
+  "workspaceName": {
+    "message": "Munkaterület"
+  },
+  "workspaceN": {
+    "message": "$1. munkaterület"
+  },
+  "autoBackupInterrupted": {
+    "message": "A letöltés megszakadt ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "A bővítmény nem válaszol"
+  },
+  "generalSpace": {
+    "message": "Általános"
+  },
+  "spaces": {
+    "message": "Terek"
+  },
+  "setUp": {
+    "message": "Beállítás"
+  },
+  "filesOffLead": {
+    "message": "A fájlok ki vannak kapcsolva:"
+  },
+  "retryBtn": {
+    "message": "Újra"
+  },
+  "switchToMega": {
+    "message": "Váltás ide: $1"
+  },
+  "closeMegaAsk": {
+    "message": "Kattintson újra a megalap és lapjai bezárásához"
+  },
+  "closeMegaAskLabel": {
+    "message": "$1 és lapjai bezárása: kattintson újra"
+  },
+  "closeMega": {
+    "message": "Megalap bezárása"
+  },
+  "closeMegaLabel": {
+    "message": "$1 megalap bezárása"
+  },
+  "closeQuestion": {
+    "message": "bezárja?"
+  },
+  "spaceName": {
+    "message": "A tér neve"
+  },
+  "showSpace": {
+    "message": "$1 megjelenítése (dupla kattintással átnevezhető)"
+  },
+  "newSpaceName": {
+    "message": "Az új tér neve"
+  },
+  "newSpaceItem": {
+    "message": "Új tér…"
+  },
+  "allSpaces": {
+    "message": "Minden tér"
+  },
+  "switchSpace": {
+    "message": "Tér váltása"
+  },
+  "board": {
+    "message": "Tábla"
+  },
+  "boardOpen": {
+    "message": "A tábla megnyitása: $1 .md fájljai"
+  },
+  "settingsPage": {
+    "message": "Beállítások"
+  },
+  "settingsOpen": {
+    "message": "Beállítások: megjelenés a szélen, biztonsági mentés, exportálás"
+  },
+  "newMegaName": {
+    "message": "Az új megalap neve"
+  },
+  "noMegas": {
+    "message": "Még nincs megalap."
+  },
+  "newMega": {
+    "message": "+ Új megalap"
+  },
+  "noSpaces": {
+    "message": "Még nincs tér."
+  },
+  "newSpace": {
+    "message": "+ Új tér"
+  },
+  "openWindows": {
+    "message": "Nyitott ablakok"
+  },
+  "emptyWindow": {
+    "message": "Üres ablak"
+  },
+  "undoClose": {
+    "message": "Bezárás visszavonása"
+  },
+  "intro": {
+    "message": "A megalap egy lapkészlet, amelyre egyszerre vált át. A kezdéshez kattintson egyre."
+  },
+  "homeSetupTitle": {
+    "message": "Fájlok bekapcsolása"
+  },
+  "homeSetupText": {
+    "message": "A terek a jegyzeteiket sima fájlként tárolják itt: $1. A Chrome-nak kis segítő kell az olvasásukhoz és írásukhoz. A Mega Tabs mappában futtassa: $2, majd nyomja meg az Újra gombot."
+  },
+  "retryChecking": {
+    "message": "Ellenőrzés…"
+  },
+  "retryOn": {
+    "message": "A fájlok be vannak kapcsolva."
+  },
+  "retryOff": {
+    "message": "Még kikapcsolva. Futtassa a parancsot, és nyomja meg újra az Újra gombot."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "$1 megnyitása (dupla kattintással átnevezhető, képet ejtve borítót ad)"
+  },
+  "tileTypeName": {
+    "message": "írjon be egy nevet, és nyomjon Entert"
+  },
+  "newSpaceAria": {
+    "message": "Új tér"
+  },
+  "tileNewTitle": {
+    "message": "Írjon be egy nevet új tér létrehozásához"
+  },
+  "tileNewHint": {
+    "message": "írjon be egy nevet"
+  },
+  "coverType": {
+    "message": "Png, jpg vagy webp képet használjon."
+  },
+  "coverBig": {
+    "message": "Ez a kép 700 KB-nál nagyobb. Használjon kisebbet."
+  },
+  "coverNotSaved": {
+    "message": "A fájlok ki vannak kapcsolva: a borító nem lett mentve."
+  },
+  "edgeHeading": {
+    "message": "Megjelenés a szélen"
+  },
+  "edgeToggle": {
+    "message": "Kis váltó megjelenítése, ha a mutató a képernyő szélén marad"
+  },
+  "edgeHelp": {
+    "message": "Tartsa a mutatót egy pillanatra a szélen, és a megalapok megjelennek az oldal fölött. A Chrome egyszer engedélyt kér a weboldalakon való futáshoz. A váltó nem olvas ki semmit belőlük, és nem küld sehova semmit. Az új lap oldalán és a chrome:// oldalakon nem jelenik meg."
+  },
+  "side": {
+    "message": "Oldal"
+  },
+  "sideLeft": {
+    "message": "Bal"
+  },
+  "sideRight": {
+    "message": "Jobb"
+  },
+  "edgeOnLeft": {
+    "message": "Be van kapcsolva. Tartsa a mutatót a weboldal bal szélén."
+  },
+  "edgeOnRight": {
+    "message": "Be van kapcsolva. Tartsa a mutatót a weboldal jobb szélén."
+  },
+  "edgeDenied": {
+    "message": "A szélen való megjelenéshez szükség van erre az engedélyre a weboldalakon. Kikapcsolva marad."
+  },
+  "backupHeading": {
+    "message": "Biztonsági mentés"
+  },
+  "backupLabel": {
+    "message": "Mentési fájl készítése"
+  },
+  "backupNever": {
+    "message": "Soha"
+  },
+  "backupDaily": {
+    "message": "Naponta"
+  },
+  "backupWeekly": {
+    "message": "Hetente"
+  },
+  "backupLast": {
+    "message": "Utoljára mentve: $1."
+  },
+  "backupSaving": {
+    "message": "Mentés…"
+  },
+  "dataHeading": {
+    "message": "A megalapjai"
+  },
+  "dataHelp": {
+    "message": "Egy fájl az összes térrel, megalappal és azok lapjaival. Az importálás hozzáadja, ami hiányzik, és semmit sem zár be."
+  },
+  "exportBtn": {
+    "message": "Megalapok exportálása"
+  },
+  "importBtn": {
+    "message": "Megalapok importálása…"
+  },
+  "chooseFile": {
+    "message": "Válasszon exportált fájlt"
+  },
+  "exportSaved": {
+    "message": "Mentve $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Az exportálás nem sikerült: $1"
+  },
+  "importAdded": {
+    "message": "Hozzáadva $1 és $2 ebből: $3."
+  },
+  "importNothing": {
+    "message": "Nincs mit hozzáadni: minden megvan itt: $1."
+  },
+  "importFail": {
+    "message": "Az importálás nem sikerült: $1"
+  },
+  "boardTitle": {
+    "message": "Tábla · $1"
+  },
+  "folderLabel": {
+    "message": "Mappa: $1"
+  },
+  "change": {
+    "message": "Módosítás"
+  },
+  "chooseFolder": {
+    "message": "Mappa kiválasztása"
+  },
+  "allowFolder": {
+    "message": "Hozzáférés engedélyezése: „$1”"
+  },
+  "hostMissing": {
+    "message": "A tábla gazdája nincs telepítve. A Mega Tabs mappában futtassa: $1, majd töltse újra ezt az oldalt."
+  },
+  "hostForbidden": {
+    "message": "A Chrome nem engedi, hogy ez a bővítmény használja a tábla gazdáját. Futtassa újra: $1, majd töltse újra ezt az oldalt."
+  },
+  "hostStopped": {
+    "message": "A tábla gazdája leállt. Újrapróbálkozás."
+  },
+  "hostUnreachable": {
+    "message": "A tábla nem éri el a gazdáját ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "itt nem nyitható meg ($1)"
+  },
+  "howItWorks": {
+    "message": "Hogyan működik"
+  },
+  "rename": {
+    "message": "Átnevezés"
+  },
+  "renameLabel": {
+    "message": "$1 átnevezése"
+  },
+  "renameTitle": {
+    "message": "Átnevezés (vagy dupla kattintás a névre)"
+  },
+  "deleteLabel": {
+    "message": "$1 törlése"
+  },
+  "deleteTitle": {
+    "message": "Törlés (a kukába, visszavonható)"
+  },
+  "noMatches": {
+    "message": "Nincs találat."
+  },
+  "newNote": {
+    "message": "Új jegyzet"
+  },
+  "newCanvas": {
+    "message": "Új vászon"
+  },
+  "newNoteTitle": {
+    "message": "Új jegyzet kezdése ebben a térben"
+  },
+  "newCanvasTitle": {
+    "message": "Új vászon kezdése ebben a térben"
+  },
+  "emptyNotesFolder": {
+    "message": "Ebben a térben még nincs jegyzet. A kezdéshez nyomja meg az Új jegyzet gombot."
+  },
+  "emptyNotesDir": {
+    "message": "A ~/Spaces/$1/ mappában még nincs .md fájl. A kezdéshez nyomja meg az Új jegyzet gombot."
+  },
+  "noFolderNotes": {
+    "message": "„$1” számára még nincs mappa. Hozza létre: ~/Spaces/$1/, és tegyen bele .md fájlokat."
+  },
+  "emptyCanvasFolder": {
+    "message": "Ebben a térben még nincs vászon. A kezdéshez nyomja meg az Új vászon gombot."
+  },
+  "emptyCanvasDir": {
+    "message": "A ~/Spaces/$1/ mappában még nincs .canvas fájl. A kezdéshez nyomja meg az Új vászon gombot."
+  },
+  "noFolderCanvas": {
+    "message": "„$1” számára még nincs mappa. Hozza létre: ~/Spaces/$1/, és tegyen bele .canvas fájlokat."
+  },
+  "done": {
+    "message": "Kész"
+  },
+  "backToReading": {
+    "message": "Vissza az olvasáshoz (Esc)"
+  },
+  "typeInFile": {
+    "message": "Írás ebbe a fájlba (E)"
+  },
+  "openCursor": {
+    "message": "Megnyitás Cursorban"
+  },
+  "openCursorTitle": {
+    "message": "A fájl megnyitása Cursorban"
+  },
+  "typeHere": {
+    "message": "Írjon ide."
+  },
+  "textOf": {
+    "message": "$1 szövege"
+  },
+  "statusUnsaved": {
+    "message": "Nincs mentve"
+  },
+  "statusSaving": {
+    "message": "Mentés"
+  },
+  "statusSaved": {
+    "message": "Mentve"
+  },
+  "mixedEol": {
+    "message": "Vegyes sorvégek: szerkessze a fájlt Cursorban."
+  },
+  "notSavedWhy": {
+    "message": "Nincs mentve ($1)"
+  },
+  "hostNotConnected": {
+    "message": "a gazda nincs csatlakoztatva"
+  },
+  "notSaved": {
+    "message": "Nincs mentve: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Nincs mentve: a jegyzet nagyobb, mint a fájlba férő $1 KB. Rövidítse vagy ossza kétfelé."
+  },
+  "changedOnDisk": {
+    "message": "Megváltozott a lemezen"
+  },
+  "conflictGone": {
+    "message": "Törölve a lemezen:"
+  },
+  "conflictTooLarge": {
+    "message": "Megváltozott a lemezen, és most túl nagy az itteni megjelenítéshez:"
+  },
+  "conflictNotText": {
+    "message": "Megváltozott a lemezen, és már nem szöveg:"
+  },
+  "conflictChanged": {
+    "message": "Megváltozott a lemezen:"
+  },
+  "loadTheirs": {
+    "message": "Az övék betöltése"
+  },
+  "keepMine": {
+    "message": "Az enyém megtartása"
+  },
+  "dropIt": {
+    "message": "Elvetés"
+  },
+  "seeTheirs": {
+    "message": "Az övék megtekintése"
+  },
+  "removedFromFolder": {
+    "message": "$1 el lett távolítva a mappából."
+  },
+  "cannotOpenNote": {
+    "message": "Ez a fájl itt nem nyitható meg ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Ez a fájl itt nem nyitható meg ($1). A Cursor meg tudja."
+  },
+  "cannotOpenCanvas": {
+    "message": "Ez a vászon itt nem nyitható meg ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Ez a vászon itt nem nyitható meg ($1). A Cursor meg tudja."
+  },
+  "waitingStorage": {
+    "message": "Várakozás a tábla tárolójára."
+  },
+  "couldNotRead": {
+    "message": "$1 nem olvasható ($2)."
+  },
+  "couldNotOpen": {
+    "message": "$1 nem nyitható meg ($2)."
+  },
+  "noteName": {
+    "message": "A jegyzet neve"
+  },
+  "canvasName": {
+    "message": "A vászon neve"
+  },
+  "nameTaken": {
+    "message": "Ez a név már foglalt."
+  },
+  "nameBad": {
+    "message": "Ez a név nem használható."
+  },
+  "notCreated": {
+    "message": "Nem jött létre ($1)."
+  },
+  "renameNewName": {
+    "message": "Új név ehhez: $1"
+  },
+  "resolveFirst": {
+    "message": "Előbb oldja meg a lemezen történt változást."
+  },
+  "notSavedYetRename": {
+    "message": "Még nincs mentve; próbálja újra egy pillanat múlva."
+  },
+  "fileGone": {
+    "message": "Az a fájl már nincs meg."
+  },
+  "notRenamed": {
+    "message": "Nem lett átnevezve ($1)."
+  },
+  "deletedToast": {
+    "message": "„$1” törölve"
+  },
+  "resolveFirstDelete": {
+    "message": "Előbb oldja meg a lemezen történt változást, utána törölhet."
+  },
+  "notSavedYetDelete": {
+    "message": "Még nincs mentve, ezért nem lett törölve. Próbálja újra egy pillanat múlva."
+  },
+  "notDeleted": {
+    "message": "Nem lett törölve: $1"
+  },
+  "notRestored": {
+    "message": "Nem lett visszaállítva: $1"
+  },
+  "cvThreeFailed": {
+    "message": "A 3D itt nem tudott elindulni ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "nem töltődött be"
+  },
+  "cvSelect": {
+    "message": "Kijelölés és mozgatás (V)"
+  },
+  "cvCard": {
+    "message": "Szövegkártya hozzáadása (T)"
+  },
+  "cvPen": {
+    "message": "Toll (P)"
+  },
+  "cvEraser": {
+    "message": "Radír (E)"
+  },
+  "cvTools": {
+    "message": "Vászoneszközök"
+  },
+  "cvUndo": {
+    "message": "Visszavonás (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Mégis (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Mégis"
+  },
+  "cvDelete": {
+    "message": "Kijelölés törlése (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Kijelölés törlése"
+  },
+  "cvView": {
+    "message": "Nézet"
+  },
+  "cv2d": {
+    "message": "A vászon, síkban"
+  },
+  "cv3d": {
+    "message": "Ugyanez a vászon 3D-ben (csak olvasható)"
+  },
+  "cvDeleted": {
+    "message": "Törölve a lemezen. Ez a vászon már nincs a mappában."
+  },
+  "cvEmptyCard": {
+    "message": "Üres kártya"
+  },
+  "cvWriteHere": {
+    "message": "Írjon ide"
+  },
+  "cvCardText": {
+    "message": "A kártya szövege"
+  },
+  "cvOpenNotes": {
+    "message": "Megnyitás a Jegyzetekben"
+  },
+  "cvOpenCanvas": {
+    "message": "A vászon megnyitása"
+  },
+  "cvModelGone": {
+    "message": "Ez a modell nincs a mappában."
+  },
+  "cvModelBig": {
+    "message": "Ez a modell nagyobb 24 MB-nál."
+  },
+  "cvModelFail": {
+    "message": "Ez a modell nem jeleníthető meg ($1)."
+  },
+  "cvUnknownError": {
+    "message": "ismeretlen hiba"
+  },
+  "cvLoadingModel": {
+    "message": "Modell betöltése"
+  },
+  "cvLink": {
+    "message": "Hivatkozás"
+  },
+  "cvGroup": {
+    "message": "Csoport"
+  },
+  "cvNodeNote": {
+    "message": "$1. jegyzet"
+  },
+  "cvNodeLink": {
+    "message": "$1. hivatkozás"
+  },
+  "cvNodeGroup": {
+    "message": "$1. csoport"
+  },
+  "cvNodeType": {
+    "message": "$1 típusú kártya"
+  },
+  "sInvalid": {
+    "message": "Ez a fájl nem JSON Canvas ($1). Javítsa Cursorban; addig itt semmi nem mentődik."
+  },
+  "sInvalidNow": {
+    "message": "Megváltozott a lemezen, és most nem JSON Canvas ($1). Itt semmi nem mentődik, amíg újra érvényes nem lesz."
+  },
+  "sTooBig": {
+    "message": "Nincs mentve (ez a vászon $1; a fájlba legfeljebb $2 fér. Töröljön vonalakat vagy kártyákat)"
+  },
+  "sBlockedBig": {
+    "message": "Nincs mentve (a lemezen lévő fájl megváltozott és túl nagy: Az enyém megtartása, vagy hagyja így)"
+  },
+  "sBlockedText": {
+    "message": "Nincs mentve (a lemezen lévő fájl megváltozott és nem szöveg: Az enyém megtartása, vagy hagyja így)"
+  },
+  "sKeepsChanging": {
+    "message": "Nincs mentve (a fájl folyton változik)"
+  },
+  "edgeOpenPanel": {
+    "message": "Panel megnyitása"
+  },
+  "errNameEmpty": {
+    "message": "Írjon be egy nevet."
+  },
+  "errNameLong": {
+    "message": "Ez a név túl hosszú."
+  },
+  "errHost": {
+    "message": "A gazda nem válaszolt."
+  },
+  "backupKept": {
+    "message": "Mentve ide: Downloads/$2. Mentett fájlok: $1."
+  },
+  "filesLabel": {
+    "message": "Fájlok"
+  },
+  "roomLabel": {
+    "message": "Szoba"
+  },
+  "roomNotes": {
+    "message": "Jegyzetek"
+  },
+  "roomCanvas": {
+    "message": "Vászon"
+  },
+  "search": {
+    "message": "Keresés"
+  },
+  "searchLabel": {
+    "message": "Keresés ebben a térben"
+  },
+  "noteLabel": {
+    "message": "Jegyzet"
+  },
+  "cvNotShown": {
+    "message": "$1 (itt nem látszik)"
+  },
+  "cvDrawFail": {
+    "message": "Ez a vászon nem rajzolható ki ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Nem változott semmi a lemezen. Nyissa meg Cursorban, vagy válasszon másik vásznat."
+  },
+  "statusDeleted": {
+    "message": "Törölve a lemezen"
+  },
+  "cv3dScene": {
+    "message": "A vászon 3D nézete. Húzással forgathatja, görgetéssel nagyíthatja, kártyára kattintva megnyithatja."
+  },
+  "cvModelScene": {
+    "message": "3D modell. Húzással forgathatja; a nyílbillentyűk is működnek."
+  },
+  "cvModelCompressed": {
+    "message": "tömörített geometriát vagy textúrát (Draco, KTX2 vagy Meshopt) használ, amit ez a nézet nem tud olvasni"
+  },
+  "cvNoWebgl": {
+    "message": "A WebGL nem érhető el ebben a böngészőben"
+  },
+  "megaTabs_one": {
+    "message": "$1 megalap"
+  },
+  "megaTabs_other": {
+    "message": "$1 megalap"
+  }
+}

@@ -1,0 +1,785 @@
+{
+  "lang": {
+    "message": "zh-CN"
+  },
+  "extName": {
+    "message": "Mega Tabs：空间、笔记和画布"
+  },
+  "extDescription": {
+    "message": "按项目切换标签页组，无需重新加载。旁边有笔记和画布，你的 AI 也能编辑。私密且免费。"
+  },
+  "cmdOpen": {
+    "message": "打开工作区列表"
+  },
+  "cmdTogglePanel": {
+    "message": "打开或关闭 Mega Tabs 面板"
+  },
+  "cmdNext": {
+    "message": "下一个工作区"
+  },
+  "cmdPrev": {
+    "message": "上一个工作区"
+  },
+  "cmdLast": {
+    "message": "上次使用的工作区"
+  },
+  "cmdSwitch": {
+    "message": "切换到工作区"
+  },
+  "tabs_other": {
+    "message": "$1 个标签页"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 个标签页未恢复"
+  },
+  "edit": {
+    "message": "编辑"
+  },
+  "name": {
+    "message": "名称"
+  },
+  "delete": {
+    "message": "删除"
+  },
+  "undo": {
+    "message": "撤销"
+  },
+  "stashHeading": {
+    "message": "工作区暂存窗口"
+  },
+  "stashText": {
+    "message": "此隐藏窗口属于 Mega Tabs 扩展程序，里面存放着当前未显示的工作区的标签页。请不要关闭它，用面板来切换。"
+  },
+  "defaultWorkspace": {
+    "message": "默认"
+  },
+  "recoveredWorkspace": {
+    "message": "已恢复"
+  },
+  "iconTitle": {
+    "message": "工作区：$1"
+  },
+  "iconTitleMissing": {
+    "message": "工作区：$1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "扩展程序存储空间快满了，标签页很快将无法保存"
+  },
+  "menuLink": {
+    "message": "在工作区中打开链接"
+  },
+  "menuMove": {
+    "message": "将标签页移到工作区"
+  },
+  "menuMoveMarked": {
+    "message": "将选中的 $1 个标签页移到工作区"
+  },
+  "menuGroup": {
+    "message": "将标签页组移到工作区"
+  },
+  "exNotJson": {
+    "message": "文件不是有效的 JSON。"
+  },
+  "exNotText": {
+    "message": "“$1”缺失或不是文本。"
+  },
+  "exTooLong": {
+    "message": "“$1”太长。"
+  },
+  "exNotList": {
+    "message": "“$1”缺失或不是列表。"
+  },
+  "exBadUrl": {
+    "message": "“$1”不是有效的地址。"
+  },
+  "exJavascript": {
+    "message": "不会导入 javascript: 地址。"
+  },
+  "exOwnPage": {
+    "message": "扩展程序自身的页面不应出现在文件中。"
+  },
+  "exNotExport": {
+    "message": "这不是 Helium Workspaces 的导出文件。"
+  },
+  "exBadVersion": {
+    "message": "格式版本号缺失或无效。"
+  },
+  "exNewerVersion": {
+    "message": "文件的格式版本为 $1，此扩展程序只支持版本 $2。"
+  },
+  "exNotObject": {
+    "message": "条目不是对象。"
+  },
+  "exNoWorkspaces": {
+    "message": "文件中没有工作区。"
+  },
+  "exTooManyWorkspaces": {
+    "message": "文件中的工作区太多。"
+  },
+  "exTooManyTabs": {
+    "message": "文件中的标签页太多。"
+  },
+  "exBadColor": {
+    "message": "“$1”不是 #rrggbb 形式的颜色。"
+  },
+  "exBadId": {
+    "message": "“id”只能包含字母和数字。"
+  },
+  "exDupId": {
+    "message": "ID“$1”出现了多次。"
+  },
+  "exEmptyId": {
+    "message": "“id”为空。"
+  },
+  "exDupGroupId": {
+    "message": "分组 ID“$1”出现了多次。"
+  },
+  "exBadGroupColor": {
+    "message": "“$1”不是分组颜色（$2）。"
+  },
+  "exBadCollapsed": {
+    "message": "“collapsed”必须是 true 或 false。"
+  },
+  "exUnknownGroup": {
+    "message": "分组“$1”未列在“groups”中。"
+  },
+  "exWherePinned": {
+    "message": "固定标签页 $1"
+  },
+  "exWhereWs": {
+    "message": "工作区 $1"
+  },
+  "exWhereWsNamed": {
+    "message": "工作区 $1（“$2”）"
+  },
+  "exWhereGroup": {
+    "message": "$1，分组 $2"
+  },
+  "exWhereTab": {
+    "message": "$1，标签页 $2"
+  },
+  "workspaceName": {
+    "message": "工作区"
+  },
+  "workspaceN": {
+    "message": "工作区 $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "下载已中断（$1）"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "扩展程序没有响应"
+  },
+  "generalSpace": {
+    "message": "通用"
+  },
+  "spaces": {
+    "message": "空间"
+  },
+  "setUp": {
+    "message": "设置"
+  },
+  "filesOffLead": {
+    "message": "文件功能已关闭："
+  },
+  "retryBtn": {
+    "message": "重试"
+  },
+  "switchToMega": {
+    "message": "切换到 $1"
+  },
+  "closeMegaAsk": {
+    "message": "再点一次，关闭此 Mega Tab 及其标签页"
+  },
+  "closeMegaAskLabel": {
+    "message": "关闭 $1 及其标签页：再点一次"
+  },
+  "closeMega": {
+    "message": "关闭 Mega Tab"
+  },
+  "closeMegaLabel": {
+    "message": "关闭 Mega Tab $1"
+  },
+  "closeQuestion": {
+    "message": "关闭？"
+  },
+  "spaceName": {
+    "message": "空间名称"
+  },
+  "showSpace": {
+    "message": "显示 $1（双击重命名）"
+  },
+  "newSpaceName": {
+    "message": "新空间的名称"
+  },
+  "newSpaceItem": {
+    "message": "新建空间…"
+  },
+  "allSpaces": {
+    "message": "所有空间"
+  },
+  "switchSpace": {
+    "message": "切换空间"
+  },
+  "board": {
+    "message": "看板"
+  },
+  "boardOpen": {
+    "message": "打开看板：$1 的 .md 文件"
+  },
+  "settingsPage": {
+    "message": "设置"
+  },
+  "settingsOpen": {
+    "message": "设置：边缘唤出、备份、导出"
+  },
+  "newMegaName": {
+    "message": "新 Mega Tab 的名称"
+  },
+  "noMegas": {
+    "message": "还没有 Mega Tab。"
+  },
+  "newMega": {
+    "message": "+ 新建 Mega Tab"
+  },
+  "noSpaces": {
+    "message": "还没有空间。"
+  },
+  "newSpace": {
+    "message": "+ 新建空间"
+  },
+  "openWindows": {
+    "message": "已打开的窗口"
+  },
+  "emptyWindow": {
+    "message": "空窗口"
+  },
+  "undoClose": {
+    "message": "撤销关闭"
+  },
+  "intro": {
+    "message": "Mega Tab 是一组可以整体切换的标签页。点一个就能开始。"
+  },
+  "homeSetupTitle": {
+    "message": "开启文件功能"
+  },
+  "homeSetupText": {
+    "message": "空间把笔记以普通文件保存在 $1 中。Chrome 需要一个小助手来读写它们。在 Mega Tabs 文件夹中运行 $2，然后点“重试”。"
+  },
+  "retryChecking": {
+    "message": "正在检查…"
+  },
+  "retryOn": {
+    "message": "文件功能已开启。"
+  },
+  "retryOff": {
+    "message": "仍未开启。运行该命令后再点一次“重试”。"
+  },
+  "tileLabel": {
+    "message": "$1，$2"
+  },
+  "tileOpen": {
+    "message": "打开 $1（双击重命名，拖入图片作为封面）"
+  },
+  "tileTypeName": {
+    "message": "输入名称，按回车"
+  },
+  "newSpaceAria": {
+    "message": "新建空间"
+  },
+  "tileNewTitle": {
+    "message": "输入名称以创建新空间"
+  },
+  "tileNewHint": {
+    "message": "输入名称"
+  },
+  "coverType": {
+    "message": "请使用 png、jpg 或 webp 图片。"
+  },
+  "coverBig": {
+    "message": "这张图片超过 700 KB，请换一张小一点的。"
+  },
+  "coverNotSaved": {
+    "message": "文件功能已关闭：封面没有保存。"
+  },
+  "edgeHeading": {
+    "message": "边缘唤出"
+  },
+  "edgeToggle": {
+    "message": "指针停在屏幕边缘时显示迷你切换器"
+  },
+  "edgeHelp": {
+    "message": "把指针在边缘停一会儿，你的 Mega Tab 就会出现在页面上方。Chrome 会一次性询问是否允许在网页上运行。切换器不读取网页内容，也不向任何地方发送数据。它不会出现在新标签页和 chrome:// 页面上。"
+  },
+  "side": {
+    "message": "侧边"
+  },
+  "sideLeft": {
+    "message": "左侧"
+  },
+  "sideRight": {
+    "message": "右侧"
+  },
+  "edgeOnLeft": {
+    "message": "已开启。把指针停在网页的左边缘。"
+  },
+  "edgeOnRight": {
+    "message": "已开启。把指针停在网页的右边缘。"
+  },
+  "edgeDenied": {
+    "message": "边缘唤出需要此权限才能在网页上运行，因此保持关闭。"
+  },
+  "backupHeading": {
+    "message": "备份"
+  },
+  "backupLabel": {
+    "message": "保存备份文件"
+  },
+  "backupNever": {
+    "message": "从不"
+  },
+  "backupDaily": {
+    "message": "每天"
+  },
+  "backupWeekly": {
+    "message": "每周"
+  },
+  "backupLast": {
+    "message": "上次保存：$1。"
+  },
+  "backupSaving": {
+    "message": "正在保存…"
+  },
+  "dataHeading": {
+    "message": "你的 Mega Tab"
+  },
+  "dataHelp": {
+    "message": "一个文件包含所有空间、Mega Tab 及其标签页。导入只会补上缺少的内容，不会关闭任何东西。"
+  },
+  "exportBtn": {
+    "message": "导出 Mega Tab"
+  },
+  "importBtn": {
+    "message": "导入 Mega Tab…"
+  },
+  "chooseFile": {
+    "message": "选择导出的文件"
+  },
+  "exportSaved": {
+    "message": "已保存 $1：$2，$3。"
+  },
+  "exportFail": {
+    "message": "无法导出：$1"
+  },
+  "importAdded": {
+    "message": "已从 $3 添加 $1 和 $2。"
+  },
+  "importNothing": {
+    "message": "没有可添加的内容：$1 中的一切都已存在。"
+  },
+  "importFail": {
+    "message": "无法导入：$1"
+  },
+  "boardTitle": {
+    "message": "看板 · $1"
+  },
+  "folderLabel": {
+    "message": "文件夹：$1"
+  },
+  "change": {
+    "message": "更改"
+  },
+  "chooseFolder": {
+    "message": "选择文件夹"
+  },
+  "allowFolder": {
+    "message": "允许访问“$1”"
+  },
+  "hostMissing": {
+    "message": "看板主机程序未安装。请在 Mega Tabs 文件夹中运行 $1，然后重新加载此页面。"
+  },
+  "hostForbidden": {
+    "message": "Chrome 不允许此扩展程序使用看板主机程序。请再次运行 $1，然后重新加载此页面。"
+  },
+  "hostStopped": {
+    "message": "看板主机程序已停止。正在重试。"
+  },
+  "hostUnreachable": {
+    "message": "看板无法连接到它的主机程序（$1）。"
+  },
+  "cannotOpenMeta": {
+    "message": "此处无法打开（$1）"
+  },
+  "howItWorks": {
+    "message": "使用说明"
+  },
+  "rename": {
+    "message": "重命名"
+  },
+  "renameLabel": {
+    "message": "重命名 $1"
+  },
+  "renameTitle": {
+    "message": "重命名（或双击名称）"
+  },
+  "deleteLabel": {
+    "message": "删除 $1"
+  },
+  "deleteTitle": {
+    "message": "删除（移到废纸篓，可撤销）"
+  },
+  "noMatches": {
+    "message": "没有匹配项。"
+  },
+  "newNote": {
+    "message": "新建笔记"
+  },
+  "newCanvas": {
+    "message": "新建画布"
+  },
+  "newNoteTitle": {
+    "message": "在此空间中新建一篇笔记"
+  },
+  "newCanvasTitle": {
+    "message": "在此空间中新建一个画布"
+  },
+  "emptyNotesFolder": {
+    "message": "此空间还没有笔记。点“新建笔记”开始一篇。"
+  },
+  "emptyNotesDir": {
+    "message": "~/Spaces/$1/ 中还没有 .md 文件。点“新建笔记”开始一篇。"
+  },
+  "noFolderNotes": {
+    "message": "“$1”还没有文件夹。请创建 ~/Spaces/$1/，并把 .md 文件放进去。"
+  },
+  "emptyCanvasFolder": {
+    "message": "此空间还没有画布。点“新建画布”开始一个。"
+  },
+  "emptyCanvasDir": {
+    "message": "~/Spaces/$1/ 中还没有 .canvas 文件。点“新建画布”开始一个。"
+  },
+  "noFolderCanvas": {
+    "message": "“$1”还没有文件夹。请创建 ~/Spaces/$1/，并把 .canvas 文件放进去。"
+  },
+  "done": {
+    "message": "完成"
+  },
+  "backToReading": {
+    "message": "返回阅读（Esc）"
+  },
+  "typeInFile": {
+    "message": "在此文件中输入（E）"
+  },
+  "openCursor": {
+    "message": "在 Cursor 中打开"
+  },
+  "openCursorTitle": {
+    "message": "在 Cursor 中打开此文件"
+  },
+  "typeHere": {
+    "message": "在这里输入。"
+  },
+  "textOf": {
+    "message": "$1 的文本"
+  },
+  "statusUnsaved": {
+    "message": "未保存"
+  },
+  "statusSaving": {
+    "message": "正在保存"
+  },
+  "statusSaved": {
+    "message": "已保存"
+  },
+  "mixedEol": {
+    "message": "换行符混用：请在 Cursor 中编辑此文件。"
+  },
+  "notSavedWhy": {
+    "message": "未保存（$1）"
+  },
+  "hostNotConnected": {
+    "message": "主机程序未连接"
+  },
+  "notSaved": {
+    "message": "未保存：$1"
+  },
+  "notSavedTooLarge": {
+    "message": "未保存：这篇笔记超过了文件可容纳的 $1 KB。请缩短它，或拆成两篇。"
+  },
+  "changedOnDisk": {
+    "message": "磁盘上已更改"
+  },
+  "conflictGone": {
+    "message": "磁盘上已删除："
+  },
+  "conflictTooLarge": {
+    "message": "磁盘上已更改，现在太大，无法在此显示："
+  },
+  "conflictNotText": {
+    "message": "磁盘上已更改，不再是文本："
+  },
+  "conflictChanged": {
+    "message": "磁盘上已更改："
+  },
+  "loadTheirs": {
+    "message": "载入对方的版本"
+  },
+  "keepMine": {
+    "message": "保留我的"
+  },
+  "dropIt": {
+    "message": "丢弃"
+  },
+  "seeTheirs": {
+    "message": "查看对方的版本"
+  },
+  "removedFromFolder": {
+    "message": "$1 已从文件夹中移除。"
+  },
+  "cannotOpenNote": {
+    "message": "此文件无法在这里打开（$1）。"
+  },
+  "cannotOpenNoteCursor": {
+    "message": "此文件无法在这里打开（$1）。Cursor 可以。"
+  },
+  "cannotOpenCanvas": {
+    "message": "此画布无法在这里打开（$1）。"
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "此画布无法在这里打开（$1）。Cursor 可以。"
+  },
+  "waitingStorage": {
+    "message": "正在等待看板存储。"
+  },
+  "couldNotRead": {
+    "message": "无法读取 $1（$2）。"
+  },
+  "couldNotOpen": {
+    "message": "无法打开 $1（$2）。"
+  },
+  "noteName": {
+    "message": "笔记名称"
+  },
+  "canvasName": {
+    "message": "画布名称"
+  },
+  "nameTaken": {
+    "message": "该名称已被占用。"
+  },
+  "nameBad": {
+    "message": "该名称不能使用。"
+  },
+  "notCreated": {
+    "message": "未创建（$1）。"
+  },
+  "renameNewName": {
+    "message": "$1 的新名称"
+  },
+  "resolveFirst": {
+    "message": "请先处理磁盘上的更改。"
+  },
+  "notSavedYetRename": {
+    "message": "尚未保存；请稍后再试。"
+  },
+  "fileGone": {
+    "message": "该文件已不存在。"
+  },
+  "notRenamed": {
+    "message": "未重命名（$1）。"
+  },
+  "deletedToast": {
+    "message": "已删除“$1”"
+  },
+  "resolveFirstDelete": {
+    "message": "请先处理磁盘上的更改，再删除。"
+  },
+  "notSavedYetDelete": {
+    "message": "尚未保存，所以没有删除。请稍后再试。"
+  },
+  "notDeleted": {
+    "message": "未删除：$1"
+  },
+  "notRestored": {
+    "message": "未恢复：$1"
+  },
+  "cvThreeFailed": {
+    "message": "3D 无法在此启动（$1）。"
+  },
+  "cvDidNotLoad": {
+    "message": "未能加载"
+  },
+  "cvSelect": {
+    "message": "选择并移动（V）"
+  },
+  "cvCard": {
+    "message": "添加文本卡片（T）"
+  },
+  "cvPen": {
+    "message": "画笔（P）"
+  },
+  "cvEraser": {
+    "message": "橡皮擦（E）"
+  },
+  "cvTools": {
+    "message": "画布工具"
+  },
+  "cvUndo": {
+    "message": "撤销（Cmd+Z）"
+  },
+  "cvRedo": {
+    "message": "重做（Shift+Cmd+Z）"
+  },
+  "cvRedoLabel": {
+    "message": "重做"
+  },
+  "cvDelete": {
+    "message": "删除所选内容（Backspace）"
+  },
+  "cvDeleteLabel": {
+    "message": "删除所选内容"
+  },
+  "cvView": {
+    "message": "视图"
+  },
+  "cv2d": {
+    "message": "画布，平面"
+  },
+  "cv3d": {
+    "message": "同一个画布的 3D 视图（只读）"
+  },
+  "cvDeleted": {
+    "message": "磁盘上已删除。此画布已不在文件夹中。"
+  },
+  "cvEmptyCard": {
+    "message": "空卡片"
+  },
+  "cvWriteHere": {
+    "message": "在这里输入"
+  },
+  "cvCardText": {
+    "message": "卡片文本"
+  },
+  "cvOpenNotes": {
+    "message": "在笔记中打开"
+  },
+  "cvOpenCanvas": {
+    "message": "打开此画布"
+  },
+  "cvModelGone": {
+    "message": "此模型不在文件夹中。"
+  },
+  "cvModelBig": {
+    "message": "此模型超过 24 MB。"
+  },
+  "cvModelFail": {
+    "message": "无法显示此模型（$1）。"
+  },
+  "cvUnknownError": {
+    "message": "未知错误"
+  },
+  "cvLoadingModel": {
+    "message": "正在加载模型"
+  },
+  "cvLink": {
+    "message": "链接"
+  },
+  "cvGroup": {
+    "message": "分组"
+  },
+  "cvNodeNote": {
+    "message": "笔记 $1"
+  },
+  "cvNodeLink": {
+    "message": "链接 $1"
+  },
+  "cvNodeGroup": {
+    "message": "分组 $1"
+  },
+  "cvNodeType": {
+    "message": "类型为 $1 的卡片"
+  },
+  "sInvalid": {
+    "message": "此文件不是 JSON Canvas（$1）。请在 Cursor 中修复；在此之前这里不会保存任何内容。"
+  },
+  "sInvalidNow": {
+    "message": "磁盘上已更改，现在不是 JSON Canvas（$1）。在它恢复有效之前，这里不会保存任何内容。"
+  },
+  "sTooBig": {
+    "message": "未保存（此画布为 $1；文件最多容纳 $2。请擦除一些笔画或卡片）"
+  },
+  "sBlockedBig": {
+    "message": "未保存（磁盘上的文件已更改且超出大小限制：保留我的，或保持原样）"
+  },
+  "sBlockedText": {
+    "message": "未保存（磁盘上的文件已更改且不是文本：保留我的，或保持原样）"
+  },
+  "sKeepsChanging": {
+    "message": "未保存（文件一直在变化）"
+  },
+  "edgeOpenPanel": {
+    "message": "打开面板"
+  },
+  "errNameEmpty": {
+    "message": "请输入名称。"
+  },
+  "errNameLong": {
+    "message": "该名称太长。"
+  },
+  "errHost": {
+    "message": "主机程序没有响应。"
+  },
+  "backupKept": {
+    "message": "已存入“下载”/$2。保留的文件数：$1。"
+  },
+  "filesLabel": {
+    "message": "文件"
+  },
+  "roomLabel": {
+    "message": "房间"
+  },
+  "roomNotes": {
+    "message": "笔记"
+  },
+  "roomCanvas": {
+    "message": "画布"
+  },
+  "search": {
+    "message": "搜索"
+  },
+  "searchLabel": {
+    "message": "搜索此空间"
+  },
+  "noteLabel": {
+    "message": "笔记"
+  },
+  "cvNotShown": {
+    "message": "$1（此处不显示）"
+  },
+  "cvDrawFail": {
+    "message": "无法绘制此画布（$1）。"
+  },
+  "cvDrawFail2": {
+    "message": "磁盘上没有任何更改。请在 Cursor 中打开它，或选择另一个画布。"
+  },
+  "statusDeleted": {
+    "message": "磁盘上已删除"
+  },
+  "cv3dScene": {
+    "message": "此画布的 3D 视图。拖动可环绕，滚动可缩放，点击卡片可打开。"
+  },
+  "cvModelScene": {
+    "message": "3D 模型。拖动可旋转，也可以用方向键。"
+  },
+  "cvModelCompressed": {
+    "message": "它使用了压缩的几何体或纹理（Draco、KTX2 或 Meshopt），此视图无法读取"
+  },
+  "cvNoWebgl": {
+    "message": "此浏览器不支持 WebGL"
+  },
+  "megaTabs_other": {
+    "message": "$1 个 Mega Tab"
+  }
+}

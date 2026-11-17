@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title data-i18n="settingsPage"></title>
+  <link rel="stylesheet" href="sidepanel.css">
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body class="settings">
+  <header>
+    <h1 data-i18n="settingsPage"></h1>
+  </header>
+
+  <section aria-labelledby="edge-title">
+    <h2 id="edge-title" data-i18n="edgeHeading"></h2>
+    <label class="row">
+      <input id="edge-on" type="checkbox">
+      <span data-i18n="edgeToggle"></span>
+    </label>
+    <p class="dim" data-i18n="edgeHelp"></p>
+    <fieldset id="edge-side" class="row choices">
+      <legend data-i18n="side"></legend>
+      <label><input type="radio" name="side" value="left"> <span data-i18n="sideLeft"></span></label>
+      <label><input type="radio" name="side" value="right"> <span data-i18n="sideRight"></span></label>
+    </fieldset>
+    <p id="edge-note" class="dim note" role="status"></p>
+  </section>
+
+  <section aria-labelledby="backup-title">
+    <h2 id="backup-title" data-i18n="backupHeading"></h2>
+    <label class="row">
+      <span data-i18n="backupLabel"></span>
+      <select id="auto"></select>
+    </label>
+    <p id="auto-note" class="dim note" role="status"></p>
+  </section>
+
+  <section aria-labelledby="data-title">
+    <h2 id="data-title" data-i18n="dataHeading"></h2>
+    <p class="dim" data-i18n="dataHelp"></p>
+    <p class="actions">
+      <button id="export" class="btn" type="button" data-i18n="exportBtn"></button>
+      <button id="import" class="btn" type="button" data-i18n="importBtn"></button>
+      <input id="file" type="file" accept=".json,application/json" hidden data-i18n-label="chooseFile">
+    </p>
+    <p id="data-note" class="dim note" role="status"></p>
+  </section>
+
+  <script src="i18n.js"></script>
+  <script src="settings.js"></script>
+</body>
+</html>

@@ -1,0 +1,1379 @@
+{
+  "lang": {
+    "message": "de"
+  },
+  "extName": {
+    "message": "Mega Tabs: Workspaces, Notizen & Canvas"
+  },
+  "extDescription": {
+    "message": "Tab-Sätze pro Projekt wechseln, ohne Neuladen. Daneben Notizen und ein Canvas, die auch deine KI bearbeiten kann. Privat und gratis."
+  },
+  "cmdOpen": {
+    "message": "Workspace-Liste öffnen"
+  },
+  "cmdTogglePanel": {
+    "message": "Mega-Tabs-Leiste öffnen oder schließen"
+  },
+  "cmdNext": {
+    "message": "Nächster Workspace"
+  },
+  "cmdPrev": {
+    "message": "Vorheriger Workspace"
+  },
+  "cmdLast": {
+    "message": "Zuletzt benutzter Workspace"
+  },
+  "cmdSwitch": {
+    "message": "Wechseln zu Workspace"
+  },
+  "tabs_one": {
+    "message": "$1 Tab"
+  },
+  "tabs_other": {
+    "message": "$1 Tabs"
+  },
+  "workspaces_one": {
+    "message": "$1 Workspace"
+  },
+  "workspaces_other": {
+    "message": "$1 Workspaces"
+  },
+  "groups_one": {
+    "message": "$1 Gruppe"
+  },
+  "groups_other": {
+    "message": "$1 Gruppen"
+  },
+  "tabGroups_one": {
+    "message": "$1 Tab-Gruppe"
+  },
+  "tabGroups_other": {
+    "message": "$1 Tab-Gruppen"
+  },
+  "pinnedTabs_one": {
+    "message": "$1 angehefteter Tab"
+  },
+  "pinnedTabs_other": {
+    "message": "$1 angeheftete Tabs"
+  },
+  "pinnedTabsDative_one": {
+    "message": "$1 angeheftetem Tab"
+  },
+  "pinnedTabsDative_other": {
+    "message": "$1 angehefteten Tabs"
+  },
+  "oldWorkspaces_one": {
+    "message": "$1 alter Workspace"
+  },
+  "oldWorkspaces_other": {
+    "message": "$1 alte Workspaces"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 Tab nicht wiederhergestellt"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 Tabs nicht wiederhergestellt"
+  },
+  "notRestoredTabs_one": {
+    "message": "$1 nicht wiederhergestellten Tab"
+  },
+  "notRestoredTabs_other": {
+    "message": "$1 nicht wiederhergestellte Tabs"
+  },
+  "closeTabs_one": {
+    "message": "$1 Tab schließen?"
+  },
+  "closeTabs_other": {
+    "message": "$1 Tabs schließen?"
+  },
+  "error": {
+    "message": "Fehler"
+  },
+  "newWorkspace": {
+    "message": "＋ Neuer Workspace"
+  },
+  "openTransfer": {
+    "message": "⇅ Exportieren / Importieren"
+  },
+  "muteStash": {
+    "message": "Ablagen stummschalten"
+  },
+  "muteStashTitle": {
+    "message": "Tabs in nicht gezeigten Workspaces spielen keinen Ton ab"
+  },
+  "unloadAfter": {
+    "message": "Ablagen entladen nach"
+  },
+  "unloadNever": {
+    "message": "nie"
+  },
+  "unloadMinutes": {
+    "message": "$1 Minuten"
+  },
+  "unloadHour": {
+    "message": "1 Stunde"
+  },
+  "unloadHours": {
+    "message": "$1 Stunden"
+  },
+  "keySummary": {
+    "message": "Schlüssel für install.sh"
+  },
+  "copy": {
+    "message": "Kopieren"
+  },
+  "copied": {
+    "message": "Kopiert"
+  },
+  "copyFailed": {
+    "message": "Fehlgeschlagen"
+  },
+  "keyUnavailable": {
+    "message": "Nicht verfügbar: $1"
+  },
+  "popupHint": {
+    "message": "↑ / ↓ und Enter oder Alt+Shift+↑ / ↓ wechseln · Rechtsklick auf Seite: Tab verschieben"
+  },
+  "versionTitle": {
+    "message": "Version der Erweiterung"
+  },
+  "reload": {
+    "message": "Neu laden"
+  },
+  "backupFailingSince": {
+    "message": "Sicherung scheitert seit $1"
+  },
+  "backupFailingHint": {
+    "message": "Geht ein Fenster verloren, fehlen alle Änderungen seitdem."
+  },
+  "storageFull": {
+    "message": "Speicher der Erweiterung zu $1 % voll"
+  },
+  "storageFullHint": {
+    "message": "Ist er voll, kann sie Workspaces nicht mehr wechseln und Tabs nicht mehr zuverlässig sichern. Schließe Tabs oder Fenster, die du nicht brauchst."
+  },
+  "storageFullUpdate": {
+    "message": "Ab Chrome 112 ist der Speicher zehnmal so groß."
+  },
+  "storageTight": {
+    "message": "Dieser Browser gibt der Erweiterung nur $1 MB Speicher"
+  },
+  "storageTightHint": {
+    "message": "Bei sehr vielen Tabs kann er volllaufen, dann kann sie Workspaces nicht mehr wechseln und Tabs nicht mehr zuverlässig sichern. Ab Chrome 112 sind es 10 MB, und dieser Hinweis entfällt."
+  },
+  "storageUsed": {
+    "message": "Belegt: $1 %"
+  },
+  "colorBlue": {
+    "message": "Blau"
+  },
+  "colorRed": {
+    "message": "Rot"
+  },
+  "colorGreen": {
+    "message": "Grün"
+  },
+  "colorOrange": {
+    "message": "Orange"
+  },
+  "colorPurple": {
+    "message": "Lila"
+  },
+  "colorPink": {
+    "message": "Pink"
+  },
+  "colorTeal": {
+    "message": "Türkis"
+  },
+  "colorGray": {
+    "message": "Grau"
+  },
+  "keyN": {
+    "message": "Taste $1"
+  },
+  "otherWindow": {
+    "message": "anderes Fenster"
+  },
+  "muteTitle": {
+    "message": "Ton aus"
+  },
+  "muteLabel": {
+    "message": "„$1“ stummschalten"
+  },
+  "muting": {
+    "message": "Wird stummgeschaltet …"
+  },
+  "muteFailed": {
+    "message": "Ton konnte nicht ausgeschaltet werden."
+  },
+  "unmuteTitle": {
+    "message": "Ton an"
+  },
+  "unmuteLabel": {
+    "message": "Ton für „$1“ einschalten"
+  },
+  "unmuting": {
+    "message": "Ton wird eingeschaltet …"
+  },
+  "unmuteFailed": {
+    "message": "Ton konnte nicht eingeschaltet werden."
+  },
+  "moveTabTitle": {
+    "message": "Aktuellen Tab hierhin verschieben"
+  },
+  "moveTabsTitle": {
+    "message": "$1 markierte Tabs hierhin verschieben"
+  },
+  "moveTabLabel": {
+    "message": "Aktuellen Tab nach „$1“ verschieben"
+  },
+  "moveTabsLabel": {
+    "message": "$1 markierte Tabs nach „$2“ verschieben"
+  },
+  "movingTab": {
+    "message": "Tab wird verschoben …"
+  },
+  "movingTabs": {
+    "message": "Tabs werden verschoben …"
+  },
+  "moveTabFailed": {
+    "message": "Tab konnte nicht verschoben werden."
+  },
+  "moveTabsFailed": {
+    "message": "Tabs konnten nicht verschoben werden."
+  },
+  "edit": {
+    "message": "Bearbeiten"
+  },
+  "editLabel": {
+    "message": "„$1“ bearbeiten"
+  },
+  "retry": {
+    "message": "Erneut versuchen"
+  },
+  "retryTitle": {
+    "message": "Wechselt in diesen Workspace"
+  },
+  "discard": {
+    "message": "Verwerfen"
+  },
+  "discardTitle": {
+    "message": "Fehlende Tabs aus der Sicherung entfernen"
+  },
+  "confirm": {
+    "message": "Wirklich?"
+  },
+  "restoring": {
+    "message": "Tabs werden wiederhergestellt …"
+  },
+  "restoreFailed": {
+    "message": "Tabs konnten nicht wiederhergestellt werden."
+  },
+  "discarding": {
+    "message": "Wird verworfen …"
+  },
+  "discardFailed": {
+    "message": "Tabs konnten nicht verworfen werden."
+  },
+  "emojiTitle": {
+    "message": "Emoji (leer = Anfangsbuchstabe)"
+  },
+  "emojiLabel": {
+    "message": "Emoji, leer für Anfangsbuchstaben"
+  },
+  "name": {
+    "message": "Name"
+  },
+  "color": {
+    "message": "Farbe"
+  },
+  "moveUp": {
+    "message": "Nach oben"
+  },
+  "moveDown": {
+    "message": "Nach unten"
+  },
+  "delete": {
+    "message": "Löschen"
+  },
+  "deleteLastTitle": {
+    "message": "Der letzte Workspace kann nicht gelöscht werden"
+  },
+  "confirmDelete": {
+    "message": "Wirklich löschen?"
+  },
+  "deletedOne": {
+    "message": "„$1“ gelöscht"
+  },
+  "deletedMany": {
+    "message": "$1 gelöscht"
+  },
+  "undo": {
+    "message": "Rückgängig"
+  },
+  "undoTitle": {
+    "message": "Holt das Gelöschte samt Tabs zurück, möglich bis zum nächsten Browserstart"
+  },
+  "undoing": {
+    "message": "Wird wiederhergestellt …"
+  },
+  "undoFailed": {
+    "message": "Gelöschte Workspaces konnten nicht wiederhergestellt werden."
+  },
+  "forgetDeleted": {
+    "message": "Ausblenden, danach lässt sich das Löschen nicht mehr rückgängig machen"
+  },
+  "forgetFailed": {
+    "message": "Hinweis konnte nicht ausgeblendet werden."
+  },
+  "saving": {
+    "message": "Wird gespeichert …"
+  },
+  "saveFailed": {
+    "message": "Änderung konnte nicht gespeichert werden."
+  },
+  "settingFailed": {
+    "message": "Einstellung konnte nicht gespeichert werden."
+  },
+  "deleting": {
+    "message": "Workspace wird gelöscht …"
+  },
+  "deleteFailed": {
+    "message": "Workspace konnte nicht gelöscht werden."
+  },
+  "reordering": {
+    "message": "Reihenfolge wird gespeichert …"
+  },
+  "reorderFailed": {
+    "message": "Reihenfolge konnte nicht geändert werden."
+  },
+  "switching": {
+    "message": "Workspace wird gewechselt …"
+  },
+  "switchFailed": {
+    "message": "Workspace konnte nicht gewechselt werden."
+  },
+  "creating": {
+    "message": "Workspace wird angelegt …"
+  },
+  "createFailed": {
+    "message": "Workspace konnte nicht angelegt werden."
+  },
+  "opening": {
+    "message": "Wird geöffnet …"
+  },
+  "openTransferFailed": {
+    "message": "Export und Import konnten nicht geöffnet werden."
+  },
+  "loading": {
+    "message": "Wird geladen …"
+  },
+  "loadFailed": {
+    "message": "Workspaces konnten nicht geladen werden."
+  },
+  "transferTitle": {
+    "message": "Workspaces exportieren und importieren"
+  },
+  "exportHeading": {
+    "message": "Exportieren"
+  },
+  "exportText": {
+    "message": "Speichert alle Workspaces mit Name, Farbe, Emoji, Reihenfolge, Tabs und Tab-Gruppen, die angehefteten Tabs und die Einstellungen als JSON-Datei. Fenster-IDs und der Geräteschlüssel kommen nicht hinein."
+  },
+  "exportPlainText": {
+    "message": "Die Datei enthält die vollständigen Adressen und Titel aller Tabs im Klartext, also auch Zugangstoken sowie Freigabe- oder Passwort-Reset-Links darin. Wer sie weitergibt oder den Downloads-Ordner synchronisiert, gibt sie mit."
+  },
+  "exportButton": {
+    "message": "Als Datei speichern"
+  },
+  "importHeading": {
+    "message": "Importieren"
+  },
+  "importText": {
+    "message": "Die Datei wird zuerst vollständig geprüft. Geändert wird erst, wenn du unten bestätigst."
+  },
+  "modesLegend": {
+    "message": "Was soll passieren?"
+  },
+  "mergeName": {
+    "message": "Zusammenführen"
+  },
+  "mergeText": {
+    "message": "bisherige Workspaces und Tabs bleiben, nichts wird geschlossen."
+  },
+  "replaceName": {
+    "message": "Ersetzen"
+  },
+  "replaceText": {
+    "message": "die bisherigen Workspaces werden gelöscht und durch die aus der Datei ersetzt."
+  },
+  "importButton": {
+    "message": "Importieren"
+  },
+  "exporting": {
+    "message": "Wird exportiert …"
+  },
+  "exportDone": {
+    "message": "$1 mit $2 exportiert."
+  },
+  "exportDonePinned": {
+    "message": "$1 mit $2 und $3 exportiert."
+  },
+  "exportFailed": {
+    "message": "Export fehlgeschlagen: $1"
+  },
+  "fileValid": {
+    "message": "Die Datei ist gültig: $1."
+  },
+  "fileValidDate": {
+    "message": "Die Datei ist gültig: $1 (exportiert am $2)."
+  },
+  "pinnedPlan": {
+    "message": "Angeheftete Tabs: $1 neu"
+  },
+  "pinnedPlanSkip": {
+    "message": "Angeheftete Tabs: $1 neu, $2 schon vorhanden"
+  },
+  "mergeById": {
+    "message": "derselbe Workspace"
+  },
+  "mergeByName": {
+    "message": "gleicher Name"
+  },
+  "mergeNew": {
+    "message": "„$1“ wird neu angelegt ($2)."
+  },
+  "mergeNothing": {
+    "message": "„$1“ ($2): alle $3 schon vorhanden, nichts zu tun."
+  },
+  "mergeAdd": {
+    "message": "„$1“ ($2) bekommt $3 neue."
+  },
+  "mergeAddSkip": {
+    "message": "„$1“ ($2) bekommt $3 neue, $4 schon vorhanden."
+  },
+  "replaceDelete": {
+    "message": "Löscht $1 ($2) und schließt $3."
+  },
+  "replaceDiscard": {
+    "message": "Verwirft $1."
+  },
+  "replaceCreate": {
+    "message": "Legt $1 aus der Datei neu an."
+  },
+  "replaceKeep": {
+    "message": "Behält $1 in Fenstern, die zu Workspaces der Datei passen, samt Verlauf offen."
+  },
+  "replacePinned": {
+    "message": "Angeheftete Tabs bleiben offen, fehlende aus der Datei kommen dazu."
+  },
+  "replaceUndo": {
+    "message": "Bis zum nächsten Browserstart lässt sich das im Popup rückgängig machen."
+  },
+  "quoted": {
+    "message": "„$1“"
+  },
+  "checkingFile": {
+    "message": "Datei wird geprüft …"
+  },
+  "fileTooLarge": {
+    "message": "Die Datei ist zu groß."
+  },
+  "fileRejected": {
+    "message": "Diese Datei kann nicht importiert werden. Es wurde nichts geändert."
+  },
+  "checkingCurrent": {
+    "message": "Aktueller Stand wird geprüft …"
+  },
+  "confirmReplaceTabs": {
+    "message": "$1 schließen und ersetzen?"
+  },
+  "confirmReplace": {
+    "message": "Wirklich ersetzen?"
+  },
+  "importing": {
+    "message": "Wird importiert …"
+  },
+  "resCreated": {
+    "message": "$1 angelegt"
+  },
+  "resMerged": {
+    "message": "$1 ergänzt"
+  },
+  "resAdded": {
+    "message": "$1 übernommen"
+  },
+  "resSkipped": {
+    "message": "$1 doppelte übersprungen"
+  },
+  "resPinned": {
+    "message": "$1 ergänzt"
+  },
+  "settingsPlan": {
+    "message": "Übernimmt die Einstellungen: $1."
+  },
+  "settingsSame": {
+    "message": "Die Einstellungen aus der Datei gelten hier schon."
+  },
+  "settingValue": {
+    "message": "$1: $2"
+  },
+  "settingOn": {
+    "message": "an"
+  },
+  "settingOff": {
+    "message": "aus"
+  },
+  "resSettings": {
+    "message": "$1 übernommen"
+  },
+  "settings_one": {
+    "message": "$1 Einstellung"
+  },
+  "settings_other": {
+    "message": "$1 Einstellungen"
+  },
+  "resRemoved": {
+    "message": "$1 mit $2 entfernt"
+  },
+  "resKept": {
+    "message": "$1 offen geblieben"
+  },
+  "importDone": {
+    "message": "Import abgeschlossen: $1."
+  },
+  "importDoneFailed": {
+    "message": "Import abgeschlossen: $1. $2 ließen sich nicht öffnen, sie stehen im Popup unter „nicht wiederhergestellt“."
+  },
+  "importFailed": {
+    "message": "Import fehlgeschlagen."
+  },
+  "stashHeading": {
+    "message": "Workspace-Ablage"
+  },
+  "stashText": {
+    "message": "Dieses versteckte Fenster gehört zur Erweiterung Mega Tabs. Es enthält die Tabs eines gerade nicht angezeigten Workspace. Bitte nicht schließen – zum Wechseln das Panel benutzen."
+  },
+  "defaultWorkspace": {
+    "message": "Standard"
+  },
+  "recoveredWorkspace": {
+    "message": "Wiederhergestellt"
+  },
+  "iconTitle": {
+    "message": "Workspace: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Workspace: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Speicher der Erweiterung fast voll, Tabs werden bald nicht mehr gesichert"
+  },
+  "menuLink": {
+    "message": "Link in Workspace öffnen"
+  },
+  "menuMove": {
+    "message": "Tab in Workspace verschieben"
+  },
+  "menuMoveMarked": {
+    "message": "$1 markierte Tabs in Workspace verschieben"
+  },
+  "menuGroup": {
+    "message": "Gruppe in Workspace verschieben"
+  },
+  "unloadInvalid": {
+    "message": "Ungültige Zeit zum Entladen."
+  },
+  "importModeUnknown": {
+    "message": "Unbekannte Import-Art."
+  },
+  "importReplaceUnconfirmed": {
+    "message": "Ersetzen schließt Tabs und muss bestätigt werden."
+  },
+  "exNotJson": {
+    "message": "Die Datei ist kein gültiges JSON."
+  },
+  "exNotText": {
+    "message": "„$1“ fehlt oder ist kein Text."
+  },
+  "exTooLong": {
+    "message": "„$1“ ist zu lang."
+  },
+  "exNotList": {
+    "message": "„$1“ fehlt oder ist keine Liste."
+  },
+  "exBadUrl": {
+    "message": "„$1“ ist keine gültige Adresse."
+  },
+  "exJavascript": {
+    "message": "javascript:-Adressen werden nicht importiert."
+  },
+  "exOwnPage": {
+    "message": "Seiten der Erweiterung selbst gehören nicht in die Datei."
+  },
+  "exNotExport": {
+    "message": "Das ist keine Export-Datei von Helium Workspaces."
+  },
+  "exBadVersion": {
+    "message": "Die Versionsnummer des Formats fehlt oder ist ungültig."
+  },
+  "exNewerVersion": {
+    "message": "Die Datei hat Format-Version $1, diese Erweiterung kennt nur Version $2."
+  },
+  "exNotObject": {
+    "message": "Eintrag ist kein Objekt."
+  },
+  "exNoWorkspaces": {
+    "message": "Die Datei enthält keine Workspaces."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Die Datei enthält zu viele Workspaces."
+  },
+  "exTooManyTabs": {
+    "message": "Die Datei enthält zu viele Tabs."
+  },
+  "exBadColor": {
+    "message": "„$1“ ist keine Farbe der Form #rrggbb."
+  },
+  "exBadId": {
+    "message": "„id“ darf nur Buchstaben und Ziffern enthalten."
+  },
+  "exDupId": {
+    "message": "Die ID „$1“ kommt mehrfach vor."
+  },
+  "exEmptyId": {
+    "message": "„id“ ist leer."
+  },
+  "exDupGroupId": {
+    "message": "Die Gruppen-ID „$1“ kommt mehrfach vor."
+  },
+  "exBadGroupColor": {
+    "message": "„$1“ ist keine Gruppenfarbe ($2)."
+  },
+  "exBadCollapsed": {
+    "message": "„collapsed“ muss true oder false sein."
+  },
+  "exUnknownGroup": {
+    "message": "Gruppe „$1“ ist nicht unter „groups“ aufgeführt."
+  },
+  "exWherePinned": {
+    "message": "Angehefteter Tab $1"
+  },
+  "exWhereWs": {
+    "message": "Workspace $1"
+  },
+  "exWhereWsNamed": {
+    "message": "Workspace $1 („$2“)"
+  },
+  "exWhereGroup": {
+    "message": "$1, Gruppe $2"
+  },
+  "exWhereTab": {
+    "message": "$1, Tab $2"
+  },
+  "workspaceName": {
+    "message": "Workspace"
+  },
+  "workspaceN": {
+    "message": "Workspace $1"
+  },
+  "autoHeading": {
+    "message": "Automatisch sichern"
+  },
+  "autoText": {
+    "message": "Legt regelmäßig einen Export in Downloads/$1/ ab und behält davon die letzten $2. So bleiben die Workspaces erhalten, auch wenn die Erweiterung entfernt wird oder das Profil kaputtgeht."
+  },
+  "autoPlainText": {
+    "message": "Auch die Sicherungen enthalten alle Adressen und Titel im Klartext, samt Zugangstoken und Passwort-Reset-Links. Wer den Downloads-Ordner synchronisiert, gibt sie mit."
+  },
+  "autoLabel": {
+    "message": "Häufigkeit"
+  },
+  "autoNever": {
+    "message": "nie"
+  },
+  "autoDaily": {
+    "message": "täglich"
+  },
+  "autoWeekly": {
+    "message": "wöchentlich"
+  },
+  "autoLast": {
+    "message": "Zuletzt am $1: $2"
+  },
+  "autoLastAt": {
+    "message": "Zuletzt am $1."
+  },
+  "autoPending": {
+    "message": "Gestartet am $1, die Datei ist noch nicht gespeichert."
+  },
+  "autoFailed": {
+    "message": "Automatische Sicherung am $1 fehlgeschlagen"
+  },
+  "autoFailedHint": {
+    "message": "Details unter Exportieren / Importieren. Die nächste Sicherung versucht es erneut."
+  },
+  "autoBackupInvalid": {
+    "message": "Unbekannter Abstand für die automatische Sicherung."
+  },
+  "autoBackupInterrupted": {
+    "message": "Download abgebrochen ($1)"
+  },
+  "autoHint": {
+    "message": "Die automatische Sicherung ist aus. Wird die Erweiterung entfernt oder geht das Profil kaputt, sind alle Workspaces weg."
+  },
+  "autoHintSetup": {
+    "message": "Einrichten"
+  },
+  "autoHintSetupTitle": {
+    "message": "Öffnet Exportieren / Importieren, dort lässt sich die automatische Sicherung einschalten"
+  },
+  "autoHintHide": {
+    "message": "Hinweis nicht mehr zeigen"
+  },
+  "backupNow": {
+    "message": "Jetzt sichern"
+  },
+  "backingUp": {
+    "message": "Wird gesichert …"
+  },
+  "backupNowFailed": {
+    "message": "Sicherung konnte nicht gestartet werden."
+  },
+  "earlierText": {
+    "message": "Oder einen früheren Stand wählen. Bei jedem Browserstart hebt die Erweiterung den Stand davor auf, die letzten drei bleiben."
+  },
+  "earlierButton": {
+    "message": "Auswählen"
+  },
+  "earlierSummary": {
+    "message": "Stand vom $1: $2."
+  },
+  "checkingEarlier": {
+    "message": "Früherer Stand wird geprüft …"
+  },
+  "earlierRejected": {
+    "message": "Dieser Stand kann nicht wiederhergestellt werden. Es wurde nichts geändert."
+  },
+  "earlierGone": {
+    "message": "Diesen Stand gibt es nicht mehr."
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Keine Antwort von der Erweiterung"
+  },
+  "generalSpace": {
+    "message": "Allgemein"
+  },
+  "spaces": {
+    "message": "Spaces"
+  },
+  "setUp": {
+    "message": "Einrichten"
+  },
+  "filesOffLead": {
+    "message": "Dateien sind aus:"
+  },
+  "retryBtn": {
+    "message": "Erneut versuchen"
+  },
+  "switchToMega": {
+    "message": "Zu $1 wechseln"
+  },
+  "closeMegaAsk": {
+    "message": "Noch einmal klicken, um diesen Mega-Tab und seine Tabs zu schließen"
+  },
+  "closeMegaAskLabel": {
+    "message": "$1 und seine Tabs schließen: noch einmal klicken"
+  },
+  "closeMega": {
+    "message": "Mega-Tab schließen"
+  },
+  "closeMegaLabel": {
+    "message": "Mega-Tab $1 schließen"
+  },
+  "closeQuestion": {
+    "message": "schließen?"
+  },
+  "spaceName": {
+    "message": "Space-Name"
+  },
+  "showSpace": {
+    "message": "$1 anzeigen (Doppelklick zum Umbenennen)"
+  },
+  "newSpaceName": {
+    "message": "Name des neuen Space"
+  },
+  "newSpaceItem": {
+    "message": "Neuer Space…"
+  },
+  "allSpaces": {
+    "message": "Alle Spaces"
+  },
+  "switchSpace": {
+    "message": "Space wechseln"
+  },
+  "board": {
+    "message": "Board"
+  },
+  "boardOpen": {
+    "message": "Das Board öffnen: die .md-Dateien von $1"
+  },
+  "settingsOpen": {
+    "message": "Einstellungen: Rand-Einblendung, Backup, Export"
+  },
+  "newMegaName": {
+    "message": "Name des neuen Mega-Tabs"
+  },
+  "noMegas": {
+    "message": "Noch keine Mega-Tabs."
+  },
+  "newMega": {
+    "message": "+ Neuer Mega-Tab"
+  },
+  "noSpaces": {
+    "message": "Noch keine Spaces."
+  },
+  "newSpace": {
+    "message": "+ Neuer Space"
+  },
+  "openWindows": {
+    "message": "Offene Fenster"
+  },
+  "emptyWindow": {
+    "message": "Leeres Fenster"
+  },
+  "undoClose": {
+    "message": "Schließen rückgängig"
+  },
+  "intro": {
+    "message": "Ein Mega-Tab ist ein Satz Tabs, zu dem du als Ganzes wechselst. Klick einen an, um loszulegen."
+  },
+  "homeSetupTitle": {
+    "message": "Dateien einschalten"
+  },
+  "homeSetupText": {
+    "message": "Spaces speichern ihre Notizen als einfache Dateien in $1. Chrome braucht dafür einen kleinen Helfer zum Lesen und Schreiben. Führe im Mega-Tabs-Ordner $2 aus und klicke dann auf Erneut versuchen."
+  },
+  "retryChecking": {
+    "message": "Prüfe …"
+  },
+  "retryOn": {
+    "message": "Dateien sind an."
+  },
+  "retryOff": {
+    "message": "Noch aus. Führe den Befehl aus und klicke dann noch einmal auf Erneut versuchen."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "$1 öffnen (Doppelklick zum Umbenennen, Bild darauf ziehen als Titelbild)"
+  },
+  "tileTypeName": {
+    "message": "Namen eingeben, Enter drücken"
+  },
+  "newSpaceAria": {
+    "message": "Neuer Space"
+  },
+  "tileNewTitle": {
+    "message": "Namen eingeben, um einen neuen Space anzulegen"
+  },
+  "tileNewHint": {
+    "message": "Namen eingeben"
+  },
+  "coverType": {
+    "message": "Nimm ein PNG-, JPG- oder WebP-Bild."
+  },
+  "coverBig": {
+    "message": "Das Bild ist größer als 700 KB. Nimm ein kleineres."
+  },
+  "coverNotSaved": {
+    "message": "Dateien sind aus: Das Titelbild wurde nicht gespeichert."
+  },
+  "edgeHeading": {
+    "message": "Rand-Einblendung"
+  },
+  "edgeToggle": {
+    "message": "Eine Mini-Leiste zeigen, wenn der Zeiger am Bildschirmrand ruht"
+  },
+  "edgeHelp": {
+    "message": "Halte den Zeiger kurz am Rand still, dann erscheinen deine Mega-Tabs über der Seite. Chrome fragt einmal nach der Erlaubnis, auf Webseiten zu laufen. Die Leiste liest nichts davon und sendet nichts irgendwohin. Auf der Neuer-Tab-Seite und auf chrome://-Seiten erscheint sie nicht."
+  },
+  "side": {
+    "message": "Seite"
+  },
+  "sideLeft": {
+    "message": "Links"
+  },
+  "sideRight": {
+    "message": "Rechts"
+  },
+  "edgeOnLeft": {
+    "message": "An. Lass den Zeiger am linken Rand einer Webseite ruhen."
+  },
+  "edgeOnRight": {
+    "message": "An. Lass den Zeiger am rechten Rand einer Webseite ruhen."
+  },
+  "edgeDenied": {
+    "message": "Die Rand-Einblendung braucht diese Erlaubnis, um auf Webseiten zu laufen. Sie bleibt aus."
+  },
+  "backupHeading": {
+    "message": "Backup"
+  },
+  "backupLabel": {
+    "message": "Backup-Datei speichern"
+  },
+  "backupNever": {
+    "message": "Nie"
+  },
+  "backupDaily": {
+    "message": "Jeden Tag"
+  },
+  "backupWeekly": {
+    "message": "Jede Woche"
+  },
+  "backupLast": {
+    "message": "Zuletzt gespeichert $1."
+  },
+  "backupSaving": {
+    "message": "Speichere …"
+  },
+  "dataHeading": {
+    "message": "Deine Mega-Tabs"
+  },
+  "dataHelp": {
+    "message": "Eine Datei mit allen Spaces, Mega-Tabs und ihren Tabs. Beim Import wird ergänzt, was fehlt; geschlossen wird nichts."
+  },
+  "exportBtn": {
+    "message": "Mega-Tabs exportieren"
+  },
+  "importBtn": {
+    "message": "Mega-Tabs importieren…"
+  },
+  "chooseFile": {
+    "message": "Exportierte Datei wählen"
+  },
+  "exportSaved": {
+    "message": "$1 gespeichert: $2, $3."
+  },
+  "exportFail": {
+    "message": "Export nicht möglich: $1"
+  },
+  "importAdded": {
+    "message": "$1 und $2 aus $3 hinzugefügt."
+  },
+  "importNothing": {
+    "message": "Nichts hinzuzufügen: Alles aus $1 ist schon da."
+  },
+  "importFail": {
+    "message": "Import nicht möglich: $1"
+  },
+  "boardTitle": {
+    "message": "Board · $1"
+  },
+  "folderLabel": {
+    "message": "Ordner: $1"
+  },
+  "change": {
+    "message": "Ändern"
+  },
+  "chooseFolder": {
+    "message": "Ordner wählen"
+  },
+  "allowFolder": {
+    "message": "Zugriff auf „$1“ erlauben"
+  },
+  "hostMissing": {
+    "message": "Der Board-Host ist nicht installiert. Führe $1 im Mega-Tabs-Ordner aus und lade dann diese Seite neu."
+  },
+  "hostForbidden": {
+    "message": "Chrome erlaubt dieser Erweiterung den Board-Host nicht. Führe $1 noch einmal aus und lade dann diese Seite neu."
+  },
+  "hostStopped": {
+    "message": "Der Board-Host wurde beendet. Neuer Versuch."
+  },
+  "hostUnreachable": {
+    "message": "Das Board erreicht seinen Host nicht ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "hier nicht zu öffnen ($1)"
+  },
+  "howItWorks": {
+    "message": "So funktioniert es"
+  },
+  "rename": {
+    "message": "Umbenennen"
+  },
+  "renameLabel": {
+    "message": "$1 umbenennen"
+  },
+  "renameTitle": {
+    "message": "Umbenennen (oder Namen doppelklicken)"
+  },
+  "deleteLabel": {
+    "message": "$1 löschen"
+  },
+  "deleteTitle": {
+    "message": "Löschen (in den Papierkorb, mit Rückgängig)"
+  },
+  "noMatches": {
+    "message": "Keine Treffer."
+  },
+  "newNote": {
+    "message": "Neue Notiz"
+  },
+  "newCanvas": {
+    "message": "Neues Canvas"
+  },
+  "newNoteTitle": {
+    "message": "Neue Notiz in diesem Space beginnen"
+  },
+  "newCanvasTitle": {
+    "message": "Neues Canvas in diesem Space beginnen"
+  },
+  "emptyNotesFolder": {
+    "message": "Noch keine Notizen in diesem Space. Drücke „Neue Notiz“, um eine anzulegen."
+  },
+  "emptyNotesDir": {
+    "message": "Noch keine .md-Dateien in ~/Spaces/$1/. Drücke „Neue Notiz“, um eine anzulegen."
+  },
+  "noFolderNotes": {
+    "message": "Noch kein Ordner für „$1“. Lege ~/Spaces/$1/ an und leg .md-Dateien hinein."
+  },
+  "emptyCanvasFolder": {
+    "message": "Noch keine Canvas in diesem Space. Drücke „Neues Canvas“, um eines anzulegen."
+  },
+  "emptyCanvasDir": {
+    "message": "Noch keine .canvas-Dateien in ~/Spaces/$1/. Drücke „Neues Canvas“, um eines anzulegen."
+  },
+  "noFolderCanvas": {
+    "message": "Noch kein Ordner für „$1“. Lege ~/Spaces/$1/ an und leg .canvas-Dateien hinein."
+  },
+  "done": {
+    "message": "Fertig"
+  },
+  "backToReading": {
+    "message": "Zurück zum Lesen (Esc)"
+  },
+  "typeInFile": {
+    "message": "In dieser Datei schreiben (E)"
+  },
+  "openCursor": {
+    "message": "In Cursor öffnen"
+  },
+  "openCursorTitle": {
+    "message": "Diese Datei in Cursor öffnen"
+  },
+  "typeHere": {
+    "message": "Hier schreiben."
+  },
+  "textOf": {
+    "message": "Text von $1"
+  },
+  "statusUnsaved": {
+    "message": "Nicht gespeichert"
+  },
+  "statusSaving": {
+    "message": "Speichere"
+  },
+  "statusSaved": {
+    "message": "Gespeichert"
+  },
+  "mixedEol": {
+    "message": "Gemischte Zeilenenden: Bearbeite diese Datei in Cursor."
+  },
+  "notSavedWhy": {
+    "message": "Nicht gespeichert ($1)"
+  },
+  "hostNotConnected": {
+    "message": "Host nicht verbunden"
+  },
+  "notSaved": {
+    "message": "Nicht gespeichert: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Nicht gespeichert: Diese Notiz ist größer als die $1 KB, die die Dateien fassen. Kürze sie oder teile sie in zwei."
+  },
+  "changedOnDisk": {
+    "message": "Auf dem Datenträger geändert"
+  },
+  "conflictGone": {
+    "message": "Auf dem Datenträger gelöscht:"
+  },
+  "conflictTooLarge": {
+    "message": "Auf dem Datenträger geändert und jetzt zu groß für die Anzeige:"
+  },
+  "conflictNotText": {
+    "message": "Auf dem Datenträger geändert und jetzt kein Text mehr:"
+  },
+  "conflictChanged": {
+    "message": "Auf dem Datenträger geändert:"
+  },
+  "loadTheirs": {
+    "message": "Ihre Fassung laden"
+  },
+  "keepMine": {
+    "message": "Meine behalten"
+  },
+  "dropIt": {
+    "message": "Verwerfen"
+  },
+  "seeTheirs": {
+    "message": "Ihre Fassung ansehen"
+  },
+  "removedFromFolder": {
+    "message": "$1 wurde aus dem Ordner entfernt."
+  },
+  "cannotOpenNote": {
+    "message": "Diese Datei lässt sich hier nicht öffnen ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Diese Datei lässt sich hier nicht öffnen ($1). Cursor kann es."
+  },
+  "cannotOpenCanvas": {
+    "message": "Dieses Canvas lässt sich hier nicht öffnen ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Dieses Canvas lässt sich hier nicht öffnen ($1). Cursor kann es."
+  },
+  "waitingStorage": {
+    "message": "Warte auf den Board-Speicher."
+  },
+  "couldNotRead": {
+    "message": "$1 ließ sich nicht lesen ($2)."
+  },
+  "couldNotOpen": {
+    "message": "$1 ließ sich nicht öffnen ($2)."
+  },
+  "noteName": {
+    "message": "Name der Notiz"
+  },
+  "canvasName": {
+    "message": "Name des Canvas"
+  },
+  "nameTaken": {
+    "message": "Dieser Name ist vergeben."
+  },
+  "nameBad": {
+    "message": "Dieser Name ist nicht erlaubt."
+  },
+  "notCreated": {
+    "message": "Nicht angelegt ($1)."
+  },
+  "renameNewName": {
+    "message": "Neuer Name für $1"
+  },
+  "resolveFirst": {
+    "message": "Löse zuerst die Änderung auf dem Datenträger."
+  },
+  "notSavedYetRename": {
+    "message": "Noch nicht gespeichert; versuch es gleich noch einmal."
+  },
+  "fileGone": {
+    "message": "Diese Datei ist weg."
+  },
+  "notRenamed": {
+    "message": "Nicht umbenannt ($1)."
+  },
+  "deletedToast": {
+    "message": "„$1“ gelöscht"
+  },
+  "resolveFirstDelete": {
+    "message": "Löse zuerst die Änderung auf dem Datenträger, dann lösche."
+  },
+  "notSavedYetDelete": {
+    "message": "Noch nicht gespeichert, daher nicht gelöscht. Versuch es gleich noch einmal."
+  },
+  "notDeleted": {
+    "message": "Nicht gelöscht: $1"
+  },
+  "notRestored": {
+    "message": "Nicht wiederhergestellt: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D ließ sich hier nicht starten ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "es wurde nicht geladen"
+  },
+  "cvSelect": {
+    "message": "Auswählen und verschieben (V)"
+  },
+  "cvCard": {
+    "message": "Textkarte hinzufügen (T)"
+  },
+  "cvPen": {
+    "message": "Stift (P)"
+  },
+  "cvEraser": {
+    "message": "Radierer (E)"
+  },
+  "cvTools": {
+    "message": "Canvas-Werkzeuge"
+  },
+  "cvUndo": {
+    "message": "Rückgängig (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Wiederholen (Umschalt+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Wiederholen"
+  },
+  "cvDelete": {
+    "message": "Auswahl löschen (Rücktaste)"
+  },
+  "cvDeleteLabel": {
+    "message": "Auswahl löschen"
+  },
+  "cvView": {
+    "message": "Ansicht"
+  },
+  "cv2d": {
+    "message": "Das Canvas, flach"
+  },
+  "cv3d": {
+    "message": "Dasselbe Canvas in 3D (nur Lesen)"
+  },
+  "cvDeleted": {
+    "message": "Auf dem Datenträger gelöscht. Dieses Canvas liegt nicht mehr im Ordner."
+  },
+  "cvEmptyCard": {
+    "message": "Leere Karte"
+  },
+  "cvWriteHere": {
+    "message": "Hier schreiben"
+  },
+  "cvCardText": {
+    "message": "Kartentext"
+  },
+  "cvOpenNotes": {
+    "message": "In Notizen öffnen"
+  },
+  "cvOpenCanvas": {
+    "message": "Dieses Canvas öffnen"
+  },
+  "cvModelGone": {
+    "message": "Dieses Modell liegt nicht im Ordner."
+  },
+  "cvModelBig": {
+    "message": "Dieses Modell ist größer als 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Dieses Modell lässt sich nicht anzeigen ($1)."
+  },
+  "cvUnknownError": {
+    "message": "unbekannter Fehler"
+  },
+  "cvLoadingModel": {
+    "message": "Modell wird geladen"
+  },
+  "cvLink": {
+    "message": "Link"
+  },
+  "cvGroup": {
+    "message": "Gruppe"
+  },
+  "cvNodeNote": {
+    "message": "Notiz $1"
+  },
+  "cvNodeLink": {
+    "message": "Link $1"
+  },
+  "cvNodeGroup": {
+    "message": "Gruppe $1"
+  },
+  "cvNodeType": {
+    "message": "Karte vom Typ $1"
+  },
+  "sInvalid": {
+    "message": "Diese Datei ist kein JSON Canvas ($1). Behebe das in Cursor; bis dahin wird hier nichts gespeichert."
+  },
+  "sInvalidNow": {
+    "message": "Auf dem Datenträger geändert und jetzt kein JSON Canvas ($1). Hier wird nichts gespeichert, bis es wieder gültig ist."
+  },
+  "sTooBig": {
+    "message": "Nicht gespeichert (dieses Canvas ist $1 groß; die Dateien fassen höchstens $2. Lösche einige Striche oder Karten)"
+  },
+  "sBlockedBig": {
+    "message": "Nicht gespeichert (die Datei auf dem Datenträger hat sich geändert und ist über dem Größenlimit: Meine behalten oder so lassen)"
+  },
+  "sBlockedText": {
+    "message": "Nicht gespeichert (die Datei auf dem Datenträger hat sich geändert und ist kein Text: Meine behalten oder so lassen)"
+  },
+  "sKeepsChanging": {
+    "message": "Nicht gespeichert (die Datei ändert sich ständig)"
+  },
+  "edgeOpenPanel": {
+    "message": "Panel öffnen"
+  },
+  "errNameEmpty": {
+    "message": "Gib einen Namen ein."
+  },
+  "errNameLong": {
+    "message": "Dieser Name ist zu lang."
+  },
+  "errHost": {
+    "message": "Der Host hat nicht geantwortet."
+  },
+  "backupKept": {
+    "message": "Abgelegt in Downloads/$2. Behaltene Dateien: $1."
+  },
+  "filesLabel": {
+    "message": "Dateien"
+  },
+  "roomLabel": {
+    "message": "Bereich"
+  },
+  "roomNotes": {
+    "message": "Notizen"
+  },
+  "roomCanvas": {
+    "message": "Canvas"
+  },
+  "search": {
+    "message": "Suchen"
+  },
+  "searchLabel": {
+    "message": "Diesen Space durchsuchen"
+  },
+  "noteLabel": {
+    "message": "Notiz"
+  },
+  "cvNotShown": {
+    "message": "$1 (hier nicht dargestellt)"
+  },
+  "cvDrawFail": {
+    "message": "Dieses Canvas ließ sich nicht zeichnen ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Auf dem Datenträger wurde nichts geändert. Öffne es in Cursor oder wähle ein anderes Canvas."
+  },
+  "statusDeleted": {
+    "message": "Auf dem Datenträger gelöscht"
+  },
+  "megaTabs_other": {
+    "message": "$1 Mega-Tabs"
+  },
+  "megaTabs_one": {
+    "message": "$1 Mega-Tab"
+  },
+  "settingsPage": {
+    "message": "Einstellungen"
+  },
+  "cv3dScene": {
+    "message": "3D-Ansicht dieses Canvas. Zum Drehen ziehen, zum Zoomen scrollen, eine Karte anklicken, um sie zu öffnen."
+  },
+  "cvModelScene": {
+    "message": "3D-Modell. Zum Drehen ziehen, die Pfeiltasten gehen auch."
+  },
+  "cvModelCompressed": {
+    "message": "er nutzt komprimierte Geometrie oder Texturen (Draco, KTX2 oder Meshopt), die diese Ansicht nicht lesen kann"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL ist in diesem Browser nicht verfügbar"
+  }
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'none'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title data-i18n="board"></title>
+  <link rel="stylesheet" href="sidepanel.css">
+  <link rel="stylesheet" href="board.css">
+  <link rel="stylesheet" href="vendor/canvas.css">
+</head>
+<body>
+  <div id="banner" class="banner" role="status" hidden></div>
+  <div id="alert" class="alert" role="alert" hidden></div>
+  <div class="board">
+    <nav id="list" data-i18n-label="filesLabel">
+      <div class="list-head"><span id="space-name"></span><button id="new" class="quiet" type="button" data-i18n-title="newNoteTitle" data-i18n="newNote"></button></div>
+      <div class="rooms" role="tablist" data-i18n-label="roomLabel"><button id="room-notes" class="room" type="button" role="tab" aria-selected="true" data-i18n="roomNotes"></button><button id="room-canvas" class="room" type="button" role="tab" aria-selected="false" data-i18n="roomCanvas"></button></div>
+      <div class="search"><input id="search" class="inline" type="search" data-i18n-placeholder="search" data-i18n-label="searchLabel" autocomplete="off" spellcheck="false"></div>
+      <div id="files"></div>
+      <div id="where" class="where" hidden></div>
+    </nav>
+    <article id="doc" tabindex="0" data-i18n-label="noteLabel"></article>
+    <div id="canvas" hidden></div>
+  </div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="i18n.js"></script>
+  <script src="vendor/marked.umd.js"></script>
+  <script src="vendor/purify.min.js"></script>
+  <script src="vendor/overtype.min.js"></script>
+  <script src="storage.js"></script>
+  <script src="board.js"></script>
+  <script src="canvas-room.js"></script>
+</body>
+</html>

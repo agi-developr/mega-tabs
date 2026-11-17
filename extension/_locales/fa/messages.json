@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "fa"
+  },
+  "extName": {
+    "message": "Mega Tabs: فضاها، یادداشت‌ها و بوم"
+  },
+  "extDescription": {
+    "message": "تب‌ها را برای هر پروژه بدون بارگذاری مجدد عوض کنید. یادداشت و بومی که هوش مصنوعی هم ویرایش می‌کند. خصوصی و رایگان."
+  },
+  "cmdOpen": {
+    "message": "باز کردن فهرست فضاهای کاری"
+  },
+  "cmdTogglePanel": {
+    "message": "نمایش یا پنهان کردن پنل Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "فضای کاری بعدی"
+  },
+  "cmdPrev": {
+    "message": "فضای کاری قبلی"
+  },
+  "cmdLast": {
+    "message": "آخرین فضای کاری استفاده‌شده"
+  },
+  "cmdSwitch": {
+    "message": "رفتن به فضای کاری"
+  },
+  "tabs_one": {
+    "message": "$1 تب"
+  },
+  "tabs_other": {
+    "message": "$1 تب"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 تب بازیابی نشد"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 تب بازیابی نشد"
+  },
+  "edit": {
+    "message": "ویرایش"
+  },
+  "name": {
+    "message": "نام"
+  },
+  "delete": {
+    "message": "حذف"
+  },
+  "undo": {
+    "message": "واگرد"
+  },
+  "stashHeading": {
+    "message": "انبار فضای کاری"
+  },
+  "stashText": {
+    "message": "این پنجرهٔ پنهان متعلق به افزونهٔ Mega Tabs است. تب‌های فضای کاری‌ای را که اکنون نمایش داده نمی‌شود نگه می‌دارد. آن را نبندید؛ برای جابه‌جایی از پنل استفاده کنید."
+  },
+  "defaultWorkspace": {
+    "message": "پیش‌فرض"
+  },
+  "recoveredWorkspace": {
+    "message": "بازیابی‌شده"
+  },
+  "iconTitle": {
+    "message": "فضای کاری: $1"
+  },
+  "iconTitleMissing": {
+    "message": "فضای کاری: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "حافظهٔ افزونه تقریباً پر است؛ به‌زودی دیگر تب‌ها ذخیره نمی‌شوند"
+  },
+  "menuLink": {
+    "message": "باز کردن پیوند در فضای کاری"
+  },
+  "menuMove": {
+    "message": "انتقال تب به فضای کاری"
+  },
+  "menuMoveMarked": {
+    "message": "انتقال $1 تب انتخاب‌شده به فضای کاری"
+  },
+  "menuGroup": {
+    "message": "انتقال گروه به فضای کاری"
+  },
+  "exNotJson": {
+    "message": "این فایل JSON معتبر نیست."
+  },
+  "exNotExport": {
+    "message": "این فایل خروجی Helium Workspaces نیست."
+  },
+  "exNoWorkspaces": {
+    "message": "این فایل هیچ فضای کاری‌ای ندارد."
+  },
+  "exTooManyWorkspaces": {
+    "message": "این فایل فضاهای کاری بسیار زیادی دارد."
+  },
+  "exTooManyTabs": {
+    "message": "این فایل تب‌های بسیار زیادی دارد."
+  },
+  "workspaceName": {
+    "message": "فضای کاری"
+  },
+  "workspaceN": {
+    "message": "فضای کاری $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "دانلود متوقف شد ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "افزونه پاسخ نمی‌دهد"
+  },
+  "generalSpace": {
+    "message": "عمومی"
+  },
+  "spaces": {
+    "message": "فضاها"
+  },
+  "setUp": {
+    "message": "راه‌اندازی"
+  },
+  "filesOffLead": {
+    "message": "فایل‌ها خاموش است:"
+  },
+  "retryBtn": {
+    "message": "دوباره امتحان کنید"
+  },
+  "switchToMega": {
+    "message": "رفتن به $1"
+  },
+  "closeMegaAsk": {
+    "message": "دوباره کلیک کنید تا این مگاتب و تب‌هایش بسته شود"
+  },
+  "closeMegaAskLabel": {
+    "message": "بستن $1 و تب‌هایش: دوباره کلیک کنید"
+  },
+  "closeMega": {
+    "message": "بستن مگاتب"
+  },
+  "closeMegaLabel": {
+    "message": "بستن مگاتب $1"
+  },
+  "closeQuestion": {
+    "message": "بسته شود؟"
+  },
+  "spaceName": {
+    "message": "نام فضا"
+  },
+  "showSpace": {
+    "message": "نمایش $1 (برای تغییر نام دوبار کلیک کنید)"
+  },
+  "newSpaceName": {
+    "message": "نام فضای جدید"
+  },
+  "newSpaceItem": {
+    "message": "فضای جدید…"
+  },
+  "allSpaces": {
+    "message": "همهٔ فضاها"
+  },
+  "switchSpace": {
+    "message": "تغییر فضا"
+  },
+  "board": {
+    "message": "تخته"
+  },
+  "boardOpen": {
+    "message": "باز کردن تخته: فایل‌های .md فضای $1"
+  },
+  "settingsPage": {
+    "message": "تنظیمات"
+  },
+  "settingsOpen": {
+    "message": "تنظیمات: نمایش در لبه، پشتیبان، خروجی"
+  },
+  "newMegaName": {
+    "message": "نام مگاتب جدید"
+  },
+  "noMegas": {
+    "message": "هنوز مگاتبی نیست."
+  },
+  "newMega": {
+    "message": "+ مگاتب جدید"
+  },
+  "noSpaces": {
+    "message": "هنوز فضایی نیست."
+  },
+  "newSpace": {
+    "message": "+ فضای جدید"
+  },
+  "openWindows": {
+    "message": "پنجره‌های باز"
+  },
+  "emptyWindow": {
+    "message": "پنجرهٔ خالی"
+  },
+  "undoClose": {
+    "message": "واگرد بستن"
+  },
+  "intro": {
+    "message": "مگاتب مجموعه‌ای از تب‌هاست که یکجا به آن‌ها می‌روید. برای شروع روی یکی کلیک کنید."
+  },
+  "homeSetupTitle": {
+    "message": "روشن کردن فایل‌ها"
+  },
+  "homeSetupText": {
+    "message": "فضاها یادداشت‌هایشان را به‌صورت فایل ساده در $1 نگه می‌دارند. Chrome برای خواندن و نوشتن آن‌ها به یک یاریگر کوچک نیاز دارد. در پوشهٔ Mega Tabs دستور $2 را اجرا کنید و روی «دوباره امتحان کنید» بزنید."
+  },
+  "retryChecking": {
+    "message": "در حال بررسی…"
+  },
+  "retryOn": {
+    "message": "فایل‌ها روشن است."
+  },
+  "retryOff": {
+    "message": "هنوز خاموش است. دستور را اجرا کنید و دوباره روی «دوباره امتحان کنید» بزنید."
+  },
+  "tileLabel": {
+    "message": "$1، $2"
+  },
+  "tileOpen": {
+    "message": "باز کردن $1 (برای تغییر نام دوبار کلیک کنید؛ برای جلد، تصویری رها کنید)"
+  },
+  "tileTypeName": {
+    "message": "نامی بنویسید و Enter بزنید"
+  },
+  "newSpaceAria": {
+    "message": "فضای جدید"
+  },
+  "tileNewTitle": {
+    "message": "برای ساختن فضای جدید نامی بنویسید"
+  },
+  "tileNewHint": {
+    "message": "نامی بنویسید"
+  },
+  "coverType": {
+    "message": "از تصویر png، jpg یا webp استفاده کنید."
+  },
+  "coverBig": {
+    "message": "این تصویر بزرگ‌تر از ۷۰۰ کیلوبایت است. از تصویر کوچک‌تری استفاده کنید."
+  },
+  "coverNotSaved": {
+    "message": "فایل‌ها خاموش است: جلد ذخیره نشد."
+  },
+  "edgeHeading": {
+    "message": "نمایش در لبه"
+  },
+  "edgeToggle": {
+    "message": "وقتی اشاره‌گر کنار لبهٔ صفحه می‌ماند، یک جابه‌جاکنندهٔ کوچک نشان بده"
+  },
+  "edgeHelp": {
+    "message": "اشاره‌گر را لحظه‌ای کنار لبه نگه دارید تا مگاتب‌هایتان روی صفحه ظاهر شوند. Chrome یک بار برای اجرا روی صفحه‌های وب اجازه می‌پرسد. این جابه‌جاکننده چیزی از صفحه نمی‌خواند و چیزی به جایی نمی‌فرستد. در صفحهٔ تب جدید و صفحه‌های chrome:// ظاهر نمی‌شود."
+  },
+  "side": {
+    "message": "سمت"
+  },
+  "sideLeft": {
+    "message": "چپ"
+  },
+  "sideRight": {
+    "message": "راست"
+  },
+  "edgeOnLeft": {
+    "message": "روشن است. اشاره‌گر را کنار لبهٔ چپ صفحهٔ وب نگه دارید."
+  },
+  "edgeOnRight": {
+    "message": "روشن است. اشاره‌گر را کنار لبهٔ راست صفحهٔ وب نگه دارید."
+  },
+  "edgeDenied": {
+    "message": "نمایش در لبه برای اجرا روی صفحه‌های وب به این اجازه نیاز دارد. خاموش می‌ماند."
+  },
+  "backupHeading": {
+    "message": "پشتیبان"
+  },
+  "backupLabel": {
+    "message": "ذخیرهٔ یک فایل پشتیبان"
+  },
+  "backupNever": {
+    "message": "هرگز"
+  },
+  "backupDaily": {
+    "message": "هر روز"
+  },
+  "backupWeekly": {
+    "message": "هر هفته"
+  },
+  "backupLast": {
+    "message": "آخرین ذخیره: $1."
+  },
+  "backupSaving": {
+    "message": "در حال ذخیره…"
+  },
+  "dataHeading": {
+    "message": "مگاتب‌های شما"
+  },
+  "dataHelp": {
+    "message": "یک فایل با همهٔ فضاها، مگاتب‌ها و تب‌هایشان. درون‌ریزی آنچه نیست را اضافه می‌کند و چیزی را نمی‌بندد."
+  },
+  "exportBtn": {
+    "message": "برون‌بری مگاتب‌ها"
+  },
+  "importBtn": {
+    "message": "درون‌ریزی مگاتب‌ها…"
+  },
+  "chooseFile": {
+    "message": "یک فایل برون‌بری‌شده انتخاب کنید"
+  },
+  "exportSaved": {
+    "message": "$1 ذخیره شد: $2، $3."
+  },
+  "exportFail": {
+    "message": "برون‌بری نشد: $1"
+  },
+  "importAdded": {
+    "message": "$1 و $2 از $3 اضافه شد."
+  },
+  "importNothing": {
+    "message": "چیزی برای افزودن نیست: همهٔ موارد $1 از قبل هست."
+  },
+  "importFail": {
+    "message": "درون‌ریزی نشد: $1"
+  },
+  "boardTitle": {
+    "message": "تخته · $1"
+  },
+  "folderLabel": {
+    "message": "پوشه: $1"
+  },
+  "change": {
+    "message": "تغییر"
+  },
+  "chooseFolder": {
+    "message": "انتخاب پوشه"
+  },
+  "allowFolder": {
+    "message": "اجازهٔ دسترسی به «$1»"
+  },
+  "hostMissing": {
+    "message": "یاریگر تخته نصب نشده است. در پوشهٔ Mega Tabs دستور $1 را اجرا کنید و سپس این صفحه را دوباره بارگذاری کنید."
+  },
+  "hostForbidden": {
+    "message": "Chrome به این افزونه اجازهٔ استفاده از یاریگر تخته را نمی‌دهد. دوباره $1 را اجرا کنید و سپس این صفحه را دوباره بارگذاری کنید."
+  },
+  "hostStopped": {
+    "message": "یاریگر تخته متوقف شد. دوباره تلاش می‌شود."
+  },
+  "hostUnreachable": {
+    "message": "تخته نمی‌تواند به یاریگر خود برسد ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "اینجا باز نمی‌شود ($1)"
+  },
+  "howItWorks": {
+    "message": "چگونه کار می‌کند"
+  },
+  "rename": {
+    "message": "تغییر نام"
+  },
+  "renameLabel": {
+    "message": "تغییر نام $1"
+  },
+  "renameTitle": {
+    "message": "تغییر نام (یا روی نام دوبار کلیک کنید)"
+  },
+  "deleteLabel": {
+    "message": "حذف $1"
+  },
+  "deleteTitle": {
+    "message": "حذف (به سطل زباله، با امکان واگرد)"
+  },
+  "noMatches": {
+    "message": "موردی یافت نشد."
+  },
+  "newNote": {
+    "message": "یادداشت جدید"
+  },
+  "newCanvas": {
+    "message": "بوم جدید"
+  },
+  "newNoteTitle": {
+    "message": "شروع یک یادداشت جدید در این فضا"
+  },
+  "newCanvasTitle": {
+    "message": "شروع یک بوم جدید در این فضا"
+  },
+  "emptyNotesFolder": {
+    "message": "هنوز یادداشتی در این فضا نیست. برای شروع روی «یادداشت جدید» بزنید."
+  },
+  "emptyNotesDir": {
+    "message": "هنوز فایل .md ای در ~/Spaces/$1/ نیست. برای شروع روی «یادداشت جدید» بزنید."
+  },
+  "noFolderNotes": {
+    "message": "هنوز پوشه‌ای برای «$1» نیست. ~/Spaces/$1/ را بسازید و فایل‌های .md را در آن بگذارید."
+  },
+  "emptyCanvasFolder": {
+    "message": "هنوز بومی در این فضا نیست. برای شروع روی «بوم جدید» بزنید."
+  },
+  "emptyCanvasDir": {
+    "message": "هنوز فایل .canvas ای در ~/Spaces/$1/ نیست. برای شروع روی «بوم جدید» بزنید."
+  },
+  "noFolderCanvas": {
+    "message": "هنوز پوشه‌ای برای «$1» نیست. ~/Spaces/$1/ را بسازید و فایل‌های .canvas را در آن بگذارید."
+  },
+  "done": {
+    "message": "تمام"
+  },
+  "backToReading": {
+    "message": "بازگشت به خواندن (Esc)"
+  },
+  "typeInFile": {
+    "message": "نوشتن در این فایل (E)"
+  },
+  "openCursor": {
+    "message": "باز کردن در Cursor"
+  },
+  "openCursorTitle": {
+    "message": "باز کردن این فایل در Cursor"
+  },
+  "typeHere": {
+    "message": "اینجا بنویسید."
+  },
+  "textOf": {
+    "message": "متن $1"
+  },
+  "statusUnsaved": {
+    "message": "ذخیره نشده"
+  },
+  "statusSaving": {
+    "message": "در حال ذخیره"
+  },
+  "statusSaved": {
+    "message": "ذخیره شد"
+  },
+  "mixedEol": {
+    "message": "پایان خط‌های ترکیبی: این فایل را در Cursor ویرایش کنید."
+  },
+  "notSavedWhy": {
+    "message": "ذخیره نشد ($1)"
+  },
+  "hostNotConnected": {
+    "message": "یاریگر وصل نیست"
+  },
+  "notSaved": {
+    "message": "ذخیره نشد: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "ذخیره نشد: این یادداشت از $1 کیلوبایتِ گنجایش فایل بزرگ‌تر است. کوتاهش کنید یا دو قسمت کنید."
+  },
+  "changedOnDisk": {
+    "message": "روی دیسک تغییر کرده"
+  },
+  "conflictGone": {
+    "message": "روی دیسک حذف شده:"
+  },
+  "conflictTooLarge": {
+    "message": "روی دیسک تغییر کرده و اکنون برای نمایش اینجا بیش از حد بزرگ است:"
+  },
+  "conflictNotText": {
+    "message": "روی دیسک تغییر کرده و دیگر متن نیست:"
+  },
+  "conflictChanged": {
+    "message": "روی دیسک تغییر کرده:"
+  },
+  "loadTheirs": {
+    "message": "بارگذاری نسخهٔ آن‌ها"
+  },
+  "keepMine": {
+    "message": "نگه داشتن نسخهٔ من"
+  },
+  "dropIt": {
+    "message": "دور انداختن"
+  },
+  "seeTheirs": {
+    "message": "دیدن نسخهٔ آن‌ها"
+  },
+  "removedFromFolder": {
+    "message": "$1 از پوشه برداشته شد."
+  },
+  "cannotOpenNote": {
+    "message": "این فایل اینجا باز نمی‌شود ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "این فایل اینجا باز نمی‌شود ($1). Cursor می‌تواند."
+  },
+  "cannotOpenCanvas": {
+    "message": "این بوم اینجا باز نمی‌شود ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "این بوم اینجا باز نمی‌شود ($1). Cursor می‌تواند."
+  },
+  "waitingStorage": {
+    "message": "در انتظار انبار تخته."
+  },
+  "couldNotRead": {
+    "message": "$1 خوانده نشد ($2)."
+  },
+  "couldNotOpen": {
+    "message": "$1 باز نشد ($2)."
+  },
+  "noteName": {
+    "message": "نام یادداشت"
+  },
+  "canvasName": {
+    "message": "نام بوم"
+  },
+  "nameTaken": {
+    "message": "این نام قبلاً استفاده شده است."
+  },
+  "nameBad": {
+    "message": "این نام قابل استفاده نیست."
+  },
+  "notCreated": {
+    "message": "ساخته نشد ($1)."
+  },
+  "renameNewName": {
+    "message": "نام جدید برای $1"
+  },
+  "resolveFirst": {
+    "message": "اول تغییر روی دیسک را حل کنید."
+  },
+  "notSavedYetRename": {
+    "message": "هنوز ذخیره نشده؛ کمی بعد دوباره امتحان کنید."
+  },
+  "fileGone": {
+    "message": "آن فایل دیگر وجود ندارد."
+  },
+  "notRenamed": {
+    "message": "تغییر نام نشد ($1)."
+  },
+  "deletedToast": {
+    "message": "«$1» حذف شد"
+  },
+  "resolveFirstDelete": {
+    "message": "اول تغییر روی دیسک را حل کنید، بعد حذف کنید."
+  },
+  "notSavedYetDelete": {
+    "message": "هنوز ذخیره نشده، پس حذف نشد. کمی بعد دوباره امتحان کنید."
+  },
+  "notDeleted": {
+    "message": "حذف نشد: $1"
+  },
+  "notRestored": {
+    "message": "بازیابی نشد: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D اینجا شروع نشد ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "بارگذاری نشد"
+  },
+  "cvSelect": {
+    "message": "انتخاب و جابه‌جایی (V)"
+  },
+  "cvCard": {
+    "message": "افزودن کارت متن (T)"
+  },
+  "cvPen": {
+    "message": "قلم (P)"
+  },
+  "cvEraser": {
+    "message": "پاک‌کن (E)"
+  },
+  "cvTools": {
+    "message": "ابزارهای بوم"
+  },
+  "cvUndo": {
+    "message": "واگرد (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "بازانجام (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "بازانجام"
+  },
+  "cvDelete": {
+    "message": "حذف انتخاب (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "حذف انتخاب"
+  },
+  "cvView": {
+    "message": "نما"
+  },
+  "cv2d": {
+    "message": "بوم، تخت"
+  },
+  "cv3d": {
+    "message": "همین بوم به‌صورت سه‌بعدی (فقط خواندنی)"
+  },
+  "cvDeleted": {
+    "message": "روی دیسک حذف شده. این بوم دیگر در پوشه نیست."
+  },
+  "cvEmptyCard": {
+    "message": "کارت خالی"
+  },
+  "cvWriteHere": {
+    "message": "اینجا بنویسید"
+  },
+  "cvCardText": {
+    "message": "متن کارت"
+  },
+  "cvOpenNotes": {
+    "message": "باز کردن در یادداشت‌ها"
+  },
+  "cvOpenCanvas": {
+    "message": "باز کردن این بوم"
+  },
+  "cvModelGone": {
+    "message": "این مدل در پوشه نیست."
+  },
+  "cvModelBig": {
+    "message": "این مدل از ۲۴ مگابایت بزرگ‌تر است."
+  },
+  "cvModelFail": {
+    "message": "این مدل نمایش داده نمی‌شود ($1)."
+  },
+  "cvUnknownError": {
+    "message": "خطای ناشناخته"
+  },
+  "cvLoadingModel": {
+    "message": "در حال بارگذاری مدل"
+  },
+  "cvLink": {
+    "message": "پیوند"
+  },
+  "cvGroup": {
+    "message": "گروه"
+  },
+  "cvNodeNote": {
+    "message": "یادداشت $1"
+  },
+  "cvNodeLink": {
+    "message": "پیوند $1"
+  },
+  "cvNodeGroup": {
+    "message": "گروه $1"
+  },
+  "cvNodeType": {
+    "message": "کارت از نوع $1"
+  },
+  "sInvalid": {
+    "message": "این فایل JSON Canvas نیست ($1). آن را در Cursor درست کنید؛ تا آن موقع اینجا چیزی ذخیره نمی‌شود."
+  },
+  "sInvalidNow": {
+    "message": "روی دیسک تغییر کرده و اکنون JSON Canvas نیست ($1). تا وقتی دوباره معتبر شود اینجا چیزی ذخیره نمی‌شود."
+  },
+  "sTooBig": {
+    "message": "ذخیره نشد (اندازهٔ این بوم $1 است؛ فایل‌ها حداکثر $2 را می‌پذیرند. چند خط یا کارت را پاک کنید)"
+  },
+  "sBlockedBig": {
+    "message": "ذخیره نشد (فایل روی دیسک تغییر کرده و بزرگ است: نگه داشتن نسخهٔ من، یا رها کردن)"
+  },
+  "sBlockedText": {
+    "message": "ذخیره نشد (فایل روی دیسک تغییر کرده و متن نیست: نگه داشتن نسخهٔ من، یا رها کردن)"
+  },
+  "sKeepsChanging": {
+    "message": "ذخیره نشد (فایل مدام تغییر می‌کند)"
+  },
+  "edgeOpenPanel": {
+    "message": "باز کردن پنل"
+  },
+  "errNameEmpty": {
+    "message": "نامی بنویسید."
+  },
+  "errNameLong": {
+    "message": "این نام بیش از حد بلند است."
+  },
+  "errHost": {
+    "message": "یاریگر پاسخ نداد."
+  },
+  "backupKept": {
+    "message": "در Downloads/$2 ذخیره شد. فایل‌های ذخیره‌شده: $1."
+  },
+  "filesLabel": {
+    "message": "فایل‌ها"
+  },
+  "roomLabel": {
+    "message": "اتاق"
+  },
+  "roomNotes": {
+    "message": "یادداشت‌ها"
+  },
+  "roomCanvas": {
+    "message": "بوم"
+  },
+  "search": {
+    "message": "جستجو"
+  },
+  "searchLabel": {
+    "message": "جستجو در این فضا"
+  },
+  "noteLabel": {
+    "message": "یادداشت"
+  },
+  "cvNotShown": {
+    "message": "$1 (اینجا نمایش داده نمی‌شود)"
+  },
+  "cvDrawFail": {
+    "message": "این بوم کشیده نشد ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "روی دیسک چیزی تغییر نکرده. آن را در Cursor باز کنید یا بوم دیگری انتخاب کنید."
+  },
+  "statusDeleted": {
+    "message": "روی دیسک حذف شد"
+  },
+  "cv3dScene": {
+    "message": "نمای سه‌بعدی این بوم. برای چرخاندن بکشید، برای بزرگ‌نمایی اسکرول کنید، برای باز کردن روی کارت کلیک کنید."
+  },
+  "cvModelScene": {
+    "message": "مدل سه‌بعدی. برای چرخاندن بکشید؛ کلیدهای جهت‌دار هم کار می‌کنند."
+  },
+  "cvModelCompressed": {
+    "message": "از هندسه یا بافت فشرده (Draco، KTX2 یا Meshopt) استفاده می‌کند که این نما نمی‌تواند بخواند"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL در این مرورگر در دسترس نیست"
+  },
+  "megaTabs_one": {
+    "message": "$1 مگاتب"
+  },
+  "megaTabs_other": {
+    "message": "$1 مگاتب"
+  }
+}

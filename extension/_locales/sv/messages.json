@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "sv"
+  },
+  "extName": {
+    "message": "Mega Tabs: utrymmen, anteckningar & canvas"
+  },
+  "extDescription": {
+    "message": "Byt flikuppsättning per projekt utan att ladda om. Anteckningar och en canvas som din AI också kan redigera. Privat och gratis."
+  },
+  "cmdOpen": {
+    "message": "Öppna listan med arbetsytor"
+  },
+  "cmdTogglePanel": {
+    "message": "Öppna eller stäng Mega Tabs-panelen"
+  },
+  "cmdNext": {
+    "message": "Nästa arbetsyta"
+  },
+  "cmdPrev": {
+    "message": "Föregående arbetsyta"
+  },
+  "cmdLast": {
+    "message": "Senast använda arbetsyta"
+  },
+  "cmdSwitch": {
+    "message": "Växla till arbetsyta"
+  },
+  "tabs_one": {
+    "message": "$1 flik"
+  },
+  "tabs_other": {
+    "message": "$1 flikar"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 flik återställdes inte"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 flikar återställdes inte"
+  },
+  "edit": {
+    "message": "Redigera"
+  },
+  "name": {
+    "message": "Namn"
+  },
+  "delete": {
+    "message": "Ta bort"
+  },
+  "undo": {
+    "message": "Ångra"
+  },
+  "stashHeading": {
+    "message": "Arbetsytelager"
+  },
+  "stashText": {
+    "message": "Det här dolda fönstret hör till tillägget Mega Tabs. Det håller flikarna för en arbetsyta som inte visas just nu. Stäng det inte; växla via panelen."
+  },
+  "defaultWorkspace": {
+    "message": "Standard"
+  },
+  "recoveredWorkspace": {
+    "message": "Återställd"
+  },
+  "iconTitle": {
+    "message": "Arbetsyta: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Arbetsyta: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Tilläggets lagring är nästan full; snart sparas inga fler flikar"
+  },
+  "menuLink": {
+    "message": "Öppna länk i arbetsyta"
+  },
+  "menuMove": {
+    "message": "Flytta flik till arbetsyta"
+  },
+  "menuMoveMarked": {
+    "message": "Flytta $1 markerade flikar till arbetsyta"
+  },
+  "menuGroup": {
+    "message": "Flytta grupp till arbetsyta"
+  },
+  "exNotJson": {
+    "message": "Filen är inte giltig JSON."
+  },
+  "exNotExport": {
+    "message": "Det här är inte en exportfil från Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "Filen innehåller inga arbetsytor."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Filen innehåller för många arbetsytor."
+  },
+  "exTooManyTabs": {
+    "message": "Filen innehåller för många flikar."
+  },
+  "workspaceName": {
+    "message": "Arbetsyta"
+  },
+  "workspaceN": {
+    "message": "Arbetsyta $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Nedladdningen avbröts ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Tillägget svarar inte"
+  },
+  "generalSpace": {
+    "message": "Allmänt"
+  },
+  "spaces": {
+    "message": "Utrymmen"
+  },
+  "setUp": {
+    "message": "Konfigurera"
+  },
+  "filesOffLead": {
+    "message": "Filer är av:"
+  },
+  "retryBtn": {
+    "message": "Försök igen"
+  },
+  "switchToMega": {
+    "message": "Växla till $1"
+  },
+  "closeMegaAsk": {
+    "message": "Klicka igen för att stänga den här megaflikens flikar"
+  },
+  "closeMegaAskLabel": {
+    "message": "Stäng $1 och dess flikar: klicka igen"
+  },
+  "closeMega": {
+    "message": "Stäng megaflik"
+  },
+  "closeMegaLabel": {
+    "message": "Stäng megaflik $1"
+  },
+  "closeQuestion": {
+    "message": "stänga?"
+  },
+  "spaceName": {
+    "message": "Utrymmets namn"
+  },
+  "showSpace": {
+    "message": "Visa $1 (dubbelklicka för att byta namn)"
+  },
+  "newSpaceName": {
+    "message": "Namn på nytt utrymme"
+  },
+  "newSpaceItem": {
+    "message": "Nytt utrymme…"
+  },
+  "allSpaces": {
+    "message": "Alla utrymmen"
+  },
+  "switchSpace": {
+    "message": "Byt utrymme"
+  },
+  "board": {
+    "message": "Tavla"
+  },
+  "boardOpen": {
+    "message": "Öppna tavlan: .md-filerna i $1"
+  },
+  "settingsPage": {
+    "message": "Inställningar"
+  },
+  "settingsOpen": {
+    "message": "Inställningar: visa vid kanten, säkerhetskopia, export"
+  },
+  "newMegaName": {
+    "message": "Namn på ny megaflik"
+  },
+  "noMegas": {
+    "message": "Inga megaflikar än."
+  },
+  "newMega": {
+    "message": "+ Ny megaflik"
+  },
+  "noSpaces": {
+    "message": "Inga utrymmen än."
+  },
+  "newSpace": {
+    "message": "+ Nytt utrymme"
+  },
+  "openWindows": {
+    "message": "Öppna fönster"
+  },
+  "emptyWindow": {
+    "message": "Tomt fönster"
+  },
+  "undoClose": {
+    "message": "Ångra stängning"
+  },
+  "intro": {
+    "message": "En megaflik är en uppsättning flikar som du byter till i ett svep. Klicka på en för att börja."
+  },
+  "homeSetupTitle": {
+    "message": "Aktivera filer"
+  },
+  "homeSetupText": {
+    "message": "Utrymmen sparar sina anteckningar som vanliga filer i $1. Chrome behöver en liten hjälpare för att läsa och skriva dem. Kör $2 i mappen Mega Tabs och tryck på Försök igen."
+  },
+  "retryChecking": {
+    "message": "Kontrollerar…"
+  },
+  "retryOn": {
+    "message": "Filer är på."
+  },
+  "retryOff": {
+    "message": "Fortfarande av. Kör kommandot och tryck på Försök igen en gång till."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Öppna $1 (dubbelklicka för att byta namn, släpp en bild som omslag)"
+  },
+  "tileTypeName": {
+    "message": "skriv ett namn och tryck på Enter"
+  },
+  "newSpaceAria": {
+    "message": "Nytt utrymme"
+  },
+  "tileNewTitle": {
+    "message": "Skriv ett namn för att skapa ett nytt utrymme"
+  },
+  "tileNewHint": {
+    "message": "skriv ett namn"
+  },
+  "coverType": {
+    "message": "Använd en png-, jpg- eller webp-bild."
+  },
+  "coverBig": {
+    "message": "Bilden är större än 700 KB. Använd en mindre."
+  },
+  "coverNotSaved": {
+    "message": "Filer är av: omslaget sparades inte."
+  },
+  "edgeHeading": {
+    "message": "Visa vid kanten"
+  },
+  "edgeToggle": {
+    "message": "Visa en liten växlare när pekaren stannar vid skärmkanten"
+  },
+  "edgeHelp": {
+    "message": "Håll pekaren stilla vid kanten en stund så visas dina megaflikar över sidan. Chrome frågar en gång om lov att köras på webbsidor. Växlaren läser inget från dem och skickar inget någonstans. Den visas inte på sidan för ny flik eller på chrome://-sidor."
+  },
+  "side": {
+    "message": "Sida"
+  },
+  "sideLeft": {
+    "message": "Vänster"
+  },
+  "sideRight": {
+    "message": "Höger"
+  },
+  "edgeOnLeft": {
+    "message": "På. Håll pekaren stilla vid webbsidans vänstra kant."
+  },
+  "edgeOnRight": {
+    "message": "På. Håll pekaren stilla vid webbsidans högra kant."
+  },
+  "edgeDenied": {
+    "message": "Visa vid kanten behöver tillståndet att köras på webbsidor. Den förblir av."
+  },
+  "backupHeading": {
+    "message": "Säkerhetskopia"
+  },
+  "backupLabel": {
+    "message": "Spara en säkerhetskopia"
+  },
+  "backupNever": {
+    "message": "Aldrig"
+  },
+  "backupDaily": {
+    "message": "Varje dag"
+  },
+  "backupWeekly": {
+    "message": "Varje vecka"
+  },
+  "backupLast": {
+    "message": "Senast sparad: $1."
+  },
+  "backupSaving": {
+    "message": "Sparar…"
+  },
+  "dataHeading": {
+    "message": "Dina megaflikar"
+  },
+  "dataHelp": {
+    "message": "En fil med alla utrymmen, megaflikar och deras flikar. Import lägger till det som saknas och stänger ingenting."
+  },
+  "exportBtn": {
+    "message": "Exportera megaflikar"
+  },
+  "importBtn": {
+    "message": "Importera megaflikar…"
+  },
+  "chooseFile": {
+    "message": "Välj en exporterad fil"
+  },
+  "exportSaved": {
+    "message": "Sparade $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Kunde inte exportera: $1"
+  },
+  "importAdded": {
+    "message": "Lade till $1 och $2 från $3."
+  },
+  "importNothing": {
+    "message": "Inget att lägga till: allt i $1 finns redan."
+  },
+  "importFail": {
+    "message": "Kunde inte importera: $1"
+  },
+  "boardTitle": {
+    "message": "Tavla · $1"
+  },
+  "folderLabel": {
+    "message": "Mapp: $1"
+  },
+  "change": {
+    "message": "Ändra"
+  },
+  "chooseFolder": {
+    "message": "Välj en mapp"
+  },
+  "allowFolder": {
+    "message": "Ge åtkomst till \"$1\""
+  },
+  "hostMissing": {
+    "message": "Tavlans värd är inte installerad. Kör $1 i mappen Mega Tabs och ladda sedan om den här sidan."
+  },
+  "hostForbidden": {
+    "message": "Chrome låter inte det här tillägget använda tavlans värd. Kör $1 igen och ladda sedan om den här sidan."
+  },
+  "hostStopped": {
+    "message": "Tavlans värd stoppade. Försöker igen."
+  },
+  "hostUnreachable": {
+    "message": "Tavlan når inte sin värd ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "kan inte öppnas här ($1)"
+  },
+  "howItWorks": {
+    "message": "Så fungerar det"
+  },
+  "rename": {
+    "message": "Byt namn"
+  },
+  "renameLabel": {
+    "message": "Byt namn på $1"
+  },
+  "renameTitle": {
+    "message": "Byt namn (eller dubbelklicka på namnet)"
+  },
+  "deleteLabel": {
+    "message": "Ta bort $1"
+  },
+  "deleteTitle": {
+    "message": "Ta bort (till papperskorgen, kan ångras)"
+  },
+  "noMatches": {
+    "message": "Inga träffar."
+  },
+  "newNote": {
+    "message": "Ny anteckning"
+  },
+  "newCanvas": {
+    "message": "Ny canvas"
+  },
+  "newNoteTitle": {
+    "message": "Starta en ny anteckning i det här utrymmet"
+  },
+  "newCanvasTitle": {
+    "message": "Starta en ny canvas i det här utrymmet"
+  },
+  "emptyNotesFolder": {
+    "message": "Inga anteckningar i det här utrymmet än. Tryck på Ny anteckning för att börja."
+  },
+  "emptyNotesDir": {
+    "message": "Inga .md-filer i ~/Spaces/$1/ än. Tryck på Ny anteckning för att börja."
+  },
+  "noFolderNotes": {
+    "message": "Ingen mapp för \"$1\" än. Skapa ~/Spaces/$1/ och lägg .md-filer i den."
+  },
+  "emptyCanvasFolder": {
+    "message": "Inga canvaser i det här utrymmet än. Tryck på Ny canvas för att börja."
+  },
+  "emptyCanvasDir": {
+    "message": "Inga .canvas-filer i ~/Spaces/$1/ än. Tryck på Ny canvas för att börja."
+  },
+  "noFolderCanvas": {
+    "message": "Ingen mapp för \"$1\" än. Skapa ~/Spaces/$1/ och lägg .canvas-filer i den."
+  },
+  "done": {
+    "message": "Klar"
+  },
+  "backToReading": {
+    "message": "Tillbaka till läsning (Esc)"
+  },
+  "typeInFile": {
+    "message": "Skriv i den här filen (E)"
+  },
+  "openCursor": {
+    "message": "Öppna i Cursor"
+  },
+  "openCursorTitle": {
+    "message": "Öppna den här filen i Cursor"
+  },
+  "typeHere": {
+    "message": "Skriv här."
+  },
+  "textOf": {
+    "message": "Text för $1"
+  },
+  "statusUnsaved": {
+    "message": "Inte sparad"
+  },
+  "statusSaving": {
+    "message": "Sparar"
+  },
+  "statusSaved": {
+    "message": "Sparad"
+  },
+  "mixedEol": {
+    "message": "Blandade radslut: redigera den här filen i Cursor."
+  },
+  "notSavedWhy": {
+    "message": "Inte sparad ($1)"
+  },
+  "hostNotConnected": {
+    "message": "värden är inte ansluten"
+  },
+  "notSaved": {
+    "message": "Inte sparad: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Inte sparad: anteckningen är större än de $1 KB en fil rymmer. Korta ner den eller dela den i två."
+  },
+  "changedOnDisk": {
+    "message": "Ändrad på disken"
+  },
+  "conflictGone": {
+    "message": "Borttagen på disken:"
+  },
+  "conflictTooLarge": {
+    "message": "Ändrad på disken och nu för stor för att visas här:"
+  },
+  "conflictNotText": {
+    "message": "Ändrad på disken och inte längre text:"
+  },
+  "conflictChanged": {
+    "message": "Ändrad på disken:"
+  },
+  "loadTheirs": {
+    "message": "Ladda deras"
+  },
+  "keepMine": {
+    "message": "Behåll min"
+  },
+  "dropIt": {
+    "message": "Släng"
+  },
+  "seeTheirs": {
+    "message": "Se deras"
+  },
+  "removedFromFolder": {
+    "message": "$1 togs bort från mappen."
+  },
+  "cannotOpenNote": {
+    "message": "Den här filen kan inte öppnas här ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Den här filen kan inte öppnas här ($1). Cursor kan."
+  },
+  "cannotOpenCanvas": {
+    "message": "Den här canvasen kan inte öppnas här ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Den här canvasen kan inte öppnas här ($1). Cursor kan."
+  },
+  "waitingStorage": {
+    "message": "Väntar på tavlans lagring."
+  },
+  "couldNotRead": {
+    "message": "Kunde inte läsa $1 ($2)."
+  },
+  "couldNotOpen": {
+    "message": "Kunde inte öppna $1 ($2)."
+  },
+  "noteName": {
+    "message": "Anteckningens namn"
+  },
+  "canvasName": {
+    "message": "Canvasens namn"
+  },
+  "nameTaken": {
+    "message": "Det namnet används redan."
+  },
+  "nameBad": {
+    "message": "Det namnet går inte att använda."
+  },
+  "notCreated": {
+    "message": "Inte skapad ($1)."
+  },
+  "renameNewName": {
+    "message": "Nytt namn för $1"
+  },
+  "resolveFirst": {
+    "message": "Lös ändringen på disken först."
+  },
+  "notSavedYetRename": {
+    "message": "Inte sparad än; försök igen om en stund."
+  },
+  "fileGone": {
+    "message": "Filen finns inte längre."
+  },
+  "notRenamed": {
+    "message": "Inte omdöpt ($1)."
+  },
+  "deletedToast": {
+    "message": "\"$1\" togs bort"
+  },
+  "resolveFirstDelete": {
+    "message": "Lös ändringen på disken först och ta sedan bort."
+  },
+  "notSavedYetDelete": {
+    "message": "Inte sparad än, så inte borttagen. Försök igen om en stund."
+  },
+  "notDeleted": {
+    "message": "Inte borttagen: $1"
+  },
+  "notRestored": {
+    "message": "Inte återställd: $1"
+  },
+  "cvThreeFailed": {
+    "message": "3D kunde inte starta här ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "laddades inte"
+  },
+  "cvSelect": {
+    "message": "Markera och flytta (V)"
+  },
+  "cvCard": {
+    "message": "Lägg till ett textkort (T)"
+  },
+  "cvPen": {
+    "message": "Penna (P)"
+  },
+  "cvEraser": {
+    "message": "Suddgummi (E)"
+  },
+  "cvTools": {
+    "message": "Canvasverktyg"
+  },
+  "cvUndo": {
+    "message": "Ångra (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "Gör om (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "Gör om"
+  },
+  "cvDelete": {
+    "message": "Ta bort markering (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Ta bort markering"
+  },
+  "cvView": {
+    "message": "Vy"
+  },
+  "cv2d": {
+    "message": "Canvasen, platt"
+  },
+  "cv3d": {
+    "message": "Samma canvas i 3D (skrivskyddad)"
+  },
+  "cvDeleted": {
+    "message": "Borttagen på disken. Den här canvasen finns inte längre i mappen."
+  },
+  "cvEmptyCard": {
+    "message": "Tomt kort"
+  },
+  "cvWriteHere": {
+    "message": "Skriv här"
+  },
+  "cvCardText": {
+    "message": "Kortets text"
+  },
+  "cvOpenNotes": {
+    "message": "Öppna i Anteckningar"
+  },
+  "cvOpenCanvas": {
+    "message": "Öppna den här canvasen"
+  },
+  "cvModelGone": {
+    "message": "Den här modellen finns inte i mappen."
+  },
+  "cvModelBig": {
+    "message": "Den här modellen är större än 24 MB."
+  },
+  "cvModelFail": {
+    "message": "Den här modellen kan inte visas ($1)."
+  },
+  "cvUnknownError": {
+    "message": "okänt fel"
+  },
+  "cvLoadingModel": {
+    "message": "Laddar modell"
+  },
+  "cvLink": {
+    "message": "Länk"
+  },
+  "cvGroup": {
+    "message": "Grupp"
+  },
+  "cvNodeNote": {
+    "message": "Anteckning $1"
+  },
+  "cvNodeLink": {
+    "message": "Länk $1"
+  },
+  "cvNodeGroup": {
+    "message": "Grupp $1"
+  },
+  "cvNodeType": {
+    "message": "Kort av typen $1"
+  },
+  "sInvalid": {
+    "message": "Den här filen är inte JSON Canvas ($1). Rätta den i Cursor; under tiden sparas inget här."
+  },
+  "sInvalidNow": {
+    "message": "Ändrad på disken och nu inte JSON Canvas ($1). Inget sparas här förrän den är giltig igen."
+  },
+  "sTooBig": {
+    "message": "Inte sparad (den här canvasen är $1; filer rymmer högst $2. Ta bort några linjer eller kort)"
+  },
+  "sBlockedBig": {
+    "message": "Inte sparad (filen på disken ändrades och är för stor: Behåll min, eller låt den vara)"
+  },
+  "sBlockedText": {
+    "message": "Inte sparad (filen på disken ändrades och är inte text: Behåll min, eller låt den vara)"
+  },
+  "sKeepsChanging": {
+    "message": "Inte sparad (filen ändras hela tiden)"
+  },
+  "edgeOpenPanel": {
+    "message": "Öppna panelen"
+  },
+  "errNameEmpty": {
+    "message": "Skriv ett namn."
+  },
+  "errNameLong": {
+    "message": "Namnet är för långt."
+  },
+  "errHost": {
+    "message": "Värden svarade inte."
+  },
+  "backupKept": {
+    "message": "Sparad i Downloads/$2. Sparade filer: $1."
+  },
+  "filesLabel": {
+    "message": "Filer"
+  },
+  "roomLabel": {
+    "message": "Rum"
+  },
+  "roomNotes": {
+    "message": "Anteckningar"
+  },
+  "roomCanvas": {
+    "message": "Canvas"
+  },
+  "search": {
+    "message": "Sök"
+  },
+  "searchLabel": {
+    "message": "Sök i det här utrymmet"
+  },
+  "noteLabel": {
+    "message": "Anteckning"
+  },
+  "cvNotShown": {
+    "message": "$1 (visas inte här)"
+  },
+  "cvDrawFail": {
+    "message": "Den här canvasen kunde inte ritas ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Inget har ändrats på disken. Öppna i Cursor eller välj en annan canvas."
+  },
+  "statusDeleted": {
+    "message": "Borttagen på disken"
+  },
+  "cv3dScene": {
+    "message": "3D-vy av den här canvasen. Dra för att rotera, scrolla för att zooma, klicka på ett kort för att öppna det."
+  },
+  "cvModelScene": {
+    "message": "3D-modell. Dra för att rotera; piltangenterna fungerar också."
+  },
+  "cvModelCompressed": {
+    "message": "använder komprimerad geometri eller komprimerade texturer (Draco, KTX2 eller Meshopt) som den här vyn inte kan läsa"
+  },
+  "cvNoWebgl": {
+    "message": "WebGL finns inte i den här webbläsaren"
+  },
+  "megaTabs_one": {
+    "message": "$1 megaflik"
+  },
+  "megaTabs_other": {
+    "message": "$1 megaflikar"
+  }
+}

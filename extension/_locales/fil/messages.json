@@ -1,0 +1,728 @@
+{
+  "lang": {
+    "message": "fil"
+  },
+  "extName": {
+    "message": "Mega Tabs: Spaces, Tala at Canvas"
+  },
+  "extDescription": {
+    "message": "Magpalit ng set ng tab kada proyekto nang hindi nagre-reload. May tala at canvas na kayang i-edit ng AI mo. Pribado at libre."
+  },
+  "cmdOpen": {
+    "message": "Buksan ang listahan ng mga workspace"
+  },
+  "cmdTogglePanel": {
+    "message": "Buksan o isara ang panel ng Mega Tabs"
+  },
+  "cmdNext": {
+    "message": "Susunod na workspace"
+  },
+  "cmdPrev": {
+    "message": "Nakaraang workspace"
+  },
+  "cmdLast": {
+    "message": "Huling ginamit na workspace"
+  },
+  "cmdSwitch": {
+    "message": "Lumipat sa workspace"
+  },
+  "tabs_one": {
+    "message": "$1 tab"
+  },
+  "tabs_other": {
+    "message": "$1 tab"
+  },
+  "tabsNotRestored_one": {
+    "message": "$1 tab ang hindi naibalik"
+  },
+  "tabsNotRestored_other": {
+    "message": "$1 tab ang hindi naibalik"
+  },
+  "edit": {
+    "message": "I-edit"
+  },
+  "name": {
+    "message": "Pangalan"
+  },
+  "delete": {
+    "message": "Burahin"
+  },
+  "undo": {
+    "message": "I-undo"
+  },
+  "stashHeading": {
+    "message": "Imbakan ng workspace"
+  },
+  "stashText": {
+    "message": "Ang nakatagong window na ito ay bahagi ng extension na Mega Tabs. Hawak nito ang mga tab ng workspace na hindi ipinapakita ngayon. Huwag itong isara; gamitin ang panel para lumipat."
+  },
+  "defaultWorkspace": {
+    "message": "Default"
+  },
+  "recoveredWorkspace": {
+    "message": "Naibalik"
+  },
+  "iconTitle": {
+    "message": "Workspace: $1"
+  },
+  "iconTitleMissing": {
+    "message": "Workspace: $1 – $2"
+  },
+  "iconTitleStorageFull": {
+    "message": "Halos puno na ang imbakan ng extension; malapit nang hindi na masave ang mga tab"
+  },
+  "menuLink": {
+    "message": "Buksan ang link sa workspace"
+  },
+  "menuMove": {
+    "message": "Ilipat ang tab sa workspace"
+  },
+  "menuMoveMarked": {
+    "message": "Ilipat ang $1 napiling tab sa workspace"
+  },
+  "menuGroup": {
+    "message": "Ilipat ang grupo sa workspace"
+  },
+  "exNotJson": {
+    "message": "Hindi balidong JSON ang file."
+  },
+  "exNotExport": {
+    "message": "Hindi ito export file ng Helium Workspaces."
+  },
+  "exNoWorkspaces": {
+    "message": "Walang workspace ang file."
+  },
+  "exTooManyWorkspaces": {
+    "message": "Sobrang dami ng workspace sa file."
+  },
+  "exTooManyTabs": {
+    "message": "Sobrang dami ng tab sa file."
+  },
+  "workspaceName": {
+    "message": "Workspace"
+  },
+  "workspaceN": {
+    "message": "Workspace $1"
+  },
+  "autoBackupInterrupted": {
+    "message": "Naantala ang download ($1)"
+  },
+  "appName": {
+    "message": "Mega Tabs"
+  },
+  "noAnswer": {
+    "message": "Hindi tumutugon ang extension"
+  },
+  "generalSpace": {
+    "message": "Pangkalahatan"
+  },
+  "spaces": {
+    "message": "Spaces"
+  },
+  "setUp": {
+    "message": "I-set up"
+  },
+  "filesOffLead": {
+    "message": "Naka-off ang mga file:"
+  },
+  "retryBtn": {
+    "message": "Subukan ulit"
+  },
+  "switchToMega": {
+    "message": "Lumipat sa $1"
+  },
+  "closeMegaAsk": {
+    "message": "I-click ulit para isara ang mega tab na ito at ang mga tab nito"
+  },
+  "closeMegaAskLabel": {
+    "message": "Isara ang $1 at ang mga tab nito: i-click ulit"
+  },
+  "closeMega": {
+    "message": "Isara ang mega tab"
+  },
+  "closeMegaLabel": {
+    "message": "Isara ang mega tab na $1"
+  },
+  "closeQuestion": {
+    "message": "isara?"
+  },
+  "spaceName": {
+    "message": "Pangalan ng space"
+  },
+  "showSpace": {
+    "message": "Ipakita ang $1 (i-double-click para palitan ang pangalan)"
+  },
+  "newSpaceName": {
+    "message": "Pangalan ng bagong space"
+  },
+  "newSpaceItem": {
+    "message": "Bagong space…"
+  },
+  "allSpaces": {
+    "message": "Lahat ng space"
+  },
+  "switchSpace": {
+    "message": "Palitan ang space"
+  },
+  "board": {
+    "message": "Board"
+  },
+  "boardOpen": {
+    "message": "Buksan ang board: ang mga .md file ng $1"
+  },
+  "settingsPage": {
+    "message": "Mga setting"
+  },
+  "settingsOpen": {
+    "message": "Mga setting: paglitaw sa gilid, backup, export"
+  },
+  "newMegaName": {
+    "message": "Pangalan ng bagong mega tab"
+  },
+  "noMegas": {
+    "message": "Wala pang mega tab."
+  },
+  "newMega": {
+    "message": "+ Bagong mega tab"
+  },
+  "noSpaces": {
+    "message": "Wala pang space."
+  },
+  "newSpace": {
+    "message": "+ Bagong space"
+  },
+  "openWindows": {
+    "message": "Mga bukas na window"
+  },
+  "emptyWindow": {
+    "message": "Walang lamang window"
+  },
+  "undoClose": {
+    "message": "I-undo ang pagsasara"
+  },
+  "intro": {
+    "message": "Ang mega tab ay set ng mga tab na sabay mong nililipatan. Mag-click ng isa para magsimula."
+  },
+  "homeSetupTitle": {
+    "message": "I-on ang mga file"
+  },
+  "homeSetupText": {
+    "message": "Iniimbak ng mga space ang mga tala nila bilang karaniwang file sa $1. Kailangan ng Chrome ng maliit na katulong para basahin at isulat ang mga ito. Sa folder ng Mega Tabs, patakbuhin ang $2 at pindutin ang Subukan ulit."
+  },
+  "retryChecking": {
+    "message": "Sinusuri…"
+  },
+  "retryOn": {
+    "message": "Naka-on ang mga file."
+  },
+  "retryOff": {
+    "message": "Naka-off pa rin. Patakbuhin ang command at pindutin ulit ang Subukan ulit."
+  },
+  "tileLabel": {
+    "message": "$1, $2"
+  },
+  "tileOpen": {
+    "message": "Buksan ang $1 (i-double-click para palitan ang pangalan, i-drop ang larawan para sa cover)"
+  },
+  "tileTypeName": {
+    "message": "mag-type ng pangalan at pindutin ang Enter"
+  },
+  "newSpaceAria": {
+    "message": "Bagong space"
+  },
+  "tileNewTitle": {
+    "message": "Mag-type ng pangalan para gumawa ng bagong space"
+  },
+  "tileNewHint": {
+    "message": "mag-type ng pangalan"
+  },
+  "coverType": {
+    "message": "Gumamit ng larawang png, jpg, o webp."
+  },
+  "coverBig": {
+    "message": "Mas malaki sa 700 KB ang larawang iyon. Gumamit ng mas maliit."
+  },
+  "coverNotSaved": {
+    "message": "Naka-off ang mga file: hindi nasave ang cover."
+  },
+  "edgeHeading": {
+    "message": "Lumitaw sa gilid"
+  },
+  "edgeToggle": {
+    "message": "Magpakita ng maliit na switcher kapag huminto ang pointer sa gilid ng screen"
+  },
+  "edgeHelp": {
+    "message": "Itigil sandali ang pointer sa gilid at lalabas ang mga mega tab mo sa ibabaw ng page. Isang beses hihingi ang Chrome ng pahintulot na tumakbo sa mga web page. Walang binabasa ang switcher mula sa mga ito at walang ipinapadala kahit saan. Hindi ito lalabas sa page ng bagong tab at sa mga chrome:// page."
+  },
+  "side": {
+    "message": "Gilid"
+  },
+  "sideLeft": {
+    "message": "Kaliwa"
+  },
+  "sideRight": {
+    "message": "Kanan"
+  },
+  "edgeOnLeft": {
+    "message": "Naka-on. Itigil ang pointer sa kaliwang gilid ng web page."
+  },
+  "edgeOnRight": {
+    "message": "Naka-on. Itigil ang pointer sa kanang gilid ng web page."
+  },
+  "edgeDenied": {
+    "message": "Kailangan ng paglitaw sa gilid ang pahintulot na ito para tumakbo sa mga web page. Mananatili itong naka-off."
+  },
+  "backupHeading": {
+    "message": "Backup"
+  },
+  "backupLabel": {
+    "message": "Mag-save ng backup file"
+  },
+  "backupNever": {
+    "message": "Hindi kailanman"
+  },
+  "backupDaily": {
+    "message": "Araw-araw"
+  },
+  "backupWeekly": {
+    "message": "Lingguhan"
+  },
+  "backupLast": {
+    "message": "Huling na-save: $1."
+  },
+  "backupSaving": {
+    "message": "Sine-save…"
+  },
+  "dataHeading": {
+    "message": "Ang mga mega tab mo"
+  },
+  "dataHelp": {
+    "message": "Isang file na may lahat ng space, mega tab, at ang mga tab nila. Idinadagdag ng import ang kulang at wala itong isinasara."
+  },
+  "exportBtn": {
+    "message": "I-export ang mga mega tab"
+  },
+  "importBtn": {
+    "message": "I-import ang mga mega tab…"
+  },
+  "chooseFile": {
+    "message": "Pumili ng na-export na file"
+  },
+  "exportSaved": {
+    "message": "Na-save ang $1: $2, $3."
+  },
+  "exportFail": {
+    "message": "Hindi na-export: $1"
+  },
+  "importAdded": {
+    "message": "Naidagdag ang $1 at $2 mula sa $3."
+  },
+  "importNothing": {
+    "message": "Walang idadagdag: nandiyan na ang lahat sa $1."
+  },
+  "importFail": {
+    "message": "Hindi na-import: $1"
+  },
+  "boardTitle": {
+    "message": "Board · $1"
+  },
+  "folderLabel": {
+    "message": "Folder: $1"
+  },
+  "change": {
+    "message": "Palitan"
+  },
+  "chooseFolder": {
+    "message": "Pumili ng folder"
+  },
+  "allowFolder": {
+    "message": "Payagan ang access sa \"$1\""
+  },
+  "hostMissing": {
+    "message": "Hindi naka-install ang host ng board. Sa folder ng Mega Tabs, patakbuhin ang $1 at i-reload ang page na ito."
+  },
+  "hostForbidden": {
+    "message": "Hindi pinapayagan ng Chrome ang extension na ito na gamitin ang host ng board. Patakbuhin ulit ang $1 at i-reload ang page na ito."
+  },
+  "hostStopped": {
+    "message": "Huminto ang host ng board. Sinusubukan ulit."
+  },
+  "hostUnreachable": {
+    "message": "Hindi maabot ng board ang host nito ($1)."
+  },
+  "cannotOpenMeta": {
+    "message": "hindi mabuksan dito ($1)"
+  },
+  "howItWorks": {
+    "message": "Paano ito gumagana"
+  },
+  "rename": {
+    "message": "Palitan ang pangalan"
+  },
+  "renameLabel": {
+    "message": "Palitan ang pangalan ng $1"
+  },
+  "renameTitle": {
+    "message": "Palitan ang pangalan (o i-double-click ang pangalan)"
+  },
+  "deleteLabel": {
+    "message": "Burahin ang $1"
+  },
+  "deleteTitle": {
+    "message": "Burahin (sa trash, puwedeng i-undo)"
+  },
+  "noMatches": {
+    "message": "Walang nakita."
+  },
+  "newNote": {
+    "message": "Bagong tala"
+  },
+  "newCanvas": {
+    "message": "Bagong canvas"
+  },
+  "newNoteTitle": {
+    "message": "Magsimula ng bagong tala sa space na ito"
+  },
+  "newCanvasTitle": {
+    "message": "Magsimula ng bagong canvas sa space na ito"
+  },
+  "emptyNotesFolder": {
+    "message": "Wala pang tala sa space na ito. Pindutin ang Bagong tala para magsimula."
+  },
+  "emptyNotesDir": {
+    "message": "Wala pang .md file sa ~/Spaces/$1/. Pindutin ang Bagong tala para magsimula."
+  },
+  "noFolderNotes": {
+    "message": "Wala pang folder para sa \"$1\". Gumawa ng ~/Spaces/$1/ at maglagay ng mga .md file doon."
+  },
+  "emptyCanvasFolder": {
+    "message": "Wala pang canvas sa space na ito. Pindutin ang Bagong canvas para magsimula."
+  },
+  "emptyCanvasDir": {
+    "message": "Wala pang .canvas file sa ~/Spaces/$1/. Pindutin ang Bagong canvas para magsimula."
+  },
+  "noFolderCanvas": {
+    "message": "Wala pang folder para sa \"$1\". Gumawa ng ~/Spaces/$1/ at maglagay ng mga .canvas file doon."
+  },
+  "done": {
+    "message": "Tapos"
+  },
+  "backToReading": {
+    "message": "Bumalik sa pagbabasa (Esc)"
+  },
+  "typeInFile": {
+    "message": "Mag-type sa file na ito (E)"
+  },
+  "openCursor": {
+    "message": "Buksan sa Cursor"
+  },
+  "openCursorTitle": {
+    "message": "Buksan ang file na ito sa Cursor"
+  },
+  "typeHere": {
+    "message": "Mag-type dito."
+  },
+  "textOf": {
+    "message": "Teksto ng $1"
+  },
+  "statusUnsaved": {
+    "message": "Hindi pa na-save"
+  },
+  "statusSaving": {
+    "message": "Sine-save"
+  },
+  "statusSaved": {
+    "message": "Na-save"
+  },
+  "mixedEol": {
+    "message": "Magkakahalong dulo ng linya: i-edit ang file na ito sa Cursor."
+  },
+  "notSavedWhy": {
+    "message": "Hindi na-save ($1)"
+  },
+  "hostNotConnected": {
+    "message": "hindi nakakonekta ang host"
+  },
+  "notSaved": {
+    "message": "Hindi na-save: $1"
+  },
+  "notSavedTooLarge": {
+    "message": "Hindi na-save: mas malaki ang tala sa $1 KB na kayang hawakan ng file. Paikliin o hatiin sa dalawa."
+  },
+  "changedOnDisk": {
+    "message": "Nagbago sa disk"
+  },
+  "conflictGone": {
+    "message": "Binura sa disk:"
+  },
+  "conflictTooLarge": {
+    "message": "Nagbago sa disk at masyado nang malaki para ipakita rito:"
+  },
+  "conflictNotText": {
+    "message": "Nagbago sa disk at hindi na teksto:"
+  },
+  "conflictChanged": {
+    "message": "Nagbago sa disk:"
+  },
+  "loadTheirs": {
+    "message": "I-load ang sa kanila"
+  },
+  "keepMine": {
+    "message": "Panatilihin ang akin"
+  },
+  "dropIt": {
+    "message": "Itapon"
+  },
+  "seeTheirs": {
+    "message": "Tingnan ang sa kanila"
+  },
+  "removedFromFolder": {
+    "message": "Inalis ang $1 sa folder."
+  },
+  "cannotOpenNote": {
+    "message": "Hindi mabuksan dito ang file na ito ($1)."
+  },
+  "cannotOpenNoteCursor": {
+    "message": "Hindi mabuksan dito ang file na ito ($1). Kaya ito ng Cursor."
+  },
+  "cannotOpenCanvas": {
+    "message": "Hindi mabuksan dito ang canvas na ito ($1)."
+  },
+  "cannotOpenCanvasCursor": {
+    "message": "Hindi mabuksan dito ang canvas na ito ($1). Kaya ito ng Cursor."
+  },
+  "waitingStorage": {
+    "message": "Naghihintay sa imbakan ng board."
+  },
+  "couldNotRead": {
+    "message": "Hindi mabasa ang $1 ($2)."
+  },
+  "couldNotOpen": {
+    "message": "Hindi mabuksan ang $1 ($2)."
+  },
+  "noteName": {
+    "message": "Pangalan ng tala"
+  },
+  "canvasName": {
+    "message": "Pangalan ng canvas"
+  },
+  "nameTaken": {
+    "message": "Gamit na ang pangalang iyon."
+  },
+  "nameBad": {
+    "message": "Hindi magagamit ang pangalang iyon."
+  },
+  "notCreated": {
+    "message": "Hindi nagawa ($1)."
+  },
+  "renameNewName": {
+    "message": "Bagong pangalan para sa $1"
+  },
+  "resolveFirst": {
+    "message": "Ayusin muna ang pagbabago sa disk."
+  },
+  "notSavedYetRename": {
+    "message": "Hindi pa na-save; subukan ulit sandali."
+  },
+  "fileGone": {
+    "message": "Wala na ang file na iyon."
+  },
+  "notRenamed": {
+    "message": "Hindi napalitan ang pangalan ($1)."
+  },
+  "deletedToast": {
+    "message": "Binura ang \"$1\""
+  },
+  "resolveFirstDelete": {
+    "message": "Ayusin muna ang pagbabago sa disk, saka burahin."
+  },
+  "notSavedYetDelete": {
+    "message": "Hindi pa na-save, kaya hindi nabura. Subukan ulit sandali."
+  },
+  "notDeleted": {
+    "message": "Hindi nabura: $1"
+  },
+  "notRestored": {
+    "message": "Hindi naibalik: $1"
+  },
+  "cvThreeFailed": {
+    "message": "Hindi nagsimula ang 3D dito ($1)."
+  },
+  "cvDidNotLoad": {
+    "message": "hindi na-load"
+  },
+  "cvSelect": {
+    "message": "Pumili at ilipat (V)"
+  },
+  "cvCard": {
+    "message": "Magdagdag ng text card (T)"
+  },
+  "cvPen": {
+    "message": "Panulat (P)"
+  },
+  "cvEraser": {
+    "message": "Pambura (E)"
+  },
+  "cvTools": {
+    "message": "Mga gamit sa canvas"
+  },
+  "cvUndo": {
+    "message": "I-undo (Cmd+Z)"
+  },
+  "cvRedo": {
+    "message": "I-redo (Shift+Cmd+Z)"
+  },
+  "cvRedoLabel": {
+    "message": "I-redo"
+  },
+  "cvDelete": {
+    "message": "Burahin ang napili (Backspace)"
+  },
+  "cvDeleteLabel": {
+    "message": "Burahin ang napili"
+  },
+  "cvView": {
+    "message": "Tanaw"
+  },
+  "cv2d": {
+    "message": "Ang canvas, patag"
+  },
+  "cv3d": {
+    "message": "Ang parehong canvas sa 3D (basa lang)"
+  },
+  "cvDeleted": {
+    "message": "Binura sa disk. Wala na ang canvas na ito sa folder."
+  },
+  "cvEmptyCard": {
+    "message": "Walang lamang card"
+  },
+  "cvWriteHere": {
+    "message": "Isulat dito"
+  },
+  "cvCardText": {
+    "message": "Teksto ng card"
+  },
+  "cvOpenNotes": {
+    "message": "Buksan sa Mga Tala"
+  },
+  "cvOpenCanvas": {
+    "message": "Buksan ang canvas na ito"
+  },
+  "cvModelGone": {
+    "message": "Wala sa folder ang modelong ito."
+  },
+  "cvModelBig": {
+    "message": "Mas malaki sa 24 MB ang modelong ito."
+  },
+  "cvModelFail": {
+    "message": "Hindi maipakita ang modelong ito ($1)."
+  },
+  "cvUnknownError": {
+    "message": "hindi kilalang error"
+  },
+  "cvLoadingModel": {
+    "message": "Nilo-load ang modelo"
+  },
+  "cvLink": {
+    "message": "Link"
+  },
+  "cvGroup": {
+    "message": "Grupo"
+  },
+  "cvNodeNote": {
+    "message": "Tala $1"
+  },
+  "cvNodeLink": {
+    "message": "Link $1"
+  },
+  "cvNodeGroup": {
+    "message": "Grupo $1"
+  },
+  "cvNodeType": {
+    "message": "Card na uri $1"
+  },
+  "sInvalid": {
+    "message": "Hindi JSON Canvas ang file na ito ($1). Ayusin ito sa Cursor; sa ngayon walang masasave dito."
+  },
+  "sInvalidNow": {
+    "message": "Nagbago sa disk at hindi na JSON Canvas ($1). Walang masasave dito hangga't hindi ito muling balido."
+  },
+  "sTooBig": {
+    "message": "Hindi na-save (ang canvas na ito ay $1; hanggang $2 lang ang kaya ng file. Magbura ng ilang linya o card)"
+  },
+  "sBlockedBig": {
+    "message": "Hindi na-save (nagbago ang file sa disk at masyadong malaki: Panatilihin ang akin, o iwan)"
+  },
+  "sBlockedText": {
+    "message": "Hindi na-save (nagbago ang file sa disk at hindi teksto: Panatilihin ang akin, o iwan)"
+  },
+  "sKeepsChanging": {
+    "message": "Hindi na-save (patuloy na nagbabago ang file)"
+  },
+  "edgeOpenPanel": {
+    "message": "Buksan ang panel"
+  },
+  "errNameEmpty": {
+    "message": "Mag-type ng pangalan."
+  },
+  "errNameLong": {
+    "message": "Masyadong mahaba ang pangalang iyon."
+  },
+  "errHost": {
+    "message": "Hindi sumagot ang host."
+  },
+  "backupKept": {
+    "message": "Na-save sa Downloads/$2. Mga na-save na file: $1."
+  },
+  "filesLabel": {
+    "message": "Mga file"
+  },
+  "roomLabel": {
+    "message": "Silid"
+  },
+  "roomNotes": {
+    "message": "Mga tala"
+  },
+  "roomCanvas": {
+    "message": "Canvas"
+  },
+  "search": {
+    "message": "Maghanap"
+  },
+  "searchLabel": {
+    "message": "Maghanap sa space na ito"
+  },
+  "noteLabel": {
+    "message": "Tala"
+  },
+  "cvNotShown": {
+    "message": "$1 (hindi ipinapakita rito)"
+  },
+  "cvDrawFail": {
+    "message": "Hindi maiguhit ang canvas na ito ($1)."
+  },
+  "cvDrawFail2": {
+    "message": "Walang nagbago sa disk. Buksan sa Cursor o pumili ng ibang canvas."
+  },
+  "statusDeleted": {
+    "message": "Binura sa disk"
+  },
+  "cv3dScene": {
+    "message": "3D na tanaw ng canvas na ito. I-drag para umikot, mag-scroll para mag-zoom, mag-click ng card para buksan."
+  },
+  "cvModelScene": {
+    "message": "3D na modelo. I-drag para umikot; gumagana rin ang mga arrow key."
+  },
+  "cvModelCompressed": {
+    "message": "gumagamit ng compressed na geometry o texture (Draco, KTX2, o Meshopt) na hindi mabasa ng tanaw na ito"
+  },
+  "cvNoWebgl": {
+    "message": "Walang WebGL sa browser na ito"
+  },
+  "megaTabs_one": {
+    "message": "$1 mega tab"
+  },
+  "megaTabs_other": {
+    "message": "$1 mega tab"
+  }
+}
